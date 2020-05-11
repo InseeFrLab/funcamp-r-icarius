@@ -1,0 +1,1328 @@
+properties{
+  x = 320,
+  y = 0,
+  width = 2240,
+  height = 2400,
+  min_layer = 0,
+  max_layer = 2,
+  world = "dungeon_4",
+  floor = -2,
+  tileset = "cave",
+  music = "dark_world_dungeon",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1472,
+  width = 256,
+  height = 176,
+  pattern = "floor.14",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1712,
+  width = 256,
+  height = 176,
+  pattern = "floor.14",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1680,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1680,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1680,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1704,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1896,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1896,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1896,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1704,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1704,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1704,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1888,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1888,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1888,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1704,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1712,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1712,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1896,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1896,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1896,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 1088,
+  y = 1864,
+  width = 64,
+  height = 24,
+  pattern = "door_main.2.floor.2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 1888,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 1888,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 1864,
+  width = 8,
+  height = 24,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1152,
+  y = 1864,
+  width = 8,
+  height = 24,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1080,
+  y = 1856,
+  width = 80,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1872,
+  width = 32,
+  height = 24,
+  pattern = "door_main.2.floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1912,
+  width = 16,
+  height = 16,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1688,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1688,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1688,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1656,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1656,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1440,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1440,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1440,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1464,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1656,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1464,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1464,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1648,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1648,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1464,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1464,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1472,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1472,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1648,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1656,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1656,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1656,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1672,
+  width = 16,
+  height = 16,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1232,
+  width = 256,
+  height = 176,
+  pattern = "floor.14",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1416,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1416,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1200,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 1224,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1416,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 960,
+  y = 1224,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1224,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1408,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1408,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1224,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1224,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1248,
+  y = 1232,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 1232,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 992,
+  y = 1408,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1448,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1448,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1448,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1416,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1416,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1416,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1432,
+  width = 16,
+  height = 16,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1304,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1304,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1304,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1128,
+  y = 1296,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1112,
+  y = 1296,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1296,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 1096,
+  y = 1800,
+  width = 8,
+  height = 56,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1800,
+  width = 32,
+  height = 64,
+  pattern = "door_main.2.floor.2",
+}
+
+tile{
+  layer = 1,
+  x = 1136,
+  y = 1800,
+  width = 8,
+  height = 56,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 1104,
+  y = 1800,
+  width = 32,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
+wall{
+  layer = 1,
+  x = 1112,
+  y = 1656,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+sensor{
+  name = "dungeon_room_2_3",
+  layer = 1,
+  x = 1120,
+  y = 1901,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 1,
+  x = 1112,
+  y = 1896,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 1112,
+  y = 1896,
+  width = 16,
+  height = 16,
+  destination_map = "rune_4/b1",
+  destination = "from_b2",
+}
+
+destination{
+  name = "from_b2",
+  layer = 1,
+  x = 1120,
+  y = 1885,
+  direction = 1,
+}
+
+custom_entity{
+  layer = 1,
+  x = 1000,
+  y = 1725,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1240,
+  y = 1725,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1240,
+  y = 1885,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1000,
+  y = 1885,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+enemy{
+  name = "boss",
+  layer = 1,
+  x = 1120,
+  y = 1517,
+  direction = 0,
+  breed = "blind",
+  savegame_variable = "dungeon_4_boss",
+  treasure_name = "rune",
+  treasure_savegame_variable = "dungeon_4_rune",
+}
+
+sensor{
+  name = "start_boss_sensor",
+  layer = 1,
+  x = 1112,
+  y = 1653,
+  width = 32,
+  height = 16,
+}
+
+door{
+  name = "boss_door_2",
+  layer = 1,
+  x = 1112,
+  y = 1656,
+  direction = 3,
+  sprite = "entities/door_normal",
+}
+
+door{
+  name = "boss_door",
+  layer = 1,
+  x = 1112,
+  y = 1688,
+  direction = 1,
+  sprite = "entities/door_normal",
+}
+
+door{
+  layer = 1,
+  x = 1112,
+  y = 1688,
+  direction = 1,
+  sprite = "entities/door_big_key",
+  savegame_variable = "dungeon_4_boss_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_4_boss_key",
+  cannot_open_dialog = "boss_key_required",
+}
+
+door{
+  layer = 1,
+  x = 1112,
+  y = 1656,
+  direction = 3,
+  sprite = "entities/door_big_key",
+  savegame_variable = "dungeon_4_boss_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_4_boss_key",
+  cannot_open_dialog = "boss_key_required",
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 1,
+  x = 992,
+  y = 1472,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 1,
+  x = 992,
+  y = 1480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+enemy{
+  name = "medusa_1",
+  layer = 1,
+  x = 1000,
+  y = 1485,
+  direction = 3,
+  breed = "medusa",
+  treasure_name = "random_heart",
+}
+
+dynamic_tile{
+  name = "invisible_tile_3",
+  layer = 1,
+  x = 1232,
+  y = 1472,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+dynamic_tile{
+  name = "invisible_tile_4",
+  layer = 1,
+  x = 1232,
+  y = 1480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+enemy{
+  name = "medusa_2",
+  layer = 1,
+  x = 1240,
+  y = 1485,
+  direction = 3,
+  breed = "medusa",
+  treasure_name = "random_heart",
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 1,
+  x = 1120,
+  y = 1677,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 1,
+  x = 1120,
+  y = 1693,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 1,
+  x = 1112,
+  y = 1416,
+  width = 16,
+  height = 48,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+door{
+  name = "boss_door_3",
+  layer = 1,
+  x = 1112,
+  y = 1416,
+  direction = 3,
+  sprite = "entities/door_normal",
+}
+
+door{
+  name = "boss_door_4",
+  layer = 1,
+  x = 1112,
+  y = 1448,
+  direction = 1,
+  sprite = "entities/door_normal",
+}
+
+door{
+  name = "door_rune_4_a",
+  layer = 1,
+  x = 1112,
+  y = 1448,
+  direction = 1,
+  sprite = "entities/door_normal",
+  savegame_variable = "door_rune_4_a",
+  cannot_open_dialog = "boss_key_required",
+}
+
+door{
+  name = "door_rune_4_b",
+  layer = 1,
+  x = 1112,
+  y = 1416,
+  direction = 3,
+  sprite = "entities/door_normal",
+  savegame_variable = "door_rune_4_b",
+  opening_condition = "dungeon_6_boss_key",
+  cannot_open_dialog = "boss_key_required",
+}
+
+sensor{
+  name = "dungeon_room_1_2",
+  layer = 1,
+  x = 1120,
+  y = 1437,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 1,
+  x = 1120,
+  y = 1453,
+  width = 16,
+  height = 16,
+}
+
+teletransporter{
+  layer = 1,
+  x = 1112,
+  y = 1312,
+  width = 16,
+  height = 16,
+  destination_map = "outside/outI",
+  destination = "from_dungeon",
+}
+
+stairs{
+  layer = 1,
+  x = 1112,
+  y = 1312,
+  direction = 1,
+  subtype = 2,
+}
+
+wall{
+  layer = 1,
+  x = 1104,
+  y = 1296,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+chest{
+  layer = 1,
+  x = 1120,
+  y = 1829,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_4_boss_key",
+  sprite = "entities/chest",
+}
+
+enemy{
+  name = "medusa_3",
+  layer = 1,
+  x = 1000,
+  y = 1645,
+  direction = 3,
+  breed = "medusa",
+  treasure_name = "random_heart",
+}
+
+enemy{
+  name = "medusa_4",
+  layer = 1,
+  x = 1240,
+  y = 1645,
+  direction = 3,
+  breed = "medusa",
+  treasure_name = "random_heart",
+}
+
+tile{
+  layer = 2,
+  x = 1072,
+  y = 1672,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.2",
+}
+
+tile{
+  layer = 2,
+  x = 1072,
+  y = 1680,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.1",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 1912,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 1680,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.1",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 1672,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.2",
+}
+
+tile{
+  layer = 2,
+  x = -16,
+  y = -240,
+  width = 2240,
+  height = 1440,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 1920,
+  width = 2240,
+  height = 480,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 1136,
+  width = 960,
+  height = 784,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 1280,
+  y = 1200,
+  width = 960,
+  height = 720,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 1072,
+  y = 1432,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.2",
+}
+
+tile{
+  layer = 2,
+  x = 1072,
+  y = 1440,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.1",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 1440,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.1",
+}
+
+tile{
+  layer = 2,
+  x = 1104,
+  y = 1432,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.2",
+}
+
+separator{
+  name = "auto_separator_9",
+  layer = 2,
+  x = 960,
+  y = 1432,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_10",
+  layer = 2,
+  x = 960,
+  y = 1912,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_11",
+  layer = 2,
+  x = 960,
+  y = 1672,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_12",
+  layer = 2,
+  x = 952,
+  y = 1440,
+  width = 16,
+  height = 480,
+}
+
+separator{
+  name = "auto_separator_13",
+  layer = 2,
+  x = 1272,
+  y = 1440,
+  width = 16,
+  height = 480,
+}
+
+separator{
+  name = "auto_separator_14",
+  layer = 2,
+  x = 960,
+  y = 1192,
+  width = 320,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_15",
+  layer = 2,
+  x = 960,
+  y = 1432,
+  width = 320,
+  height = 16,
+}
+

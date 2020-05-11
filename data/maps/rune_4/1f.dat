@@ -1,0 +1,374 @@
+properties{
+  x = 3952,
+  y = 1848,
+  width = 960,
+  height = 960,
+  min_layer = 0,
+  max_layer = 2,
+  world = "dungeon_4",
+  floor = 0,
+  tileset = "cave",
+  music = "cave",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 216,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 928,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 928,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 672,
+  y = 208,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 672,
+  y = 24,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 928,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 672,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "floor.14",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 112,
+  width = 16,
+  height = 24,
+  pattern = "stairs_down.2",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "stairs_down.2.border.1",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 112,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.2",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 112,
+  width = 8,
+  height = 24,
+  pattern = "stairs_down.2.border.3",
+}
+
+wall{
+  layer = 1,
+  x = 792,
+  y = 216,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "from_outside",
+  layer = 1,
+  x = 800,
+  y = 213,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 792,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "outside/outD",
+  destination = "from_cave",
+}
+
+destination{
+  name = "from_b1",
+  layer = 1,
+  x = 800,
+  y = 125,
+  direction = 3,
+}
+
+teletransporter{
+  name = "to_b1",
+  layer = 1,
+  x = 792,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "rune_4/b1",
+  destination = "from_1f",
+}
+
+stairs{
+  layer = 1,
+  x = 792,
+  y = 112,
+  direction = 3,
+  subtype = 3,
+}
+
+tile{
+  layer = 2,
+  x = 784,
+  y = 232,
+  width = 32,
+  height = 8,
+  pattern = "door_cache.2",
+}
+
+tile{
+  layer = 2,
+  x = 784,
+  y = 232,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 240,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 240,
+  width = 960,
+  height = 720,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 720,
+  width = 640,
+  height = 240,
+  pattern = "ceiling",
+}
+
+separator{
+  name = "auto_separator_1",
+  layer = 2,
+  x = 0,
+  y = 232,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_2",
+  layer = 2,
+  x = 0,
+  y = 712,
+  width = 960,
+  height = 16,
+}
+
+separator{
+  name = "auto_separator_3",
+  layer = 2,
+  x = 632,
+  y = 0,
+  width = 16,
+  height = 960,
+}
+
+separator{
+  name = "auto_separator_4",
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 960,
+}
+

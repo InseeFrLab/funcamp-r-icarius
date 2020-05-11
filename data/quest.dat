@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "Solarus-Quest-IcaRius",
+  title = "IcaRius",
+  short_description = "prototype Funcamp",
+  long_description = [[
+Prototype Funcamp, adapté depuis le jeu The Return of the Hylian, avec le moteur Solarus.]],
+  author = "AD",
+  quest_version = "0.9",
+  release_date = "",
+  website = "",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+

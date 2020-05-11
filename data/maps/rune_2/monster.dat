@@ -1,0 +1,441 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "cave",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "floor.13",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 216,
+  width = 272,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 24,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 8,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 8,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+teletransporter{
+  name = "to_castle",
+  layer = 1,
+  x = 144,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "outside/outF1",
+  destination = "from_cave",
+}
+
+destructible{
+  name = "auto_destructible_2",
+  layer = 1,
+  x = 40,
+  y = 45,
+  treasure_name = "heart",
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_3",
+  layer = 1,
+  x = 280,
+  y = 45,
+  treasure_name = "heart",
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_5",
+  layer = 1,
+  x = 280,
+  y = 205,
+  treasure_name = "heart",
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_4",
+  layer = 1,
+  x = 40,
+  y = 205,
+  treasure_name = "heart",
+  sprite = "entities/vase_skull",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+enemy{
+  name = "boss",
+  layer = 1,
+  x = 152,
+  y = 53,
+  direction = 0,
+  breed = "geldman",
+  savegame_variable = "dungeon_0_boss",
+  treasure_name = "rune",
+  treasure_savegame_variable = "dungeon_0_rune",
+}
+
+destination{
+  name = "from_outside",
+  layer = 1,
+  x = 160,
+  y = 213,
+  direction = 1,
+}
+
+door{
+  name = "door_rune",
+  layer = 1,
+  x = 144,
+  y = 8,
+  direction = 1,
+  sprite = "entities/door_normal",
+}
+
+enemy{
+  name = "ropa_2",
+  layer = 1,
+  x = 176,
+  y = 93,
+  direction = 0,
+  breed = "ropa",
+}
+
+enemy{
+  name = "ropa_1",
+  layer = 1,
+  x = 88,
+  y = 85,
+  direction = 0,
+  breed = "ropa",
+}
+
+enemy{
+  name = "ropa_3",
+  layer = 1,
+  x = 232,
+  y = 85,
+  direction = 0,
+  breed = "ropa",
+}
+
+sensor{
+  name = "start_boss_sensor",
+  layer = 1,
+  x = 144,
+  y = 213,
+  width = 48,
+  height = 16,
+}
+
+enemy{
+  name = "ropa_4",
+  layer = 1,
+  x = 136,
+  y = 93,
+  direction = 0,
+  breed = "ropa",
+}
+
+sensor{
+  name = "sensor_leaving_dungeon",
+  layer = 1,
+  x = 136,
+  y = 37,
+  enabled_at_start = false,
+  width = 48,
+  height = 16,
+}
+
+tile{
+  layer = 2,
+  x = 112,
+  y = 232,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.2",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 232,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.2",
+}
+
+tile{
+  layer = 2,
+  x = 136,
+  y = 0,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.1",
+}
+
+separator{
+  name = "auto_separator_2",
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+
+separator{
+  name = "auto_separator_3",
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+}
+

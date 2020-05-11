@@ -1,0 +1,416 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "outside",
+  music = "fanfare",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "145",
+  tileset = "outside",
+}
+
+dynamic_tile{
+  name = "embleme_rune",
+  layer = 0,
+  x = 112,
+  y = 128,
+  width = 88,
+  height = 88,
+  pattern = "14873",
+}
+
+dynamic_tile{
+  name = "tower_green_02",
+  layer = 0,
+  x = 256,
+  y = 96,
+  enabled_at_start = false,
+  width = 48,
+  height = 40,
+  pattern = "4129",
+}
+
+dynamic_tile{
+  name = "tower_green_01",
+  layer = 0,
+  x = 16,
+  y = 96,
+  enabled_at_start = false,
+  width = 48,
+  height = 40,
+  pattern = "4129",
+}
+
+destination{
+  name = "start",
+  layer = 0,
+  x = -16,
+  y = 13,
+  direction = 3,
+}
+
+wall{
+  layer = 0,
+  x = 0,
+  y = 88,
+  width = 320,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+npc{
+  name = "sassos",
+  layer = 0,
+  x = 160,
+  y = 189,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/agahnim",
+}
+
+npc{
+  name = "teoc",
+  layer = 0,
+  x = 160,
+  y = 133,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/running_man",
+}
+
+npc{
+  name = "febeler",
+  layer = 0,
+  x = 160,
+  y = 157,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bird_green",
+}
+
+npc{
+  name = "regor",
+  layer = 0,
+  x = 160,
+  y = 157,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/wizard",
+}
+
+dynamic_tile{
+  name = "tower_01",
+  layer = 0,
+  x = 16,
+  y = 88,
+  enabled_at_start = false,
+  width = 48,
+  height = 112,
+  pattern = "4119",
+}
+
+dynamic_tile{
+  name = "tower_02",
+  layer = 0,
+  x = 256,
+  y = 88,
+  enabled_at_start = false,
+  width = 48,
+  height = 112,
+  pattern = "4119",
+}
+
+npc{
+  name = "essespeus",
+  layer = 1,
+  x = 160,
+  y = 141,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/static_villager14",
+}
+
+npc{
+  name = "tourep",
+  layer = 1,
+  x = 192,
+  y = 157,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/merchant_green",
+}
+
+dynamic_tile{
+  name = "table_06",
+  layer = 1,
+  x = 120,
+  y = 184,
+  enabled_at_start = false,
+  width = 80,
+  height = 8,
+  pattern = "724",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_05",
+  layer = 1,
+  x = 120,
+  y = 176,
+  enabled_at_start = false,
+  width = 80,
+  height = 8,
+  pattern = "721",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_07",
+  layer = 1,
+  x = 200,
+  y = 168,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "719",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_04",
+  layer = 1,
+  x = 120,
+  y = 168,
+  enabled_at_start = false,
+  width = 80,
+  height = 8,
+  pattern = "718",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_09",
+  layer = 1,
+  x = 200,
+  y = 184,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "725",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_01",
+  layer = 1,
+  x = 112,
+  y = 168,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "717",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_08",
+  layer = 1,
+  x = 200,
+  y = 176,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "720",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "table_02",
+  layer = 1,
+  x = 112,
+  y = 176,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "722",
+  tileset = "house",
+}
+
+npc{
+  name = "soldier_chief",
+  layer = 2,
+  x = 160,
+  y = 181,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_blue",
+}
+
+npc{
+  name = "soldier_1",
+  layer = 2,
+  x = 216,
+  y = 197,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_green",
+}
+
+npc{
+  name = "soldier_2",
+  layer = 2,
+  x = 216,
+  y = 149,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_green",
+}
+
+npc{
+  name = "soldier_3",
+  layer = 2,
+  x = 264,
+  y = 173,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_green",
+}
+
+npc{
+  name = "soldier_4",
+  layer = 2,
+  x = 112,
+  y = 149,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_green",
+}
+
+npc{
+  name = "soldier_6",
+  layer = 2,
+  x = 72,
+  y = 173,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_green",
+}
+
+npc{
+  name = "statia",
+  layer = 2,
+  x = 160,
+  y = 165,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/zelda",
+}
+
+npc{
+  name = "zilap",
+  layer = 2,
+  x = 128,
+  y = 157,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/wise_old_man_green",
+}
+
+npc{
+  name = "batreb",
+  layer = 2,
+  x = 160,
+  y = 221,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/drunk_man",
+}
+
+dynamic_tile{
+  name = "table_03",
+  layer = 2,
+  x = 112,
+  y = 184,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "723",
+  tileset = "house",
+}
+
+dynamic_tile{
+  name = "ambroisie_1",
+  layer = 2,
+  x = 120,
+  y = 168,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "13695",
+  tileset = "outside",
+}
+
+dynamic_tile{
+  name = "ambroisie_2",
+  layer = 2,
+  x = 152,
+  y = 168,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "13680",
+  tileset = "outside",
+}
+
+dynamic_tile{
+  name = "ambroisie_3",
+  layer = 2,
+  x = 184,
+  y = 168,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "13699",
+  tileset = "outside",
+}
+
+npc{
+  name = "soldier_5",
+  layer = 2,
+  x = 112,
+  y = 197,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/sword_soldier_green",
+}
+
