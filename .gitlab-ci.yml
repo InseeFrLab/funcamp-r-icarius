@@ -1,0 +1,9 @@
+quest-package:
+  image: solarus/utilities-env
+  stage: build
+  script:
+    - PACKAGE=icarius.solarus
+    - cd data && 7za a -tzip ../$PACKAGE .
+  artifacts:
+    paths:
+      - icarius.solarus
