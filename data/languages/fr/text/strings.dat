@@ -1,12 +1,3 @@
-text{ key = "dungeon_1.name", value = "Temple de la forêt" }
-text{ key = "dungeon_2.name", value = "Temple de l'eau" }
-text{ key = "dungeon_3.name", value = "Temple de la montagne" }
-text{ key = "dungeon_4.name", value = "Temple du désert" }
-text{ key = "dungeon_5.name", value = "Temple de l'ombre" }
-text{ key = "dungeon_6.name", value = "Temple du Feu" }
-text{ key = "dungeon_7.name", value = "Temple de la Glace" }
-text{ key = "dungeon_8.name", value = "Temple secret" }
-text{ key = "dungeon_9.name", value = "Château d'Hyrule" }
 text{ key = "igor_answers.chapter11_answer1", value = "18" }
 text{ key = "igor_answers.chapter12_answer1", value = "12" }
 text{ key = "igor_answers.chapter13_answer1", value = "99" }
@@ -54,9 +45,9 @@ text{ key = "records_menu.best_time", value = "MEILLEUR TEMPS :" }
 text{ key = "records_menu.clear", value = "EFFACER" }
 text{ key = "records_menu.clear_question", value = "EFFACER ?" }
 text{ key = "records_menu.no", value = "NON" }
-text{ key = "records_menu.rank_100_percent", value = "RANG : Héros d'Hyrule$Finir le jeu à 100%." }
-text{ key = "records_menu.rank_speed", value = "RANG : Marathonien d'Hyrule$Finir le jeu en moins de$deux heures." }
-text{ key = "records_menu.rank_ultimate", value = "RANG : Frimeur$Finir le jeu sans mourir,$avec 10 coeurs au maximum,$sans parler aux Grandes Fées,$sans acheter de flacons$et sans prendre le bouclier." }
+text{ key = "records_menu.rank_100_percent", value = "RANG : Héros de Statis$Finir le jeu à 100%." }
+text{ key = "records_menu.rank_speed", value = "RANG : Marathonien de Statis$Finir le jeu en moins de$deux heures." }
+text{ key = "records_menu.rank_ultimate", value = "RANG : Frimeur$Finir le jeu sans mourir,$avec 10 coeurs au maximum." }
 text{ key = "records_menu.speed_rank", value = "RANG DE RAPIDITE" }
 text{ key = "records_menu.title", value = "RECORDS" }
 text{ key = "records_menu.ultimate_rank", value = "RANG ULTIME" }
@@ -87,7 +78,7 @@ text{ key = "stats_menu.monsters", value = "Types d'ennemis vaincus :" }
 text{ key = "stats_menu.percent", value = "Tu as fini ce jeu à $v%, félicitations !" }
 text{ key = "stats_menu.pieces_of_heart", value = "Quarts de coeur :" }
 text{ key = "stats_menu.rank", value = "RANG :" }
-text{ key = "stats_menu.rank.completion.1", value = "Héros d'Hyrule" }
+text{ key = "stats_menu.rank.completion.1", value = "Héros de Statis" }
 text{ key = "stats_menu.rank.completion.2", value = "Perfectionniste" }
 text{ key = "stats_menu.rank.completion.3", value = "Fan de Zelda" }
 text{ key = "stats_menu.rank.completion.4", value = "Pro du clavier" }
@@ -95,6 +86,14 @@ text{ key = "stats_menu.rank.completion.5", value = "Confirmé" }
 text{ key = "stats_menu.rank.completion.6", value = "Débutant" }
 text{ key = "stats_menu.rank.death.1", value = "Mort-vivant" }
 text{ key = "stats_menu.rank.death.2", value = "Kamikaze" }
-text{ key = "stats_menu.rank.speed", value = "Marathonien d'Hyrule" }
+text{ key = "stats_menu.rank.speed", value = "Marathonien de Statis" }
 text{ key = "stats_menu.rank.ultimate", value = "Frimeur" }
 text{ key = "stats_menu.title", value = "SCORES :" }
+text{ key = "dungeon_1.name", value = "Temple de la forêt" }
+text{ key = "dungeon_2.name", value = "Temple de l'eau" }
+text{ key = "dungeon_3.name", value = "Temple de la montagne" }
+text{ key = "dungeon_4.name", value = "Temple du désert" }
+text{ key = "dungeon_5.name", value = "Temple de l'ombre" }
+text{ key = "dungeon_6.name", value = "Temple du Feu" }
+text{ key = "dungeon_7.name", value = "Temple de la Glace" }
+text{ key = "dungeon_8.name", value = "Temple secret" }
