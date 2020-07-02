@@ -6,6 +6,8 @@ door_manager:manage_map(map)
 local separator_manager = require("maps/lib/separator_manager")
 separator_manager:manage_map(map)
 
+local igor_chapter5_success = 0
+local igor_chapter6_success = 0
 
 function map:on_opening_transition_finished(destination)
 
@@ -86,31 +88,98 @@ end
 
 function drunk_man:on_interaction()
 
-    if game:get_value("drunk_man_quest") then
+  if igor_chapter5_success == 0 then
+
+    if game:get_value("igor_chapter5") then
+
+      hero:freeze()
+
       game:start_dialog("castle.drunk_man_2", function(answer)
-        if answer == 3 then
+
+         if answer == 2 then
+            local igor_save_answer_menu = {}
+            igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter5")  
+            sol.menu.start(map, igor_save_answer_menu, on_top)         
+            sol.timer.start(1000, function()
+               if  good_answer_counter == 1 then
+                hero:unfreeze()
+                igor_chapter5_success = 1
+                return false
+               else 
+                return true
+              end
+            end)
+          end
+
+          if answer == 3 then
+            hero:unfreeze()
+          end
+
+      end)
+
+    else
+
+      game:start_dialog("castle.drunk_man_1", function(answer)
+      game:set_value("igor_chapter5", true)
+      end) 
+
+    end
+
+  else
+
           game:start_dialog("castle.drunk_man_3")
           sol.timer.start(1000, function()      
             sol.audio.play_sound("secret")
             chest_drunk_man:set_enabled(true)
           end)
-        end
-      end)
-    else
-      game:start_dialog("castle.drunk_man_1", function()
-      game:set_value("drunk_man_quest", true)
-      end) 
-    end
+
+  end
 
 end
 
 
 function old_man:on_interaction()
 
-    if game:get_value("old_man_quest") then
+  if igor_chapter6_success == 0 then
+
+    if game:get_value("igor_chapter6") then
+
+      hero:freeze()
+
       game:start_dialog("castle.old_man_2", function(answer)
-        if answer == 3 then
-          game:start_dialog("castle.old_man_3")
+
+         if answer == 2 then
+            local igor_save_answer_menu = {}
+            igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter6")  
+            sol.menu.start(map, igor_save_answer_menu, on_top)         
+            sol.timer.start(1000, function()
+               if  good_answer_counter == 1 then
+                hero:unfreeze()
+                igor_chapter6_success = 1
+                return false
+               else 
+                return true
+              end
+            end)
+          end
+
+          if answer == 3 then
+            hero:unfreeze()
+          end
+
+      end)
+
+    else
+
+      game:start_dialog("castle.old_man_1", function(answer)
+      game:set_value("igor_chapter6", true)
+      end) 
+
+    end
+
+  else
+
+         game:start_dialog("castle.old_man_3")
           sol.timer.start(1000, function()   
             sol.audio.play_sound("bomb") 
             weak_wall:set_enabled(false)
@@ -121,12 +190,8 @@ function old_man:on_interaction()
               old_man:set_enabled(false)
             end)
           end)
-        end
-      end)
-    else
-      game:start_dialog("castle.old_man_1", function()
-      game:set_value("old_man_quest", true)
-      end) 
-    end
+
+  end
 
 end
+

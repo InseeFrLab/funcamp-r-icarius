@@ -717,7 +717,7 @@ Serais-tu un soldat de Parlyus ?
 Hips, non, on dirait... icaRius ?
 ce serait donc toi, le jeune élu...
 Voyons, j'ai besoin de vérifier.
-Ouvre le chapitre d'IGoR.
+Ouvre le chapitre 5 d'IGoR.
 Si tu sais répondre,
 c'est que tu es bien ce jeune héros...
 ]],
@@ -726,7 +726,6 @@ c'est que tu es bien ce jeune héros...
 dialog{
   id = "castle.drunk_man_2",
   text = [[
---- Le cuistot Batreb ---
 As-tu la réponse ?
 $? oui, la voici
 $? euh, il me faut plus de temps
@@ -772,14 +771,13 @@ le plus longtemps possible.
 Tu lui feras croire le contraire !
 Cela te donnera un peu de temps...
 Maintenant, ouvre le grimoire d'IGoR
-et cherche la réponse à l'énigme.
+au chapitre 6 et cherche la réponse à l'énigme.
 ]],
 }
 
 dialog{
   id = "castle.old_man_2",
   text = [[
---- Le mage Essespéus ---
 As-tu la réponse ?
 $? oui, la voici
 $? euh, il me faut plus de temps
@@ -983,24 +981,6 @@ dialog{
   id = "crystal.remaining",
   text = [[
 Plus que $v à trouver !
-]],
-}
-
-dialog{
-  id = "dungeon_2.welcome",
-  text = [[
-                   Niveau 2
-
-               Temple de l'Eau
-]],
-}
-
-dialog{
-  id = "dungeon_4.welcome",
-  text = [[
-                   Niveau 4
-
-               Temple du Désert
 ]],
 }
 

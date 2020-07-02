@@ -1,11 +1,21 @@
+text{ key = "dungeon_1.name", value = "Temple de la forêt" }
+text{ key = "dungeon_2.name", value = "Temple de l'eau" }
+text{ key = "dungeon_3.name", value = "Temple de la montagne" }
+text{ key = "dungeon_4.name", value = "Temple du désert" }
+text{ key = "dungeon_5.name", value = "Temple de l'ombre" }
+text{ key = "dungeon_6.name", value = "Temple du Feu" }
+text{ key = "dungeon_7.name", value = "Temple de la Glace" }
+text{ key = "dungeon_8.name", value = "Temple secret" }
 text{ key = "igor_answers.chapter11_answer1", value = "18" }
 text{ key = "igor_answers.chapter12_answer1", value = "12" }
 text{ key = "igor_answers.chapter13_answer1", value = "99" }
 text{ key = "igor_answers.chapter1_answer1", value = "24" }
 text{ key = "igor_answers.chapter2_answer1", value = "Kokot" }
-text{ key = "igor_answers.chapter5_answer1", value = "Hylia" }
-text{ key = "igor_answers.chapter6_answer1", value = "Galia" }
-text{ key = "igor_answers.chapter7_answer1", value = "777" }
+text{ key = "igor_answers.chapter3_answer1", value = "Galia" }
+text{ key = "igor_answers.chapter4_answer1", value = "777" }
+text{ key = "igor_answers.chapter5_answer1", value = "10" }
+text{ key = "igor_answers.chapter6_answer1", value = "59" }
+text{ key = "igor_answers.chapter9_answer1", value = "Hylia" }
 text{ key = "options_menu.back", value = "RETOUR" }
 text{ key = "options_menu.language", value = "LANGUE" }
 text{ key = "options_menu.music_volume", value = "MUSIQUE" }
@@ -89,11 +99,3 @@ text{ key = "stats_menu.rank.death.2", value = "Kamikaze" }
 text{ key = "stats_menu.rank.speed", value = "Marathonien de Statis" }
 text{ key = "stats_menu.rank.ultimate", value = "Frimeur" }
 text{ key = "stats_menu.title", value = "SCORES :" }
-text{ key = "dungeon_1.name", value = "Temple de la forêt" }
-text{ key = "dungeon_2.name", value = "Temple de l'eau" }
-text{ key = "dungeon_3.name", value = "Temple de la montagne" }
-text{ key = "dungeon_4.name", value = "Temple du désert" }
-text{ key = "dungeon_5.name", value = "Temple de l'ombre" }
-text{ key = "dungeon_6.name", value = "Temple du Feu" }
-text{ key = "dungeon_7.name", value = "Temple de la Glace" }
-text{ key = "dungeon_8.name", value = "Temple secret" }

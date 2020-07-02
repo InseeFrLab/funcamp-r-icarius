@@ -5,6 +5,7 @@ properties{
   height = 972,
   min_layer = 0,
   max_layer = 2,
+  world = "dungeon_3",
   tileset = "temple_yellow",
   music = "castle",
 }
@@ -3116,33 +3117,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 464,
-  y = -56,
-  width = 16,
-  height = 16,
-  pattern = "door.2",
-}
-
-tile{
-  layer = 1,
-  x = 480,
-  y = -56,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.2",
-}
-
-tile{
-  layer = 1,
-  x = 456,
-  y = -56,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.1",
-}
-
-tile{
-  layer = 1,
   x = 176,
   y = 8,
   width = 8,
@@ -3166,78 +3140,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "door.1",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = -40,
-  width = 16,
-  height = 16,
-  pattern = "floor.1",
-}
-
-tile{
-  layer = 1,
-  x = 520,
-  y = -56,
-  width = 16,
-  height = 16,
-  pattern = "door.2",
-}
-
-tile{
-  layer = 1,
-  x = 536,
-  y = -56,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.2",
-}
-
-tile{
-  layer = 1,
-  x = 512,
-  y = -56,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.1",
-}
-
-tile{
-  layer = 1,
-  x = 512,
-  y = -24,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.1",
-}
-
-tile{
-  layer = 1,
-  x = 536,
-  y = -24,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.2",
-}
-
-tile{
-  layer = 1,
-  x = 520,
-  y = -24,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
-}
-
-tile{
-  layer = 1,
-  x = 520,
-  y = -40,
-  width = 16,
-  height = 16,
-  pattern = "floor.1",
 }
 
 tile{
@@ -3391,69 +3293,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "pillar.bottom",
-}
-
-tile{
-  layer = 1,
-  x = 632,
-  y = -48,
-  width = 16,
-  height = 16,
-  pattern = "door.3",
-}
-
-tile{
-  layer = 1,
-  x = 600,
-  y = -48,
-  width = 16,
-  height = 16,
-  pattern = "door.4",
-}
-
-tile{
-  layer = 1,
-  x = 600,
-  y = -56,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.1",
-}
-
-tile{
-  layer = 1,
-  x = 600,
-  y = -32,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.2",
-}
-
-tile{
-  layer = 1,
-  x = 632,
-  y = -56,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.1",
-}
-
-tile{
-  layer = 1,
-  x = 632,
-  y = -32,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.2",
-}
-
-tile{
-  layer = 1,
-  x = 616,
-  y = -48,
-  width = 16,
-  height = 16,
-  pattern = "floor.1",
 }
 
 tile{
@@ -4214,53 +4053,6 @@ npc{
 
 wall{
   layer = 1,
-  x = 464,
-  y = -56,
-  width = 16,
-  height = 48,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-sensor{
-  name = "dungeon_room_6_3",
-  layer = 1,
-  x = 472,
-  y = -35,
-  width = 16,
-  height = 16,
-}
-
-wall{
-  layer = 1,
-  x = 520,
-  y = -56,
-  width = 16,
-  height = 48,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-sensor{
-  name = "dungeon_room_6_4",
-  layer = 1,
-  x = 528,
-  y = -35,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "dungeon_room_11_5",
-  layer = 1,
-  x = 528,
-  y = -19,
-  width = 16,
-  height = 16,
-}
-
-wall{
-  layer = 1,
   x = 472,
   y = 216,
   width = 16,
@@ -4369,17 +4161,8 @@ chest{
   y = 109,
   enabled_at_start = false,
   treasure_name = "small_key",
+  treasure_savegame_variable = "dungeon_3_1f_key_chest",
   sprite = "entities/chest",
-}
-
-wall{
-  layer = 1,
-  x = 600,
-  y = -48,
-  width = 48,
-  height = 16,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 wall{
@@ -4606,9 +4389,9 @@ door{
   y = 112,
   direction = 0,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_9_1f_door_b",
+  savegame_variable = "dungeon_3_1f_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_9_small_keys",
+  opening_condition = "dungeon_3_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -4620,9 +4403,9 @@ door{
   y = 112,
   direction = 2,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_9_1f_door_b",
+  savegame_variable = "dungeon_3_1f_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_9_small_keys",
+  opening_condition = "dungeon_3_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -5400,35 +5183,8 @@ tile{
 
 tile{
   layer = 2,
-  x = 456,
-  y = -40,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2",
-}
-
-tile{
-  layer = 2,
   x = 176,
   y = 0,
-  width = 32,
-  height = 8,
-  pattern = "door_top.1",
-}
-
-tile{
-  layer = 2,
-  x = 512,
-  y = -40,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2",
-}
-
-tile{
-  layer = 2,
-  x = 512,
-  y = -32,
   width = 32,
   height = 8,
   pattern = "door_top.1",
@@ -5540,24 +5296,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "pillar.top",
-}
-
-tile{
-  layer = 2,
-  x = 616,
-  y = -56,
-  width = 8,
-  height = 32,
-  pattern = "door_top.4",
-}
-
-tile{
-  layer = 2,
-  x = 624,
-  y = -56,
-  width = 8,
-  height = 32,
-  pattern = "door_top.3",
 }
 
 tile{

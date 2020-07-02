@@ -1,4 +1,12 @@
+----------------------------------
 -- Save Answers selection screen.
+----------------------------------
+
+-- Set Chapter Number and Number of answers
+-- so as to check answers from R tutorial
+chapter_number = 5
+number_of_answers = 1
+good_answer_counter = 0
 
 -- language has to be French
 sol.language.set_language("fr")
@@ -32,7 +40,7 @@ end
 local save_answers_menu = {}
 local last_joy_axis_move = { 0, 0 }
 
-local number_of_answers = 1
+
 
 function save_answers_menu:on_started()
 
@@ -268,10 +276,9 @@ function save_answers_menu:read_answers()
     self.slots[i] = slot
   end
 
-  if good_answer_counter_chapter5 == 1 then
+  if good_answer_counter == 1 then
     igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter5")
     sol.timer.start(2000, function()
-    sol.audio.play_music("village")
     sol.menu.stop(igor_save_answer_menu)
     end)
   end
@@ -620,14 +627,8 @@ end
 ---------------------------
 
 
--- Création d'une table des bonnes réponses
-good_answer_table = {} 
--- La table good_answer_counter_chapter5 est créée depuis la carte Sandia
--- good_answer_counter_chapter5 = {}
-
-
 for i = 1, number_of_answers do
-    good_answer_table[i] = sol.language.get_string("igor_answers.chapter5_answer" .. i .. "")
+    good_answer_table[i] = sol.language.get_string("igor_answers.chapter" .. chapter_number .. "_answer" .. i .. "")
 end
 
 function save_answers_menu:init_phase_check_answer_alt()
@@ -639,11 +640,11 @@ function save_answers_menu:init_phase_check_answer_alt()
     and answer_table[i] ~= "Bravo, bonne réponse" then
       if answer_table[i] == good_answer_table[i] then
       answer_table[i] = "Bravo, bonne réponse"
-      good_answer_counter_chapter5 = 1
+      good_answer_counter = 1
       sol.audio.stop_music("game_over")
       else
       answer_table[i] = "Raté..."
-      good_answer_counter_chapter5 = 0
+      good_answer_counter = 0
       end
     end
   end

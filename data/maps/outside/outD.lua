@@ -5,10 +5,10 @@ local game = map:get_game()
 
 
 -- Création de la table des bonnes réponses,
--- utilisée ensuite dans le menu igor_save_answer_chapter5
+-- utilisée ensuite dans le menu igor_save_answer_chapter9
 -- Initialisation à 0
-good_answer_counter_chapter5 = {}
-good_answer_counter_chapter5 = 0
+good_answer_counter_chapter9 = {}
+good_answer_counter_chapter9 = 0
 
 function map:on_opening_transition_finished()
   sol.audio.play_music("dark_world")
@@ -45,7 +45,7 @@ end
 
 function MamGrouxi:on_interaction()
 
-  if good_answer_counter_chapter5 == 1 then 
+  if good_answer_counter_chapter9 == 1 then 
     game:start_dialog("outside_icarius_outD.MamGrouxi_bravo")
     sol.timer.start(1000, function()      
       sol.audio.play_sound("secret")
@@ -57,7 +57,7 @@ function MamGrouxi:on_interaction()
         game:start_dialog("outside_icarius_outD.MamGrouxi_OK", function(answer)
           if answer == 2 then
             local igor_save_answer_menu = {}
-            igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter5")  
+            igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter9")  
             sol.menu.start(map, igor_save_answer_menu, on_top)
           end
           if answer == 3 then
