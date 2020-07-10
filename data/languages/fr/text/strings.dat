@@ -1,11 +1,3 @@
-text{ key = "dungeon_1.name", value = "Temple de la forêt" }
-text{ key = "dungeon_2.name", value = "Temple de l'eau" }
-text{ key = "dungeon_3.name", value = "Temple de la montagne" }
-text{ key = "dungeon_4.name", value = "Temple du désert" }
-text{ key = "dungeon_5.name", value = "Temple de l'ombre" }
-text{ key = "dungeon_6.name", value = "Temple du Feu" }
-text{ key = "dungeon_7.name", value = "Temple de la Glace" }
-text{ key = "dungeon_8.name", value = "Temple secret" }
 text{ key = "igor_answers.chapter11_answer1", value = "18" }
 text{ key = "igor_answers.chapter12_answer1", value = "12" }
 text{ key = "igor_answers.chapter13_answer1", value = "99" }

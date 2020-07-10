@@ -949,54 +949,9 @@ Merci.
 }
 
 dialog{
-  id = "crystal.1",
-  text = [[
-A quoi pourra-t-il bien servir ?
-]],
-}
-
-dialog{
-  id = "crystal.5",
-  text = [[
-Plus que 2 à trouver !!!
-]],
-}
-
-dialog{
-  id = "crystal.6",
-  text = [[
-Il ne t'en manque plus qu'un seul !
-]],
-}
-
-dialog{
-  id = "crystal.7",
-  text = [[
-Tu as tous les cristaux, cours au château
-sauver Zelda !
-]],
-}
-
-dialog{
-  id = "crystal.remaining",
-  text = [[
-Plus que $v à trouver !
-]],
-}
-
-dialog{
-  id = "dungeon_7.welcome",
-  text = [[
-                   Niveau 7
-
-              Temple de la Glace
-]],
-}
-
-dialog{
   id = "dungeon_finished_save",
   text = [[
-Souhaites-tu sauvegarder ta partie ?
+Souhaitez-vous sauvegarder votre partie ?
 
                    $? Oui
                    $? Non
@@ -1277,25 +1232,9 @@ dialog{
 }
 
 dialog{
-  id = "fairy_cave_already_done",
-  text = [[
-...
-]],
-}
-
-dialog{
-  id = "fairy_cave_lake.reward",
-  text = [[
-Félicitations Link, tu as réussi à me trouver.
-En récompense, je t'offre le médaillon de
-Nayru, il augmente ta défense de deux points !
-]],
-}
-
-dialog{
   id = "found_piece_of_heart.first",
   text = [[
-Encore 3 et tu gagneras un coeur
+Encore 3 et vous gagnerez un coeur
 supplémentaire !!!
 ]],
 }
@@ -1303,7 +1242,7 @@ supplémentaire !!!
 dialog{
   id = "found_piece_of_heart.fourth",
   text = [[
-Ton nombre de coeurs vient
+Votre nombre de coeurs vient
 d'augmenter !!!
 ]],
 }
@@ -1311,7 +1250,7 @@ d'augmenter !!!
 dialog{
   id = "found_piece_of_heart.second",
   text = [[
-Encore 2 et tu gagneras un coeur
+Encore 2 et vous gagnerez un coeur
 supplémentaire !!!
 ]],
 }
@@ -1319,7 +1258,7 @@ supplémentaire !!!
 dialog{
   id = "found_piece_of_heart.third",
   text = [[
-Encore 1 et tu gagneras un coeur
+Encore 1 et vous gagnerez un coeur
 supplémentaire !!!
 ]],
 }
@@ -1664,170 +1603,6 @@ dialog{
 Le jeune icaRius dort sans se douter
 des conséquences de son imagination...
 Une voix lui parle dans son sommeil...
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.first_time",
-  text = [[
-Bonjour Link, je suis le chef de ce village, je
-me doutais que tu passerais.
-
-
-Depuis ce matin des monstres sont apparus un
-peu partout à Hyrule, j'ai voulu aller en
-parler à la princesse Zelda, mais comme tu l'as
-peut-être déjà vu, un puissant sortilège bloque
-l'accès au château...
-
-
-
-Tu dis que Ganon est responsable de tout ça ?
-Qu'il a volé la Triforce et qu'il détient la
-princesse Zelda prisonnière ?
-
-Mmmm... la situation est plus grave que je le
-croyais...
-
-
-Il faut agir au plus vite, tu dois affronter
-Ganon à nouveau!
-
-
-Comment entrer dans le château ? J'ai peut-être
-une idée...
-
-
-Comme tu le sais, le pouvoir des 7 sages a été
-enfermé dans 7 cristaux par le sorcier Aghanim
-alors qu'il tentait de lever le sceau qui
-confinait Ganon au monde des ténèbres.
-Or, bien que tu aies ressuscité les descendants
-des sages après avoir vaincu Ganon et trouvé la
-Triforce, ces cristaux ont conservé leur
-puissance.
-Ils ont été cachés au fin fond des 7 temples,
-réunis-les tous et tu pourras passer outre le
-sortilège de Ganon.
-
-Ce ne sera toutefois pas chose aisée, Ganon a
-certainement dû envoyer ses meilleurs éléments
-protéger ces cristaux...
-
-Une dernière chose, tu n'iras pas loin avec ton
-équipement actuel. Va voir le marchand d'armes
-et dis-lui que tu viens de ma part. Il fera
-sûrement un geste pour toi.
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.go_bow",
-  text = [[
-Va voir le marchand d'armes et dis-lui que tu
-viens de ma part. Il fera sûrement un geste
-pour toi.
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.go_castle",
-  text = [[
-Tu as trouvé les 7 cristaux ? Alors rends-toi
-au château, tu dois avant tout délivrer la
-princesse, elle saura mieux que moi comment
-sauver Hyrule.
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.go_crystals",
-  text = [[
-Il te faut rassembler les 7 cristaux pour avoir
-une chance de sauver Zelda et Hyrule...
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.go_excalibur",
-  text = [[
-Tes armes sont sans effet sur Ganon ? Dans ce
-cas tu dois trouver Excalibur. On raconte
-qu'elle a été dissimulée dans un temple caché.
-On dit aussi que le chemin menant à la lame
-purificatrice passe par un village peuplé de
-monstres...
-Je me demande si un tel village existe...
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.go_ganon",
-  text = [[
-Il est temps d'affronter Ganon et de lui
-reprendre la Triforce !
-]],
-}
-
-dialog{
-  id = "kakariko.leader_house.go_glove",
-  text = [[
-Toutefois j'ai bien peur que ton équipement
-actuel soit insuffisant pour accéder à ce
-temple, tu devrais peut-être passer voir le
-forgeron du village Gerudo...
-]],
-}
-
-dialog{
-  id = "kakariko.potion_house.no_bottle",
-  text = [[
-Reviens me voir quand tu auras un flacon vide
-et je te vendrai une potion rouge qui restaure
-l'énergie.
-]],
-}
-
-dialog{
-  id = "kakariko.potion_house.offer",
-  text = [[
-Une potion rouge pour $v rubis,
-ça t'intéresse ?
-              $? Oui
-              $? Non
-]],
-}
-
-dialog{
-  id = "kakariko.potion_house.yes",
-  text = [[
-Merci, voilà ta potion.
-]],
-}
-
-dialog{
-  id = "kakariko.shop.reduced_bow",
-  text = [[
-Hein ???
-Tu es en mission pour le chef ???
-Bon alors je vais te faire une réduction sur
-l'arc...
-]],
-}
-
-dialog{
-  id = "kakariko.tavern.drunk_man",
-  text = [[
-Hic ! On raconte qu'une fée donnerait des
-objets enchantés... Hic ! ... aux aventuriers
-qui la trouveraient... Hic !!!
-]],
-}
-
-dialog{
-  id = "kakariko.tavern.waiter",
-  text = [[
-Bonjour, je vous sers quelque chose ?
 ]],
 }
 
@@ -3003,6 +2778,14 @@ Ils peuvent trouver le repos...
 }
 
 dialog{
+  id = "rune_3.welcome",
+  text = [[
+
+               Château de Statis
+]],
+}
+
+dialog{
   id = "rune_4.boss",
   text = [[
 --- Monolith ---
@@ -3188,124 +2971,6 @@ dialog{
                  $? Continuer
            $? Sauvegarder et quitter
           $? Quitter sans sauvegarder
-]],
-}
-
-dialog{
-  id = "shadow_village.bird_house.bird",
-  text = [[
-Lorsque tu as ramené la paix sur Hyrule et
-réunifié le monde de la lumière avec la Terre
-d'Or, Zelda a secrètement demandé aux esprits
-volontaires de créer ce village pour bloquer
-l'accès à un objet de très grande valeur.
-]],
-}
-
-dialog{
-  id = "shadow_village.leader_house.about_village",
-  text = [[
-Notre village a été fondé pour empêcher les
-aventuriers imprudents d'accéder au temple, je
-ne donne pas l'autorisation de passer à
-n'importe qui.
-]],
-}
-
-dialog{
-  id = "shadow_village.leader_house.enough_crystals",
-  text = [[
-Mmmm... Tu as déjà trouvé 4 cristaux ?
-Je dois avouer que tu m'impressionnes...
-
-
-Bon c'est entendu, tu as l'autorisation de
-passer par le cimetière, à tes risques et
-périls.
-]],
-}
-
-dialog{
-  id = "shadow_village.leader_house.go_cemetary",
-  text = [[
-Va parler au garde au nord du village, il te
-laissera passer.
-]],
-}
-
-dialog{
-  id = "shadow_village.leader_house.still_alive",
-  text = [[
-Je vois que tu es toujours vivant...
-Etonnant.
-]],
-}
-
-dialog{
-  id = "shadow_village.leader_house.sword_found",
-  text = [[
-Ainsi tu as trouvé l'Epée ?
-Mais ne crois pas qu'elle soit à toi pour
-autant.
-
-Excalibur fait partie du patrimoine le plus
-précieux d'Hyrule avec la Triforce, tu devras
-la ramener dans son sanctuaire une fois ta
-mission achevée.
-]],
-}
-
-dialog{
-  id = "shadow_village.leader_house.sword_hint",
-  text = [[
-Le temple de l'ombre constitue le point de
-départ du chemin menant à un objet de légende.
-Ce village ne sert qu'à dissuader les
-aventuriers de trop s'en approcher.
-]],
-}
-
-dialog{
-  id = "shadow_village.mouse_house.mouse",
-  text = [[
-Les habitants de ce village sont tous des
-esprits ayant répondu à l'appel de la princesse
-Zelda.
-]],
-}
-
-dialog{
-  id = "shadow_village.non_understandable",
-  text = [[
-{|{|{|{|{|{|{{{|
-{}||}{}|{}|{}|}{
-|{|{|{|}|}
-]],
-}
-
-dialog{
-  id = "shadow_village.potion_house.no_bottle",
-  text = [[
-Reviens me voir quand tu auras un flacon vide
-et je te vendrai une potion bleue qui restaure
-l'énergie et la magie.
-]],
-}
-
-dialog{
-  id = "shadow_village.potion_house.offer",
-  text = [[
-Une potion bleue pour $v rubis,
-ça t'intéresse ?
-              $? Oui
-              $? Non
-]],
-}
-
-dialog{
-  id = "shadow_village.potion_house.yes",
-  text = [[
-Merci, voilà ta potion.
 ]],
 }
 
