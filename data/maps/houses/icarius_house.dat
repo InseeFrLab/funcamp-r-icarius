@@ -1980,25 +1980,6 @@ separator{
   height = 240,
 }
 
-teletransporter{
-  layer = 1,
-  x = 272,
-  y = 192,
-  width = 16,
-  height = 16,
-  destination_map = "outside/outE",
-  destination = "from_plains",
-}
-
-chest{
-  layer = 1,
-  x = 280,
-  y = 149,
-  treasure_name = "sword",
-  treasure_variant = 3,
-  sprite = "entities/chest",
-}
-
 tile{
   layer = 2,
   x = 144,
