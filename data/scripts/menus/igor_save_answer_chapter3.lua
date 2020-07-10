@@ -4,9 +4,9 @@
 
 -- Set Chapter Number and Number of answers
 -- so as to check answers from R tutorial
-chapter_number = 6
+chapter_number = 3
 number_of_answers = 1
-good_answer_counter = 0
+good_answer_counter_chapter3 = 0
 
 -- language has to be French
 sol.language.set_language("fr")
@@ -276,10 +276,9 @@ function save_answers_menu:read_answers()
     self.slots[i] = slot
   end
 
-  if good_answer_counter == 1 then
-    igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter6")
+  if good_answer_counter_chapter3 == 1 then
+    igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter3")
     sol.timer.start(2000, function()
-    sol.audio.play_music("village")
     sol.menu.stop(igor_save_answer_menu)
     end)
   end
@@ -641,11 +640,11 @@ function save_answers_menu:init_phase_check_answer_alt()
     and answer_table[i] ~= "Bravo, bonne réponse" then
       if answer_table[i] == good_answer_table[i] then
       answer_table[i] = "Bravo, bonne réponse"
-      good_answer_counter = 1
+      good_answer_counter_chapter3 = 1
       sol.audio.stop_music("game_over")
       else
       answer_table[i] = "Raté..."
-      good_answer_counter = 0
+      good_answer_counter_chapter3 = 0
       end
     end
   end

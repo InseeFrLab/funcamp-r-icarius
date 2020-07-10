@@ -6,11 +6,11 @@ local game = map:get_game()
 -- Création de la table des bonnes réponses,
 -- utilisée ensuite dans le menu igor_save_answer_chapter6 et igor_save_answer_chapter7
 -- Initialisation à 0
-good_answer_counter_chapter6 = {}
-good_answer_counter_chapter6 = 0
+good_answer_counter_chapter3 = {}
+good_answer_counter_chapter3 = 0
 
-good_answer_counter_chapter7 = {}
-good_answer_counter_chapter7 = 0
+good_answer_counter_chapter4 = {}
+good_answer_counter_chapter4 = 0
 
 
 function sensor_cimetiere:on_activated()
