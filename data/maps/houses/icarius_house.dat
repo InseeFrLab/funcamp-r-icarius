@@ -1980,6 +1980,16 @@ separator{
   height = 240,
 }
 
+teletransporter{
+  layer = 1,
+  x = 256,
+  y = 168,
+  width = 16,
+  height = 16,
+  destination_map = "outside/outD",
+  destination = "destination_shortcut",
+}
+
 tile{
   layer = 2,
   x = 144,

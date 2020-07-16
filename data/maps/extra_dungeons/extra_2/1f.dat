@@ -7107,24 +7107,6 @@ custom_entity{
   model = "torch",
 }
 
-chest{
-  layer = 1,
-  x = 1160,
-  y = 1053,
-  treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_3_boss_key_chest",
-  sprite = "entities/chest",
-}
-
-chest{
-  layer = 1,
-  x = 1184,
-  y = 1053,
-  treasure_name = "lamp",
-  treasure_savegame_variable = "dungeon_3_lamp_chest",
-  sprite = "entities/chest",
-}
-
 destination{
   name = "from_boss",
   layer = 1,

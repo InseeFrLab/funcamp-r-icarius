@@ -1,4 +1,4 @@
--- Chest game of the Gerudo village.
+-- Chest game
 local map = ...
 
 local chest_game_manager = require("maps/lib/chest_game_manager")

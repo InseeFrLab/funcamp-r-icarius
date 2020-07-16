@@ -57,7 +57,6 @@ map{ id = "village_grissgrass/chef_village", description = "Chef du village" }
 map{ id = "village_grissgrass/chest_game", description = "Chest game" }
 map{ id = "village_grissgrass/ferme_1", description = "Ferme Kitai" }
 map{ id = "village_grissgrass/ferme_2", description = "Ferme Jibun" }
-map{ id = "village_sandia/blacksmith", description = "Blacksmith house" }
 map{ id = "village_sandia/chest_game", description = "Chest game" }
 map{ id = "village_sandia/secret_passage", description = "Passage secret" }
 
@@ -784,8 +783,6 @@ file{ path = "maps/village_grissgrass/ferme_1.lua", author = "Christopho", licen
 file{ path = "maps/village_grissgrass/ferme_2.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/village_grissgrass/ferme_2.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_sandia", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/village_sandia/blacksmith.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/village_sandia/blacksmith.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_sandia/chest_game.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/village_sandia/chest_game.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_sandia/secret_passage.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
