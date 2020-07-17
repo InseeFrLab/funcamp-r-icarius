@@ -2821,6 +2821,15 @@ dans les abysses de l'oubli !
 }
 
 dialog{
+  id = "rune_5.teleport",
+  text = [[
+(Voix de Statia)
+Icarius : juste après le coffre,
+se trouve une zone de téléportation...
+]],
+}
+
+dialog{
   id = "rune_5.welcome",
   text = [[
 

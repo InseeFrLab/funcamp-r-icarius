@@ -7846,20 +7846,10 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_28",
-  layer = 1,
-  x = 280,
-  y = 1293,
-  direction = 3,
-  breed = "poe",
-  treasure_name = "random",
-}
-
-enemy{
   name = "auto_enemy_30",
   layer = 1,
-  x = 360,
-  y = 965,
+  x = 448,
+  y = 1173,
   direction = 3,
   breed = "poe",
   treasure_name = "random",
@@ -7947,7 +7937,7 @@ enemy{
 
 chest{
   layer = 1,
-  x = 1760,
+  x = 1768,
   y = 125,
   treasure_name = "boss_key",
   treasure_savegame_variable = "dungeon_5_boss_key_chest",
@@ -8499,15 +8489,6 @@ chest{
   sprite = "entities/chest",
 }
 
-chest{
-  layer = 1,
-  x = 1440,
-  y = 1085,
-  treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_5_compass_chest",
-  sprite = "entities/chest",
-}
-
 teletransporter{
   name = "teleport_boss",
   layer = 1,
@@ -8527,6 +8508,15 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random_rupee",
+}
+
+sensor{
+  name = "message_teleport",
+  layer = 1,
+  x = 1680,
+  y = 45,
+  width = 16,
+  height = 176,
 }
 
 tile{

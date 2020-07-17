@@ -27,7 +27,7 @@ function redhat_guy:on_interaction()
           chest_boomerang:set_enabled(true)
           sensor_exit:set_enabled(false)
           teleport_exit:set_enabled(true)
-
+          redhat_guy:set_enabled(false)
          end)
       end)
 

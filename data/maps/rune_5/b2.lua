@@ -18,6 +18,11 @@ function map:on_started()
   map:set_doors_open("boss_door", true)
 end
 
+function message_teleport:on_activated()
+        game:start_dialog("rune_5.teleport")
+end
+
+
 function start_boss_sensor:on_activated()
 
   if boss ~= nil and not fighting_boss then
