@@ -4673,15 +4673,6 @@ tile{
   pattern = "floor.1",
 }
 
-tile{
-  layer = 1,
-  x = 336,
-  y = 72,
-  width = 240,
-  height = 16,
-  pattern = "wall_hole.1",
-}
-
 wall{
   layer = 1,
   x = 792,
@@ -5463,7 +5454,8 @@ chest{
   layer = 1,
   x = 160,
   y = 1085,
-  treasure_name = "piece_of_heart",
+  treasure_name = "rupee",
+  treasure_variant = 4,
   treasure_savegame_variable = "dungeon_7_ice_rod_chest",
   sprite = "entities/chest",
 }
@@ -5802,7 +5794,7 @@ chest{
   x = 1120,
   y = 837,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_7_1f_key_chest_a",
+  treasure_savegame_variable = "dungeon_6_1f_key_chest_a",
   sprite = "entities/chest",
 }
 

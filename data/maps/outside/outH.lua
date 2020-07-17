@@ -4,6 +4,9 @@ local game = map:get_game()
 
 local igor_chapter12_success = 0
 
+-- Global variable set up to keep track of good answers
+good_answer_table = {}
+
 function chatty_bird:on_interaction()
 
   if game:get_value("chatty_bird_OK") then 

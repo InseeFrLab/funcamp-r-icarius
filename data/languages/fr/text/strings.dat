@@ -64,9 +64,6 @@ text{ key = "savegames_menu.options", value = "OPTIONS" }
 text{ key = "savegames_menu.records", value = "RECORDS" }
 text{ key = "savegames_menu.title", value = "ECRAN DE SELECTION" }
 text{ key = "savegames_menu.yes", value = "OUI" }
-text{ key = "selection_menu.answer1", value = "24" }
-text{ key = "selection_menu.answer2", value = "bbb" }
-text{ key = "selection_menu.answer3", value = "ccc" }
 text{ key = "selection_menu.empty", value = "vide" }
 text{ key = "selection_menu.erase", value = "Effacer" }
 text{ key = "selection_menu.phase.choose_name", value = "Tapez la réponse" }
