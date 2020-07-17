@@ -5748,8 +5748,8 @@ sensor{
 enemy{
   name = "auto_enemy_10",
   layer = 0,
-  x = 1928,
-  y = 493,
+  x = 1832,
+  y = 405,
   direction = 3,
   breed = "zora_water",
   treasure_name = "random_rupee",
@@ -5859,8 +5859,8 @@ enemy{
 enemy{
   name = "auto_enemy_11",
   layer = 0,
-  x = 1720,
-  y = 597,
+  x = 1992,
+  y = 517,
   direction = 3,
   breed = "zora_water",
   treasure_name = "random_rupee",
@@ -5869,8 +5869,8 @@ enemy{
 enemy{
   name = "auto_enemy_12",
   layer = 0,
-  x = 2008,
-  y = 709,
+  x = 1664,
+  y = 405,
   direction = 3,
   breed = "zora_water",
   treasure_name = "random_rupee",
@@ -5900,7 +5900,7 @@ enemy{
   name = "auto_enemy_22",
   layer = 0,
   x = 2136,
-  y = 373,
+  y = 309,
   direction = 3,
   breed = "zora_water",
   treasure_name = "random_rupee",
@@ -5953,15 +5953,6 @@ dynamic_tile{
   width = 16,
   height = 24,
   pattern = "pontoon",
-}
-
-chest{
-  name = "chest_flipper_2",
-  layer = 0,
-  x = 1440,
-  y = 773,
-  treasure_name = "flippers",
-  sprite = "entities/chest",
 }
 
 npc{
@@ -12094,6 +12085,16 @@ sensor{
   y = 93,
   width = 16,
   height = 16,
+}
+
+teletransporter{
+  layer = 1,
+  x = 2224,
+  y = 800,
+  width = 16,
+  height = 32,
+  destination_map = "outside/outJ",
+  destination = "start",
 }
 
 tile{

@@ -11,7 +11,7 @@ local counter_lightning = 0
 
 function enemy:on_created()
 
-  enemy:set_life(8)
+  enemy:set_life(20)
   enemy:set_damage(2)
   enemy:set_hurt_style("boss")
   enemy:create_sprite("enemies/" .. enemy:get_breed())

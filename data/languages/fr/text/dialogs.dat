@@ -436,7 +436,7 @@ dialog{
 Vous avez désormais l'emblème Royal !
 Les Runes s'éveillent et libèrent leur pouvoir...
 Toute leur énergie se concentre dans votre épée :
-cette dernière brille désormais d'un éclat bleuté.
+cette dernière brille d'un éclat bleuté.
 ]],
 }
 
@@ -1097,9 +1097,12 @@ Direction : Arnaud D
 
 
 Groupe de conception :
-Diane B ; Fabrice D ; Pascal E ;
-Maël T ; Jean-Luc L ; Laure G ;
-Sylvie D ; Julien N ; Sébastien T
+Diane B ; Vincent G ;
+Fabrice D ; Pascal E ;
+Maël T ; Sylvie D ;
+Julien N ; Sébastien T ;
+Jean-Luc L ; Laure G ;
+Olivier C ; 
 Remerciements spéciaux :
 Christopho, et la communauté qui soutient
 le moteur de jeu Solarus
@@ -2626,7 +2629,7 @@ j'ai découvert un sortilège
 qui devrait te permettre te franchir
 ce profond DataLake.
 Il s'agit du sortilège palmes()...
-Mais encore-t-il en lire la documentation,
+Encore faut-il en lire la documentation,
 pour en saisir le fonctionnement
 et nager comme un poisson dans les données.
 Sans sortilège, point de magie !
@@ -3061,6 +3064,8 @@ Laisse-moi t'apprendre à écrire ton futur
 Et parafer de ton aventure l'imprimatur...
 Pour cela, ouvre le grimoire d'IGoR
 au chapitre 13 - et sois le plus fort !
+Relis ton histoire, du début à la fin,
+Et choisis de ta plume ce qu'il advient...
 ]],
 }
 
