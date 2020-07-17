@@ -6080,14 +6080,14 @@ sensor{
   x = 448,
   y = 93,
   width = 48,
-  height = 16,
+  height = 32,
 }
 
 destination{
   name = "from_dungeon",
   layer = 1,
   x = 464,
-  y = 93,
+  y = 101,
   direction = 3,
 }
 

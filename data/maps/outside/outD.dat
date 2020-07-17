@@ -7437,8 +7437,8 @@ teletransporter{
   y = 400,
   width = 16,
   height = 16,
-  destination_map = "rune_2/1f",
-  destination = "from_sandia",
+  destination_map = "rune_4/1f",
+  destination = "from_outside",
 }
 
 destination{

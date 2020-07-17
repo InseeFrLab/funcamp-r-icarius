@@ -1990,6 +1990,106 @@ teletransporter{
   destination = "destination_shortcut",
 }
 
+chest{
+  layer = 1,
+  x = 264,
+  y = 149,
+  treasure_name = "sword",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 232,
+  y = 149,
+  treasure_name = "shield",
+  sprite = "entities/chest",
+}
+
+pickable{
+  layer = 1,
+  x = 192,
+  y = 133,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 192,
+  y = 117,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 192,
+  y = 101,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 192,
+  y = 85,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 176,
+  y = 85,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 176,
+  y = 101,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 176,
+  y = 117,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 176,
+  y = 133,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 133,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 117,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 101,
+  treasure_name = "piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 160,
+  y = 85,
+  treasure_name = "piece_of_heart",
+}
+
 tile{
   layer = 2,
   x = 144,
