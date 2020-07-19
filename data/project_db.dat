@@ -54,7 +54,6 @@ map{ id = "rune_6/2f", description = "Ice Dungeon 2F" }
 map{ id = "rune_7/1f", description = "Final Dungeon 1F" }
 map{ id = "rune_7/2f", description = "Final Dungeon 2F" }
 map{ id = "village_grissgrass/chef_village", description = "Chef du village" }
-map{ id = "village_grissgrass/chest_game", description = "Chest game" }
 map{ id = "village_grissgrass/ferme_1", description = "Ferme Kitai" }
 map{ id = "village_grissgrass/ferme_2", description = "Ferme Jibun" }
 map{ id = "village_sandia/chest_game", description = "Chest game" }
@@ -776,8 +775,6 @@ file{ path = "maps/rune_7/1f.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_grissgrass", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/village_grissgrass/chef_village.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/village_grissgrass/chef_village.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/village_grissgrass/chest_game.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/village_grissgrass/chest_game.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_grissgrass/ferme_1.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/village_grissgrass/ferme_1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_grissgrass/ferme_2.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }

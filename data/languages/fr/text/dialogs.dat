@@ -378,13 +378,6 @@ Utilise-la pour faire jaillir des flammes.
 }
 
 dialog{
-  id = "_treasure.magic_crystal.1",
-  text = [[
-Tu as trouvé un cristal magique !!!
-]],
-}
-
-dialog{
   id = "_treasure.magic_flask.1",
   text = [[
 Tu as trouvé une petite fiole de magie !
@@ -1305,7 +1298,7 @@ tygpwujklqrqdxwz
 dialog{
   id = "icarius_house.mage_zilap_bravo",
   text = [[
----Mage Zulap---
+---Mage Zilap---
 Bravo ! Tu as trouvé le grimoire !
 Ah, il me rappelle tant de souvenirs,
 quand j'étais moi-même apprenti...
@@ -1883,48 +1876,6 @@ Village GrissGrass
 }
 
 dialog{
-  id = "outside_a3.ne_sign",
-  text = [[
-O : Roc de la Tortue
-E : Lac Hylia
-]],
-}
-
-dialog{
-  id = "outside_a3.se_sign",
-  text = [[
-O : Roc de la Tortue
-E : Lac Hylia
-]],
-}
-
-dialog{
-  id = "outside_b1.dungeon_3_sign",
-  text = [[
-Temple de la Montagne
-
-Déconseillé aux cardiaques, peureux, et aux
-âmes sensibles en général.
-]],
-}
-
-dialog{
-  id = "outside_b1.s_sign",
-  text = [[
-N : Temple de la Montagne
-S : Plaine d'Hyrule
-]],
-}
-
-dialog{
-  id = "outside_b1.sw_sign",
-  text = [[
-O : Entrée du Désert
-N : Temple de la Montagne
-]],
-}
-
-dialog{
   id = "outside_b2.broom_grandma",
   text = [[
 Quelle belle journée !
@@ -2222,9 +2173,9 @@ Icarius, j'ai besoin de ton aide.
 Le terrible sorcier SaSSoS 
 a jeté un maléfice sur les Runes
 pour les plonger dans les ténébres.
-Je dois rester cachée
-pour éviter d'être capturée.
-Le château de Statis déjà
+Je suis retenue prisonnière 
+dans le temple de SaSSoS...
+Le château de Statis aussi
 a été envahi par les forces maléfiques.
 Sans le pouvoir des Runes,
 bientôt, le peuple de Statis perdra
@@ -2752,8 +2703,8 @@ maintenant.
 dialog{
   id = "rune.1",
   text = [[
-Tu as trouvé une rune !
-Bravo, continue l'aventure !
+Vous avez trouvé une rune !
+Bravo, continuez l'aventure !
 ]],
 }
 

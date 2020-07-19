@@ -3,14 +3,12 @@
 local map = ...
 local game = map:get_game()
 
--- Création de la table des bonnes réponses,
--- utilisée ensuite dans le menu igor_save_answer_chapter6 et igor_save_answer_chapter7
--- Initialisation à 0
-good_answer_counter_chapter3 = {}
+-- Create dummy variable of good answers
 good_answer_counter_chapter3 = 0
-
-good_answer_counter_chapter4 = {}
 good_answer_counter_chapter4 = 0
+
+-- Global variable set up to keep track of good answers
+good_answer_table = {}
 
 
 function sensor_cimetiere:on_activated()
