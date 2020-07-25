@@ -3151,7 +3151,7 @@ sensor{
   name = "dungeon_room_10_1",
   layer = 1,
   x = 640,
-  y = 1181,
+  y = 1173,
   width = 16,
   height = 16,
 }
@@ -3190,7 +3190,7 @@ destination{
   name = "start",
   layer = 1,
   x = 640,
-  y = 1173,
+  y = 1165,
   direction = 1,
   default = true,
 }
@@ -3800,7 +3800,7 @@ chest{
   layer = 1,
   x = 896,
   y = 309,
-  treasure_name = "map",
+  treasure_name = "piece_of_heart",
   treasure_savegame_variable = "dungeon_1_map_chest",
   sprite = "entities/chest",
 }
@@ -3920,6 +3920,16 @@ enemy{
   y = 149,
   direction = 3,
   breed = "sword_soldier_blue",
+}
+
+teletransporter{
+  layer = 1,
+  x = 632,
+  y = 1168,
+  width = 16,
+  height = 16,
+  destination_map = "outside/outF",
+  destination = "from_dungeon_extra_1",
 }
 
 tile{
@@ -4435,15 +4445,5 @@ separator{
   y = 712,
   width = 320,
   height = 16,
-}
-
-teletransporter{
-  layer = 2,
-  x = 632,
-  y = 1184,
-  width = 16,
-  height = 16,
-  destination_map = "outside/outF",
-  destination = "from_dungeon_extra_1",
 }
 
