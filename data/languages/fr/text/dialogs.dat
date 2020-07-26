@@ -9,14 +9,14 @@ Frappe-le avec quelque chose...
 dialog{
   id = "_shop.amount_full",
   text = [[
-Tu n'as pas besoin de ça maintenant.
+Vous n'avez pas besoin de ça maintenant.
 ]],
 }
 
 dialog{
   id = "_shop.not_enough_money",
   text = [[
-Désolé, mais tu n'as pas assez de rubis.
+Désolé, mais vous n'avez pas assez de rubis.
 ]],
 }
 
@@ -59,42 +59,42 @@ ennemis à distance.
 dialog{
   id = "_treasure.bomb.1",
   text = [[
-Tu as trouvé une bombe !
-Utilise les bombes pour faire exploser des
+Vous avez trouvé une bombe !
+Utilisez les bombes pour faire exploser des
 ennemis ou des obstacles.
 
-Pour cela, appuie sur la touche d
+Pour cela, appuyez sur la touche d
 pour faire apparaître le menu de sélection.
 Une fois les bombes choisies,
-appuie sur x pour poser une bombe dans le jeu.
+appuyez sur x pour poser une bombe dans le jeu.
 ]],
 }
 
 dialog{
   id = "_treasure.bomb.2",
   text = [[
-Tu as trouvé 3 bombes !
-Utilise les bombes pour faire exploser des
+Vous avez trouvé 3 bombes !
+Utilisez les bombes pour faire exploser des
 ennemis ou des obstacles.
 
-Pour cela, appuie sur la touche d
+Pour cela, appuyez sur la touche d
 pour faire apparaître le menu de sélection.
 Une fois les bombes choisies,
-appuie sur x pour poser une bombe dans le jeu.
+appuyez sur x pour poser une bombe dans le jeu.
 ]],
 }
 
 dialog{
   id = "_treasure.bomb.3",
   text = [[
-Tu as trouvé 8 bombes !
-Utilise les bombes pour faire exploser des
+Vous avez trouvé 8 bombes !
+Utilisez les bombes pour faire exploser des
 ennemis ou des obstacles.
 
-Pour cela, appuie sur la touche d
+Pour cela, appuyez sur la touche d
 pour faire apparaître le menu de sélection.
 Une fois les bombes choisies,
-appuie sur x pour poser une bombe dans le jeu.
+appuyez sur x pour poser une bombe dans le jeu.
 ]],
 }
 
@@ -497,37 +497,6 @@ Vous venez d'obtenir le sceau
 permettant d'enfermer SaSSoS
 dans les profondeurs des limbes.
 Bien fait pour lui !
-]],
-}
-
-dialog{
-  id = "bottle_merchant.done",
-  text = [[
-Désolé, c'était mon seul flacon.
-]],
-}
-
-dialog{
-  id = "bottle_merchant.no",
-  text = [[
-Reviens me voir si tu changes d'avis.
-]],
-}
-
-dialog{
-  id = "bottle_merchant.offer",
-  text = [[
-Je vends un flacon pour 100 rubis, ça
-t'intéresse ?
-                  $? Oui
-                  $? Non
-]],
-}
-
-dialog{
-  id = "bottle_merchant.yes",
-  text = [[
-Merci beaucoup, voilà ton flacon.
 ]],
 }
 
@@ -2705,6 +2674,24 @@ dialog{
   text = [[
 Vous avez trouvé une rune !
 Bravo, continuez l'aventure !
+]],
+}
+
+dialog{
+  id = "rune_1.boss",
+  text = [[
+--- Voix de Statia ---
+Prends garde, icaRius...
+C'est un des gardiens maléfiques,
+chargés par SaSSos de sceller les Runes...
+--- Motzilla ---
+bzz te voilà, misérable statisien bzz
+tu te crois capable bzz de me vaincre ?
+En un coup d'aile bzzz je vais te balayer
+et miter tes algorithmes bzz d'erreurs fatales
+et de données manquantes bzzz
+--- icaRius ---
+(soyons prudent : c'est mon premier combat)
 ]],
 }
 
