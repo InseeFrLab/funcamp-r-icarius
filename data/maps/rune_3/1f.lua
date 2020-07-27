@@ -6,8 +6,12 @@ door_manager:manage_map(map)
 local separator_manager = require("maps/lib/separator_manager")
 separator_manager:manage_map(map)
 
+-- Create dummy variable of good answers
 local igor_chapter5_success = 0
 local igor_chapter6_success = 0
+
+-- Global variable set up to keep track of good answers
+good_answer_table = {}
 
 function map:on_opening_transition_finished(destination)
 
