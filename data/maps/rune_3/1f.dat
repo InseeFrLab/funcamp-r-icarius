@@ -4128,18 +4128,9 @@ npc{
 }
 
 sensor{
-  name = "sensor_throne_room_6",
-  layer = 1,
-  x = 448,
-  y = 37,
-  width = 16,
-  height = 192,
-}
-
-sensor{
   name = "sensor_throne_room_7",
   layer = 1,
-  x = 376,
+  x = 392,
   y = 37,
   width = 16,
   height = 192,
@@ -4558,6 +4549,15 @@ destructible{
   weight = 100,
   can_be_cut = true,
   damage_on_enemies = 0,
+}
+
+sensor{
+  name = "sensor_throne_room_6",
+  layer = 1,
+  x = 440,
+  y = 37,
+  width = 16,
+  height = 192,
 }
 
 tile{

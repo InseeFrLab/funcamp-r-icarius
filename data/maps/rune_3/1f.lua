@@ -40,17 +40,20 @@ end
 function sensor_throne_room_5:on_activated()
     game:start_dialog("castle.sensor_throne_room_5")
     sensor_throne_room_5:set_enabled(false)
+    sensor_throne_room_6:set_enabled(false)
 end
 
 function sensor_throne_room_6:on_activated()
     game:start_dialog("castle.sensor_throne_room_6")
     sensor_throne_room_6:set_enabled(false)
+    sensor_throne_room_5:set_enabled(false)
 end
 
 function sensor_throne_room_7:on_activated()
     game:start_dialog("castle.sensor_throne_room_7")
     sensor_throne_room_7:set_enabled(false)
 end
+
 
 function sensor_throne_room_8:on_activated()
     bad_spirit_1:set_enabled(true)
