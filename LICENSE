@@ -1,0 +1,23 @@
+We give in this file the license information of the icaRius game quest for Solarus.
+
+- Lua scripts are licensed under the terms of the GNU General Public License
+in version 3.
+
+- Some graphics, sounds and names include content that belong to Nintendo.
+We don't own this content. We provide it under fair use.
+
+- Data files we created are licensed under
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
+http://creativecommons.org/licenses/by-sa/4.0/
+
+- icaRius Game Quest was made by modding a former quest, Zelda Return of the Hylian, 
+initially developped by Vincent Jouillat, then adapted for Solarus Game Engine
+by the Solarus team. More information on the root quest used here :
+https://gitlab.com/solarus-games/zelda-roth-se/-/blob/dev/license.txt
+
+- This quest was made using the Solarus Game Engine. 
+More information on Solarus Game Engine here :
+https://gitlab.com/solarus-games/solarus/-/blob/dev/license.txt
+
+- More detailed information about the authors and license of every file
+is displayed when you open this project with Solarus Quest Editor.
