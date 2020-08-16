@@ -21,5 +21,9 @@ function switch_barrier:on_activated()
          end)
 end
 
-
 end
+
+function sensor_impossible_room:on_activated()
+    game:start_dialog("outside_icarius_outG.impossible_room")
+end
+

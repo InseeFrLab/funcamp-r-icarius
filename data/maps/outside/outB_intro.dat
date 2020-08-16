@@ -4384,6 +4384,26 @@ tile{
   pattern = "grass.tree_small.green.2",
 }
 
+tile{
+  layer = 1,
+  x = 720,
+  y = 672,
+  enabled_at_start = false,
+  width = 16,
+  height = 32,
+  pattern = "fence_stone.pillar",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 672,
+  enabled_at_start = false,
+  width = 16,
+  height = 32,
+  pattern = "fence_stone.pillar",
+}
+
 npc{
   layer = 1,
   x = 552,
@@ -5113,7 +5133,7 @@ teletransporter{
   y = 624,
   width = 16,
   height = 16,
-  destination_map = "kokoro/farm",
+  destination_map = "village_kokoro/farm",
   destination = "from_outside",
 }
 
@@ -5318,6 +5338,17 @@ custom_entity{
   height = 8,
   direction = 3,
   model = "cliff",
+}
+
+teletransporter{
+  layer = 1,
+  x = 464,
+  y = 952,
+  width = 96,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "outside/outA",
+  destination = "from_kokoro",
 }
 
 tile{
@@ -5558,7 +5589,7 @@ tile{
   layer = 2,
   x = 632,
   y = 680,
-  width = 104,
+  width = 88,
   height = 8,
   pattern = "hedge.2",
 }
@@ -7365,39 +7396,10 @@ tile{
 
 tile{
   layer = 2,
-  x = 760,
+  x = 768,
   y = 680,
-  width = 72,
+  width = 64,
   height = 8,
   pattern = "hedge.2",
-}
-
-tile{
-  layer = 2,
-  x = 720,
-  y = 672,
-  width = 16,
-  height = 32,
-  pattern = "fence_stone.pillar",
-}
-
-tile{
-  layer = 2,
-  x = 752,
-  y = 672,
-  width = 16,
-  height = 32,
-  pattern = "fence_stone.pillar",
-}
-
-teletransporter{
-  layer = 2,
-  x = 320,
-  y = 952,
-  width = 368,
-  height = 16,
-  transition = "scrolling",
-  destination_map = "outside/outA",
-  destination = "from_kokoro",
 }
 

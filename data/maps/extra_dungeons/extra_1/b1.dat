@@ -5,7 +5,7 @@ properties{
   height = 960,
   min_layer = 0,
   max_layer = 2,
-  world = "dungeon_1",
+  world = "dungeon_11",
   floor = -1,
   tileset = "dungeon_grayblue",
   music = "light_world_dungeon",
@@ -928,9 +928,9 @@ door{
   y = 248,
   direction = 1,
   sprite = "entities/door_big_key",
-  savegame_variable = "dungeon_1_boss_door",
+  savegame_variable = "dungeon_11_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_boss_key",
+  opening_condition = "dungeon_11_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -953,9 +953,9 @@ door{
   y = 216,
   direction = 3,
   sprite = "entities/door_big_key",
-  savegame_variable = "dungeon_1_boss_door",
+  savegame_variable = "dungeon_11_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_boss_key",
+  opening_condition = "dungeon_11_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -1039,13 +1039,13 @@ enemy{
   name = "boss",
   layer = 1,
   x = 640,
-  y = 93,
+  y = 85,
   direction = 0,
   breed = "armos_knight",
-  savegame_variable = "extra_1_boss",
+  savegame_variable = "dungeon_11_boss",
   treasure_name = "tunic",
   treasure_variant = 2,
-  treasure_savegame_variable = "extra_1_chest",
+  treasure_savegame_variable = "dungeon_11_item",
 }
 
 sensor{

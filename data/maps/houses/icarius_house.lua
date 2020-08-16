@@ -5,8 +5,15 @@ local night_overlay = sol.surface.create(map:get_size())
 local alpha = 192
 night_overlay:fill_color({0, 0, 64, alpha})
 
--- Global variable set up to keep track of good answers
-good_answer_table = {}
+ -- Set Chapter Number and Number of answers
+ -- so as to check answers from R tutorial
+ chapter_number = 1
+ number_of_answers = 1
+ good_answer_counter = 0
+
+-- Loading Input Answer Menu
+file = assert(sol.main.load_file("scripts/menus/save_answers_menu.lua"))
+
 
 function map:on_started(destination)
 
@@ -88,18 +95,26 @@ function mage_dregor:on_interaction()
 
   if game:get_value("icarius_house_igor_book_chest") then
     if game:get_value("icarius_house_igor_chapter1") then
-      game:start_dialog("icarius_house.mage_dregor_answer_short", function(answer)
+      if game:get_value("chapter1_answer") then
+         game:start_dialog("icarius_house.mage_dregor_congratulations")
+      else 
+        game:start_dialog("icarius_house.mage_dregor_answer_short", function(answer)
         if answer == 2 then
-          local igor_save_answer_menu_chapter_1 = require("scripts/menus/igor_save_answer_chapter1")  
-          sol.menu.start(map, igor_save_answer_menu_chapter_1, on_top)
+          hero:freeze()
+          local save_answers_menu = file()
+          sol.menu.start(map, save_answers_menu, on_top)
         end
-      end)
+        end)
+      end
     else
        game:start_dialog("icarius_house.mage_dregor_answer", function(answer)    
         game:set_value("icarius_house_igor_chapter1", true)
         if answer == 2 then
-          local igor_save_answer_menu_chapter_1 = require("scripts/menus/igor_save_answer_chapter1")  
-          sol.menu.start(map, igor_save_answer_menu_chapter_1, on_top)
+
+          hero:freeze()
+          local save_answers_menu = file()
+          sol.menu.start(map, save_answers_menu, on_top)
+
         end
      end)
     end
@@ -111,11 +126,18 @@ end
 
 -- Open the locked door
 
-sol.timer.start(5000, function()
+sol.timer.start(2000, function()
   if good_answer_counter == 1 then
-    map:open_doors("door_a")
-    sol.audio.play_sound("door_open")
+    sol.timer.start(2000,function()
+      game:start_dialog("icarius_house.mage_dregor_congratulations")
+      sol.timer.start(1000,function()
+        hero:unfreeze()
+        map:open_doors("door_a")
+        sol.audio.play_sound("door_open")
+      end)
+    end)
     -- reset counter to zero
+    game:set_value("chapter1_answer", true)
     good_answer_counter = 0
   else 
   return true  -- Repeat the timer.

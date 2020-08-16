@@ -1,4 +1,11 @@
+
+----------------------------------
 -- Save Answers selection screen.
+----------------------------------
+
+-- Create table for collecting answers
+ good_answer_table = {}
+
 
 -- language has to be French
 sol.language.set_language("fr")
@@ -32,7 +39,7 @@ end
 local save_answers_menu = {}
 local last_joy_axis_move = { 0, 0 }
 
-local number_of_answers = 1
+
 
 function save_answers_menu:on_started()
 
@@ -268,11 +275,10 @@ function save_answers_menu:read_answers()
     self.slots[i] = slot
   end
 
-  if good_answer_counter_chapter7 == 1 then
-    igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter7")
-    sol.timer.start(2000, function()
-    sol.audio.play_music("village")
-    sol.menu.stop(igor_save_answer_menu)
+
+  if good_answer_counter == 1 then
+    sol.timer.start(1000, function()
+      sol.menu.stop(save_answers_menu)
     end)
   end
 
@@ -570,7 +576,7 @@ function save_answers_menu:add_letter_player_answer()
 
   if letter_to_add ~= nil then
     -- A letter was selected.
-    if size < 6 then
+    if size < 12 then
       sol.audio.play_sound("danger")
       self.player_answer = self.player_answer .. letter_to_add
     else
@@ -620,12 +626,8 @@ end
 ---------------------------
 
 
--- Création d'une table des bonnes réponses
-good_answer_table = {} 
-
-
 for i = 1, number_of_answers do
-    good_answer_table[i] = sol.language.get_string("igor_answers.chapter7_answer" .. i .. "")
+    good_answer_table[i] = sol.language.get_string("igor_answers.chapter" .. chapter_number .. "_answer" .. i .. "")
 end
 
 function save_answers_menu:init_phase_check_answer_alt()
@@ -637,11 +639,11 @@ function save_answers_menu:init_phase_check_answer_alt()
     and answer_table[i] ~= "Bravo, bonne réponse" then
       if answer_table[i] == good_answer_table[i] then
       answer_table[i] = "Bravo, bonne réponse"
-      good_answer_counter_chapter7 = 1
+      good_answer_counter = 1
       sol.audio.stop_music("game_over")
       else
       answer_table[i] = "Raté..."
-      good_answer_counter_chapter7 = 0
+      good_answer_counter = 0
       end
     end
   end

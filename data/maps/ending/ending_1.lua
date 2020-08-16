@@ -150,15 +150,6 @@ function map:on_opening_transition_finished()
 
    end)
 
-    --sol.audio.stop_music()
-    --sol.audio.play_sound("pause_open")
-    --local stats = stats_manager:new(game)
-    --sol.menu.start(map, stats)
-  
 
 end
 
---function map:on_draw(dst_surface)
-
---  background_img:draw(dst_surface)
---end

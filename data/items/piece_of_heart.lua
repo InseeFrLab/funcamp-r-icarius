@@ -25,7 +25,7 @@ end
 -- Returns the number of pieces of hearts existing in the game.
 function item:get_max_pieces_of_heart()
 
-  return 36
+  return 12
 end
 
 function item:on_created()
@@ -74,21 +74,3 @@ function icon_widget:on_draw(dst_surface)
   icon_sprite:draw(dst_surface)
 end
 
---[[
-Pieces of heart location:
-
-x6 outside A1
-x2 outside A2
-x3 outside A3
-x3 outside B1
-x2 outside B3
-x4 outside C1
-x4 outside C2
-x1 outside C3
-x1 gerudo chest game
-x1 shadow village chest game
-x1 kakariko chest game
-x1 kakariko tavern
-x1 lake cave
-x6 monster house
---]]

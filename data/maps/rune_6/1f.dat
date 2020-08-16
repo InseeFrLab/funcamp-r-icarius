@@ -5032,30 +5032,6 @@ custom_entity{
   model = "torch",
 }
 
-custom_entity{
-  name = "auto_torch_lit_auto_door_a_1",
-  layer = 1,
-  x = 280,
-  y = 1061,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  name = "auto_torch_lit_auto_door_a_2",
-  layer = 1,
-  x = 280,
-  y = 1109,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
 door{
   name = "auto_door_b",
   layer = 1,
@@ -5456,7 +5432,7 @@ chest{
   y = 1085,
   treasure_name = "rupee",
   treasure_variant = 4,
-  treasure_savegame_variable = "dungeon_7_ice_rod_chest",
+  treasure_savegame_variable = "dungeon_6_rupees",
   sprite = "entities/chest",
 }
 

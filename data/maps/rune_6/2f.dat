@@ -6882,7 +6882,7 @@ chest{
   x = 800,
   y = 845,
   treasure_name = "map",
-  treasure_savegame_variable = "dungeon_7_map_chest",
+  treasure_savegame_variable = "dungeon_6_chest_map",
   sprite = "entities/chest",
 }
 
@@ -6901,7 +6901,7 @@ chest{
   x = 1120,
   y = 597,
   treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_7_compass_chest",
+  treasure_savegame_variable = "dungeon_6_chest_compass",
   sprite = "entities/chest",
 }
 
@@ -7571,7 +7571,7 @@ chest{
   x = 184,
   y = 125,
   treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "dungeon_7_ice_rod_chest",
+  treasure_savegame_variable = "dungeon_6_chest_piece_heart",
   sprite = "entities/chest",
 }
 

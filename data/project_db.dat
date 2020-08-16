@@ -5,6 +5,7 @@ map{ id = "caves/medallion_cave/b1", description = "Medallion cave B1" }
 map{ id = "caves/secret_passage/tunnel", description = "Tunnel" }
 map{ id = "ending/ending_1", description = "The end - Part1" }
 map{ id = "ending/ending_2", description = "The end - Part2" }
+map{ id = "ending/ending_3", description = "The end - Stats" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "extra_dungeons/extra_1/1f", description = "Extra Dungeon 1 1F" }
 map{ id = "extra_dungeons/extra_1/b1", description = "Extra Dungeon 1 B1" }
@@ -17,13 +18,9 @@ map{ id = "houses/tiny_house", description = "Tiny House" }
 map{ id = "houses/tree_house", description = "Tree house" }
 map{ id = "inside_store", description = "Inside Store" }
 map{ id = "intro", description = "Intro" }
-map{ id = "kokoro/broom_grandma_house", description = "Broom Grandma's house" }
-map{ id = "kokoro/chest_game", description = "Chest game" }
-map{ id = "kokoro/farm", description = "Farm" }
-map{ id = "kokoro/potion_house", description = "Potion house" }
-map{ id = "outside/kokoro", description = "Kokoro Village" }
 map{ id = "outside/outA", description = "Out A (Forest)" }
 map{ id = "outside/outB", description = "Out B (Plains)" }
+map{ id = "outside/outB_intro", description = "Outside B Intro (Kokoro Village & plains)" }
 map{ id = "outside/outC", description = "Out C (Maze-Desert)" }
 map{ id = "outside/outC_extra", description = "Out C Extra (Maze-Desert)" }
 map{ id = "outside/outC_intro", description = "Out C Intro (Maze-Desert)" }
@@ -54,8 +51,9 @@ map{ id = "rune_6/2f", description = "Ice Dungeon 2F" }
 map{ id = "rune_7/1f", description = "Final Dungeon 1F" }
 map{ id = "rune_7/2f", description = "Final Dungeon 2F" }
 map{ id = "village_grissgrass/chef_village", description = "Chef du village" }
-map{ id = "village_grissgrass/ferme_1", description = "Ferme Kitai" }
-map{ id = "village_grissgrass/ferme_2", description = "Ferme Jibun" }
+map{ id = "village_grissgrass/ferme_1", description = "Ferme Tellus" }
+map{ id = "village_grissgrass/ferme_2", description = "Ferme Galia" }
+map{ id = "village_kokoro/farm", description = "Farm" }
 map{ id = "village_sandia/chest_game", description = "Chest game" }
 map{ id = "village_sandia/secret_passage", description = "Passage secret" }
 
@@ -417,9 +415,7 @@ item{ id = "bottle_3", description = "Bottle 3" }
 item{ id = "bow", description = "Bow" }
 item{ id = "bow_silver", description = "Silver bow" }
 item{ id = "compass", description = "Dungeon compass" }
-item{ id = "din_medallion", description = "Din medallion" }
 item{ id = "elixir_mandragore", description = "Elixir Mandragore" }
-item{ id = "farore_medallion", description = "Farore medallion" }
 item{ id = "feather_tidyverse", description = "Feather Tidyverse" }
 item{ id = "fire_rod", description = "Fire rod" }
 item{ id = "flippers", description = "Flippers" }
@@ -434,10 +430,10 @@ item{ id = "lamp", description = "Lamp" }
 item{ id = "magic_bar", description = "Maximum of magic (none / half / full)" }
 item{ id = "magic_crystal", description = "Magic Crystal" }
 item{ id = "magic_flask", description = "Magic flask (small / big)" }
+item{ id = "magic_medallion", description = "Magic Medallion" }
 item{ id = "map", description = "Dungeon map" }
 item{ id = "monsters_encyclopedia", description = "Monsters Encyclopedia" }
 item{ id = "mudora_book", description = "Mudora's book" }
-item{ id = "nayru_medallion", description = "Nayru medallion" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "random", description = "Random" }
 item{ id = "random_heart", description = "Random, often heart" }
@@ -629,9 +625,7 @@ file{ path = "items/bottle_3.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/bow.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/bow_silver.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/compass.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/din_medallion.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/elixir_mandragore.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/farore_medallion.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/fire_rod.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/flippers.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/glove.lua", author = "Christopho", license = "GPL v3" }
@@ -645,10 +639,10 @@ file{ path = "items/lamp.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/magic_bar.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/magic_crystal.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/magic_flask.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/magic_medallion.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/map.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/monsters_encyclopedia.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/mudora_book.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/nayru_medallion.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/piece_of_heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/random.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/random_heart.lua", author = "Christopho", license = "GPL v3" }
@@ -716,24 +710,15 @@ file{ path = "maps/inside_store.dat", author = "Christopho", license = "CC BY-SA
 file{ path = "maps/inside_store.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/intro.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "maps/intro.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/kokoro", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/kokoro/broom_grandma_house.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/kokoro/broom_grandma_house.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/kokoro/chest_game.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/kokoro/chest_game.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/kokoro/farm.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/kokoro/farm.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/kokoro/potion_house.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/kokoro/potion_house.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/lib", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/lib/chest_game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/lib/door_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/lib/separator_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/outside", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/outside/kokoro.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
-file{ path = "maps/outside/kokoro.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/outside/outA.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/outside/outA.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "maps/outside/outB_intro.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
+file{ path = "maps/outside/outB_intro.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/outside/outC_intro.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/outside/outC_intro.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/outside/outD.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
@@ -779,6 +764,9 @@ file{ path = "maps/village_grissgrass/ferme_1.dat", author = "Christopho, Vincen
 file{ path = "maps/village_grissgrass/ferme_1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_grissgrass/ferme_2.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/village_grissgrass/ferme_2.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "maps/village_kokoro", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/village_kokoro/farm.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
+file{ path = "maps/village_kokoro/farm.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/village_sandia", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/village_sandia/chest_game.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/village_sandia/chest_game.lua", author = "Christopho", license = "GPL v3" }
@@ -857,7 +845,6 @@ file{ path = "scripts/menus/stats.lua", author = "Christopho", license = "GPL v3
 file{ path = "scripts/menus/team_logo.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/quest_manager.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/records_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "sounds", license = "Mixed" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/bomb.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1277,11 +1264,8 @@ file{ path = "sprites/menus/boss_icon.png", author = "Nintendo", license = "Prop
 file{ path = "sprites/menus/chest_icon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus/dungeon_maps", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/dungeon_maps/map_1.png", author = "Vincent Jouillat, Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/dungeon_maps/map_2.png", author = "Vincent Jouillat, Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_3.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/dungeon_maps/map_3.png", author = "Vincent Jouillat, Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_4.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_4.png", author = "Vincent Jouillat, Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_5.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1293,7 +1277,6 @@ file{ path = "sprites/menus/dungeon_maps/map_8.dat", author = "Christopho", lice
 file{ path = "sprites/menus/dungeon_maps/map_8.png", author = "Vincent Jouillat, Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_9.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/dungeon_maps/map_9.png", author = "Vincent Jouillat, Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/menus/ending.png", author = "Nintendo, Vincent Jouillat", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus/fairy_cursor.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus/gui.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/menus/hero_head.dat", author = "Christopho", license = "CC BY-SA 4.0" }

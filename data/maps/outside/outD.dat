@@ -7570,14 +7570,6 @@ destination{
   direction = 3,
 }
 
-destination{
-  name = "destination_shortcut",
-  layer = 1,
-  x = 1808,
-  y = 469,
-  direction = 1,
-}
-
 tile{
   layer = 2,
   x = 2152,

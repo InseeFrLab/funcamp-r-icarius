@@ -635,7 +635,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "outside/kokoro",
+  destination_map = "outside/outB_intro",
   destination = "from_farm_1",
 }
 
@@ -701,7 +701,7 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "outside/kokoro",
+  destination_map = "outside/outB_intro",
   destination = "from_farm_2",
 }
 

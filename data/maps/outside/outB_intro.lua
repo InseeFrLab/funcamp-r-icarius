@@ -3,11 +3,15 @@
 local map = ...
 local game = map:get_game()
 
--- Création de la table des bonnes réponses,
--- utilisée ensuite dans le menu igor_save_answer_chapter2
--- Initialisation à 0
-good_answer_counter_chapter2 = {}
-good_answer_counter_chapter2 = 0
+ -- Set Chapter Number and Number of answers
+ -- so as to check answers from R tutorial
+ chapter_number = 2
+ number_of_answers = 1
+ good_answer_counter = 0
+
+-- Loading Input Answer Menu
+file = assert(sol.main.load_file("scripts/menus/save_answers_menu.lua"))
+
 
 local movement_welcome = sol.movement.create("target")
 movement_welcome:set_speed(12)
@@ -47,52 +51,75 @@ end
 
 function farmer_2:on_interaction()
 
-  if good_answer_counter_chapter2 == 0 then
+  if game:get_value("chapter2_answer") == nil then
     if game:get_value("kokoro_farmer_quest") then
       if game:get_value("kokoro_farmer_igor_chapter2") then
         game:start_dialog("kokoro.farmer_2_a_short", function(answer)
+ 
           if answer == 2 then
-            local igor_save_answer_menu = {}
-            igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter2")  
-            sol.menu.start(map, igor_save_answer_menu, on_top)
+           hero:freeze()
+           local save_answers_menu = file()
+           sol.menu.start(map, save_answers_menu, on_top)
           end
+
         end)
       else
          game:start_dialog("kokoro.farmer_2_a", function(answer)    
           game:set_value("kokoro_farmer_igor_chapter2", true)
+   
           if answer == 2 then
-            local igor_save_answer_menu = {}
-            igor_save_answer_menu = require("scripts/menus/igor_save_answer_chapter2")  
-            sol.menu.start(map, igor_save_answer_menu, on_top)
+           hero:freeze()
+           local save_answers_menu = file()
+           sol.menu.start(map, save_answers_menu, on_top)
           end
-       end)
+
+         end)
       end
     else 
      game:start_dialog("kokoro.farmer_2_a_wife") 
     end
-  elseif good_answer_counter_chapter2 == 1 then
+  elseif game:get_value("chapter2_answer") == true then
     game:start_dialog("kokoro.farmer_2_b")
     sol.timer.start(1000, function()      
       sol.audio.play_sound("door_open")
       farm_external_door_1:set_enabled(false)
       farm_external_door_2:set_enabled(false)
+      sol.audio.play_music("village")
     end)
   end
 
 end
+
+-- Lorsque le héros apporte la bonne réponse
+-- déblocage du personnage
+
+sol.timer.start(2000, function()
+  if good_answer_counter == 1 then
+    sol.timer.start(2000,function()
+        hero:unfreeze()
+    end)
+    game:set_value("chapter2_answer", true)
+    good_answer_counter = 0
+  else 
+  return true  -- Repeat the timer.
+  end
+end)
+
+
 
 -- Interactions avec le Mage Tourep,
 -- apparition du bouclier
 
 function mage_tourep:on_interaction()
 
-  if good_answer_counter_chapter2 == 0 then
+  if game:get_value("chapter2_answer") == nil then
     game:start_dialog("kokoro.mage_tourep")
-  elseif good_answer_counter_chapter2 == 1 then
+  elseif game:get_value("chapter2_answer") == true then
     game:start_dialog("kokoro.mage_tourep_OK")
     sol.timer.start(1000, function()      
       sol.audio.play_sound("secret")
       shield_barrier:set_enabled(false)
+      mage_tourep:set_enabled(false)
     end)
   end
 
@@ -103,7 +130,6 @@ function house_door_close_1:on_interaction()
   game:start_dialog("kokoro.door_closed")
 
 end
-
 
 
 function house_door_close_2:on_interaction()

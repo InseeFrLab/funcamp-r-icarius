@@ -35,7 +35,7 @@ function item:start_dungeon_finished_cutscene()
   local map = game:get_map()
   local hero = map:get_hero()
   hero:freeze()
- -- game:set_dungeon_finished()
+  game:set_dungeon_finished()
 
     game:start_dialog("rune.1", victory_cutscene)
 end

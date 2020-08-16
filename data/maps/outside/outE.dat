@@ -7976,17 +7976,6 @@ destination{
   direction = 1,
 }
 
-custom_entity{
-  layer = 1,
-  x = 248,
-  y = 469,
-  width = 32,
-  height = 32,
-  direction = 0,
-  sprite = "entities/hook_tree_small_yellow",
-  model = "hookable",
-}
-
 wall{
   layer = 1,
   x = 440,
@@ -8078,6 +8067,13 @@ destination{
   x = 456,
   y = 101,
   direction = 1,
+}
+
+pickable{
+  layer = 1,
+  x = 48,
+  y = 501,
+  treasure_name = "piece_of_heart",
 }
 
 tile{

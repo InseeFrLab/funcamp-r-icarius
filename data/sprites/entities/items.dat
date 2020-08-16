@@ -149,13 +149,6 @@ animation{
   },
 }
 animation{
-  name = "din_medallion",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 176, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "elixir_mandragore",
   src_image = "entities/items.png",
   directions = {
@@ -170,13 +163,6 @@ animation{
   directions = {
     { x = 192, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
     { x = 192, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-  },
-}
-animation{
-  name = "farore_medallion",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 192, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -304,6 +290,13 @@ animation{
   },
 }
 animation{
+  name = "magic_medallion",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 192, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "map",
   src_image = "entities/items.png",
   directions = {
@@ -315,13 +308,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 160, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
-  },
-}
-animation{
-  name = "nayru_medallion",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 208, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

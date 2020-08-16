@@ -19,7 +19,10 @@ function map:on_started()
   bed:get_sprite():set_animation("hero_sleeping")
   bed_young_girl:get_sprite():set_animation("hero_sleeping")
   hero:freeze()
-  game:start_dialog("ending.ending_11")
+  game:start_dialog("ending.ending_11", function()
+    hero:teleport("ending/ending_3", "start")
+  end)
+
 end
 
 -- Event called after the opening transition effect of the map,

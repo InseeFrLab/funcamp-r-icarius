@@ -6104,6 +6104,17 @@ wall{
   stops_projectiles = true,
 }
 
+door{
+  name = "outside_medallion_cave",
+  layer = 1,
+  x = 1368,
+  y = 64,
+  enabled_at_start = false,
+  direction = 1,
+  sprite = "entities/door_very_weak_wall",
+  savegame_variable = "outside_medallion_cave",
+}
+
 tile{
   layer = 2,
   x = 480,

@@ -69,6 +69,3 @@ function map:on_draw(dst_surface)
   night_overlay:draw(dst_surface)
 end
 
-
-
-

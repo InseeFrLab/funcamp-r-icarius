@@ -7094,7 +7094,7 @@ pickable{
   x = 888,
   y = 1077,
   treasure_name = "sword",
-  treasure_savegame_variable = "outside_c1_sword_found",
+  treasure_savegame_variable = "sword_found",
 }
 
 enemy{
@@ -7987,7 +7987,7 @@ teletransporter{
   y = 0,
   width = 16,
   height = 16,
-  destination_map = "outside/kokoro",
+  destination_map = "outside/outB_intro",
   destination = "from_outA",
 }
 

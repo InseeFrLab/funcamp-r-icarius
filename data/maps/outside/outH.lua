@@ -2,45 +2,28 @@
 local map = ...
 local game = map:get_game()
 
-local igor_chapter12_success = 0
+ -- Set Chapter Number and Number of answers
+ -- so as to check answers from R tutorial
+ chapter_number = 12
+ number_of_answers = 1
+ good_answer_counter = 0
 
--- Global variable set up to keep track of good answers
-good_answer_table = {}
+-- Loading Input Answer Menu
+file = assert(sol.main.load_file("scripts/menus/save_answers_menu.lua"))
+
 
 function chatty_bird:on_interaction()
 
   if game:get_value("chatty_bird_OK") then 
 
-    if igor_chapter12_success == 0 then
-
       game:start_dialog("outside_icarius_outH.chatty_bird_answer", function(answer)
         if answer == 2 then
           hero:freeze()
-          local igor_save_answer_menu_chapter_12 = require("scripts/menus/igor_save_answer_chapter12")  
-          sol.menu.start(map, igor_save_answer_menu_chapter_12, on_top)
-          sol.timer.start(1000, function()
-               if  good_answer_counter == 1 then
-                hero:unfreeze()
-                igor_chapter12_success = 1
-                return false
-               else 
-                return true
-              end
-            end)
+          local save_answers_menu = file()
+          sol.menu.start(map, save_answers_menu, on_top)
         end
       end)
 
-   else
-
-          game:start_dialog("outside_icarius_outH.chatty_bird_congratulation", function(answer) 
-            chatty_bird:set_enabled(false)
-            sol.audio.play_sound("secret")
-            chest_flipper:set_enabled(true)
-            game:set_value("flipper", true)
-          end)         
-
-    end
-  
   else
  
     if game:get_value("chatty_bird_KO") then 
@@ -65,8 +48,7 @@ function chatty_bird:on_interaction()
         if answer == 4 then
           game:start_dialog("outside_icarius_outH.chatty_bird_OK")
           game:set_value("chatty_bird_OK", true)
-        end
-      
+        end   
       end)
 
     end
@@ -75,6 +57,27 @@ function chatty_bird:on_interaction()
 
 end
 
+
+-- Unfreeze hero and save tutorial status
+sol.timer.start(2000, function()
+  if good_answer_counter == 1 then
+    sol.timer.start(2000,function()
+      game:start_dialog("outside_icarius_outH.chatty_bird_congratulation", function(answer) 
+        chatty_bird:set_enabled(false)
+        sol.audio.play_sound("secret")
+        chest_flipper:set_enabled(true)
+        game:set_value("flipper", true)
+        hero:unfreeze()
+      end)   
+    end)
+    -- reset counter to zero
+    game:set_value("chapter12_answer", true)
+    good_answer_counter = 0
+  else 
+  return true  -- Repeat the timer.
+  end
+end)
+  
 
 function sensor_path_locked:on_activated()
       game:start_dialog("outside_icarius_outH.path_locked")

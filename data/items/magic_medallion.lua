@@ -3,7 +3,7 @@ local game = item:get_game()
 
 function item:on_created()
 
-  item:set_savegame_variable("possession_din_medallion")
+  item:set_savegame_variable("possession_magic_medallion")
 end
 
 function item:on_obtaining(variant)

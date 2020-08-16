@@ -77,14 +77,8 @@ local function create_status_widget(game)
   if shield > 0 then
     widget:make_image_region(items_img, 544, 32 + 16 * shield, 16, 16, 36, 120)
   end
-  if game:has_item("din_medallion") then
-    widget:make_image_region(items_img, 176, 0, 16, 16, 60, 120)
-  end
-  if game:has_item("farore_medallion") then
+  if game:has_item("magic_medallion") then
     widget:make_image_region(items_img, 192, 0, 16, 16, 84, 120)
-  end
-  if game:has_item("nayru_medallion") then
-    widget:make_image_region(items_img, 208, 0, 16, 16, 108, 120)
   end
   if game:has_item("mudora_book") then
     widget:make_image_region(items_img, 160, 0, 16, 16, 132, 120)

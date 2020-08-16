@@ -5,7 +5,7 @@ properties{
   height = 1680,
   min_layer = 0,
   max_layer = 2,
-  world = "dungeon_2",
+  world = "dungeon_13",
   floor = 0,
   tileset = "dungeon_blue",
   music = "dark_world_dungeon",
@@ -4882,53 +4882,17 @@ tile{
 
 tile{
   layer = 1,
-  x = 352,
+  x = 496,
   y = 1288,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.3",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 1288,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.3",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 1264,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.2",
 }
 
 tile{
   layer = 1,
   x = 352,
   y = 1344,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 1,
-  x = 352,
-  y = 1264,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 1264,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.1",
@@ -4963,33 +4927,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 424,
-  y = 1288,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.4",
-}
-
-tile{
-  layer = 1,
-  x = 360,
-  y = 1264,
-  width = 64,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 1264,
-  width = 24,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
   x = 504,
   y = 1232,
   width = 96,
@@ -5017,29 +4954,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 472,
+  x = 504,
   y = 1288,
-  width = 128,
+  width = 96,
   height = 8,
   pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 360,
-  y = 1288,
-  width = 64,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 352,
-  y = 1272,
-  width = 8,
-  height = 16,
-  pattern = "water_shallow.3",
 }
 
 tile{
@@ -5053,19 +4972,10 @@ tile{
 
 tile{
   layer = 1,
-  x = 464,
-  y = 1272,
-  width = 8,
-  height = 16,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
   x = 496,
   y = 1240,
   width = 8,
-  height = 24,
+  height = 48,
   pattern = "water_shallow.3",
 }
 
@@ -5075,15 +4985,6 @@ tile{
   y = 1240,
   width = 8,
   height = 48,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 1272,
-  width = 8,
-  height = 16,
   pattern = "water_shallow.4",
 }
 
@@ -5107,24 +5008,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 496,
-  y = 1264,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.1",
-}
-
-tile{
-  layer = 1,
-  x = 360,
-  y = 1272,
-  width = 64,
-  height = 16,
-  pattern = "water_shallow",
-}
-
-tile{
-  layer = 1,
   x = 504,
   y = 1240,
   width = 96,
@@ -5134,9 +5017,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 472,
+  x = 504,
   y = 1272,
-  width = 128,
+  width = 96,
   height = 16,
   pattern = "water_shallow",
 }
@@ -5674,15 +5557,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1632,
-  y = 1232,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 1,
   x = 1312,
   y = 1256,
   width = 8,
@@ -5692,15 +5566,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1632,
-  y = 1256,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.3",
-}
-
-tile{
-  layer = 1,
   x = 1560,
   y = 1232,
   width = 8,
@@ -5710,25 +5575,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1736,
-  y = 1232,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.2",
-}
-
-tile{
-  layer = 1,
   x = 1560,
-  y = 1256,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.4",
-}
-
-tile{
-  layer = 1,
-  x = 1736,
   y = 1256,
   width = 8,
   height = 8,
@@ -5764,25 +5611,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1632,
-  y = 1240,
-  width = 8,
-  height = 16,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
   x = 1560,
-  y = 1240,
-  width = 8,
-  height = 16,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1736,
   y = 1240,
   width = 8,
   height = 16,
@@ -5794,114 +5623,6 @@ tile{
   x = 1320,
   y = 1240,
   width = 240,
-  height = 16,
-  pattern = "water_shallow",
-}
-
-tile{
-  layer = 1,
-  x = 1640,
-  y = 1232,
-  width = 96,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 1640,
-  y = 1256,
-  width = 96,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 1640,
-  y = 1240,
-  width = 96,
-  height = 16,
-  pattern = "water_shallow",
-}
-
-tile{
-  layer = 1,
-  x = 1776,
-  y = 1232,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 1,
-  x = 1776,
-  y = 1256,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.3",
-}
-
-tile{
-  layer = 1,
-  x = 1880,
-  y = 1232,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.2",
-}
-
-tile{
-  layer = 1,
-  x = 1880,
-  y = 1256,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.4",
-}
-
-tile{
-  layer = 1,
-  x = 1776,
-  y = 1240,
-  width = 8,
-  height = 16,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
-  x = 1880,
-  y = 1240,
-  width = 8,
-  height = 16,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1784,
-  y = 1232,
-  width = 96,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 1784,
-  y = 1256,
-  width = 96,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 1784,
-  y = 1240,
-  width = 96,
   height = 16,
   pattern = "water_shallow",
 }
@@ -6350,9 +6071,9 @@ tile{
 tile{
   layer = 1,
   x = 1456,
-  y = 616,
+  y = 632,
   width = 8,
-  height = 48,
+  height = 32,
   pattern = "water_shallow.3",
 }
 
@@ -6363,15 +6084,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "water_shallow.corner_reverse.3",
-}
-
-tile{
-  layer = 1,
-  x = 1496,
-  y = 384,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.2",
 }
 
 tile{
@@ -6403,9 +6115,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 1504,
+  x = 1536,
   y = 384,
-  width = 56,
+  width = 24,
   height = 8,
   pattern = "water_shallow.1",
 }
@@ -6415,233 +6127,8 @@ tile{
   x = 1496,
   y = 312,
   width = 8,
-  height = 72,
+  height = 272,
   pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1400,
-  y = 384,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.2",
-}
-
-tile{
-  layer = 1,
-  x = 1456,
-  y = 384,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.1",
-}
-
-tile{
-  layer = 1,
-  x = 1456,
-  y = 328,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.3",
-}
-
-tile{
-  layer = 1,
-  x = 1400,
-  y = 328,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.4",
-}
-
-tile{
-  layer = 1,
-  x = 1408,
-  y = 384,
-  width = 48,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 1408,
-  y = 328,
-  width = 48,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 1456,
-  y = 336,
-  width = 8,
-  height = 48,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
-  x = 1400,
-  y = 336,
-  width = 8,
-  height = 48,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1416,
-  y = 496,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.2",
-}
-
-tile{
-  layer = 1,
-  x = 1472,
-  y = 496,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.1",
-}
-
-tile{
-  layer = 1,
-  x = 1472,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.3",
-}
-
-tile{
-  layer = 1,
-  x = 1416,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.4",
-}
-
-tile{
-  layer = 1,
-  x = 1424,
-  y = 496,
-  width = 48,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 1424,
-  y = 440,
-  width = 48,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 1472,
-  y = 448,
-  width = 8,
-  height = 48,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
-  x = 1416,
-  y = 448,
-  width = 8,
-  height = 48,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1488,
-  y = 608,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.1",
-}
-
-tile{
-  layer = 1,
-  x = 1488,
-  y = 552,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.3",
-}
-
-tile{
-  layer = 1,
-  x = 1432,
-  y = 552,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.4",
-}
-
-tile{
-  layer = 1,
-  x = 1464,
-  y = 608,
-  width = 24,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 1440,
-  y = 552,
-  width = 48,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 1488,
-  y = 560,
-  width = 8,
-  height = 48,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
-  x = 1432,
-  y = 560,
-  width = 8,
-  height = 24,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1456,
-  y = 608,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 1,
-  x = 1432,
-  y = 584,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.4",
 }
 
 tile{
@@ -6747,35 +6234,35 @@ tile{
   layer = 1,
   x = 1384,
   y = 392,
-  width = 176,
+  width = 112,
   height = 48,
   pattern = "water_shallow",
 }
 
 tile{
   layer = 1,
-  x = 1480,
+  x = 1416,
   y = 440,
   width = 80,
-  height = 112,
+  height = 144,
   pattern = "water_shallow",
 }
 
 tile{
   layer = 1,
   x = 1496,
-  y = 552,
+  y = 632,
   width = 64,
-  height = 128,
+  height = 48,
   pattern = "water_shallow",
 }
 
 tile{
   layer = 1,
   x = 1464,
-  y = 616,
+  y = 632,
   width = 32,
-  height = 48,
+  height = 32,
   pattern = "water_shallow",
 }
 
@@ -6785,15 +6272,6 @@ tile{
   y = 664,
   width = 16,
   height = 16,
-  pattern = "water_shallow",
-}
-
-tile{
-  layer = 1,
-  x = 1416,
-  y = 504,
-  width = 64,
-  height = 48,
   pattern = "water_shallow",
 }
 
@@ -6819,7 +6297,7 @@ tile{
   layer = 1,
   x = 1192,
   y = 584,
-  width = 240,
+  width = 304,
   height = 8,
   pattern = "water_shallow.2",
 }
@@ -7312,15 +6790,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1416,
-  y = 552,
-  width = 16,
-  height = 32,
-  pattern = "water_shallow",
-}
-
-tile{
-  layer = 1,
   x = 672,
   y = 752,
   width = 8,
@@ -7511,7 +6980,7 @@ tile{
 tile{
   layer = 1,
   x = 1000,
-  y = 1160,
+  y = 1144,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.3",
@@ -7520,7 +6989,7 @@ tile{
 tile{
   layer = 1,
   x = 1160,
-  y = 1160,
+  y = 1144,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.3",
@@ -7529,7 +6998,7 @@ tile{
 tile{
   layer = 1,
   x = 1072,
-  y = 1160,
+  y = 1144,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.4",
@@ -7538,7 +7007,7 @@ tile{
 tile{
   layer = 1,
   x = 1232,
-  y = 1160,
+  y = 1144,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.4",
@@ -7601,7 +7070,7 @@ tile{
 tile{
   layer = 1,
   x = 1008,
-  y = 1160,
+  y = 1144,
   width = 64,
   height = 8,
   pattern = "water_shallow.2",
@@ -7619,7 +7088,7 @@ tile{
 tile{
   layer = 1,
   x = 1168,
-  y = 1160,
+  y = 1144,
   width = 64,
   height = 8,
   pattern = "water_shallow.2",
@@ -7630,7 +7099,7 @@ tile{
   x = 1000,
   y = 1048,
   width = 8,
-  height = 112,
+  height = 96,
   pattern = "water_shallow.3",
 }
 
@@ -7648,7 +7117,7 @@ tile{
   x = 1160,
   y = 1120,
   width = 8,
-  height = 40,
+  height = 24,
   pattern = "water_shallow.3",
 }
 
@@ -7657,7 +7126,7 @@ tile{
   x = 1232,
   y = 1048,
   width = 8,
-  height = 112,
+  height = 96,
   pattern = "water_shallow.4",
 }
 
@@ -7675,7 +7144,7 @@ tile{
   x = 1072,
   y = 1120,
   width = 8,
-  height = 40,
+  height = 24,
   pattern = "water_shallow.4",
 }
 
@@ -7711,7 +7180,7 @@ tile{
   x = 1008,
   y = 1112,
   width = 64,
-  height = 48,
+  height = 32,
   pattern = "water_shallow",
 }
 
@@ -7720,7 +7189,7 @@ tile{
   x = 1168,
   y = 1112,
   width = 64,
-  height = 48,
+  height = 32,
   pattern = "water_shallow",
 }
 
@@ -8051,24 +7520,6 @@ tile{
 tile{
   layer = 1,
   x = 352,
-  y = 1296,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 352,
-  y = 1328,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 352,
   y = 272,
   width = 16,
   height = 16,
@@ -8197,15 +7648,6 @@ tile{
   x = 1312,
   y = 1392,
   width = 32,
-  height = 16,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 1,
-  x = 1232,
-  y = 1392,
-  width = 16,
   height = 16,
   pattern = "floor_pot",
 }
@@ -8548,7 +7990,7 @@ tile{
   x = 1504,
   y = 304,
   width = 32,
-  height = 80,
+  height = 320,
   pattern = "floor.3",
 }
 
@@ -8583,35 +8025,8 @@ tile{
   layer = 1,
   x = 896,
   y = 592,
-  width = 560,
+  width = 608,
   height = 32,
-  pattern = "floor.3",
-}
-
-tile{
-  layer = 1,
-  x = 1424,
-  y = 448,
-  width = 48,
-  height = 48,
-  pattern = "floor.3",
-}
-
-tile{
-  layer = 1,
-  x = 1440,
-  y = 560,
-  width = 48,
-  height = 48,
-  pattern = "floor.3",
-}
-
-tile{
-  layer = 1,
-  x = 1408,
-  y = 336,
-  width = 48,
-  height = 48,
   pattern = "floor.3",
 }
 
@@ -8712,6 +8127,150 @@ tile{
   width = 16,
   height = 16,
   pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 1496,
+  y = 584,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 1536,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 1536,
+  y = 392,
+  width = 8,
+  height = 232,
+  pattern = "water_shallow.3",
+}
+
+tile{
+  layer = 1,
+  x = 1464,
+  y = 624,
+  width = 72,
+  height = 8,
+  pattern = "water_shallow.1",
+}
+
+tile{
+  layer = 1,
+  x = 1536,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner_reverse.1",
+}
+
+tile{
+  layer = 1,
+  x = 1456,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 1544,
+  y = 392,
+  width = 16,
+  height = 240,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 1,
+  x = 1400,
+  y = 328,
+  width = 64,
+  height = 64,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 1,
+  x = 1632,
+  y = 1232,
+  width = 104,
+  height = 32,
+  pattern = "hole",
+}
+
+tile{
+  layer = 1,
+  x = 1632,
+  y = 1248,
+  width = 96,
+  height = 16,
+  pattern = "wall_hole.2",
+}
+
+tile{
+  layer = 1,
+  x = 1720,
+  y = 1248,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 1720,
+  y = 1232,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.4",
+}
+
+tile{
+  layer = 1,
+  x = 1784,
+  y = 1232,
+  width = 104,
+  height = 32,
+  pattern = "hole",
+}
+
+tile{
+  layer = 1,
+  x = 1792,
+  y = 1248,
+  width = 96,
+  height = 16,
+  pattern = "wall_hole.2",
+}
+
+tile{
+  layer = 1,
+  x = 1784,
+  y = 1248,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 1784,
+  y = 1232,
+  width = 16,
+  height = 16,
+  pattern = "wall_hole.3",
 }
 
 sensor{
@@ -8968,9 +8527,9 @@ door{
   y = 1208,
   direction = 1,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_2_1f_door_b",
+  savegame_variable = "dungeon_13_1f_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
+  opening_condition = "dungeon_13_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -8981,9 +8540,9 @@ door{
   y = 1208,
   direction = 1,
   sprite = "entities/door_big_key",
-  savegame_variable = "dungeon_2_boss_door",
+  savegame_variable = "dungeon_13_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_boss_key",
+  opening_condition = "dungeon_13_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -9016,24 +8575,6 @@ crystal_block{
 
 crystal_block{
   layer = 1,
-  x = 560,
-  y = 1296,
-  width = 16,
-  height = 48,
-  subtype = 0,
-}
-
-crystal_block{
-  layer = 1,
-  x = 432,
-  y = 1264,
-  width = 32,
-  height = 16,
-  subtype = 0,
-}
-
-crystal_block{
-  layer = 1,
   x = 1488,
   y = 1296,
   width = 16,
@@ -9043,9 +8584,9 @@ crystal_block{
 
 crystal_block{
   layer = 1,
-  x = 1744,
-  y = 1264,
-  width = 32,
+  x = 1736,
+  y = 1248,
+  width = 48,
   height = 16,
   subtype = 1,
 }
@@ -9191,19 +8732,6 @@ destructible{
 }
 
 destructible{
-  name = "auto_destructible_21",
-  layer = 1,
-  x = 1240,
-  y = 1405,
-  treasure_name = "arrow",
-  treasure_variant = 2,
-  sprite = "entities/vase_skull",
-  destruction_sound = "stone",
-  weight = 1,
-  damage_on_enemies = 2,
-}
-
-destructible{
   name = "auto_destructible_19",
   layer = 1,
   x = 1320,
@@ -9277,39 +8805,6 @@ destructible{
 
 custom_entity{
   layer = 1,
-  x = 1448,
-  y = 477,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1464,
-  y = 589,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1432,
-  y = 365,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_brown",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
   x = 1272,
   y = 365,
   width = 16,
@@ -9365,9 +8860,9 @@ door{
   y = 1176,
   direction = 3,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_2_1f_door_b",
+  savegame_variable = "dungeon_13_1f_door_b",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
+  opening_condition = "dungeon_13_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -9379,9 +8874,9 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_2_1f_door_d",
+  savegame_variable = "dungeon_13_1f_door_d",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
+  opening_condition = "dungeon_13_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -9393,9 +8888,9 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_2_1f_door_d",
+  savegame_variable = "dungeon_13_1f_door_d",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
+  opening_condition = "dungeon_13_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -9407,9 +8902,9 @@ door{
   y = 352,
   direction = 0,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_2_1f_door_e",
+  savegame_variable = "dungeon_13_1f_door_e",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
+  opening_condition = "dungeon_13_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -9421,9 +8916,9 @@ door{
   y = 352,
   direction = 2,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_2_1f_door_e",
+  savegame_variable = "dungeon_13_1f_door_e",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
+  opening_condition = "dungeon_13_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -9443,9 +8938,9 @@ door{
   y = 1176,
   direction = 3,
   sprite = "entities/door_big_key",
-  savegame_variable = "dungeon_2_boss_door",
+  savegame_variable = "dungeon_13_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_boss_key",
+  opening_condition = "dungeon_13_boss_key",
   cannot_open_dialog = "boss_key_required",
 }
 
@@ -9562,7 +9057,7 @@ chest{
   x = 2080,
   y = 365,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_2_1f_key_chest_a",
+  treasure_savegame_variable = "dungeon_13_1f_key_chest_a",
   sprite = "entities/chest",
 }
 
@@ -9575,8 +9070,8 @@ crystal{
 enemy{
   name = "auto_enemy_30",
   layer = 1,
-  x = 1448,
-  y = 381,
+  x = 1408,
+  y = 421,
   direction = 3,
   breed = "bari_blue",
   treasure_name = "random",
@@ -9698,7 +9193,7 @@ chest{
   x = 160,
   y = 365,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_2_1f_key_chest_b",
+  treasure_savegame_variable = "dungeon_13_1f_key_chest_b",
   sprite = "entities/chest",
 }
 
@@ -9732,12 +9227,6 @@ enemy{
   treasure_name = "random",
 }
 
-crystal{
-  layer = 1,
-  x = 424,
-  y = 1245,
-}
-
 enemy{
   name = "auto_enemy_40",
   layer = 1,
@@ -9758,15 +9247,6 @@ enemy{
   treasure_name = "random",
 }
 
-chest{
-  layer = 1,
-  x = 1120,
-  y = 845,
-  treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "dungeon_2_key_chest_e",
-  sprite = "entities/chest",
-}
-
 enemy{
   name = "boss",
   layer = 1,
@@ -9774,9 +9254,9 @@ enemy{
   y = 1061,
   direction = 0,
   breed = "arrghus",
-  savegame_variable = "extra_3_boss",
-  treasure_name = "hookshot",
-  treasure_savegame_variable = "extra_3_chest",
+  savegame_variable = "dungeon_13_boss",
+  treasure_name = "tunic",
+  treasure_savegame_variable = "dungeon_13_chest_tunic",
 }
 
 custom_entity{
@@ -10607,17 +10087,6 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 1000,
-  y = 1373,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
   x = 1240,
   y = 1277,
   width = 16,
@@ -10638,28 +10107,6 @@ custom_entity{
   model = "torch",
 }
 
-custom_entity{
-  layer = 1,
-  x = 1640,
-  y = 1277,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1880,
-  y = 1277,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
 sensor{
   name = "dungeon_room_4_4",
   layer = 1,
@@ -10670,12 +10117,12 @@ sensor{
 }
 
 chest{
-  name = "chest_boss_key",
+  name = "dungeon13_chest_boss_key",
   layer = 1,
   x = 800,
   y = 1325,
   treasure_name = "boss_key",
-  treasure_savegame_variable = "chest_boss_key",
+  treasure_savegame_variable = "dungeon13_chest_boss_key",
   sprite = "entities/chest",
 }
 
@@ -10749,7 +10196,7 @@ chest{
   x = 800,
   y = 1101,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_2_key_chest_e",
+  treasure_savegame_variable = "dungeon_13_key_chest_e",
   sprite = "entities/chest",
 }
 
@@ -10761,6 +10208,35 @@ enemy{
   direction = 3,
   breed = "zora_feet",
   treasure_name = "random",
+}
+
+chest{
+  layer = 1,
+  x = 1120,
+  y = 285,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "dungeon_13_chest_piece_heart",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 1,
+  x = 1128,
+  y = 845,
+  treasure_name = "hookshot",
+  treasure_savegame_variable = "dungeon_13_chest_hookshot",
+  sprite = "entities/chest",
+}
+
+custom_entity{
+  layer = 1,
+  x = 1360,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hook_brown",
+  model = "hookable",
 }
 
 tile{

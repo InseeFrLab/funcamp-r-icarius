@@ -5,6 +5,8 @@ properties{
   height = 1680,
   min_layer = 0,
   max_layer = 2,
+  world = "dungeon_3",
+  floor = 1,
   tileset = "temple_yellow",
   music = "beginning",
 }
@@ -715,9 +717,9 @@ enemy{
   y = 69,
   direction = 0,
   breed = "agahnim",
-  savegame_variable = "dungeon_4_boss",
+  savegame_variable = "dungeon_3_boss",
   treasure_name = "rune",
-  treasure_savegame_variable = "dungeon_4_rune",
+  treasure_savegame_variable = "dungeon_3_rune",
 }
 
 teletransporter{

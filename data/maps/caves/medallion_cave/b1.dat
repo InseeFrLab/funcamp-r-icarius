@@ -3123,8 +3123,7 @@ chest{
   layer = 1,
   x = 480,
   y = 277,
-  treasure_name = "farore_medallion",
-  treasure_variant = 2,
+  treasure_name = "magic_medallion",
   treasure_savegame_variable = "medallion_cave_chest",
   sprite = "entities/chest",
 }

@@ -114,7 +114,7 @@ local function read_savegames()
         icons_img:draw_region(0, 0, 32, 16, surface, 240, 0)
       end
 
-      -- Crystals.
+      -- Runes.
       for dungeon = 1, 6 do
         if game:get_value("dungeon_" .. dungeon .. "_finished") then
           icons_img:draw_region(0, 16, 16, 16, surface, 131 + dungeon * 13, 0)

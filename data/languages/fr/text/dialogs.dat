@@ -2,7 +2,7 @@ dialog{
   id = "_crystal",
   text = [[
 C'est un interrupteur de cristal !
-Frappe-le avec quelque chose...
+Frappez-le avec quelque chose...
 ]],
 }
 
@@ -255,14 +255,6 @@ Vous pouvez localiser le boss sur le plan.
 }
 
 dialog{
-  id = "_treasure.din_medallion.1",
-  text = [[
-Tu as obtenu un médaillon magique !!!
-Ta défense vient d'augmenter !!!
-]],
-}
-
-dialog{
   id = "_treasure.elixir_mandragore.1",
   text = [[
 Tu as trouvé de l'elixir de Mandragore !!
@@ -273,25 +265,6 @@ Mais... tu sens déjà les effets du filtre
 et une force grandit en toi :
 comme de pressentir de nouvelles capacités
 que tu pourras prochainement acquérir.
-]],
-}
-
-dialog{
-  id = "_treasure.farore_medallion.1",
-  text = [[
-Vous avez obtenu un médaillon magique.
-Cet objet a appartenu
-à de grands méthodologues :
-Votre défense vient d'augmenter !!!
-]],
-}
-
-dialog{
-  id = "_treasure.fire_rod.1",
-  text = [[
-Tu as trouvé le bâton de feu !!!
-Tu peux désormais lancer de puissantes flammes
-à distance.
 ]],
 }
 
@@ -338,16 +311,8 @@ Vous avez trouvé un coeur !
 dialog{
   id = "_treasure.hookshot.1",
   text = [[
-Tu as trouvé le grappin !!!
-Utilise-le pour franchir des obstacles.
-]],
-}
-
-dialog{
-  id = "_treasure.ice_rod.1",
-  text = [[
-Tu as trouvé le baton de glace !!!
-Utilise-le pour tout congeler à distance.
+Vous avez trouvé le grappin !!!
+Utilisez-le pour franchir des obstacles.
 ]],
 }
 
@@ -372,47 +337,28 @@ la Voie du Reproductible !!!
 dialog{
   id = "_treasure.lamp.1",
   text = [[
-Tu as trouvé la lanterne !!!
-Utilise-la pour faire jaillir des flammes.
+Vous avez trouvé la lanterne !!!
+Sélectionnez-la depuis le menu (touche D)
+puis faites jaillir des flammes (touche X).
 ]],
 }
 
 dialog{
-  id = "_treasure.magic_flask.1",
+  id = "_treasure.magic_medallion.1",
   text = [[
-Tu as trouvé une petite fiole de magie !
-]],
-}
-
-dialog{
-  id = "_treasure.magic_flask.2",
-  text = [[
-Tu as trouvé une grande fiole de magie !
+Vous avez obtenu un médaillon magique.
+Cet objet a appartenu
+à de grands méthodologues :
+Votre défense vient d'augmenter !!!
 ]],
 }
 
 dialog{
   id = "_treasure.map.1",
   text = [[
-Tu as trouvé la carte du donjon !!!
-Affiche-la dans l'écran de pause pour voir
-le plan.
-]],
-}
-
-dialog{
-  id = "_treasure.mudora_book.1",
-  text = [[
-Tu as trouvé le livre de Mudora !!!
-Tu comprends désormais l'Hylien ancien!!!
-]],
-}
-
-dialog{
-  id = "_treasure.nayru_medallion.1",
-  text = [[
-Tu as obtenu un médaillon magique !!!
-Ta défense vient d'augmenter !!!
+Vous avez trouvé la carte du donjon.
+Affichez-la dans l'écran de pause (touche d)
+pour voir le plan.
 ]],
 }
 
@@ -1025,9 +971,6 @@ dialog{
   text = [[
 C'est ainsi qu'icaRius et Statia devinrent
 le héros et l'héroïne des jeunes statisiens...
-
-
-
 ]],
 }
 
@@ -1060,7 +1003,8 @@ Fabrice D ; Pascal E ;
 Maël T ; Sylvie D ;
 Julien N ; Sébastien T ;
 Jean-Luc L ; Laure G ;
-Olivier C ; 
+Olivier C
+
 Remerciements spéciaux :
 Christopho, et la communauté qui soutient
 le moteur de jeu Solarus
@@ -1080,7 +1024,7 @@ dialog{
   text = [[
 --- Voix de Statia ---
 Icarius, tu t'es échappé de la pièce impossible.
-Encore quelque pas, et tu pourras sortir
+Encore quelques pas, et tu pourras sortir
 de ce passage ensorcelé...
 ]],
 }
@@ -1193,6 +1137,34 @@ dialog{
 }
 
 dialog{
+  id = "extra_dungeons.extra_3",
+  text = [[
+]],
+}
+
+dialog{
+  id = "extra_dungeons.extra_3.warning",
+  text = [[
+--- arGus ---
+Aucun secret statistique ne m'échappe !
+Livre-moi tes données individuelles,
+ou je t'emprisonne à jamais
+dans les dédales de ce dongeon englouti.
+(Il pousse d'étranges cris :
+tau tau tau TAU TAU TAU !!!!)
+]],
+}
+
+dialog{
+  id = "extra_dungeons.extra_3.welcome",
+  text = [[
+                Dongeon englouti
+
+               (niveau optionnel)
+]],
+}
+
+dialog{
   id = "found_piece_of_heart.first",
   text = [[
 Encore 3 et vous gagnerez un coeur
@@ -1247,6 +1219,16 @@ dialog{
 As-tu la réponse du 1er chapitre ?
 $? oui, la voici...
 $? non, pas encore...
+]],
+}
+
+dialog{
+  id = "icarius_house.mage_dregor_congratulations",
+  text = [[
+--- Mage RegoR ---
+Bravo, tu as résolu la 1ère énigme.
+Je vais t'ouvrir la porte :
+puisses-tu franchir les prochaines épreuves !
 ]],
 }
 
@@ -2206,6 +2188,22 @@ Uniquement pour les joueurs avertis
 }
 
 dialog{
+  id = "outside_icarius_outF1.landslide",
+  text = [[
+Un éboulement de terrain
+vient de boucher le passage.
+]],
+}
+
+dialog{
+  id = "outside_icarius_outG.impossible_room",
+  text = [[
+Le passage vers la pièce impossible
+est refermé...
+]],
+}
+
+dialog{
   id = "outside_icarius_outG.switch_tips",
   text = [[
 Pour ne pas sombrer dans un tourbillon
@@ -2289,7 +2287,7 @@ et rejoindre les rivages
 des Syrtes probabilistes.
 Dans mes innombrables lectures,
 j'ai découvert un sortilège 
-qui devrait te permettre te franchir
+qui devrait te permettre de franchir
 ce profond DataLake.
 Il s'agit du sortilège palmes()...
 Encore faut-il en lire la documentation,
@@ -2371,6 +2369,14 @@ dialog{
   text = [[
 Le passage est fermé :
 il n'est pas possible de revenir en arrière.
+]],
+}
+
+dialog{
+  id = "outside_icarius_outH_extra.warp_zone",
+  text = [[
+--- Passage secret ---
+Direction les canyons de Statis
 ]],
 }
 

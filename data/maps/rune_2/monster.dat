@@ -318,9 +318,9 @@ enemy{
   y = 53,
   direction = 0,
   breed = "geldman",
-  savegame_variable = "dungeon_0_boss",
+  savegame_variable = "dungeon_2_boss",
   treasure_name = "rune",
-  treasure_savegame_variable = "dungeon_0_rune",
+  treasure_savegame_variable = "dungeon_2_rune",
 }
 
 destination{

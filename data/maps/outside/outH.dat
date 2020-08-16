@@ -5913,7 +5913,8 @@ teletransporter{
   y = 0,
   width = 800,
   height = 16,
-  destination_map = "outside/outH",
+  destination_map = "outside/outH_extra",
+  destination = "from_lake",
 }
 
 destination{

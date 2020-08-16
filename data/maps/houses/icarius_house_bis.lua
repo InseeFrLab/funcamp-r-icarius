@@ -5,8 +5,14 @@ local night_overlay = sol.surface.create(map:get_size())
 local alpha = 192
 night_overlay:fill_color({0, 0, 64, alpha})
 
--- Global variable set up to keep track of good answers
-good_answer_table = {}
+ -- Set Chapter Number and Number of answers
+ -- so as to check answers from R tutorial
+ chapter_number = 11
+ number_of_answers = 1
+ good_answer_counter = 0
+
+-- Loading Input Answer Menu
+file = assert(sol.main.load_file("scripts/menus/save_answers_menu.lua"))
 
 function map:on_started(destination)
 
@@ -38,9 +44,6 @@ function map:on_started(destination)
           game:set_hud_enabled(true)
           bed:get_sprite():set_animation("empty_open")
           sol.audio.play_sound("hero_lands")
-
-          -- Start the savegame from outside the bed next time.
-          game:set_starting_location(map:get_id(), "from_savegame")
 
           -- Make the sun rise.
           sol.timer.start(map, 20, function()
@@ -90,16 +93,18 @@ function redhat_guy_replicant2:on_interaction()
     if game:get_value("icarius_house_bis_igor_chapter") then
       game:start_dialog("icarius_house_bis.redhat_guy_replicant2_answer_short", function(answer)
         if answer == 2 then
-          local igor_save_answer_menu_chapter_11 = require("scripts/menus/igor_save_answer_chapter11")
-          sol.menu.start(map, igor_save_answer_menu_chapter_11, on_top)
+          hero:freeze()
+          local save_answers_menu = file()
+          sol.menu.start(map, save_answers_menu, on_top)
         end
       end)
     else
        game:start_dialog("icarius_house_bis.redhat_guy_replicant2_answer", function(answer)    
         game:set_value("icarius_house_bis_igor_chapter", true)
         if answer == 2 then
-          local igor_save_answer_menu_chapter_11 = require("scripts/menus/igor_save_answer_chapter11") 
-          sol.menu.start(map, igor_save_answer_menu_chapter_11, on_top)
+          hero:freeze()
+          local save_answers_menu = file()
+          sol.menu.start(map, save_answers_menu, on_top)
         end
      end)
     end
@@ -109,13 +114,20 @@ function redhat_guy_replicant2:on_interaction()
 
 end
 
--- Open the locked door
 
-sol.timer.start(5000, function()
+-- Unfreeze hero and save tutorial status
+sol.timer.start(2000, function()
   if good_answer_counter == 1 then
-    map:open_doors("door_a")
-    sol.audio.play_sound("door_open")
+    sol.timer.start(2000,function()
+      sol.timer.start(1000,function()
+        hero:unfreeze()
+        map:open_doors("door_a")
+        sol.audio.play_sound("door_open")
+        redhat_guy_replicant2:set_enabled(false)
+      end)
+    end)
     -- reset counter to zero
+    game:set_value("chapter11_answer", true)
     good_answer_counter = 0
   else 
   return true  -- Repeat the timer.
@@ -125,6 +137,5 @@ end)
 
 -- Show the night overlay.
 function map:on_draw(dst_surface)
-
   night_overlay:draw(dst_surface)
 end
