@@ -10,7 +10,7 @@ self.text = sol.text_surface.create({
     font_size = 10,
     color = {240, 200, 56},
     horizontal_alignment = "center",
-    text = "Appuyer sur la barre espace",
+    text = sol.language.get_string("title_screen.start_button"),
   })
 
   sol.audio.play_music("title_screen")
