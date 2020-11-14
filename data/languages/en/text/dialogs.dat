@@ -1,868 +1,707 @@
-dialog{
+dialog {
   id = "_crystal",
   text = [[
-C'est un interrupteur de cristal !
-Frappez-le avec quelque chose...
+It's a crystal switch!
+Hit him with something ...
 ]],
 }
 
-dialog{
+dialog {
   id = "_shop.amount_full",
   text = [[
-Vous n'avez pas besoin de ça maintenant.
+You don't need that now.
 ]],
 }
 
-dialog{
+dialog {
   id = "_shop.not_enough_money",
   text = [[
-Désolé, mais vous n'avez pas assez de rubis.
+Sorry, but you don't have enough rubies.
 ]],
 }
 
-dialog{
+dialog {
   id = "_shop.question",
   text = [[
-Prix : $v rubis. Ok ?
-    $? Oui
-    $? Non
+Price: $ v ruby. Okay ?
+    $? Yes
+    $? No
 ]],
 }
 
-dialog{
-  id = "_treasure.arrow.1",
-  text = [[
-Tu as trouvé une flèche !
-Utilise l'arc et les flèches pour vaincre des
-ennemis à distance.
-]],
-}
-
-dialog{
-  id = "_treasure.arrow.2",
-  text = [[
-Tu as trouvé 5 flèches !
-Utilise l'arc et les flèches pour vaincre des
-ennemis à distance.
-]],
-}
-
-dialog{
-  id = "_treasure.arrow.3",
-  text = [[
-Tu as trouvé 10 flèches !
-Utilise l'arc et les flèches pour vaincre des
-ennemis à distance.
-]],
-}
-
-dialog{
+dialog {
   id = "_treasure.bomb.1",
   text = [[
-Vous avez trouvé une bombe !
-Utilisez les bombes pour faire exploser des
-ennemis ou des obstacles.
+You found a bomb!
+Use the bombs to detonate
+enemies or obstacles.
 
-Pour cela, appuyez sur la touche d
-pour faire apparaître le menu de sélection.
-Une fois les bombes choisies,
-appuyez sur x pour poser une bombe dans le jeu.
+To do this, press the d key.
+to display the selection menu.
+Once the bombs are chosen,
+press x to plant a bomb in the game.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.bomb.2",
   text = [[
-Vous avez trouvé 3 bombes !
-Utilisez les bombes pour faire exploser des
-ennemis ou des obstacles.
+You found 3 bombs!
+Use the bombs to detonate
+enemies or obstacles.
 
-Pour cela, appuyez sur la touche d
-pour faire apparaître le menu de sélection.
-Une fois les bombes choisies,
-appuyez sur x pour poser une bombe dans le jeu.
+To do this, press the d key.
+to display the selection menu.
+Once the bombs are chosen,
+press x to plant a bomb in the game.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.bomb.3",
   text = [[
-Vous avez trouvé 8 bombes !
-Utilisez les bombes pour faire exploser des
-ennemis ou des obstacles.
+You have found 8 bombs!
+Use the bombs to detonate
+enemies or obstacles.
 
-Pour cela, appuyez sur la touche d
-pour faire apparaître le menu de sélection.
-Une fois les bombes choisies,
-appuyez sur x pour poser une bombe dans le jeu.
+To do this, press the d key.
+to display the selection menu.
+Once the bombs are chosen,
+press x to plant a bomb in the game.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.boomerang.1",
   text = [[
-Bravo, tu as récupéré le Boomerang !
+Well done, you got the Boomerang!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.boss_key.1",
   text = [[
-Vous avez trouvé la clé du boss !!!
+You have found the key to the boss !!!
 ]],
 }
 
-dialog{
-  id = "_treasure.bottle_1.1",
-  text = [[
-Tu as trouvé un flacon vide !!!
-Tu vas pouvoir t'en servir pour stocker des
-potions !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.2",
-  text = [[
-Tu as obtenu une potion rouge !!!
-Bois-la pour restaurer ton énergie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.3",
-  text = [[
-Tu as obtenu une potion verte !!!
-Bois-la pour restaurer ta magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.4",
-  text = [[
-Tu as obtenu une potion bleue !!!
-Bois-la pour restaurer ton énergie et ta
-magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.1",
-  text = [[
-Tu as trouvé un flacon vide !!!
-Tu vas pouvoir t'en servir pour stocker des
-potions !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.2",
-  text = [[
-Tu as obtenu une potion rouge !!!
-Bois-la pour restaurer ton énergie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.3",
-  text = [[
-Tu as obtenu une potion verte !!!
-Bois-la pour restaurer ta magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.4",
-  text = [[
-Tu as obtenu une potion bleue !!!
-Bois-la pour restaurer ton énergie et ta
-magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.1",
-  text = [[
-Tu as trouvé un flacon vide !!!
-Tu vas pouvoir t'en servir pour stocker des
-potions !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.2",
-  text = [[
-Tu as obtenu une potion rouge !!!
-Bois-la pour restaurer ton énergie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.3",
-  text = [[
-Tu as obtenu une potion verte !!!
-Bois-la pour restaurer ta magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.4",
-  text = [[
-Tu as obtenu une potion bleue !!!
-Bois-la pour restaurer ton énergie et ta
-magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bow.1",
-  text = [[
-Tu as obtenu l'arc !!!
-Utilise-le pour atteindre des cibles éloignées.
-]],
-}
-
-dialog{
-  id = "_treasure.bow.2",
-  text = [[
-Tu as obtenu l'arc !!!
-Utilise-le pour atteindre des cibles éloignées.
-]],
-}
-
-dialog{
-  id = "_treasure.bow_silver.1",
-  text = [[
-Ton arc tire désormais des flèches d'argent
-d'une puissance dévastatrice !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bow_silver.2",
-  text = [[
-Ton arc tire désormais des flèches d'argent
-d'une puissance dévastatrice !!!
-]],
-}
-
-dialog{
+dialog {
   id = "_treasure.compass.1",
   text = [[
-Vous avez trouvé la boussole !!!
-Vous pouvez localiser le boss sur le plan.
+You have found the compass !!!
+You can locate the boss on the map.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.elixir_mandragore.1",
   text = [[
-Tu as trouvé de l'elixir de Mandragore !!
-De suite, tu le goûtes 
-(et grimaces avec son vague goût de soupe...)
-Beurk...
-Mais... tu sens déjà les effets du filtre
-et une force grandit en toi :
-comme de pressentir de nouvelles capacités
-que tu pourras prochainement acquérir.
+You found the elixir of Mandrake !!
+Immediately you taste it
+(and grimaces with its vague taste of soup ...)
+Yuck ...
+But ... you already feel the effects of the filter
+and a force grows in you:
+like to sense new abilities
+that you will soon be able to acquire.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.flippers.1",
   text = [[
-Tu as trouvé les palmes !!!
-Tu peux nager en eau profonde !
+You found the fins !!!
+You can swim in deep water!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.glove.1",
   text = [[
-Tu as trouvé les gants !!!
-Utilise-les pour soulever des objets en
-appuyant sur la touche Action.
+You found the gloves !!!
+Use them to lift objects in
+pressing the Action key.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.glove.2",
   text = [[
-La puissance de tes gants va te permettre de
-soulever de lourds rochers.
+The power of your gloves will allow you to
+lift heavy rocks.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.hammer.1",
   text = [[
-Tu as trouvé le marteau magique !!!
-Utilise-le pour écraser les obstacles.
+You found the magic hammer !!!
+Use it to crush obstacles.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.heart.1",
   text = [[
-Vous avez trouvé un coeur !
+You have found a heart!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.hookshot.1",
   text = [[
-Vous avez trouvé le grappin !!!
-Utilisez-le pour franchir des obstacles.
+You have found the grapple !!!
+Use it to overcome obstacles.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.igor_book.1",
   text = [[
-Tu as trouvé le grimoire d'IGoR.
-Tu comprends désormais le langage des Runes !!!
+You found IGOR's spellbook.
+You now understand the language of the Runes !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.igor_book_replicant.1",
   text = [[
-Tu as trouvé la réplique
-du grimoire d'IGoR.
-Tu peux désormais apprendre
-la Voie du Reproductible !!!
+You found the replica
+of the IGOR grimoire.
+You can now learn
+the Way of the Reproducible !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.lamp.1",
   text = [[
-Vous avez trouvé la lanterne !!!
-Sélectionnez-la depuis le menu (touche D)
-puis faites jaillir des flammes (touche X).
+You have found the lantern !!!
+Select it from the menu (key D)
+then make flames burst (X key).
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.magic_medallion.1",
   text = [[
-Vous avez obtenu un médaillon magique.
-Cet objet a appartenu
-à de grands méthodologues :
-Votre défense vient d'augmenter !!!
+You have obtained a magic medallion.
+This object belonged
+to great methodologists:
+Your defense has just increased !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.map.1",
   text = [[
-Vous avez trouvé la carte du donjon.
-Affichez-la dans l'écran de pause (touche d)
-pour voir le plan.
+You have found the dungeon map.
+Display it in the pause screen (d key)
+to see the plan.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.piece_of_heart.1",
   text = [[
-Vous avez trouvé un quart de coeur !!!
+You have found a quarter of a heart !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.royal_emblem.1",
   text = [[
-Vous avez désormais l'emblème Royal !
-Les Runes s'éveillent et libèrent leur pouvoir...
-Toute leur énergie se concentre dans votre épée :
-cette dernière brille d'un éclat bleuté.
+You now have the Royal emblem!
+The Runes awaken and unleash their power ...
+All their energy is concentrated in your sword:
+the latter shines with a bluish glow.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.shield.1",
   text = [[
-Vous avez trouvé un bouclier !!!
+You have found a shield !!!
 
-Votre défense augmente d'un point !
+Your defense increases by one point!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.small_key.1",
   text = [[
-Vous avez trouvé une petite clé !
-Appuyez sur la touche Action devant une porte
-verrouillée pour l'ouvrir.
+You have found a small key!
+Press the Action button in front of a door
+locked to open it.
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.sword.1",
   text = [[
-Vous avez trouvé une épée !!!
+You have found a sword !!!
 
-Vous pouvez vous défendre face aux monstres
-avec la touche C !
+You can defend yourself against monsters
+with the C key!
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.sword.2",
   text = [[
-( Voix de Statia )
-icaRius, grâce aux premières runes 
-que tu as récupérées, ma magie s'accroît.
-Laisse-moi renforcer ton épée...
+(Voice of Statia)
+icaRius, thanks to the first runes
+that you have recovered, my magic increases.
+Let me strengthen your sword ...
 
-Votre épée inflige désormais
-trois fois plus de dégats
+Your sword now inflicts
+three times more damage
 ]],
 }
 
-dialog{
+dialog {
   id = "_treasure.sword.3",
   text = [[
-Vous avez trouvé Excalibur !!!
-L'épée la plus puissante du royaume...
+You have found Excalibur !!!
+The most powerful sword in the kingdom ...
 ]],
 }
 
-dialog{
+dialog {
   id = "boss_key_required",
   text = [[
-C'est la porte du maître des lieux !
-Il vous faut la clé du boss pour l'ouvrir.
+This is the master's door!
+You need the boss key to open it.
 ]],
 }
 
-dialog{
+dialog {
   id = "boss_seal.1",
   text = [[
-Vous venez d'obtenir le sceau
-permettant d'enfermer SaSSoS
-dans les profondeurs des limbes.
-Bien fait pour lui !
+You just got the seal
+allowing to enclose SaSSoS
+in the depths of limbo.
+Serves him right !
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.boss_start",
   text = [[
---- Sorcier SaSSoS ---
-Tu croyais pouvoir t'enfuir aussi facilement ?
-Je suis SaSSos, le tout puissant,
-et rien n'échappe à l'oeil de SaSSoS. 
-Misérable avorton ! Ta route s'arrête ici !
-Tu peux tromper ce nigaud de Parlyus,
-mais tu ne pourras échapper à ma Proc Expand,
-qui me permet de me projeter en tout lieu.
-Mon pouvoir est si grand qu'une simple réplique
-de mon esprit suffira à te réduire en poussière,
-en te lançant quelques Proc Fireball !
+--- Sorcerer SaSSoS ---
+Did you think you could run away so easily?
+I am SaSSos, the almighty,
+and nothing escapes the eye of SaSSoS.
+Miserable runt! Your road ends here!
+You can fool that simpleton Parlyus,
+but you won't be able to escape my Proc Expand,
+which allows me to project myself anywhere.
+My power is so great that a simple replica
+of my mind will be enough to reduce you to dust,
+throwing you some Proc Fireball!
 
 --- icaRius ---
-(il faut que je prenne garde,
-il a l'air incroyablement puissant)
+(I must be careful,
+he looks incredibly powerful)
 
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.boss_warning_1",
   text = [[
 --- icaRius ---
-Je ressens une force maléfique,
-terriblement puissante...
+I feel an evil force,
+terribly powerful ...
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.boss_warning_2",
   text = [[
 --- icaRius ---
-Mes attaques sont sans effet !
-Il semble invicible !
+My attacks are ineffective!
+He seems unseen!
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.boss_warning_3",
   text = [[
---- La voix de Statia ---
-icaRius, c'est moi, Statia.
-J'ai demandé aux Runes leur aide
-pour t'aider à vaincre SaSSoS. 
-Voici leur conseil :
-Frappe de ton épée la boule de feu
-pour la renvoyer sur ton adversaire
-et le frapper par ses propres armes.
-Laisse-moi te communiquer de l'énergie
-pour t'aider à rétablir tes forces.
+--- Statia's voice ---
+icaRius, it's me, Statia.
+I asked the Runes for their help
+to help you defeat SaSSoS.
+Here is their advice:
+Strike the fireball with your sword
+to send it back to your opponent
+and strike him with his own weapons.
+Let me give you energy
+to help you rebuild your strength.
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.boss_warning_4",
   text = [[
---- Sorcier SaSSoS ---
-Tu es plus fort que ne le suggère
-ta frêle apparence... Gnark !
-Serais-tu aidé par les Runes ?
-Gnark ! Mon pouvoir de projection
-n'est peut-être pas suffisant,
-mais je t'écraserai facilement
-lorsque nous combattrons face à face.
-Gnark Gnark Gnark !
-Tu n'as aucune chance contre mon pouvoir.
-Tremble, misérable icaRius !
-(il disparait dans une explosion)
+--- Sorcerer SaSSoS ---
+You are stronger than you suggest
+your frail appearance ... Gnark!
+Would you be helped by the Runes?
+Gnark! My power of projection
+may not be enough,
+but i will crush you easily
+when we fight face to face.
+Gnark Gnark Gnark!
+You don't stand a chance against my power.
+Tremble, miserable icaRius!
+(he disappears in an explosion)
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.chief_army_1",
   text = [[
---- Le chef des armées Parlyus ---
-La guerre ! La guerre !
-C'est une bonne guerre qu'il nous faut !
-Et tout reviendra dans l'ordre.
+--- The leader of the armies Parlyus ---
+The war ! The war !
+We need a good war!
+And everything will come back to normal.
 --- icaRius ---
-(...le chef des armées ?
-... mais nous n'avions pas d'armées
-dans le royaume de Statis...)
---- Le chef des armées Parlyus ---
-Notre royaume est en danger.
-La menace nous entoure. Les ennemis rôdent
-Ils nous faut les devancer.
+(... the army chief?
+... but we had no armies
+in the kingdom of Statis ...)
+--- The leader of the armies Parlyus ---
+Our kingdom is in danger.
+The threat surrounds us. The enemies are prowling
+We have to get ahead of them.
 --- icaRius ---
-(...mais pourquoi s'énerve-t-il ainsi ?
-....et de quels ennemis parle-t-il ?
-... notre royaume n'est pourtant pas belliqueux)
---- Le chef des armées Parlyus ---
-Oui, c'est décidé : passons à l'attaque !
-Il nous faut accroître nos ressources.
-Conquérir de nouvelles terres.
-Mais devant tant d'ennemis, par où commencer ?
-Qui allons-nous envahir en premier ?
-Ah, il me faut connaître les forces rivales !
-Il me faut des espions !
+(... but why is he so angry?
+.... and what enemies is he talking about?
+... our kingdom is however not belligerent)
+--- The leader of the armies Parlyus ---
+Yes, it's decided: let's go on the attack!
+We need to increase our resources.
+Conquer new lands.
+But in front of so many enemies, where to start?
+Who are we going to invade first?
+Ah, I must know the rival forces!
+I need spies!
 --- icaRius ---
-(... des forces rivales ? 
-.... mais les pays voisins sont nos amis
-... que se passe-t-il ici ?)
+(... rival forces?
+.... but neighboring countries are our friends
+... What is happening here ?)
 --- icaRius ---
-(je vais essayer d'en savoir plus...)
-Chef Parlyus, je suis justement là
-pour vous apporter la réponse.
-Je suis en mesure de vous indiquer quel royaume
-il vous faut envahir en priorité.
-Mais pour cela, il me faut parler d'abord
-au conseiller du roi, le mage Essespéus
---- Le chef des armées Parlyus ---
-Le mage Essespéus ! Ce traitre !
-Il se cache quelque part dans le chateau...
-Dès que je l'attrape : direction le cachot !
+(I will try to know more ...)
+Chief Parlyus, I'm right here
+to give you the answer.
+I am able to tell you which kingdom
+you have to invade first.
+But for that I have to speak first
+to the king's advisor, the mage Essespéus
+--- The leader of the armies Parlyus ---
+The mage Essespéus! This traitor!
+He is hiding somewhere in the castle ...
+As soon as I catch him: go to the dungeon!
 --- icaRius ---
-(le bon mage Essespéus, un traitre ?)
-Justement, laissez-moi trouver sa cachette
-et le faire parler...
---- Le chef des armées Parlyus ---
-D'accord, soldat. Je t'ouvre la porte,
-à gauche, pour le retrouver.
-Reviens me voir une fois ta mission accomplie.
+(the good mage Essespéus, a traitor?)
+Exactly, let me find its hiding place
+and make him talk ...
+--- The leader of the armies Parlyus ---
+All right, soldier. I open the door for you
+on the left, to find it.
+Come back to me once you've completed your mission.
 --- icaRius ---
-(je vais retrouver  Essespéus,
-et le sortir de ce piège...)
+(I'm going to find Essespéus,
+and get him out of this trap ...)
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.chief_army_2",
   text = [[
---- Le chef des armées Parlyus ---
-Mouarf ! Voilà une information précieuse !
-Nous allons partir envahir ce faible pays
-et notre victoire sera écrasante.
-Mouarf ! il me faut mobiliser les troupes
-qui protègent les Runes, mais tant pis.
-De toute façon, plus personne à Statis
-n'ose s'opposer à notre volonté. Mouarf !
-Va retrouver notre chef suprême  
-en passant par la salle de téléportation,
-juste derrière moi... 
-Tu seras richement récompensé ! Mouarf !
+--- The leader of the armies Parlyus ---
+Mouarf! This is valuable information!
+We're going to invade this weak country
+and our victory will be overwhelming.
+Mouarf! I have to mobilize the troops
+who protect the Runes, but too bad.
+Anyway, no one in Statis anymore
+dare not oppose our will. Mouarf!
+Go find our supreme leader
+through the teleportation room,
+right behind me ...
+You will be richly rewarded! Mouarf!
 --- icaRius ---
-(parfait, le plan fonctionne.
-Je le laisse partir, 
-puis je découvre quel est leur chef)
-(ensuite, je m'échappe du château,
-pour rechercher les runes).
+(perfect, the plan is working.
+I let him go
+then I find out who is their boss)
+(then, I escape from the castle,
+to find the runes).
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.drunk_man_1",
   text = [[
---- Le cuistot  Batreb ---
-Hips ! Noyons notre chagrin
-dans un verre d'ambroisie,
-hips, et oublions ces tracas
-Que je suis malheureux...
-Toute la cave a été réquisitionnée...
-Les plus grands vins, confisqués.
-Tout pour ces rustres de soldats.
-Hips. Et d'où viennent-ils, d'abord ?
-Et notre cher roi, notre chère reine...
-J'ai du mal à croire le "chef des armées"
-qui prétend les avoir mis à l'abri.
-Hips ! Heureusement, j'ai pu protéger Essespéus
-caché dans la salle des vins
-(enfin ce qu'il en reste).
+--- The cook Batreb ---
+Hips! Let's drown our sorrows
+in a glass of ambrosia,
+hips, and let's forget about this hassle
+How miserable I am ...
+The whole cellar has been requisitioned ...
+The greatest wines, confiscated.
+Everything for these boorish soldiers.
+Hips. And where do they come from, first of all?
+And our dear king, our dear queen ...
+I find it hard to believe the "army chief"
+who claims to have sheltered them.
+Hips! Fortunately, I was able to protect Essespéus
+hidden in the wine room
+(well what's left of it).
 
-Hips ! Tiens, qui es-tu toi ?
-Serais-tu un soldat de Parlyus ?
-Hips, non, on dirait... icaRius ?
-ce serait donc toi, le jeune élu...
-Voyons, j'ai besoin de vérifier.
-Ouvre le chapitre 5 d'IGoR.
-Si tu sais répondre,
-c'est que tu es bien ce jeune héros...
+Hips! Here, who are you?
+Are you a Parlyus soldier?
+Hips, no, looks like ... icaRius?
+So it would be you, the young elected ...
+Come on, I need to check.
+Opens Chapter 5 of IGOR.
+If you can answer,
+is that you are this young hero ...
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.drunk_man_2",
   text = [[
-As-tu la réponse ?
-$? oui, la voici
-$? euh, il me faut plus de temps
+Do you have the answer?
+$? yes, here it is
+$? uh, i need more time
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.drunk_man_3",
   text = [[
---- Le cuistot Batreb ---
-C'est donc bien toi, icaRius...
-Le mage Essespéus m'avait annoncé ta venue.
-Je te confie la clef pour aller le retrouver.
+--- The cook Batreb ---
+So it's you, icaRius ...
+The mage Essespéus had told me that you were coming.
+I give you the key to find him.
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.old_man_1",
   text = [[
---- Le mage Essespéus ---
-Bravo, icaRius ! Tu as réussi à me rejoindre.
-Laisse-moi te décrire la situation :
-les forces du mal ont pris possession du château.
-Elles ont placé sur le trône
-ce soi disant chef des armées.
-J'ai pu lancer un sortilège 
-pour que la princesse Statia s'échappe.
-C'est elle, par ses pouvoirs télépathiques,
-qui t'a guidé jusqu'ici.
-Les forces occultes ont dérobé les Runes
-pour que le royaume perde ses capacités
-et toute volonté de résistance
-à la folie guerrière du chef des Armées. 
-Comment ? Tu t'es fait passé pour un espion ?
-Tu dois indiquer à Parlyus quel pays envahir ?
-Ca me donne une idée... 
-Cherchons ensemble le pays le mieux armé 
-- et le plus éloigné - pour lui résister 
-le plus longtemps possible.
-Tu lui feras croire le contraire !
-Cela te donnera un peu de temps...
-Maintenant, ouvre le grimoire d'IGoR
-au chapitre 6 et cherche la réponse à l'énigme.
+--- The mage Essespéus ---
+Well done, icaRius! You managed to reach me.
+Let me describe the situation to you:
+the forces of evil have taken possession of the castle.
+They placed on the throne
+this so-called chief of the armies.
+I was able to cast a spell
+for Princess Statia to escape.
+It is she, by her telepathic powers,
+who has guided you here.
+The occult forces have stolen the Runes
+for the kingdom to lose its capacities
+and any desire for resistance
+to the warlike madness of the head of the Armies.
+How? 'Or' What ? Did you pretend to be a spy?
+Do you have to tell Parlyus which country to invade?
+It gives me an idea ...
+Let's seek together the best armed country
+- and the farthest - to resist him
+the longest time possible.
+You will make him believe otherwise!
+This will give you a little time ...
+Now open the IGOR grimoire
+in Chapter 6 and look for the answer to the riddle.
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.old_man_2",
   text = [[
-As-tu la réponse ?
-$? oui, la voici
-$? euh, il me faut plus de temps
+Do you have the answer?
+$? yes, here it is
+$? uh, i need more time
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.old_man_3",
   text = [[
---- Le mage Essespéus ---
-Parfait, tu peux apporter cette Fake News
-à ce terrible chef des armées.
+--- The mage Essespéus ---
+Perfect, you can bring this Fake News
+to this terrible chief of the armies.
 
-Le temps qu'il rejoigne ce pays lointain 
-- et bien armé pour se défendre -
-tu auras déjà retrouvé les Runes, j'en suis sûr.
+By the time it reaches this distant land
+- and well armed to defend themselves -
+you will have already found the Runes, I'm sure.
 
-Moi ? Ne t'inquiète pas : 
-je vais m'échapper par un passage secret.
-Je n'oublie pas le bon Batreb
-(je lui ai gardé de côté une bonne bouteille)
-Va maintenant voir le chef de armées
-et continue ton aventure.
+Me ? Do not worry :
+I will escape by a secret passage.
+I do not forget the good Batreb
+(I kept a good bottle for him)
+Now go see the army commander
+and continue your adventure.
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_1",
   text = [[
-(c'est étrange, tous ces soldats...)
+(it's strange, all these soldiers ...)
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_2",
   text = [[
-(... et cette ambiance, si pesante)
+(... and this atmosphere, so heavy)
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_3",
   text = [[
-(Tiens, il n'y a ni le Roi, ni la Reine...
-... qui est cet étrange personnage ?)
+(Here, there is neither the King nor the Queen ...
+... who is this strange character?)
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_4",
   text = [[
-(c'est louche tout ceci...
-... et ces soldats partout.
-Essayons de trouver Essespéus)
+(it's all suspicious ...
+... and these soldiers everywhere.
+Let's try to find Essespéus)
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_5",
   text = [[
-(une voix faible)
+(a weak voice)
 Psss. Psss.
-Sur ta gauche...
+On your left ...
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_6",
   text = [[
-(une voix faible)
+(a weak voice)
 Psss. Psss.
-Sur ta gauche...
+On your left ...
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_7",
   text = [[
---- chuchottement d'Essespéus ---
-icaRius ! J'ai reconnu ton pas.
-C'est Essespéus... Je suis caché ici,
-dans cette pièce fermée à clef
-Pour me libérer, va voir Batreb,
-le cuisinier en chef...
-Si tu parviens à résoudre sa question
-il te donnera la clef.
+--- whisper of Essespéus ---
+icaRius! I recognized your step.
+It's Essespéus ... I'm hiding here,
+in this locked room
+To free me, go see Batreb,
+the head cook ...
+If you can solve her question
+he will give you the key.
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_8",
   text = [[
-Attention, des esprits malins !
-C'est désormais certain :
-le château a été envahi par des forces obscures.
-Le chef des armées doit être de mèche !
+Beware, evil spirits!
+It is now certain:
+the castle has been invaded by dark forces.
+The army chief must be in cahoots!
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sensor_throne_room_9",
   text = [[
-Va d'abord apporter 
-le faux renseignement
-au chef des armées !
+Will bring first
+false information
+to the chief of the armies!
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.sign",
   text = [[
-Ouest : Château de Statis
+West: Statis Castle
 ]],
 }
 
-dialog{
+dialog {
   id = "castle.welcome",
   text = [[
 
-              Château de Statis
+              Statis Castle
 ]],
 }
 
-dialog{
+dialog {
   id = "chest_game.already_done",
   text = [[
-Je n'ai plus de prix à mettre en jeu, désolé.
+I have no more prizes to stake, sorry.
 ]],
 }
 
-dialog{
+dialog {
   id = "chest_game.go_chest",
   text = [[
-Choisis un coffre.
+Choose a chest.
 ]],
 }
 
-dialog{
+dialog {
   id = "chest_game.lost",
   text = [[
-Perdu ! Ce coffre est vide.
+Lost ! This chest is empty.
 ]],
 }
 
-dialog{
+dialog {
   id = "chest_game.pay_first",
   text = [[
-Hey !
-Il faut payer pour ouvrir un de mes coffres !!!
+Hey!
+You have to pay to open one of my chests !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "chest_game.rules",
   text = [[
-Un de ces coffres contient un quart de coeur,
-tu veux tenter ta chance pour 10 rubis ?
-                 $? Oui
-                 $? Non
+One of these chests contains a quarter of a heart,
+do you want to try your luck for 10 rupees?
+                 $? Yes
+                 $? No
 ]],
 }
 
-dialog{
+dialog {
   id = "chest_game.thanks",
   text = [[
-Merci.
+Thank you.
 ]],
 }
 
-dialog{
+dialog {
   id = "dungeon_finished_save",
   text = [[
-Souhaitez-vous sauvegarder votre partie ?
+Would you like to save your game?
 
-                   $? Oui
-                   $? Non
+                   $? Yes
+                   $? No
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending",
   text = [[
 
@@ -874,2316 +713,2122 @@ dialog{
 
 
 
-Ainsi s'achève la légende d'icaRius
-et son apprentissage de la langue des Runes.
+Thus ends the legend of icaRius
+and his learning of the language of the Runes.
 
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_01",
   text = [[
-Dès qu'icaRius récupéra l'emblème des Runes,
-les monstres disparurent de toute part :
-la lumière de la statistique reproductible
-l'avait emporté sur l'obscurantisme.
+As soon as icarius collected the emblem of the Runes,
+monsters disappeared from all sides:
+reproducible statistic light
+had prevailed over obscurantism.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_02",
   text = [[
-Les troupes de Parlyus, cheminant toujours 
-vers le royaume désigné dans la Fake News,
-furent elles-aussi réduites à néant
-avant d'avoir atteint leur cible.
+The troops of Parlyus, still on the march
+to the kingdom designated in the Fake News,
+were also reduced to nothing
+before reaching their target.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_03",
   text = [[
-Quant au terrible SaSSoS, 
-il alla rejoindre les limbes
-où sommeillent les forces funestes,
-scellées par les pouvoirs de l'OpenSource.
+As for the terrible SaSSoS,
+he went to limbo
+where fatal forces lie dormant,
+sealed by the powers of OpenSource.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_04",
   text = [[
-La princesse Statia, libérée, délivrée,
-put retourner au château saine et sauve.
-Elle y retrouva ses parents...
-... qui s'empressèrent de lui léguer le trône.
+Princess Statia, freed, freed,
+was able to return to the castle safe and sound.
+She found her parents there ...
+... who hastened to bequeath the throne to him.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_05",
   text = [[
-Le bon Essespéus fut nommé conseiller,
-et décida de fédérer tous les royaumes voisins
-sous la bannière des arts statistiques.
+The good Essespéus was appointed counselor,
+and decided to federate all the neighboring kingdoms
+under the banner of statistical arts.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_06",
   text = [[
-Il regroupa les Mages Zilap, Regor et Tourep
-au sein du Consellum Naevus Incongruus et Sapentia 
+He regrouped the Magi Zilap, Regor and Tourep
+within the Consellum Naevus Incongruus and Sapentia
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_07",
   text = [[
-Les Mages y passaient leur temps à deviser
-et à goûter aux liqueurs d'ambroisie
-dont Batreb était le fournisseur officiel.
+The Magi spent their time talking there
+and to taste the ambrosia liqueurs
+for which Batreb was the official supplier.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_08",
   text = [[
-L'automate TeoC, qui s'était auto-flashé,
-devint le premier robot-inventeur :
-il conçut d'étranges machines  qui conversaient
-avec lui par bits interposés.
+The TeoC automaton, which had auto-flashed,
+became the first robot-inventor:
+he designed strange machines which conversed
+with it by bits interposed.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_09",
   text = [[
-L'oiseau Fabeler poursuivit sa migration
-de contrées en contrées,
-de grimoires en grimoires,
-devenant toujours plus savant - et curieux.
+The Fabeler bird continued its migration
+from country to country,
+from grimoires to grimoires,
+always becoming more knowledgeable - and curious.
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_10",
   text = [[
-C'est ainsi qu'icaRius et Statia devinrent
-le héros et l'héroïne des jeunes statisiens...
+This is how icaRius and Statia became
+the hero and heroine of the young statisians ...
 ]],
 }
 
-dialog{
+dialog {
   id = "ending.ending_11",
   text = [[
-...peuplant les histoires racontées,
-le soir venu, au bord du lit...
+... populating the stories told,
+in the evening, on the edge of the bed ...
 
 
-...pour endormir les esprits désireux d'apprendre, 
-dès le lever du jour, la langue des Runes !
+... to put to sleep the spirits eager to learn,
+from daybreak, the language of the Runes!
 
 
-<<Bonne nuit, icaRius, bonne nuit, Statia...>>
-leur glisse, dans un dernier murmure
-la voix mystérieuse et maternelle 
-qui veille sur leur sommeil.
-L'aventure est finie...
-à vous de la prolonger et de transmettre
-votre apprentissage de R !
+<< Good night, icaRius, good night, Statia ... >>
+their slips, in a last whisper
+the mysterious and maternal voice
+who watches over their sleep.
+The adventure is over ...
+it's up to you to extend it and pass it on
+your learning of R!
 
---- Crédits ---
-Direction : Arnaud D
+--- Credits ---
+Management: Arnaud D
 
 
-Groupe de conception :
-Diane B ; Vincent G ;
-Fabrice D ; Pascal E ;
-Maël T ; Sylvie D ;
-Julien N ; Sébastien T ;
-Jean-Luc L ; Laure G ;
+Design group:
+Diane B; Vincent G;
+Fabrice D; Pascal E;
+Maël T; Sylvie D;
+Julien N; Sébastien T;
+Jean-Luc L; Laure G;
 Olivier C
 
-Remerciements spéciaux :
-Christopho, et la communauté qui soutient
-le moteur de jeu Solarus
+Special thanks:
+Christopho, and the community that supports
+the Solarus game engine
 www.solarus-games.org
-La société ThinkR,
-spécialiste du langage des Runes
+ThinkR company,
+Rune language specialist
 Nintendo,
-créateur de rêves pour petits et grands joueurs
+dream maker for young and old alike
                ---------------
-               --- The End --- 
+               --- The End ---
                ---------------
 ]],
 }
 
-dialog{
+dialog {
   id = "exit_challenge.exit",
   text = [[
---- Voix de Statia ---
-Icarius, tu t'es échappé de la pièce impossible.
-Encore quelques pas, et tu pourras sortir
-de ce passage ensorcelé...
+--- Statia's voice ---
+Icarius, you escaped from the impossible room.
+A few more steps, and you can get out
+of this bewitched passage ...
 ]],
 }
 
-dialog{
+dialog {
   id = "exit_challenge.konami_shield",
   text = [[
---- Le saviez-vous ? ---
-Pour vous échapper de la pièce impossible,
-vous avez suivi une série de directions
-qui correspondent au début du Konami Code.
-Ce dernier est une combinaison de touches 
-bien connue des joueurs de la Nintendo NES,
-permettant d'activer des passages secrets ou bonus !
+--- Did you know ? ---
+To escape from the impossible room,
+you followed a series of directions
+which correspond to the beginning of the Konami Code.
+The latter is a combination of keys
+well known to Nintendo NES players,
+allowing you to activate secret or bonus passages!
 
-Haut, Haut, Bas, Bas, Gauche, Droite... 
-...Gauche, Droite, B, A !
-Tel est le Konami Code !
+Up, Up, Down, Down, Left, Right ...
+... Left, Right, B, A!
+This is the Konami Code!
 
-Ce code est apparu pour la première fois
-dans un jeu édité par la société Konami.
-Pour récompenser IcaRius de sa découverte,
-il est temps de l'équiper du bouclier Konami !
+This code appeared for the first time
+in a game published by the Konami company.
+To reward IcaRius for his discovery,
+it's time to equip him with the Konami shield!
 ]],
 }
 
-dialog{
+dialog {
   id = "exit_challenge.start",
   text = [[
---- La salle de l'impossible --- 
+--- The room of the impossible ---
 
--- personne ne peut s'en échapper --
+- no one can escape -
 ]],
 }
 
-dialog{
+dialog {
   id = "exit_challenge.statia_message",
   text = [[
---- Voix de Statia ---
-Icarius... Tu es prisonnier,
-retenu dans la salle de l'impossible.
-Aucune issue ne pourra t'en délivrer...
-Une seule façon d'en réchapper :
-trouver la bonne combinaison de directions
-- le hasard ne te sera d'aucune aide 
-pour sortir de ce piège !
-Ouvre le grimoire d'IGoR au chapitre 10.
-Quand tu auras maîtrisé la sauvegarde
-dans la langue des Runes,
-tu trouveras naturellement la sortie...
+--- Statia's voice ---
+Icarius ... you are a prisoner,
+retained in the room of the impossible.
+No way out can deliver you ...
+There is only one way to escape:
+find the right combination of directions
+- chance will not help you
+to get out of this trap!
+Open the IGOR Grimoire in Chapter 10.
+When you have mastered saving
+in the language of the Runes,
+you will naturally find the exit ...
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.congratulations",
   text = [[
-Bravo, vous venez de vaincre le boss.
-En récompense, vous gagnez le droit...
-... de changer de tenue !
+Well done, you just defeated the boss.
+As a reward, you earn the right ...
+... to change your outfit!
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_1.warning",
   text = [[
---- Brutus le Terrible ---
-Misérable insecte ! Je suis Brutus, 
-le champion des troupes de Parlyus.
-Terriblement bête, terriblement fort.
+--- Brutus the Terrible ---
+Miserable insect! I am Brutus,
+the champion of the troops of Parlyus.
+Terribly stupid, terribly strong.
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_1.welcome",
   text = [[
-                   Caserne secrète
-                des troupes de Parlyus
+                   Secret barracks
+                of the troops of Parlyus
 
-                 (niveau optionnel)
+                 (optional level)
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_2.dying",
   text = [[
 --- WizzWare ---
-Argh... Cette lumière, de toute part...
-L'ombre est réduite à néant...
-Je disparais...
+Argh ... This light, everywhere ...
+The shadow is reduced to nothing ...
+I disappear...
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_2.warning",
   text = [[
 --- WizzWare ---
-Crains ma puissante magique, faible icaRius.
-Je suis intouchable, et ton épée ne peut rien
-contre le pouvoir de l'ombre !
+Fear my mighty magic, weak icaRius.
+I'm untouchable, and your sword can do nothing
+against the power of the shadows!
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_2.welcome",
   text = [[
-                Sanctuaire de l'ombre
+                Shadow shrine
 
-                 (niveau optionnel)
+                 (optional level)
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_3",
   text = [[
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_3.warning",
   text = [[
 --- arGus ---
-Aucun secret statistique ne m'échappe !
-Livre-moi tes données individuelles,
-ou je t'emprisonne à jamais
-dans les dédales de ce dongeon englouti.
-(Il pousse d'étranges cris :
+No statistical secret escapes me!
+Give me your individual data,
+or I imprison you forever
+in the mazes of this submerged dungeon.
+(He utters strange cries:
 tau tau tau TAU TAU TAU !!!!)
 ]],
 }
 
-dialog{
+dialog {
   id = "extra_dungeons.extra_3.welcome",
   text = [[
-                Dongeon englouti
+                Sunken Dungeon
 
-               (niveau optionnel)
+               (optional level)
 ]],
 }
 
-dialog{
+dialog {
   id = "found_piece_of_heart.first",
   text = [[
-Encore 3 et vous gagnerez un coeur
-supplémentaire !!!
+3 more and you will win a heart
+extra !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "found_piece_of_heart.fourth",
   text = [[
-Votre nombre de coeurs vient
-d'augmenter !!!
+Your number of hearts comes
+to increase !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "found_piece_of_heart.second",
   text = [[
-Encore 2 et vous gagnerez un coeur
-supplémentaire !!!
+2 more and you will win a heart
+extra !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "found_piece_of_heart.third",
   text = [[
-Encore 1 et vous gagnerez un coeur
-supplémentaire !!!
+1 more and you will win a heart
+extra !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_dregor_answer",
   text = [[
 --- Mage RegoR ---
-Tu voudrais ouvrir la porte ?
-il te faudra, pour cela,
-résoudre ta première énigme.
-Voici la question : quel est l'âge d'icaRius ?
-Ouvre le grimoire d'IgoR au premier chapitre
-et cherche la réponse...
+Would you like to open the door?
+for that you will need
+solve your first riddle.
+Here is the question: how old is icaRius?
+Open the IgoR grimoire in the first chapter
+and look for the answer ...
 
-As-tu la réponse ?
-$? oui, la voici...
-$? non, pas encore...
+Do you have the answer?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_dregor_answer_short",
   text = [[
-As-tu la réponse du 1er chapitre ?
-$? oui, la voici...
-$? non, pas encore...
+Do you have the answer from the 1st chapter?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_dregor_congratulations",
   text = [[
 --- Mage RegoR ---
-Bravo, tu as résolu la 1ère énigme.
-Je vais t'ouvrir la porte :
-puisses-tu franchir les prochaines épreuves !
+Well done, you have solved the 1st riddle.
+I'll open the door for you:
+can you overcome the next trials!
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_dregor_runes",
   text = [[
 --- Mage RegoR ---
 tsqhrmcxpwzqwfr
 tygpwujklqrqdxwz
-(langage des runes)
+(language of the runes)
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_zilap_bravo",
   text = [[
----Mage Zilap---
-Bravo ! Tu as trouvé le grimoire !
-Ah, il me rappelle tant de souvenirs,
-quand j'étais moi-même apprenti...
-A ton tour désormais de t'imprégner
-du langage des runes, et d'apprendre
-ses étonnantes formules !
+--- Mage Zilap ---
+Well done ! You found the grimoire!
+Ah he reminds me of so many memories
+when I was an apprentice myself ...
+Now it's your turn to soak up
+of the language of the runes, and to learn
+its amazing formulas!
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_zilap_colere",
   text = [[
----Mage Zilap---
-Petit impertinent ! Vaurien !
-Comme si j'allais te croire...
+--- Mage Zilap ---
+Sassy little one! Rascal!
+As if I would believe you ...
 
-Va plutôt réviser tes leçons
-dans le livre ancestral,
-le grimoire IGoR
+Go revise your lessons instead
+in the ancestral book,
+the IGoR grimoire
 
-Un peu de sagesse te changera d'air
-et t'apprendra les bonnes manières
+A little wisdom will change your air
+and will teach you good manners
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_zilap_depit",
   text = [[
----Mage Zilap---
-C'était tellement prévisible...
-A force de rêver, tu as oublié d'étudier...
+--- Mage Zilap ---
+It was so predictable ...
+By dint of dreaming, you forgot to study ...
 
-La licence runique,
-que tous les jeunes Statisiens 
-se doivent d'obtenir pour devenir Compteur
+The runic license,
+that all the young Statisians
+must obtain to become a Counter
 
-Va plutôt réviser tes leçons
-dans le livre ancestral,
-le grimoire IGoR
+Go revise your lessons instead
+in the ancestral book,
+the IGoR grimoire
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_zilap_livre",
   text = [[
----Mage Zilap---
-Alors, as-tu trouvé 
-le vénérable grimoire IGoR ?
+--- Mage Zilap ---
+So have you found
+the venerable IGoR grimoire?
 
-Toujours pas ? 
-Cherche donc dans la bibliothèque,
-dans la pièce à côté...
+Always not ?
+So look in the library,
+in the next room ...
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.mage_zilap_message",
   text = [[
---- Mage Zilap---
-Tu es enfin réveillé,
-jeune fainéant !
+--- Mage Zilap ---
+You are finally awake
+young slacker!
 
-Humpf !
-Il était temps.
-Encore un peu, et je partais !
+Humpf!
+It was time.
+A little more, and I was going!
 
-Bon, sais-tu donc parler
-le langage des runes ?
-Humpf ?
+Well, do you know how to speak
+the language of the runes?
+Humpf?
 
-As-tu la licence runique ?
-$? oui, bien sûr, vieux schnock !
-$? euh, la licence runique ?
+Do you have the runic license?
+$? yes, of course, old schnock!
+$? uh, the runic license?
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house.statia_message",
   text = [[
---- Une voix mystérieuse ---
-A l'aide !
-A l'aide !
-IcaRius, j'ai besoin de toi...
-AIDE : appuie sur les flèches
-(touches directionnelles du clavier)
-pour te déplacer.
+--- A mysterious voice ---
+Help !
+Help !
+IcaRius, I need you ...
+HELP: press the arrows
+(keyboard directional keys)
+to get around.
 
-Pour dialoguer avec un personnage
-ou interagir avec un objet,
-appuie sur la touche espace.
+To interact with a character
+or interact with an object,
+press the space key.
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant1_1",
   text = [[
---- Automate TeoC ---
-Dz dz. Tu es enfin réveillé,
-jeune fainéant ! Bip bip
-Alert - Buffer overflow...
-Hashtag Humpf ! 
-Dz dz. Il était temps.
-Encore un peu, et je partais !
+--- TeoC PLC ---
+Dz dz. You are finally awake
+young slacker! Beep beep
+Alert - Buffer overflow ...
+Hashtag Humpf!
+Dz dz. It was time.
+A little more, and I was going!
 Biiiiip.
 --- icaRius ---
-(c'est terrible, je dois tout refaire.
-Et ce robot est de plus en plus déglingué !
-Comment vais-je m'en sortir ?)
---- Automate TeoC ---
-Dz dz. Sais-tu donc parler
-le langage des runes ?
-Humpf ? biiip biiip.
-As-tu la licence runique ?
-$? mais oui, je l'ai passée avec Zilap !
-$? pitié, ramène-moi en avant dans l'histoire !
+(it's terrible, I have to redo everything.
+And this robot is more and more ramshackle!
+How am I going to get out of this?)
+--- TeoC PLC ---
+Dz dz. Do you know how to speak
+the language of the runes?
+Humpf? biiip biiip.
+Do you have the runic license?
+$? but yes, I spent it with Zilap!
+$? please take me back to history!
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant1_2a",
   text = [[
---- Automate TeoC ---
-C'était - 404 error - tellement prévisible...
-Dz dz dz. A force de coder à toute allure, 
-tu as oublié d'organiser tes programmes. Biiip.
-La licence runique ce n'est pas juste une langue.
-Update - please wait... Ziiiiiiiiip. 
-C'est une philosophie, un art de compter 
-qui distingue - dzdz - les Statisiens.
---- Automate TeoC ---
-Il est temps de découvrir l'arcane ultime,
-la clef de voûte - bip MasterKey encrypted ---
-de la langue runique : la voie du reproductible.
-Dz dz. Va donc dans la bibliothèque 
-- bip get apt biiiip - et cherche 
-la copie du grimoire IGoR 
+--- TeoC PLC ---
+It was - 404 error - so predictable ...
+Dz dz dz. By dint of coding at full speed,
+you forgot to organize your programs. Biiip.
+The runic license is not just a language.
+Update - please wait ... Ziiiiiiiiip.
+It's a philosophy, an art of counting
+which distinguishes - dzdz - the Statisians.
+--- TeoC PLC ---
+It's time to discover the ultimate arcane,
+the keystone - beep MasterKey encrypted ---
+of the runic language: the way of the reproducible.
+Dz dz. So go to the library
+- beep get apt biiiip - and search
+the copy of the IGoR grimoire
 - dz Merge request biiip.
 --- icaRius ---
-(pitié, réveillez-moi de ce cauchemar)
+(please wake me up from this nightmare)
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant1_2b",
   text = [[
---- Automate TeoC ---
-Biiiip. Petit impertinent ! Vaurien ! 
-Dz dz. De patience tu manques.
-Revenir au début tu mérites bien.
+--- TeoC PLC ---
+Biiiip. Sassy little one! Rascal!
+Dz dz. You lack patience.
+Go back to the beginning you deserve.
 --- icaRius ---
-(pitié, réveillez-moi de ce cauchemar)
---- Automate TeoC ---
-La voie du reproductible il faut suivre. Biiip.
-La licence runique ce n'est pas juste une langue.
-Update - please wait... Ziiiiiiiiip. 
-C'est une philosophie, un art de compter 
-qui distingue - dzdz - les Statisiens.
---- Automate TeoC ---
-Il est temps de découvrir l'arcane ultime,
-la clef de voûte - bip MasterKey encrypted ---
-de la langue runique : la voie du reproductible.
-Dz dz. Va donc dans la bibliothèque 
-- bip get apt biiiip - et cherche 
-la copie du grimoire IGoR 
+(please wake me up from this nightmare)
+--- TeoC PLC ---
+The path of reproducibility must be followed. Biiip.
+The runic license is not just a language.
+Update - please wait ... Ziiiiiiiiip.
+It's a philosophy, an art of counting
+which distinguishes - dzdz - the Statisians.
+--- TeoC PLC ---
+It's time to discover the ultimate arcane,
+the keystone - beep MasterKey encrypted ---
+of the runic language: the way of the reproducible.
+Dz dz. So go to the library
+- beep get apt biiiip - and search
+the copy of the IGoR grimoire
 - dz Merge request biiip.
 --- icaRius ---
-(bon, eh bien, je n'ai plus qu'à tout refaire...)
+(well, well, I just have to redo everything ...)
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant1_3a",
   text = [[
---- Automate TeoC ---
-Dz dz dz. Alors, as-tu trouvé 
-la vénérable copie du grimoire IGoR ?
-Biiiip play again bip.
+--- TeoC PLC ---
+Dz dz dz. So have you found
+the venerable copy of the IGoR grimoire?
+Biiiip play again beep.
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant1_3b",
   text = [[
---- Automate TeoC ---
-Bravo ! Biiiiip ! Tu as trouvé le grimoire bis !
-Il me rappelle - RAM cleared - tant de souvenirs,
-quand j'étais moi-même apprenti automate...
-A ton tour désormais de t'imprégner
-de la voie du reproductible - bip Warpzone On -
-et de découvrir ses étonnants raccourcis !
+--- TeoC PLC ---
+Well done ! Biiiiip! You have found the bis grimoire!
+It reminds me - RAM cleared - so many memories,
+when I myself was an apprentice automaton ...
+Now it's your turn to soak up
+of the reproducible path - Warpzone Beep On -
+and discover its amazing shortcuts!
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant2_answer",
   text = [[
---- Automate TeoC ---
-Biip. Tu voudrais revenir en avant ?
-Dzdz. Avec toutes les runes déjà acquises ?
-il te faudra résoudre (encore) ta 1ère énigme.
-- dz copy-paste - biiip bis repetita. 
-Voici la question : quel est l'âge d'icaRius ?
-Ouvre le grimoire d'IgoR au chapitre 11
-et cherche - search engine on - la réponse...
-As-tu la réponse ?
-$? oui, la voici...
-$? non, pas encore...
+--- TeoC PLC ---
+Biip. Would you like to come back forward?
+Dzdz. With all the runes already acquired?
+you will have to solve (again) your first enigma.
+- dz copy-paste - biiip bis repetita.
+Here is the question: how old is icaRius?
+Open the IgoR Grimoire in Chapter 11
+and search - search engine on - the answer ...
+Do you have the answer?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant2_answer_short",
   text = [[
-As-tu la réponse (biiiiiiiip) ?
-$? oui, la voici...
-$? non, pas encore...
+Do you have the answer (biiiiiiiip)?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.redhat_guy_replicant2_runes",
   text = [[
---- Automate TeOC ---
+--- TeOC PLC ---
 tsqhrmcxpwzqwfr
 tygpwujklqrqdxwz
-(encryption : ON)
+(encryption: ON)
 ]],
 }
 
-dialog{
+dialog {
   id = "icarius_house_bis.waking_message",
   text = [[
 --- icaRius ---
-(que se passe-t-il ???)
-(me voilà revenu... au tout début !)
-(oh non ! je dois tout reprendre à zéro)
+(What's going on ???)
+(here I am ... at the very beginning!)
+(oh no! I have to start all over again)
 ]],
 }
 
-dialog{
+dialog {
   id = "intro.fresco_1",
   text = [[
-D'aussi loin que mémoire d'homme
-puisse se souvenir, 
-le Royaume de Statis était en paix ;
+As far back as living memory
+can remember,
+the Kingdom of Statis was at peace;
 
 ]],
 }
 
-dialog{
+dialog {
   id = "intro.fresco_2",
   text = [[
-son peuple vivait sans connaître
-de conflit, d'eau fraiche...
-... et de chiffres !
+his people lived without knowing
+conflict, fresh water ...
+... and numbers!
 
-Car le peuple de Statis
-aimait à consigner
-la mesure de toute chose :
+Because the people of Statis
+liked to record
+the measure of everything:
 
-le nombre de maisons et d'habitants;
-le nombre de commerces et d'échoppes;
-le nombre d'élevages et de denrées...
+the number of houses and inhabitants;
+the number of shops and stalls;
+the number of farms and foodstuffs ...
 
 ]],
 }
 
-dialog{
+dialog {
   id = "intro.fresco_3",
   text = [[
-Rien n'échappait à cet art de compter
-que le peuple de Statis avait porté
-dans les plus hauts raffinements...
+Nothing escaped this art of counting
+that the people of Statis had carried
+in the highest refinements ...
 
 ]],
 }
 
-dialog{
+dialog {
   id = "intro.fresco_4",
   text = [[
-Dans la contrée de RedHill, 
-un jeune garçon toutefois 
-semblait bien différent des autres.
+In the land of RedHill,
+a young boy however
+looked very different from the others.
 
-Il n'avait - et c'était bien le seul -
-aucun intérêt pour ces histoires 
-de chiffres trop prévisibles.
+He had - and he was the only one -
+no interest in these stories
+too predictable numbers.
 
-Il rêvait plutôt d'aventure !
-de défis, de combats, de batailles
-mettant les chiffres sens dessus dessous.
+He rather dreamed of adventure!
+challenges, fights, battles
+turning the numbers upside down.
 ]],
 }
 
-dialog{
+dialog {
   id = "intro.fresco_5",
   text = [[
-Le jeune icaRius dort sans se douter
-des conséquences de son imagination...
-Une voix lui parle dans son sommeil...
+Young icaRius sleeps without suspecting
+consequences of his imagination ...
+A voice speaks to him in his sleep ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.broom_grandma",
   text = [[
---- Une dame d'un certain âge ---
-Quelle belle journée...
-On pourrait passer des heures
-à compter les nuages dans le ciel...
+--- A lady of a certain age ---
+What a beautiful day...
+We could spend hours
+counting the clouds in the sky ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.door_closed",
   text = [[
-La porte est fermée.
-Il n'y a rien à voir ici.
+The door is closed.
+There is nothing to see here.
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_1_a",
   text = [[
---- Une fermière ---
-C'est terrible !!! C'est terrible !!!
-Snif, snif...
-Comment vais-je faire ?
-Snif, snif...
-J'ai perdu le livre de compte de notre ferme...
-Envolé, le registre des pontes quotidiennes !
+--- A farmer ---
+It's terrible !!! It's terrible !!!
+Sniff, sniff ...
+How am I going to do ?
+Sniff, sniff ...
+I lost the account book for our farm ...
+Fly away, the daily spawning register!
 
-Snif, snif... 
-Si seulement on pouvait m'aider à recompter...
-$? Calme-toi : je vais t'aider !
-$? Houlà, moi et les chiffres, ça fait deux...
+Sniff, sniff ...
+If only they could help me recount ...
+$? Calm down: I'll help you!
+$? Houlà, me and the numbers, that's two ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_1_b_KO",
   text = [[
-C'est tellement terrible !!! 
-Snif, snif... 
-Comment ai-je pu perdre 
-notre précieux registre...
+It's so terrible !!!
+Sniff, sniff ...
+How could i lose
+our precious register ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_1_b_OK",
   text = [[
-Merciiiiii !!!
-Notre poulailler est à côté,
-Ouvre la porte juste à droite, 
-peut-être sauras-tu retrouver les bons chiffres...
+Thanks !!!
+Our henhouse is next door,
+Open the door just to the right,
+maybe you will be able to find the right numbers ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_2_a",
   text = [[
---- Un fermier ---
-Ces poules-là, elles valent de l'or !
-Crois-moi, tu ne trouveras pas 
-De meilleures pondeuses...
-Si seulement j'avais encore 
-les livres de compte, tu verrais 
-combien d'oeufs elles nous ramènent,
-et de beau calibre !
---- Ouvre le grimoire Igor
-au chapitre 2 pour aider le fermier
+--- A farmer ---
+These hens, they are worth gold!
+Believe me you won't find
+Better layers ...
+If only I still had
+the account books, you would see
+how many eggs they bring us back,
+and of good caliber!
+--- Open the Igor grimoire
+in chapter 2 to help the farmer
 
 
-As-tu la réponse ?
-$? voici la réponse 
-$? euh, il me faut plus de temps
+Do you have the answer?
+$? Here is the answer
+$? uh, i need more time
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_2_a_short",
   text = [[
-As-tu la réponse ?
-$? voici la réponse 
-$? euh, il me faut plus de temps
+Do you have the answer?
+$? Here is the answer
+$? uh, i need more time
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_2_a_wife",
   text = [[
---- Un fermier ---
-Mon épouse est désespérée...
-Elle en deviendrait presque folle...
+--- A farmer ---
+My wife is desperate ...
+She would almost go crazy ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.farmer_2_b",
   text = [[
-Epatant !
-Tu as retrouvé le nombre de pontes !
-Grand merci, jeune homme :
-ma femme va enfin retrouver son calme...
-Va voir le mage Tourep,
-il t'offrira une récompense...
+Amazing!
+You have found the number of spawns!
+Many thanks, young man:
+my wife will finally regain her calm ...
+Go see mage Tourep,
+he will offer you a reward ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.mage_tourep",
   text = [[
 --- Mage Tourep ---
-Aide ton prochain
-et le chemin s'ouvrira
-(??? que veut-il dire ???)
+Help your neighbor
+and the way will open
+(??? what does he mean ???)
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.mage_tourep_OK",
   text = [[
 --- mage Tourep ---
-L'homme ordinaire est exigeant avec les autres.
-L'homme exceptionnel est exigeant avec lui-même.
+The ordinary man is demanding with others.
+The exceptional man is demanding with himself.
 
-Tu es, icaRius, un jeune homme exceptionnel.
-Pour te récompenser de ton aide, 
-je t'offre le bouclier Kokoro. 
+You are, icaRius, an exceptional young man.
+To reward you for your help,
+I offer you the Kokoro shield.
 
-Puisse-t-il préserver ton coeur
-des attaques adverses
-et de la noirceur des ennemis.
+May he preserve your heart
+adverse attacks
+and the darkness of enemies.
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.sign1",
   text = [[
-N : Entrée du village Kokoro
-O : plaines de Statis
+N: Entrance to Kokoro village
+O: plains of Statis
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.sign2",
   text = [[
-O : plaines de Statis
+O: plains of Statis
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.soldier_with_shield",
   text = [[
---- Soldat ---
-Tu es bien équipé, jeune homme !
-Tu peux passer, mais prends garde à toi...
+--- Soldier ---
+You are well equipped, young man!
+You can pass, but watch out ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.soldier_without_shield",
   text = [[
---- Soldat ---
-C'est dangereux par là.
-Tu ne peux pas y aller sans bouclier...
+--- Soldier ---
+It's dangerous that way.
+You can't go there without a shield ...
 ]],
 }
 
-dialog{
+dialog {
   id = "kokoro.village_welcome_npc",
   text = [[
-Bonjour, visiteur.
-Va voir le mage Tourep,
-en haut du village,
-il a un message pour toi.
+Hello, visitor.
+Go see mage Tourep,
+at the top of the village,
+he has a message for you.
 ]],
 }
 
-dialog{
+dialog {
   id = "medallion_cave.welcome",
   text = [[
---- Cave du Médaillon ---
-Ce passage est optionnel.
-Joueur débutant, prenez garde...
+--- Medallion cellar ---
+This passage is optional.
+Beginner player, beware ...
 ]],
 }
 
-dialog{
-  id = "monster_house.found_all",
-  text = [[
-Je n'en crois pas mes yeux, tu as réussi à
-vaincre tous les types d'ennemis !!!
-Félicitations Link !!!
-]],
-}
-
-dialog{
-  id = "monster_house.no_more_reward",
-  text = [[
-Je suis désolé mais je n'ai plus rien à
-t'offrir...
-]],
-}
-
-dialog{
-  id = "monster_house.one_remaining",
-  text = [[
-Plus qu'un nouvel ennemi avant la prochaine
-récompense !
-]],
-}
-
-dialog{
-  id = "monster_house.remaining",
-  text = [[
-Encore $v ennemis différents avant la prochaine
-récompense.
-]],
-}
-
-dialog{
-  id = "monster_house.reward",
-  text = [[
-Accepte ce cadeau pour ta contribution à mon
-projet :
-]],
-}
-
-dialog{
-  id = "monster_house.welcome",
-  text = [[
-Bienvenue Link !
-Laisse-moi t'expliquer ce que je fais ici.
-
-
-Comme tu l'as certainement remarqué, des
-monstres sont apparus partout dans Hyrule.
-C'est la première fois que je vois des monstres
-depuis que tu as vaincu Ganon.
-Eh bien j'ai décidé de tous les répertorier.
-
-
-
-L'ennui c'est que je suis bien trop peureux
-pour aller à leur rencontre, alors j'ai besoin
-de ton aide.
-
-Il faut que tu battes chaque type de monstre et
-que tu viennes me faire ton rapport.
-
-
-Je te récompenserai tous les 7 nouveaux types
-d'ennemis vaincus.
-
-
-Si tu veux savoir quels ennemis tu as déjà
-vaincus, appuie sur M.
-]],
-}
-
-dialog{
+dialog {
   id = "not_enough_money",
   text = [[
-Désolé, mais tu n'as pas assez de rubis.
+Sorry, but you don't have enough rubies.
 ]],
 }
 
-dialog{
+dialog {
   id = "outE.village_sign",
   text = [[
-Village GrissGrass
+GrissGrass Village
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outA.hill_sign",
   text = [[
-Pour monter sur la colline,
-utilise l'échelle
-(flèche directionnelle du haut)
+To go up the hill,
+use the ladder
+(up directional arrow)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outA.house_sign",
   text = [[
-Nord : Maison d'Icarius
-Est : vers le village de Kokoro
-Sud : vers la forêt enchantée
-(Attention aux esprits malins)
+North: House of Icarius
+East: towards the village of Kokoro
+South: towards the enchanted forest
+(Watch out for evil spirits)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outA.kokoro_village_sign",
   text = [[
-N : Village Kokoro
+N: Kokoro Village
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outA.statia_princess",
   text = [[
---- Une apparition ---
-Icarius, te voici !
-Heureusement, tu as su échapper
-aux esprits malins...
-Je suis Statia,
-la princesse qui protège ce royaume
-avec le pouvoir des Runes.
+--- An apparition ---
+Icarius, here you are!
+Fortunately, you were able to escape
+to evil spirits ...
+I am Statia,
+the princess who protects this kingdom
+with the power of the Runes.
 
-Celle que tu vois devant toi
-n'est qu'une apparition,
-un simulacre créé par magie
-pour pouvoir te parler.
-Icarius, j'ai besoin de ton aide.
-Le terrible sorcier SaSSoS 
-a jeté un maléfice sur les Runes
-pour les plonger dans les ténébres.
-Je suis retenue prisonnière 
-dans le temple de SaSSoS...
-Le château de Statis aussi
-a été envahi par les forces maléfiques.
-Sans le pouvoir des Runes,
-bientôt, le peuple de Statis perdra
-à jamais son art de compter...
-... et le royaume se délitera !
-IcaRius, il te faut réveiller
-chacune des six runes de Statis
-et vaincre SaSSoS le maléfique
+The one you see in front of you
+is just an apparition,
+a simulacrum created by magic
+to be able to talk to you.
+Icarius, I need your help.
+The terrible sorcerer SaSSoS
+cast a curse on the Runes
+to plunge them into darkness.
+I am being held prisoner
+in the temple of SaSSoS ...
+Statis castle too
+was overrun by evil forces.
+Without the power of the Runes,
+soon the people of Statis will lose
+forever his art of counting ...
+... and the kingdom will fall apart!
+IcaRius, you must wake up
+each of the six runes of Statis
+and defeat the evil SaSSoS
 
-Le Grimoire d'IGoR t'aidera 
-dans cette quête, pour résoudre
-les énigmes et découvrir le pouvoir des Runes
+The IGOR Grimoire will help you
+in this quest, to solve
+the puzzles and discover the power of the Runes
 
-Mais il te faudra aussi combattre 
-et faire preuve d'adresse...
-Prends cette épée légendaire 
-pour vaincre tes ennemis.
-N'hésite pas à t'entraîner
-en coupant les quelques buissons
-sur ta route...
+But you will also have to fight
+and show proof of address ...
+Take this legendary sword
+to defeat your enemies.
+Don't hesitate to train
+by cutting the few bushes
+on your way ...
 
-IcaRius, pars rejoindre le château de Statis, 
-pour libérer le mage Essespéus, 
-qui s'y trouve retenu.
-Bonne chance : je veillerai sur toi !
+IcaRius, go to the castle of Statis,
+to free the mage Essespéus,
+which is held there.
+Good luck: I'll watch over you!
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC.mage_delagarde_answer",
   text = [[
-(Enigme optionnelle)
+(Optional puzzle)
 --- Mage DelaGarde ---
-Gauche, droite, 
-Droite, gauche...
-Nonobstant de menues circonvolutions,
-je dirais qu'il y a quelque évidence
-dans le choix du (des ?) chemin(s) à suivre.
+Left right,
+Right left...
+Notwithstanding small convolutions,
+I would say that there is some evidence
+in the choice of the path (s) to follow.
 
-Gauche, droite, 
-Gauche, droite,
-Droite, gauche...
+Left right,
+Left right,
+Right left...
 
-A moins que le doute ne brouille tes sens,
-que ta compréhension ne faiblisse
-suis ma pensée - sans crainte - jusqu'à l'issue
-de ce labyrinthe que tu t'apprêtes à explorer.
-Gauche, droite, 
-Gauche, droite,
-Droite, gauche...
+Unless doubt blurs your senses,
+may your understanding not falter
+follow my thought - fearlessly - to the end
+of this labyrinth that you are about to explore.
+Left right,
+Left right,
+Right left...
 
-Voyons, tout ceci est limpide,
-tout comme la gauche de ma gauche
-rejoint la droite de ma droite
+Let's see, this is all crystal clear,
+just like the left of my left
+join the right of my right
 (ad mutatis mutandis)
-Bref, si tu suis mes indications,
-sans perdre le fil de mes propos tortueux
-tu sortiras vivant et sain d'esprit
-de ce dédale où tout est choix et directions.
-Voici donc l'énigme :
-Gauche, droite, droite, gauche...
-quelle que soit la direction que tu regardes, 
-la sortie se trouve au delà de Pi.
-Ouvre le grimoire d'IGoR
-au chapitre 7 pour trouver 
-le bon chemin...
-(cette énigme est optionnelle)
-As-tu la réponse ?
-$? oui, la voici...
-$? non, pas encore...
+In short, if you follow my directions,
+without losing the thread of my tortuous words
+you will come out alive and sane
+of this maze where everything is choice and direction.
+Here is the riddle:
+Left, right, right, left ...
+whichever direction you are looking,
+the exit is beyond Pi.
+Open the IGOR grimoire
+in chapter 7 to find
+The good way...
+(this riddle is optional)
+Do you have the answer?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC.mage_delagarde_go",
   text = [[
 --- Mage DelaGarde ---
-Je te laisse poursuivre ta route
-à travers ce labyrinthe
+I let you continue your journey
+through this labyrinth
 
 
-Gauche, droite, gauche, droite...
-(à moins que ce ne soit l'inverse ?)
+Left, right, left, right ...
+(unless it's the other way around?)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC.mage_delagarde_nogo",
   text = [[
 --- Mage DelaGarde ---
-Un peu perdu dans ce dédale ?
-Laisse-moi te répéter l'indice :
+A little lost in this maze?
+Let me repeat the clue to you:
 
-Gauche, droite, droite, gauche...
-quelle que soit la direction que tu regardes, 
-la sortie se trouve au delà de Pi.
+Left, right, right, left ...
+whichever direction you are looking,
+the exit is beyond Pi.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC.sign1",
   text = [[
-N : Entrée du labyrinthe du désert
-O : Pour les joueurs téméraires
+N: Entrance to the Desert Maze
+O: For reckless players
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC.sign2",
   text = [[
 ---Danger---
-Êtes vous bien sûr 
-de vouloir aller plus loin ?
+Are you sure
+to want to go further?
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC_extra.mage_dregor",
   text = [[
---- Mage DregoR --- 
-Hum, voilà un joueur bien téméraire
-Voyons si ton adresse égale ton audace
+--- Mage DregoR ---
+Hmm, here's a very reckless player
+Let's see if your skill matches your daring
 
-Veux-tu activer le mode Pacman
-pour le labyrinthe du désert ?
-$? oui, je ne crains rien
-$? non, j'ai trop peur
+Do you want to activate Pacman mode
+for the desert labyrinth?
+$? yes, I'm not afraid
+$? no, I'm too scared
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC_intro.sign1",
   text = [[
-Est : vers le labyrinthe...
+East: towards the labyrinth ...
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outC_intro.sign2",
   text = [[
-Nord : vers le labyrinthe...
-(ne perdez pas votre chemin)
+North: towards the labyrinth ...
+(don't lose your way)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.MamGrouxi_KO",
   text = [[
---- Mam' Grouxi ---
-Ah, les jeunes d'aujourd'hui.
-Ils préfèrent passer leur temps
-à jouer aux jeux vidéos...
-... plutôt que d'écouter
-la sagesse des aînés.
-Tant pis... Reviens me voir 
-quand tu changeras d'avis.
+--- Mam 'Grouxi ---
+Ah, the young people of today.
+They prefer to spend their time
+playing video games ...
+... rather than listening
+the wisdom of the elders.
+Too bad ... come back and see me
+when you change your mind.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.MamGrouxi_OK",
   text = [[
---- Mam' Grouxi ---
-Merci, icaRius...
-La réponse se trouve dans le chapitre 9 
-du grimoire IGoR.
-As-tu trouvé la réponse ?
-$? Oui, Mam' Grouxi
-$? Non, pas encore
+--- Mam 'Grouxi ---
+Thanks, icaRius ...
+The answer is in chapter 9
+of the IGoR grimoire.
+Did you find the answer?
+$? Yes, Mam 'Grouxi
+$? Not yet
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.MamGrouxi_bravo",
   text = [[
---- Mam' Grouxi ---
-Merci, jeune homme.
-Pour te remercier, voici une récompense...
-Elle t'aidera à creuser ton chemin...
+--- Mam 'Grouxi ---
+Thank you, young man.
+To thank you, here is a reward ...
+She will help you dig your way ...
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.MamGrouxi_start",
   text = [[
---- Mam' Grouxi ---
-Ho, voilà un jeune homme
-bien affairé...
-Sois le bienvenu à Sandia
-Ce village est presque déserté...
-Nous sommes bien seuls ici,
-depuis que les enfants sont partis.
+--- Mam 'Grouxi ---
+Ho, here is a young man
+busy ...
+Welcome to Sandia
+This village is almost deserted ...
+We are very alone here,
+since the children left.
 
-Il y avait autrefois une telle animation !
-Et des bambins à foison !
-Oh, j'ai noté d'ailleurs toutes les naissances
-dans ce registre...
-J'ai même pu recueillir 
-celles des villages voisins...
-Comment ? Tu n'as pas le temps de discuter ?
-Ah, c'est tellement dommage...
-J'aurais pu te dire le nom de chaque enfant
-né dans les environs...
-Je me souviens... 
-Oui, c'était il y a quelques années...
-Une naissance extraordinaire...
-Une petite fille, 
-dotée d'une spiritualité sans égale...
+There used to be such an animation!
+And toddlers galore!
+Oh, I wrote down all the births
+in this register ...
+I was even able to collect
+those of neighboring villages ...
+How? 'Or' What ? Don't you have time to chat?
+Ah, it's such a shame ...
+I could have told you the name of each child
+born nearby ...
+I remember...
+Yes, that was a few years ago ...
+An extraordinary birth ...
+A little girl,
+endowed with unparalleled spirituality ...
 
-Comment ? Ca ne t'interesse pas ?
-Ah bon... 
-Oui, elle avait vraiment un niveau de Mana
-comme aucun autre enfant dans le registre.
-Mais dans quel village est-elle née déjà ?
-M'aiderais-tu à me souvenir, jeune icaRius ?
-$? Oui, Mam' Grouxi
-$? Non, je suis pressé !
+How? 'Or' What ? It does not interest you ?
+Is that so...
+Yes, she really had a mana level
+like no other child in the registry.
+But in which village was she already born?
+Would you help me remember, young icaRius?
+$? Yes, Mam 'Grouxi
+$? No, I'm in a hurry!
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.mage_zilap_ask",
   text = [[
 --- Mage Zilap ---
-As-tu pris connaissance du chapitre 8 ?
-$? Oui, vieux grigou
-$? Non, ras-le-bol du grimoire
+Have you read chapter 8?
+$? Yes, old grigou
+$? No, fed up with the grimoire
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.mage_zilap_bravo",
   text = [[
 --- Mage Zilap ---
-Humpf ! Pour te récompenser,
-Je t'offre la plume magique
-pour écrire de nouvelles pages d'IGoR
-La plume Tidyverse te donnera 
-de nouveaux pouvoirs,
-à commencer par le fait de soulever
-les obstacles jusqu'alors insurmontables
-Essaie-donc avec ce bloc juste devant toi.
-Mets-toi juste en face, et appuie sur "espace"
-pour le soulever et te frayer un chemin.
+Humpf! To reward you,
+I offer you the magic feather
+to write new IGOR pages
+The Tidyverse feather will give you
+new powers,
+starting with lifting
+the hitherto insurmountable obstacles
+So try with this block right in front of you.
+Put yourself right in front, and press "space"
+to lift it up and clear your way.
 
-Humpf !
-Bonne chance, icaRius, dans la suite
-de ton aventure...
+Humpf!
+Good luck, icaRius, in the sequel
+of your adventure ...
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.mage_zilap_colere",
   text = [[
 --- Mage Zilap ---
-Gredin ! Bon à rien !
-Si c'est comme ça,
-continue à tourner en rond
-Humpf !
-Reviens me voir 
-quand tu auras lu le chapitre 8.
+Rascal! Good-for-nothing !
+If it's like that,
+keep going in circles
+Humpf!
+Come see me again
+when you have read chapter 8.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.mage_zilap_start",
   text = [[
---- Mage Zilap---
-Humpf !
-Te revoilà !
-Il t'en a fallu, du temps...
-Humpf !
-Mais au moins, tu commences
-à parler des rudiments des Runes
-Comme quoi, rien n'est désespéré.
-Passons maintenant aux choses sérieuses.
-Pour aller plus loin dans l'aventure
-Il te faudra écrire de nouvelles pages
-du grimoire IGoR.
-Comment ?
-Tu ne sais pas écrire dans le grimoire ?
-Hump... Normal !
-Il te manque la plume du Tidyverse.
-"Tidyverse", oui... 
-Le nom de cette plume magique 
-qui te permettra d'ajouter bien des pouvoirs
-au grimoire et de décupler ta force.
-Prends connaissance du chapitre 8,
-et reviens me voir.
+--- Mage Zilap ---
+Humpf!
+Here you are again !
+It took you, time ...
+Humpf!
+But at least you start
+to talk about the basics of Runes
+Like what, nothing is desperate.
+Now let's get down to business.
+To go further in the adventure
+You will have to write new pages
+of the IGoR grimoire.
+How? 'Or' What ?
+Can't you write in the grimoire?
+Hump ​​... Normal!
+You're missing the Tidyverse quill.
+"Tidyverse", yes ...
+The name of this magic feather
+which will allow you to add many powers
+grimoire and increase your strength tenfold.
+Read chapter 8,
+and come see me again.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.sign1",
   text = [[
---- Village de Sandia ---
+--- Sandia Village ---
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outD.sign2",
   text = [[
-Attention, paroi fragile...
-(la moindre vibration pourrait 
-provoquer un éboulement...)
+Attention, fragile wall ...
+(the slightest vibration could
+cause a landslide ...)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outF.caserne",
   text = [[
-Cette grotte mène vers un lieu périlleux.
-Uniquement pour les joueurs avertis
-(niveau optionnel)
+This cave leads to a perilous place.
+Only for experienced players
+(optional level)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outF1.landslide",
   text = [[
-Un éboulement de terrain
-vient de boucher le passage.
+A landslide
+has just blocked the passage.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outG.impossible_room",
   text = [[
-Le passage vers la pièce impossible
-est refermé...
+Passage to the impossible room
+is closed ...
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outG.switch_tips",
   text = [[
-Pour ne pas sombrer dans un tourbillon
-de vains recommencements,
-l'arcane du reproductible
-il te faudra utiliser...
-Ce qui toujours revient vers toi
-te permettra de résorber l'obstacle.
-(appui sur la touche D pour sélectionner
-un équipement depuis ton inventaire)
+So as not to sink into a whirlwind
+vain starts again,
+the arcane of the reproducible
+you will need to use ...
+What always comes back to you
+will allow you to overcome the obstacle.
+(press the D key to select
+equipment from your inventory)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_1",
   text = [[
 --- FebeleR ---
-Croa. Si la matière grise était plus rose,
-le monde aurait les idées moins noires.
+Croa. If the gray matter was more pink,
+the world would have less gloomy ideas.
 Croa.
 Croa.
-Il faut une infinie patience
-pour attendre toujours ce qui n'arrive jamais.
+It takes infinite patience
+to always wait for what never happens.
 Croa.
 Croa.
-Je suis FebeleR, l'oiseau migrateur.
-Lecteur féru de littérature statisienne.
+I am FebeleR, the migratory bird.
+A keen reader of Statisian literature.
 Croa.
 --- icaRius ---
-(quel drôle d'oiseau.
-(il a un plumage tout bariolé...
-... et porte des lunettes !)
+(what a funny bird.
+(it has a colorful plumage ...
+... and wear glasses!)
 --- FebeleR ---
-J'ai beaucoup voyagé, jeune homme - croa -
-tout autant dans les livres que dans les airs.
-J'ai découvert bien des trésors !
+I have traveled a lot, young man - croa -
+as much in the books as in the air.
+I have discovered many treasures!
 --- icaRius ---
-(Demandons-lui de l'aide)
-$? le piaf, fais-moi traverser ce lac !
-$? sauriez-vous me guider par delà le lac ?
+(Let's ask him for help)
+$? the piaf, take me across this lake!
+$? can you guide me across the lake?
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_2",
   text = [[
 --- FebeleR ---
-Croa. Au royame des borgnes,
-les aveugles sont mal vus.
+Croa. In the kingdom of the one-eyed,
+the blind are frowned upon.
 Croa.
 --- icaRius ---
-(Demandons-lui de l'aide - poliment)
-$? le piaf, fais-moi traverser ce lac !
-$? sauriez-vous me guider par delà le lac ?
+(Let's ask her for help - politely)
+$? the piaf, take me across this lake!
+$? can you guide me across the lake?
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_KO",
   text = [[
 --- FebeleR ---
-Voyons, voyons... Croa
-Idiot cherche village, semble-t-il...
-Hé bien, cherche tout seul.
-Mais attention de ne pas te noyer
-dans les profondeurs des eaux
-(et de ton impolitesse).
+Let's see, let's see ... Croa
+Idiot seeks village, it seems ...
+Well, look for yourself.
+But be careful not to drown
+in the depths of the waters
+(and your rudeness).
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_OK",
   text = [[
 --- FebeleR ---
-Te guider je le puis. Croa
-Mais je ne pourrai te transporter 
-sur mes ailes frêles.
-Il te faudra nager
-pour explorer la richesse du Datalake
-et rejoindre les rivages 
-des Syrtes probabilistes.
-Dans mes innombrables lectures,
-j'ai découvert un sortilège 
-qui devrait te permettre de franchir
-ce profond DataLake.
-Il s'agit du sortilège palmes()...
-Encore faut-il en lire la documentation,
-pour en saisir le fonctionnement
-et nager comme un poisson dans les données.
-Sans sortilège, point de magie !
-Et sans documentation, point de sortilège !
-Ouvre le grimoire IGoR au chapitre 12,
-et apprend à documenter ta magie !
+I can guide you. Croa
+But I won't be able to transport you
+on my frail wings.
+You will have to swim
+to explore the richness of Datalake
+and reach the shores
+of the probabilistic Sirtes.
+In my countless readings,
+I discovered a spell
+which should allow you to cross
+this deep DataLake.
+This is the palms spell () ...
+You still have to read the documentation,
+to understand how it works
+and swim like a fish in the data.
+Without magic, there is no magic!
+And without documentation, no spell!
+Open the IGoR Grimoire in Chapter 12,
+and learn to document your magic!
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_answer",
   text = [[
-As-tu la réponse du chapitre 12 ?
-$? oui, la voici...
-$? non, pas encore...
+Do you have the answer from chapter 12?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_congratulation",
   text = [[
-Bravo, tu as trouvé la bonne réponse.
-Avant de m'envoler pour de nouvelles contrées,
-il me reste à te récompenser
-en t'équipant pour franchir le datalake...
-Les vrais voyageurs sont ceux-là seuls qui partent
-Pour partir, coeurs légers, semblables aux ballons
-De leur fatalité jamais ils ne s'écartent,
-Et, sans savoir pourquoi, disent toujours: allons!
-               (il s'envole...)
+Well done, you have found the right answer.
+Before flying to new lands,
+I still have to reward you
+by equipping yourself to cross the datalake ...
+The real travelers are the only ones who go
+To go, light hearts, like balloons
+They never stray from their fate,
+And, without knowing why, always say: let's go!
+               (he flies away ...)
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.chatty_bird_extra",
   text = [[
 --- FebeleR ---
-Pour l'enfant, amoureux de cartes et d'estampes,
-L'univers est égal à son vaste appétit.
-Et nous allons, suivant le rythme de la lame,
-Berçant notre infini sur le fini des mers...
-icaRius, vers l'Est ton voyage se dirige,
-pour libérer au plus vite Statia.
+For the child, lovers of cards and prints,
+The universe is equal to its vast appetite.
+And we go, following the rhythm of the blade,
+Cradling our infinity on the finite of the seas ...
+icaRius, towards the east your journey is heading,
+to release Statia as quickly as possible.
 
-Sache néanmoins qu'au Nord se trouve
-Une île cachée si tu veux prolonger ton aventure.
+Know nevertheless that in the North is
+A hidden island if you want to extend your adventure.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.frozen_exit",
   text = [[
-Le passage vers le temple de glace est gelé
+The passage to the ice temple is frozen
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.ice_island",
   text = [[
---- L'île de glace ---
-N'oubliez pas votre doudoune
+--- The Ice Island ---
+Don't forget your down jacket
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.lake_introduction",
   text = [[
 --- DataLake ---
-Attention à ne pas sombrer
-dans les profondeurs du DataLake.
+Be careful not to sink
+in the depths of DataLake.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH.path_locked",
   text = [[
-Le passage est fermé :
-il n'est pas possible de revenir en arrière.
+The passage is closed:
+it is not possible to go back.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outH_extra.warp_zone",
   text = [[
---- Passage secret ---
-Direction les canyons de Statis
+--- Secret passage ---
+Head for the Statis canyons
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outI.landslide",
   text = [[
-Un éboulement de terrain
-vient de boucher le passage
-vers le Temple de la roche.
+A landslide
+just blocked the passage
+towards the Temple of the Rock.
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outL.tomb_1",
   text = [[
-RIP SPSS
+SPSS RIP
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outL.tomb_2",
   text = [[
 RIP STATA
 ]],
 }
 
-dialog{
+dialog {
   id = "outside_icarius_outL.tomb_3",
   text = [[
 RIP SAS
 ]],
 }
 
-dialog{
-  id = "potion_not_needed",
-  text = [[
-Tu n'as pas besoin de boire cette potion
-maintenant.
-]],
-}
-
-dialog{
+dialog {
   id = "rune.1",
   text = [[
-Vous avez trouvé une rune !
-Bravo, continuez l'aventure !
+You have found a rune!
+Well done, continue the adventure!
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_1.boss",
   text = [[
---- Voix de Statia ---
-Prends garde, icaRius...
-C'est un des gardiens maléfiques,
-chargés par SaSSos de sceller les Runes...
+--- Statia's voice ---
+Take care, icaRius ...
+He's one of the evil guardians,
+charged by SaSSos to seal the Runes ...
 --- Motzilla ---
-bzz te voilà, misérable statisien bzz
-tu te crois capable bzz de me vaincre ?
-En un coup d'aile bzzz je vais te balayer
-et miter tes algorithmes bzz d'erreurs fatales
-et de données manquantes bzzz
+bzz there you are, miserable statisian bzz
+do you think yourself capable bzz to defeat me?
+In one wing bzzz I'll sweep you away
+and mimic your fatal error bzz algorithms
+and missing data bzzz
 --- icaRius ---
-(soyons prudent : c'est mon premier combat)
+(let's be careful: it's my first fight)
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_2.boss",
   text = [[
 --- Tartaros ---
-Je suis le gardien des mânes :
-j'emprisonne ici les esprits égoistes,
-qui jamais ne partagent leur code
-et minent seuls leurs données.
-Tant pis pour eux : ils resteront 
-dans le souterrain de l'ignorance,
-à creuser leur galerie tels des lombrics...
+I am the keeper of the spirits:
+I imprison selfish spirits here,
+who never share their code
+and undermine their data on their own.
+Too bad for them: they will stay
+in the underground of ignorance,
+to dig their gallery like earthworms ...
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_2.release",
   text = [[
-Les esprits retenus par Tartaros
-sont désormais libérés...
-Ils peuvent trouver le repos...
+The spirits retained by Tartaros
+are now released ...
+They can find rest ...
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_3.welcome",
   text = [[
 
-               Château de Statis
+               Statis Castle
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_4.boss",
   text = [[
 --- Monolith ---
-Tu te crois, icaRius, le plus fort,
-armé de ton code bien organisé,
-et harmonieusement délimité ?
-Gnark. Je vais au contraire t'écraser
-d'un seul bloc bien condensé,
-sous une épaisseur de roche,
-comme une procédure monolithique...
+You believe yourself, icaRius, the strongest,
+armed with your well-organized code,
+and harmoniously delimited?
+Gnark. I will instead crush you
+in one well condensed block,
+under a thickness of rock,
+like a monolithic procedure ...
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_4.welcome",
   text = [[
 
-               Temple de la Roche
+               Temple of the Rock
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_5.boss",
   text = [[
---- Zigûr ---
-Je t'observe, icaRius, depuis le début.
-Je suis l'oeil de SaSSoS,
-guettant sans cesse dans l'obscurité.
-Et d'un clin d'oeil je te plongerai
-dans les abysses de l'oubli !
+--- Zigure ---
+I've been watching you, icaRius, from the start.
+I am the eye of SaSSoS,
+constantly watching in the dark.
+And with a blink of an eye I will plunge you
+in the abyss of oblivion!
 
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_5.teleport",
   text = [[
-(Voix de Statia)
-Icarius : juste après le coffre,
-se trouve une zone de téléportation...
+(Voice of Statia)
+Icarius: just after the chest,
+there is a teleportation zone ...
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_5.welcome",
   text = [[
 
-               Temple de l'Ombre
+               Shadow temple
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_6.boss",
   text = [[
 --- Confusius ---
-La raison est un miroir qu'on a reçu du ciel ;
-Il se ternit, il faut l'essuyer,
-Ou au contraire rester figé dans l'ignorance !
-Je suis Confusius, gardien du temple de glace.
-Dans la brume du code mal documenté
-Je vais te plonger à jamais !!!
+Reason is a mirror that we have received from heaven;
+It tarnishes, you have to wipe it off,
+Or on the contrary remain frozen in ignorance!
+I am Confusius, Guardian of the Ice Temple.
+In the haze of poorly documented code
+I will immerse you forever !!!
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_6.teleport",
   text = [[
-Télétransportation imminente
+Imminent teletransportation
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_6.welcome",
   text = [[
 
-               Temple de la Glace
+               Ice temple
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.boss_1",
   text = [[
---- Sorcier SaSSoS ---
-Nous voilà de nouveau face à face !
-Tu penses avoir déjoué mes plans ?
-Tu es convaincu de triompher ?
-Gnark gnark gnark... Au contraire, icaRius,
-tu es tombé dans mon piège !
-Car Statia t'a donné l'emblème royal,
-cet objet légendaire que je recherchais !
-Il me suffit maintenant de te réduire à néant
-pour détruire l'emblème et le pouvoir des Runes.
-Prépares-toi, icaRius, à affronter
-mes Proc Thunder !!!
+--- Sorcerer SaSSoS ---
+Here we are again face to face!
+Do you think you've foiled my plans?
+Are you convinced to triumph?
+Gnark gnark gnark ... On the contrary, icaRius,
+you fell into my trap!
+Because Statia gave you the royal emblem,
+this legendary item I was looking for!
+Now I just have to bring you down
+to destroy the emblem and power of the Runes.
+Prepare, icaRius, to face
+my Proc Thunder !!!
 --- icaRius ---
-(Cette fois, c'est bien lui, et non un artefact.
-Que les Runes soient avec moi !)
+(This time, it's him, not an artifact.
+May the Runes be with me!)
 
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.boss_2",
   text = [[
-Noooon !!!!
-Comment est-ce possible ???
-La force des Runes s'est éveillée
-dans ce jeune Statisien, je ne peux lutter...
-Il me reste à sombrer dans les limbes
-des logiciels statistiques propriétaires.
-Arghhhhh....
-(il disparait dans une explosion de procédures).
+Noooo !!!!
+How is it possible ???
+The strength of the Runes has awakened
+in this young Statisian, I cannot fight ...
+I still have to sink into limbo
+proprietary statistical software.
+Arghhhhh ....
+(he disappears in an explosion of procedures).
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.opening_boss_door",
   text = [[
 --- icaRius ---
-Je sens le pouvoir des Runes s'éveiller...
-J'approche de la dernière épreuve...
+I feel the power of the Runes awakening ...
+I'm approaching the last test ...
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.opening_prison_door",
   text = [[
-Cette porte est bloquée par la magie !
-Je vais invoquer le pouvoir des Runes...
+This door is blocked by magic!
+I will summon the power of the Runes ...
 
-(icaRius utilise la magie du langage des Runes)
+(icaRius uses Rune language magic)
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.pre_boss",
   text = [[
 --- Cerbos ---
-Grrrr... Grrrr...
+Grrrr ... Grrrr ...
 --- icaRius ---
-(Gloups) Gentil chien-chien...
+(Gloups) Nice dog-dog ...
 --- Cerbos ---
-GrRrR... GrRrR...
+GrRrR ... GrRrR ...
 --- icaRius ---
-Sage le toutou...
+Wise the doggie ...
 --- Cerbos ---
 grRRRRR !!!!
 --- icaRius ---
-(aïe ! aïe ! aïe !)
+(AIE Aie Aie !)
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.statia_1",
   text = [[
 --- icaRius ---
-Princess Statia ! 
-Je vous ai retrouvée ! 
-Venez, échappons-nous de ce temple maudit.
---- Princesse Statia ---
-icaRius ! Je savais que ma voix te guiderait...
-Je suis prisonnière, derrière ces barreaux !
-La magie de SaSSoS les rend impossible à briser.
-Laisse-moi te confier l'emblème Royal,
-qui te permettra de libérer la force des Runes
+Princess Statia!
+I found you!
+Come, let's escape from this cursed temple.
+--- Princess Statia ---
+icaRius! I knew my voice would guide you ...
+I am a prisoner, behind these bars!
+The magic of SaSSoS makes them impossible to break.
+Let me entrust you with the Royal emblem,
+that will allow you to unleash the strength of the Runes
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.statia_2",
   text = [[
---- Princesse Statia ---
-icaRius ! tu as triomphé !
-Te voilà devenu Maître des Runes !
-Partons restaurer la paix dans le royaume...
+--- Princess Statia ---
+icaRius! you have triumphed!
+You have become Master of Runes!
+Let us go to restore peace in the kingdom ...
 ]],
 }
 
-dialog{
+dialog {
   id = "rune_final.welcome",
   text = [[
-                 Niveau final
+                 Final level
 
-              Le temple de SaSSoS
+              The temple of SaSSoS
 ]],
 }
 
-dialog{
+dialog {
   id = "save_quit",
   text = [[
-                 Déjà fatigué ?
-                 $? Continuer
-           $? Sauvegarder et quitter
-          $? Quitter sans sauvegarder
+                 Already tired?
+                 $? Continue
+           $? Save and exit
+          $? Quit without saving
 ]],
 }
 
-dialog{
-  id = "shop.arrow.2",
-  text = [[
-5 flèches.
-]],
-}
-
-dialog{
-  id = "shop.bomb.1",
-  text = [[
-Une bombe.
-]],
-}
-
-dialog{
-  id = "shop.bow.2",
-  text = [[
-Un arc.
-]],
-}
-
-dialog{
-  id = "shop.choose",
-  text = [[
-Choisis ce que tu veux.
-]],
-}
-
-dialog{
-  id = "shop.heart.1",
-  text = [[
-Un coeur.
-]],
-}
-
-dialog{
-  id = "shop.magic_flask.1",
-  text = [[
-Un peu de magie.
-]],
-}
-
-dialog{
-  id = "shop.magic_flask.2",
-  text = [[
-Beaucoup de magie.
-]],
-}
-
-dialog{
+dialog {
   id = "small_key_required",
   text = [[
-Cette porte est verrouillée.
-Il te faut une petite clé pour l'ouvrir !
+This door is locked.
+You need a small key to open it!
 ]],
 }
 
-dialog{
+dialog {
   id = "tiny_house.frog_1",
   text = [[
 --- aSa la gueRnouille ---
 
-Cooaa... Sois le bienvenu, voyageur,
-Cooaa... dans mon humble demeure.
-Je devine... Cooaa... l'objet de ta visite,
-Je pressens... les desseins qui t'habitent !
-Car derrière mes apparences de gueRnouille 
-Les lignes du futur je gribouille.
-Je suis le devin, qui peut tout prévenir,
-Dans les livres... Cooaa... je lis l'avenir !
-Je le sais : tu veux vaincre SaSSoS,
-Tu voudrais que ton voeux j'exauce !
-Mais chacun doit... Cooaa... écrire son destin
-Et triompher en brave, de sa propre main !
-Laisse-moi t'apprendre à écrire ton futur
-Et parafer de ton aventure l'imprimatur...
-Pour cela, ouvre le grimoire d'IGoR
-au chapitre 13 - et sois le plus fort !
-Relis ton histoire, du début à la fin,
-Et choisis de ta plume ce qu'il advient...
+Cooaa ... Welcome, traveler,
+Cooaa ... in my humble abode.
+I guess ... Cooaa ... the object of your visit,
+I sense ... the designs that dwell in you!
+Because behind my gueRnouille appearances
+The lines of the future I scribble.
+I am the soothsayer, who can prevent everything,
+In the books ... Cooaa ... I read the future!
+I know: you want to defeat SaSSoS,
+You would like your wish to be granted!
+But everyone must ... Cooaa ... write their destiny
+And triumph bravely, with his own hand!
+Let me teach you to write your future
+And initial of your adventure the imprimatur ...
+To do this, open the IGOR grimoire
+in chapter 13 - and be the strongest!
+Read your story from start to finish
+And choose with your pen what happens ...
 ]],
 }
 
-dialog{
+dialog {
   id = "tiny_house.frog_2",
   text = [[
-As-tu la réponse du chapitre 13 ?
-$? oui, la voici...
-$? non, pas encore...
+Do you have the answer from chapter 13?
+$? yes, here it is ...
+$? not yet...
 ]],
 }
 
-dialog{
+dialog {
   id = "tiny_house.frog_3",
   text = [[
 --- aSa la gueRnouille ---
-Cooaa... Dans les livres, c'était écrit !
-Cooaa... Ta quête est bientôt finie !
+Cooaa ... In the books, it was written!
+Cooaa ... Your quest is soon over!
 
-Tu as tracé les lignes de ton apprentissage
-Je vais t'ouvrir le prochain passage.
-(un bruissement végétal se fait entendre)
+You have drawn the lines of your learning
+I'll open the next passage for you.
+(a vegetable rustle is heard)
 ]],
 }
 
-dialog{
+dialog {
   id = "tiny_house.welcome",
   text = [[
-(cette maison est minuscule !!!)
+(this house is tiny !!!)
 ]],
 }
 
-dialog{
+dialog {
   id = "tree_house.redhat_guy_1",
   text = [[
---- L'automate TeoC ---
-Dzdz. Bip bip bip.
-L'éternel recommencement...
-Bip. Reboot. 
+--- The TeoC PLC ---
+Dzdz. Beep beep beep.
+The eternal beginning ...
+Beep. Reboot.
 --- icaRius ---
-(quel étrange personnage, 
-avec son chapeau rouge.
-Il émet des sons bizarroïdes...)
---- L'automate TeoC ---
+(what a strange character,
+with his red hat.
+It makes weird sounds ...)
+--- The TeoC PLC ---
 Loading time. Dz dz.
-Toute fin à son début.
-Et réciproquement. Shutdown.
-Je m'appelle TeoC. Dz dz.
-Start. Je suis un robot.
-Dz. Un ensemble organisé
-de procédures - bip, bip.
-J'attendais ta venue, icaRius.
-J'ai été programmé - 404 error -
-par le mage Essespéus 
-pour t'aider dans ta quête. 
+Very end at its beginning.
+And reciprocally. Shutdown.
+My name is TeoC. Dz dz.
+Start. I am a robot.
+Dz. An organized set
+of procedures - beep, beep.
+I was waiting for you to come, icaRius.
+I have been programmed - 404 error -
+by the mage Essespéus
+to help you in your quest.
 --- icaRius ---
-Robot TeoC... Euh... bip, bip ?
-Peux-tu m'indiquer (bip ?) la route
-pour libérer la princesse Statia ?
---- Automate TeoC ---
-Dz dz. Program loading. Bip.
-Connais-tu, icaRius, 
-la "voie du reproductible" ?
---- icaRius---
-Euh, la reprodu-quoi ?
---- Automate TeoC ---
+TeoC robot ... uh ... beep, beep?
+Can you show me (beep?) The way
+to free Princess Statia?
+--- TeoC PLC ---
+Dz dz. Program loading. Beep.
+Do you know, icaRius,
+the "way of the reproducible"?
+--- icaRius ---
+Uh, reproduce it?
+--- TeoC PLC ---
 Dz dz. Crash. Blue screen.
-Mauvaise réponse, icaRius.
-Il te faut tout recommencer.
-Reprendre ta quête - memory error -
-depuis le début...
+Wrong answer, icaRius.
+You have to start all over again.
+Resume your quest - memory error -
+from the beginning...
 --- icaRius ---
-(il débloque, ce robot... 
-il est complément cassé. 
-Essespéus a dû se tromper)
---- automate TeoC ---
-La voie du reproductible, il te faut découvrir
-Bip bip. Savoir compter, savoir coder.
-Dz Dz dz. Telle est la voie du statisien.
-Procédure de reboot enclenchée.
-Sauvegarde achevée.
-Bip. Bip. Dzzzzzzzzzzzz
-(il agite son chapeau rouge)
+(he unlocks, this robot ...
+it is completely broken.
+Essespéus must have been wrong)
+--- TeoC PLC ---
+The way of the reproducible, you must discover
+Beep beep. Knowing how to count, knowing how to code.
+Dz Dz dz. This is the way of the statisian.
+Reboot procedure initiated.
+Backup completed.
+Beep. Beep. Dzzzzzzzzzzzz
+(waves his red hat)
 --- icaRius ---
-Que se passe-t-il ? Ma vue se brouille...
-Attends, robot TeoC... 
-(icaRius s'endort soudainement)
+What's going on ? My sight is blurring ...
+Wait, TeoC robot ...
+(icaRius suddenly falls asleep)
 ]],
 }
 
-dialog{
+dialog {
   id = "tree_house.redhat_guy_2",
   text = [[
---- L'automate TeoC ---
-Dzdz. Bip bip bip.
-L'éternel recommencement...
-Bip. Reboot. 
-Tu as, icaRius, franchi l'épreuve
-en maîtrisant - dz apt get -
-la Voie du Reproductible
-et ses arcanes.
-Pour te récompenser - Loading time -
-je te remets cet objet magique
-qui toujours revient à son début
-- dz BSOD dzdzdz...
+--- The TeoC PLC ---
+Dzdz. Beep beep beep.
+The eternal beginning ...
+Beep. Reboot.
+You, icaRius, passed the test
+by mastering - dz apt get -
+the way of the reproducible
+and its arcana.
+To reward you - Loading time -
+I give you this magic object
+which always returns to its beginning
+- dz BSOD dzdzdz ...
 ]],
 }
 
-dialog{
+dialog {
   id = "tree_house.sensor_exit",
   text = [[
-Seul l'automate TeoC
-peut te faire sortir...
+Only the TeoC PLC
+can get you out ...
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.chef_village_1",
   text = [[
---- Chef Xeilhac ---
-Voyons, voyons...
-Une feuille d'Aconit,
-De la poudre d'Armoise...
-Oh, pardon !
-Je ne vous avais pas entendu entrer.
-Je suis Xeilhac,
-le chef du village de GrissGrass.
-Pardonnez mes divagations,
-j'essayais de me souvenir d'une formule
-de la plus haute importance.
-Vraiment cruciale.
-La formule de la soupe que ma grand-mère
-me préparait quand j'étais enfant
-pour me guérir de divers maux.
-Honnêtement, cette soupe était...
-complètement inefficace !
-Et tellement écoeurante !
-Mais je n'ai jamais osé le dire...
+--- Chief Xeilhac ---
+Let's see, let's see ...
+A leaf of Aconite,
+Mugwort powder ...
+Oh sorry !
+I didn't hear you come in.
+I am Xeilhac,
+the chief of the village of GrissGrass.
+Forgive my ramblings,
+I was trying to remember a formula
+all important.
+Really crucial.
+The formula for the soup that my grandmother
+prepared me when I was a child
+to cure me of various ailments.
+Honestly, this soup was ...
+completely ineffective!
+And so sickening!
+But I never dared to say it ...
 
-Pardon ? Vous êtes un aventurier ?
-Cherchant à aider la princesse Statia ?
-Oh, mais il vous faut dans ce cas
-un remède pour guérir des attaques ennemies.
-Non, ne fuyez pas !
-Rien à voir avec cette horrible soupe...
-Il vous faut un filtre de Mandragore.
-C'est, pour le coup, un remède formidable.
-Justement, deux fermiers du village
-cultivent la Mandragore.
-Allez donc leur parler, et revenez me voir.
+Sorry ? Are you an adventurer?
+Seeking to help Princess Statia?
+Oh, but you need it in this case
+a remedy to heal enemy attacks.
+No, don't run away!
+Nothing to do with this horrible soup ...
+You need a Mandrake filter.
+It is, for once, a formidable remedy.
+Exactly, two farmers from the village
+cultivate the Mandrake.
+Go talk to them, and come see me again.
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.chef_village_2_a",
   text = [[
---- Chef Xeilhac ---
-Tiens, vous revoilà déjà...
-Je n'ai pas encore eu le temps de noter
-la recette de cette fichue soupe !
-Mais bon, peu importe.
-Vous avez rencontré les fermiers ?
-Voyons maintenant si vos capacités d'analyse
-sont dignes de la Mandragore...
-Ouvrez le grimoire d'IGoR au chapitre 3,
-et indiquez quel est le meilleur cultivateur 
-de Mandragore dans le royaume de Statis.
+--- Chief Xeilhac ---
+Here you are already ...
+I haven't had time to write down yet
+the recipe for that damn soup!
+But hey, whatever.
+Have you met the farmers?
+Now let's see if your analytical skills
+are worthy of the Mandrake ...
+Open the IGOR grimoire in chapter 3,
+and indicate which is the best grower
+of Mandrake in the kingdom of Statis.
 
-Avez-vous la réponse ?
-$? bien sûr, la voici
-$? euh, vous auriez un peu de soupe en attendant ?
+Do you have the answer?
+$? of course here it is
+$? uh, do you have some soup in the meantime?
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.chef_village_2_a_short",
   text = [[
---- Chef Xeilhac ---
-A moins qu'il ne faille aussi du Cynorhodon...
-ou de la l'Acenas peut-être ?
-Rhaaa, pas moyen de me souvenir de la recette !
-Au fait, avez-vous la réponse ?
-$? bien sûr, la voici
-$? euh, toujours pas...
+--- Chief Xeilhac ---
+Unless you also need Rose Hips ...
+or perhaps the Acenas?
+Rhaaa, no way to remember the recipe!
+By the way, do you have the answer?
+$? of course here it is
+$? uh, still not ...
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.chef_village_2_b",
   text = [[
---- Chef Xeilhac ---
-Merci icaRius pour ton aide.
-Je me disais bien 
-que ce Tellus était trop arrogant.
-Mais avant de t'offrir un elixir de Mandragore,
-j'ai encore un service à te demander...
-Pourrais-tu découvrir quel est le secret de Galia
-pour aussi bien cultiver ?
-On entend parfois des rumeurs,
-comme quoi il utiliserait des méthodes occultes,
-peut-être même (j'en frémis)
-de la magie noire !
-(un peu comme la recette de ma grand mère, 
-une vraie soupe Vaudou...)
+--- Chief Xeilhac ---
+Thanks icaRius for your help.
+I was saying to myself
+that Tellus was too arrogant.
+But before giving you a Mandrake elixir,
+I still have a favor to ask you ...
+Could you find out what is Galia's secret
+to also cultivate well?
+We sometimes hear rumors,
+like what he would use occult methods,
+maybe even (I shudder)
+black magic!
+(a bit like my grandmother's recipe,
+a real Voodoo soup ...)
 
 
-Retourne voir Galia
-pour percer son mystère...
+Go back to Galia
+to unravel its mystery ...
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.cimetiere",
   text = [[
-Cimetière de GrissGrass
+GrissGrass cemetery
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.cimetiere_sagesse",
   text = [[
-(Je sens une grande sagesse en ce lieu...
-Serait-ce l'esprit des âmes qui reposent ici ?)
+(I feel great wisdom in this place ...
+Could it be the spirit of the souls that rest here?)
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.fermier_1",
   text = [[
---- Fermier Tellus ---
-Salut, gamin !
-Alors, tu es intéressé 
-par la Mandragore ?
-T'as de la chance !
-J'ai la meilleure exploitation
-du royaume de Statis.
+--- Farmer Tellus ---
+Hi, kid!
+So you are interested
+by the Mandrake?
+You're lucky !
+I have the best exploitation
+of the kingdom of Statis.
 
-De la Mandragore extra pure,
-effet garanti !
-Avec ça, tu vas planer,
-grave !
-Ici, tu auras la meilleure Mandra'
-à mille lieues à la ronde,
-j't'assure. 
+Extra pure Mandrake,
+guaranteed effect!
+With that, you will get high,
+serious!
+Here you will have the best Mandra '
+a thousand leagues around,
+I assure you.
 
-L'aut'croulant, avec sa pauv' ferme,
-il ne tiendra pas longtemps
-face à mon talent !
+The crumbling one, with its poor farm,
+it won't last long
+in front of my talent!
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.fermier_2",
   text = [[
---- Fermier Galia ---
-Bonjour, jeune homme.
-Sois le bienvenu
-dans mon humble exploitation.
-Depuis des générations,
-nous cultivons ici de la Mandragore.
-Beaucoup de patience il faut,
-et de l'ordre dans les plants.
-Oh, c'est une petite ferme,
-c'est vrai, rien d'extravagant,
-et je ne suis plus tout jeune...
-C'est parfois difficile de bien bêcher...
-Mais les jours où je peine,
-l'esprit de mes aieux me vient en aide.
-La Mandragore demande du temps,
-et des soins réguliers...
-C'est une herbe rare,
-dotée de pouvoir vivifiant...
-(j'en utilise parfois dans mon thé
-pour lutter contre mes rhumatismes)
-Si cela t'intéresse, jeune homme,
-Le chef du village pourra t'en dire plus
-sur cette plante magique...
+--- Farmer Galia ---
+Hello young man.
+Welcome
+in my humble farm.
+For generations,
+we are cultivating Mandrake here.
+A lot of patience is needed,
+and order in the plants.
+Oh it's a little farm
+it's true, nothing extravagant,
+and I am no longer very young ...
+It is sometimes difficult to dig well ...
+But on the days when I struggle
+the spirit of my ancestors comes to my aid.
+The Mandrake takes time,
+and regular care ...
+It is a rare herb,
+endowed with life-giving power ...
+(I sometimes use it in my tea
+to fight against my rheumatism)
+If you're interested, young man,
+The village chief can tell you more
+on this magical plant ...
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.fermier_2_b",
   text = [[
---- Fermier Galia ---
-Oh... Tu veux donc connaître mon secret
-pour cultiver la Mandragore ?
+--- Farmer Galia ---
+Oh ... so you wanna know my secret
+to cultivate the Mandrake?
 
-Eh bien, il est temps en effet
-de léguer ce savoir aux jeunes générations...
-Ouvre le grimoire d'IGoR au chapitre 4
-et trouve la bonne formule...
-As-tu la réponse ?
-$? oui, j'ai trouvé !
-$? pfouu, pas encore
+Well it's time indeed
+to bequeath this knowledge to the younger generations ...
+Open the IGOR Grimoire in Chapter 4
+and find the right formula ...
+Do you have the answer?
+$? yes, I found it!
+$? pfouu, not yet
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.fermier_2_b_short",
   text = [[
---- Fermier Galia ---
-Les pouvoirs de la Mandragore
-sont vraiment stupéfiants...
-Surtout quand elle est bien cultivée...
-As-tu désormais la réponse ?
-$? oui, j'ai trouvé !
-$? pfouu, pas encore
+--- Farmer Galia ---
+The powers of the Mandrake
+are really amazing ...
+Especially when it is well cultivated ...
+Do you now have the answer?
+$? yes, I found it!
+$? pfouu, not yet
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.fermier_2_c",
   text = [[
---- Fermier Galia ---
-Bravo Icarius. En récompense,
-je t'offre de la part du chef du Village
-un flacon d'elixir de Mandragore.
+--- Farmer Galia ---
+Well done Icarius. In reward,
+I offer you on behalf of the head of the Village
+a vial of Mandrake elixir.
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.gardien_cimetiere_ko",
   text = [[
---- Gardien du cimetière ---
-Hum, hum... 
-Les esprits ne veulent pas
-te laisser passer.
-Va voir le chef du Village
-si tu veux aller plus loin.
+--- Keeper of the cemetery ---
+HM hm...
+Spirits don't want
+let you pass.
+Go see the village chief
+if you want to go further.
 ]],
 }
 
-dialog{
+dialog {
   id = "village_grissgrass.gardien_cimetiere_ok",
   text = [[
---- Gardien du cimetière ---
-Oh oh...  Il y a de la magie dans l'air...
-Aurais-tu goûté à l'elixir de Mandragore ?
-Les esprits ont l'air satisfait.
-Tu peux passer : mais prends garde...
-Un esprit maléfique rôde sous terre,
-tout prêt d'ici...
+--- Keeper of the cemetery ---
+Oh oh ... there is magic in the air ...
+Would you have tasted the elixir of Mandrake?
+The spirits seem satisfied.
+You can pass: but be careful ...
+An evil spirit lurks underground,
+all ready from here ...
 
-D'ailleurs, si tu peux nous en débarasser,
-les esprits de GrissGrass retrouveront leur paix
-- et t'offriront toute leur sagesse.
+Besides, if you can get rid of it,
+the spirits of GrissGrass will find their peace
+- and will offer you all their wisdom.
 ]],
 }
 
-dialog{
-  id = "village_sandia.blacksmith.hello",
-  text = [[
-Puis-je faire quelque chose pour toi ?
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.not_now",
-  text = [[
-Reviens plus tard, je suis débordé !
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.offer_bow",
-  text = [[
-Veux-tu que j'améliore ton arc ?
-
-            $? Oui
-            $? Non
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.offer_glove",
-  text = [[
-Veux-tu que j'améliore tes gants ?
-
-            $? Oui
-            $? Non
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.offer_sword",
-  text = [[
-Veux-tu que je reforge ton épée ?
-
-            $? Oui
-            $? Non
-]],
-}
-
-dialog{
-  id = "village_sandia.leader_house.go_blacksmith",
-  text = [[
-Bonjour Link, je suis le chef de ce village.
-Tu devrais aller voir le forgeron et lui
-présenter ce que tu veux qu'il reforge dans
-ton équipement.
-J'ai été informé de ta quête, alors je me suis
-arrangé avec lui.
-Tout sera gratuit pour toi.
-]],
-}
-
-dialog{
+dialog {
   id = "village_sandia.secret_passage.offer",
   text = [[
-Accéder à un niveau optionnel pour $v rubis,
-ça t'intéresse ?
-              $? Oui
-              $? Non
+Access an optional level for $ v rubies,
+Are you interested ?
+              $? Yes
+              $? No
 ]],
 }
 
-dialog{
+dialog {
   id = "village_sandia.secret_passage.yes",
   text = [[
-Merci : tu trouveras au fond de la pièce
-un passage secret...
-Il te mènera vers un niveau optionnel,
-uniquement pour les joueurs avertis.
+Thank you: you will find at the back of the room
+a secret passage ...
+It will take you to an optional level,
+only for experienced players.
 ]],
 }
 
-dialog{
-  id = "village_sandia.woman_house.woman",
-  text = [[
-Bonjour ! Si vous êtes venu voir le forgeron,
-il habite un peu plus loin.
-]],
-}
 

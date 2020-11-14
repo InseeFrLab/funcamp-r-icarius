@@ -8,68 +8,68 @@ text{ key = "igor_answers.chapter4_answer1", value = "777" }
 text{ key = "igor_answers.chapter5_answer1", value = "10" }
 text{ key = "igor_answers.chapter6_answer1", value = "59" }
 text{ key = "igor_answers.chapter9_answer1", value = "Hylia" }
-text{ key = "options_menu.back", value = "RETOUR" }
-text{ key = "options_menu.language", value = "LANGUE" }
-text{ key = "options_menu.music_volume", value = "MUSIQUE" }
-text{ key = "options_menu.sound_volume", value = "SON" }
+text{ key = "options_menu.back", value = "BACK" }
+text{ key = "options_menu.language", value = "LANGUAGE" }
+text{ key = "options_menu.music_volume", value = "MUSIC" }
+text{ key = "options_menu.sound_volume", value = "SOUND" }
 text{ key = "options_menu.title", value = "OPTIONS" }
 text{ key = "pause.commands.action", value = "Action" }
-text{ key = "pause.commands.action_to_configure", value = "Appuie sur Action pour changer cette commande" }
-text{ key = "pause.commands.commands", value = "Commandes" }
-text{ key = "pause.commands.down", value = "Bas" }
-text{ key = "pause.commands.fullscreen", value = "Plein écran" }
-text{ key = "pause.commands.item", value = "Utiliser objet" }
+text{ key = "pause.commands.action_to_configure", value = "Press Action to change this command" }
+text{ key = "pause.commands.commands", value = "Commands" }
+text{ key = "pause.commands.down", value = "Down" }
+text{ key = "pause.commands.fullscreen", value = "Full screen" }
+text{ key = "pause.commands.item", value = "Use item" }
 text{ key = "pause.commands.joypad", value = "Joypad" }
-text{ key = "pause.commands.keyboard", value = "Clavier" }
-text{ key = "pause.commands.left", value = "Gauche" }
-text{ key = "pause.commands.look", value = "Regarder autour" }
-text{ key = "pause.commands.map", value = "Carte" }
-text{ key = "pause.commands.monsters", value = "Monstres vaincus" }
+text{ key = "pause.commands.keyboard", value = "Keyboard" }
+text{ key = "pause.commands.left", value = "Left" }
+text{ key = "pause.commands.look", value = "Look around" }
+text{ key = "pause.commands.map", value = "Map" }
+text{ key = "pause.commands.monsters", value = "Monsters Defeated" }
 text{ key = "pause.commands.pause", value = "Pause" }
-text{ key = "pause.commands.press_new_key", value = "Appuie sur la nouvelle touche" }
-text{ key = "pause.commands.right", value = "Droite" }
-text{ key = "pause.commands.run", value = "Courir" }
-text{ key = "pause.commands.save", value = "Sauvegarder" }
-text{ key = "pause.commands.sword", value = "Epée" }
-text{ key = "pause.commands.title", value = "COMMANDES" }
-text{ key = "pause.commands.up", value = "Haut" }
+text{ key = "pause.commands.press_new_key", value = "Press new key" }
+text{ key = "pause.commands.right", value = "Right" }
+text{ key = "pause.commands.run", value = "Run" }
+text{ key = "pause.commands.save", value = "Save" }
+text{ key = "pause.commands.sword", value = "Sword" }
+text{ key = "pause.commands.title", value = "COMMANDS" }
+text{ key = "pause.commands.up", value = "Up" }
 text{ key = "pause.inventory.defense", value = "DEFENSE" }
 text{ key = "pause.inventory.force", value = "FORCE" }
-text{ key = "pause.inventory.life", value = "VIE" }
-text{ key = "pause.inventory.magic", value = "MAGIE" }
+text{ key = "pause.inventory.life", value = "LIFE" }
+text{ key = "pause.inventory.magic", value = "MAGIC" }
 text{ key = "pause.inventory.runes", value = "RUNES :" }
-text{ key = "pause.inventory.status", value = "STATUT :" }
-text{ key = "pause.inventory.time", value = "TEMPS" }
-text{ key = "pause.monsters.title", value = "MONSTRES" }
-text{ key = "records_menu.100_percent_rank", value = "RANG DES 100%" }
-text{ key = "records_menu.back", value = "RETOUR" }
-text{ key = "records_menu.best_time", value = "MEILLEUR TEMPS :" }
-text{ key = "records_menu.clear", value = "EFFACER" }
-text{ key = "records_menu.clear_question", value = "EFFACER ?" }
-text{ key = "records_menu.no", value = "NON" }
-text{ key = "records_menu.rank_100_percent", value = "RANG : Héros de Statis$Finir le jeu à 100%." }
-text{ key = "records_menu.rank_speed", value = "RANG : Marathonien de Statis$Finir le jeu en moins de$deux heures." }
-text{ key = "records_menu.rank_ultimate", value = "RANG : Frimeur$Finir le jeu sans mourir,$avec 10 coeurs au maximum." }
-text{ key = "records_menu.speed_rank", value = "RANG DE RAPIDITE" }
+text{ key = "pause.inventory.status", value = "STATUS :" }
+text{ key = "pause.inventory.time", value = "TIME" }
+text{ key = "pause.monsters.title", value = "MONSTERS" }
+text{ key = "records_menu.100_percent_rank", value = "100% RANK" }
+text{ key = "records_menu.back", value = "BACK" }
+text{ key = "records_menu.best_time", value = "BEST TIMES :" }
+text{ key = "records_menu.clear", value = "CLEAR" }
+text{ key = "records_menu.clear_question", value = "CLEAR ?" }
+text{ key = "records_menu.no", value = "NO" }
+text{ key = "records_menu.rank_100_percent", value = "RANK : Statis Hero$Complete the game to 100%" }
+text{ key = "records_menu.rank_speed", value = "RANK : Statis Maratonian$Complete the game in less than$two hours" }
+text{ key = "records_menu.rank_ultimate", value = "RANG : Show-off$Complete the game without  dying$with 10 hearts max" }
+text{ key = "records_menu.speed_rank", value = "SPEED RANK" }
 text{ key = "records_menu.title", value = "RECORDS" }
-text{ key = "records_menu.ultimate_rank", value = "RANG ULTIME" }
-text{ key = "records_menu.yes", value = "OUI" }
-text{ key = "savegames_menu.cancel", value = "ANNULER" }
-text{ key = "savegames_menu.delete", value = "EFFACER" }
-text{ key = "savegames_menu.delete_question", value = "EFFACER ?" }
-text{ key = "savegames_menu.explications", value = "Touche espace pour valider" }
-text{ key = "savegames_menu.load", value = "CHARGER" }
-text{ key = "savegames_menu.no", value = "NON" }
+text{ key = "records_menu.ultimate_rank", value = "ULTIMATE RANK" }
+text{ key = "records_menu.yes", value = "YES" }
+text{ key = "savegames_menu.cancel", value = "CANCEL" }
+text{ key = "savegames_menu.delete", value = "DELETE" }
+text{ key = "savegames_menu.delete_question", value = "DELETE ?" }
+text{ key = "savegames_menu.explications", value = "Enter space bar to valid" }
+text{ key = "savegames_menu.load", value = "LOAD" }
+text{ key = "savegames_menu.no", value = "NO" }
 text{ key = "savegames_menu.options", value = "OPTIONS" }
 text{ key = "savegames_menu.records", value = "RECORDS" }
-text{ key = "savegames_menu.title", value = "ECRAN DE SELECTION" }
-text{ key = "savegames_menu.yes", value = "OUI" }
-text{ key = "selection_menu.empty", value = "vide" }
-text{ key = "selection_menu.erase", value = "Effacer" }
-text{ key = "selection_menu.phase.choose_name", value = "Tapez la réponse" }
-text{ key = "selection_menu.phase.select_answer", value = "Renseignez la (les) réponse(s)" }
+text{ key = "savegames_menu.title", value = "SELECTION SCREEN" }
+text{ key = "savegames_menu.yes", value = "YES" }
+text{ key = "selection_menu.empty", value = "empty" }
+text{ key = "selection_menu.erase", value = "Erase" }
+text{ key = "selection_menu.phase.choose_name", value = "Enter answer" }
+text{ key = "selection_menu.phase.select_answer", value = "Enter your(s) answer(s)" }
 text{ key = "selection_menu.title", value = "SCORES :" }
-text{ key = "selection_menu.valid", value = "Valider" }
+text{ key = "selection_menu.valid", value = "Valid" }
 text{ key = "stats_menu.death_count", value = "Mort $v fois" }
 text{ key = "stats_menu.extras", value = "Passages optionnels :" }
 text{ key = "stats_menu.game_time", value = "Temps de jeu :" }
