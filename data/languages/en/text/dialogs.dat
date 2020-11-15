@@ -1,4 +1,4 @@
-dialog {
+﻿dialog{
   id = "_crystal",
   text = [[
 It's a crystal switch!
@@ -6,21 +6,21 @@ Hit him with something ...
 ]],
 }
 
-dialog {
+dialog{
   id = "_shop.amount_full",
   text = [[
 You don't need that now.
 ]],
 }
 
-dialog {
+dialog{
   id = "_shop.not_enough_money",
   text = [[
 Sorry, but you don't have enough rubies.
 ]],
 }
 
-dialog {
+dialog{
   id = "_shop.question",
   text = [[
 Price: $ v ruby. Okay ?
@@ -29,7 +29,7 @@ Price: $ v ruby. Okay ?
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.bomb.1",
   text = [[
 You found a bomb!
@@ -43,7 +43,7 @@ press x to plant a bomb in the game.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.bomb.2",
   text = [[
 You found 3 bombs!
@@ -57,7 +57,7 @@ press x to plant a bomb in the game.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.bomb.3",
   text = [[
 You have found 8 bombs!
@@ -71,21 +71,21 @@ press x to plant a bomb in the game.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.boomerang.1",
   text = [[
 Well done, you got the Boomerang!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.boss_key.1",
   text = [[
 You have found the key to the boss !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.compass.1",
   text = [[
 You have found the compass !!!
@@ -93,7 +93,7 @@ You can locate the boss on the map.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.elixir_mandragore.1",
   text = [[
 You found the elixir of Mandrake !!
@@ -107,7 +107,7 @@ that you will soon be able to acquire.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.flippers.1",
   text = [[
 You found the fins !!!
@@ -115,7 +115,7 @@ You can swim in deep water!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.glove.1",
   text = [[
 You found the gloves !!!
@@ -124,7 +124,7 @@ pressing the Action key.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.glove.2",
   text = [[
 The power of your gloves will allow you to
@@ -132,7 +132,7 @@ lift heavy rocks.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.hammer.1",
   text = [[
 You found the magic hammer !!!
@@ -140,14 +140,14 @@ Use it to crush obstacles.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.heart.1",
   text = [[
 You have found a heart!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.hookshot.1",
   text = [[
 You have found the grapple !!!
@@ -155,7 +155,7 @@ Use it to overcome obstacles.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.igor_book.1",
   text = [[
 You found IGOR's spellbook.
@@ -163,7 +163,7 @@ You now understand the language of the Runes !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.igor_book_replicant.1",
   text = [[
 You found the replica
@@ -173,7 +173,7 @@ the Way of the Reproducible !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.lamp.1",
   text = [[
 You have found the lantern !!!
@@ -182,7 +182,7 @@ then make flames burst (X key).
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.magic_medallion.1",
   text = [[
 You have obtained a magic medallion.
@@ -192,7 +192,7 @@ Your defense has just increased !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.map.1",
   text = [[
 You have found the dungeon map.
@@ -201,14 +201,14 @@ to see the plan.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.piece_of_heart.1",
   text = [[
 You have found a quarter of a heart !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.royal_emblem.1",
   text = [[
 You now have the Royal emblem!
@@ -218,7 +218,7 @@ the latter shines with a bluish glow.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.shield.1",
   text = [[
 You have found a shield !!!
@@ -227,7 +227,7 @@ Your defense increases by one point!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.small_key.1",
   text = [[
 You have found a small key!
@@ -236,7 +236,7 @@ locked to open it.
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.sword.1",
   text = [[
 You have found a sword !!!
@@ -246,7 +246,7 @@ with the C key!
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.sword.2",
   text = [[
 (Voice of Statia)
@@ -259,7 +259,7 @@ three times more damage
 ]],
 }
 
-dialog {
+dialog{
   id = "_treasure.sword.3",
   text = [[
 You have found Excalibur !!!
@@ -267,7 +267,7 @@ The most powerful sword in the kingdom ...
 ]],
 }
 
-dialog {
+dialog{
   id = "boss_key_required",
   text = [[
 This is the master's door!
@@ -275,7 +275,7 @@ You need the boss key to open it.
 ]],
 }
 
-dialog {
+dialog{
   id = "boss_seal.1",
   text = [[
 You just got the seal
@@ -285,7 +285,7 @@ Serves him right !
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.boss_start",
   text = [[
 --- Sorcerer SaSSoS ---
@@ -307,7 +307,7 @@ he looks incredibly powerful)
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.boss_warning_1",
   text = [[
 --- icaRius ---
@@ -316,7 +316,7 @@ terribly powerful ...
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.boss_warning_2",
   text = [[
 --- icaRius ---
@@ -325,7 +325,7 @@ He seems unseen!
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.boss_warning_3",
   text = [[
 --- Statia's voice ---
@@ -341,7 +341,7 @@ to help you rebuild your strength.
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.boss_warning_4",
   text = [[
 --- Sorcerer SaSSoS ---
@@ -359,7 +359,7 @@ Tremble, miserable icaRius!
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.chief_army_1",
   text = [[
 --- The leader of the armies Parlyus ---
@@ -416,7 +416,7 @@ and get him out of this trap ...)
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.chief_army_2",
   text = [[
 --- The leader of the armies Parlyus ---
@@ -440,7 +440,7 @@ to find the runes).
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.drunk_man_1",
   text = [[
 --- The cook Batreb ---
@@ -470,7 +470,7 @@ is that you are this young hero ...
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.drunk_man_2",
   text = [[
 Do you have the answer?
@@ -479,7 +479,7 @@ $? uh, i need more time
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.drunk_man_3",
   text = [[
 --- The cook Batreb ---
@@ -489,7 +489,7 @@ I give you the key to find him.
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.old_man_1",
   text = [[
 --- The mage Essespéus ---
@@ -519,7 +519,7 @@ in Chapter 6 and look for the answer to the riddle.
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.old_man_2",
   text = [[
 Do you have the answer?
@@ -528,7 +528,7 @@ $? uh, i need more time
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.old_man_3",
   text = [[
 --- The mage Essespéus ---
@@ -548,21 +548,21 @@ and continue your adventure.
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_1",
   text = [[
 (it's strange, all these soldiers ...)
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_2",
   text = [[
 (... and this atmosphere, so heavy)
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_3",
   text = [[
 (Here, there is neither the King nor the Queen ...
@@ -570,7 +570,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_4",
   text = [[
 (it's all suspicious ...
@@ -579,7 +579,7 @@ Let's try to find Essespéus)
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_5",
   text = [[
 (a weak voice)
@@ -588,7 +588,7 @@ On your left ...
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_6",
   text = [[
 (a weak voice)
@@ -597,7 +597,7 @@ On your left ...
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_7",
   text = [[
 --- whisper of Essespéus ---
@@ -611,7 +611,7 @@ he will give you the key.
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_8",
   text = [[
 Beware, evil spirits!
@@ -621,7 +621,7 @@ The army chief must be in cahoots!
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sensor_throne_room_9",
   text = [[
 Will bring first
@@ -630,14 +630,14 @@ to the chief of the armies!
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.sign",
   text = [[
 West: Statis Castle
 ]],
 }
 
-dialog {
+dialog{
   id = "castle.welcome",
   text = [[
 
@@ -645,28 +645,28 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "chest_game.already_done",
   text = [[
 I have no more prizes to stake, sorry.
 ]],
 }
 
-dialog {
+dialog{
   id = "chest_game.go_chest",
   text = [[
 Choose a chest.
 ]],
 }
 
-dialog {
+dialog{
   id = "chest_game.lost",
   text = [[
 Lost ! This chest is empty.
 ]],
 }
 
-dialog {
+dialog{
   id = "chest_game.pay_first",
   text = [[
 Hey!
@@ -674,7 +674,7 @@ You have to pay to open one of my chests !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "chest_game.rules",
   text = [[
 One of these chests contains a quarter of a heart,
@@ -684,14 +684,14 @@ do you want to try your luck for 10 rupees?
 ]],
 }
 
-dialog {
+dialog{
   id = "chest_game.thanks",
   text = [[
 Thank you.
 ]],
 }
 
-dialog {
+dialog{
   id = "dungeon_finished_save",
   text = [[
 Would you like to save your game?
@@ -701,7 +701,7 @@ Would you like to save your game?
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending",
   text = [[
 
@@ -719,7 +719,7 @@ and his learning of the language of the Runes.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_01",
   text = [[
 As soon as icarius collected the emblem of the Runes,
@@ -729,7 +729,7 @@ had prevailed over obscurantism.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_02",
   text = [[
 The troops of Parlyus, still on the march
@@ -739,7 +739,7 @@ before reaching their target.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_03",
   text = [[
 As for the terrible SaSSoS,
@@ -749,7 +749,7 @@ sealed by the powers of OpenSource.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_04",
   text = [[
 Princess Statia, freed, freed,
@@ -759,7 +759,7 @@ She found her parents there ...
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_05",
   text = [[
 The good Essespéus was appointed counselor,
@@ -768,7 +768,7 @@ under the banner of statistical arts.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_06",
   text = [[
 He regrouped the Magi Zilap, Regor and Tourep
@@ -776,7 +776,7 @@ within the Consellum Naevus Incongruus and Sapentia
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_07",
   text = [[
 The Magi spent their time talking there
@@ -785,7 +785,7 @@ for which Batreb was the official supplier.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_08",
   text = [[
 The TeoC automaton, which had auto-flashed,
@@ -795,7 +795,7 @@ with it by bits interposed.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_09",
   text = [[
 The Fabeler bird continued its migration
@@ -805,7 +805,7 @@ always becoming more knowledgeable - and curious.
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_10",
   text = [[
 This is how icaRius and Statia became
@@ -813,7 +813,7 @@ the hero and heroine of the young statisians ...
 ]],
 }
 
-dialog {
+dialog{
   id = "ending.ending_11",
   text = [[
 ... populating the stories told,
@@ -858,7 +858,7 @@ dream maker for young and old alike
 ]],
 }
 
-dialog {
+dialog{
   id = "exit_challenge.exit",
   text = [[
 --- Statia's voice ---
@@ -868,7 +868,7 @@ of this bewitched passage ...
 ]],
 }
 
-dialog {
+dialog{
   id = "exit_challenge.konami_shield",
   text = [[
 --- Did you know ? ---
@@ -890,7 +890,7 @@ it's time to equip him with the Konami shield!
 ]],
 }
 
-dialog {
+dialog{
   id = "exit_challenge.start",
   text = [[
 --- The room of the impossible ---
@@ -899,7 +899,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "exit_challenge.statia_message",
   text = [[
 --- Statia's voice ---
@@ -917,7 +917,7 @@ you will naturally find the exit ...
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.congratulations",
   text = [[
 Well done, you just defeated the boss.
@@ -926,7 +926,7 @@ As a reward, you earn the right ...
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_1.warning",
   text = [[
 --- Brutus the Terrible ---
@@ -936,7 +936,7 @@ Terribly stupid, terribly strong.
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_1.welcome",
   text = [[
                    Secret barracks
@@ -946,7 +946,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_2.dying",
   text = [[
 --- WizzWare ---
@@ -956,7 +956,7 @@ I disappear...
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_2.warning",
   text = [[
 --- WizzWare ---
@@ -966,7 +966,7 @@ against the power of the shadows!
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_2.welcome",
   text = [[
                 Shadow shrine
@@ -975,13 +975,13 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_3",
   text = [[
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_3.warning",
   text = [[
 --- arGus ---
@@ -994,7 +994,7 @@ tau tau tau TAU TAU TAU !!!!)
 ]],
 }
 
-dialog {
+dialog{
   id = "extra_dungeons.extra_3.welcome",
   text = [[
                 Sunken Dungeon
@@ -1003,7 +1003,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "found_piece_of_heart.first",
   text = [[
 3 more and you will win a heart
@@ -1011,7 +1011,7 @@ extra !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "found_piece_of_heart.fourth",
   text = [[
 Your number of hearts comes
@@ -1019,7 +1019,7 @@ to increase !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "found_piece_of_heart.second",
   text = [[
 2 more and you will win a heart
@@ -1027,7 +1027,7 @@ extra !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "found_piece_of_heart.third",
   text = [[
 1 more and you will win a heart
@@ -1035,15 +1035,15 @@ extra !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_dregor_answer",
   text = [[
 --- Mage RegoR ---
-Would you like to open the door?
-for that you will need
-solve your first riddle.
-Here is the question: how old is icaRius?
-Open the IgoR grimoire in the first chapter
+Would you like to open the door ?
+For that you will have to solve 
+your first riddle.
+Here is the question: how old is icaRius ?
+Open the IgoR spellbook to the first chapter
 and look for the answer ...
 
 Do you have the answer?
@@ -1052,7 +1052,7 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_dregor_answer_short",
   text = [[
 Do you have the answer from the 1st chapter?
@@ -1061,56 +1061,56 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_dregor_congratulations",
   text = [[
 --- Mage RegoR ---
-Well done, you have solved the 1st riddle.
+Well done, you've solved the 1st riddle.
 I'll open the door for you:
-can you overcome the next trials!
+I hope you'll overcome the next trials!
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_dregor_runes",
   text = [[
 --- Mage RegoR ---
 tsqhrmcxpwzqwfr
 tygpwujklqrqdxwz
-(language of the runes)
+(Runes language)
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_zilap_bravo",
   text = [[
 --- Mage Zilap ---
-Well done ! You found the grimoire!
-Ah he reminds me of so many memories
+Well done ! You've found the spellbook!
+It reminds me of so many memories
 when I was an apprentice myself ...
-Now it's your turn to soak up
-of the language of the runes, and to learn
+Now it's your turn to soak you up
+of the Runes' language, and to learn
 its amazing formulas!
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_zilap_colere",
   text = [[
 --- Mage Zilap ---
-Sassy little one! Rascal!
-As if I would believe you ...
+Sassy little one ! Rascal !
+As if I'd believe you ...
 
 Go revise your lessons instead
 in the ancestral book,
-the IGoR grimoire
+the IGoR spellbook.
 
-A little wisdom will change your air
+A little wisdom will change your mindset
 and will teach you good manners
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_zilap_depit",
   text = [[
 --- Mage Zilap ---
@@ -1119,58 +1119,58 @@ By dint of dreaming, you forgot to study ...
 
 The runic license,
 that all the young Statisians
-must obtain to become a Counter
+must obtain to become a Counter.
 
 Go revise your lessons instead
 in the ancestral book,
-the IGoR grimoire
+the IGoR spellbook.
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_zilap_livre",
   text = [[
 --- Mage Zilap ---
 So have you found
-the venerable IGoR grimoire?
+the venerable IGoR spellbook ?
 
-Always not ?
+Not yet ?
 So look in the library,
 in the next room ...
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.mage_zilap_message",
   text = [[
 --- Mage Zilap ---
 You are finally awake
-young slacker!
+young slacker !
 
-Humpf!
-It was time.
-A little more, and I was going!
+Humpf !
+It was time !
+A bit more and I was leaving !
 
-Well, do you know how to speak
-the language of the runes?
-Humpf?
+Well, do you speak
+the Runes' language ?
+Humpf ?
 
 Do you have the runic license?
-$? yes, of course, old schnock!
+$? of course, you old buzzard !
 $? uh, the runic license?
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house.statia_message",
   text = [[
 --- A mysterious voice ---
 Help !
 Help !
 IcaRius, I need you ...
-HELP: press the arrows
+HELP: press arrows
+to walk around
 (keyboard directional keys)
-to get around.
 
 To interact with a character
 or interact with an object,
@@ -1178,7 +1178,7 @@ press the space key.
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant1_1",
   text = [[
 --- TeoC PLC ---
@@ -1203,7 +1203,7 @@ $? please take me back to history!
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant1_2a",
   text = [[
 --- TeoC PLC ---
@@ -1227,7 +1227,7 @@ the copy of the IGoR grimoire
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant1_2b",
   text = [[
 --- TeoC PLC ---
@@ -1255,7 +1255,7 @@ the copy of the IGoR grimoire
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant1_3a",
   text = [[
 --- TeoC PLC ---
@@ -1265,7 +1265,7 @@ Biiiip play again beep.
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant1_3b",
   text = [[
 --- TeoC PLC ---
@@ -1278,7 +1278,7 @@ and discover its amazing shortcuts!
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant2_answer",
   text = [[
 --- TeoC PLC ---
@@ -1295,7 +1295,7 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant2_answer_short",
   text = [[
 Do you have the answer (biiiiiiiip)?
@@ -1304,7 +1304,7 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.redhat_guy_replicant2_runes",
   text = [[
 --- TeOC PLC ---
@@ -1314,7 +1314,7 @@ tygpwujklqrqdxwz
 ]],
 }
 
-dialog {
+dialog{
   id = "icarius_house_bis.waking_message",
   text = [[
 --- icaRius ---
@@ -1324,35 +1324,33 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "intro.fresco_1",
   text = [[
-As far back as living memory
-can remember,
+A long time ago,
 the Kingdom of Statis was at peace;
 
 ]],
 }
 
-dialog {
+dialog{
   id = "intro.fresco_2",
   text = [[
-his people lived without knowing
-conflict, fresh water ...
-... and numbers!
+his people lived without conflict,
+needing only fresh water ...
+... and numbers !
 
-Because the people of Statis
+The inhabitants of Statis
 liked to record
 the measure of everything:
 
 the number of houses and inhabitants;
 the number of shops and stalls;
 the number of farms and foodstuffs ...
-
 ]],
 }
 
-dialog {
+dialog{
   id = "intro.fresco_3",
   text = [[
 Nothing escaped this art of counting
@@ -1362,7 +1360,7 @@ in the highest refinements ...
 ]],
 }
 
-dialog {
+dialog{
   id = "intro.fresco_4",
   text = [[
 In the land of RedHill,
@@ -1370,25 +1368,25 @@ a young boy however
 looked very different from the others.
 
 He had - and he was the only one -
-no interest in these stories
-too predictable numbers.
+no interest in these so predictable
+statistical stories !
 
-He rather dreamed of adventure!
-challenges, fights, battles
-turning the numbers upside down.
+He rather dreamed of adventures,
+of fights and battles that would turn
+numbers upside down!
 ]],
 }
 
-dialog {
+dialog{
   id = "intro.fresco_5",
   text = [[
 Young icaRius sleeps without suspecting
-consequences of his imagination ...
+events taking place ...
 A voice speaks to him in his sleep ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.broom_grandma",
   text = [[
 --- A lady of a certain age ---
@@ -1398,7 +1396,7 @@ counting the clouds in the sky ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.door_closed",
   text = [[
 The door is closed.
@@ -1406,7 +1404,7 @@ There is nothing to see here.
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_1_a",
   text = [[
 --- A farmer ---
@@ -1424,7 +1422,7 @@ $? Houlà, me and the numbers, that's two ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_1_b_KO",
   text = [[
 It's so terrible !!!
@@ -1434,7 +1432,7 @@ our precious register ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_1_b_OK",
   text = [[
 Thanks !!!
@@ -1444,7 +1442,7 @@ maybe you will be able to find the right numbers ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_2_a",
   text = [[
 --- A farmer ---
@@ -1465,7 +1463,7 @@ $? uh, i need more time
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_2_a_short",
   text = [[
 Do you have the answer?
@@ -1474,7 +1472,7 @@ $? uh, i need more time
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_2_a_wife",
   text = [[
 --- A farmer ---
@@ -1483,7 +1481,7 @@ She would almost go crazy ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.farmer_2_b",
   text = [[
 Amazing!
@@ -1495,7 +1493,7 @@ he will offer you a reward ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.mage_tourep",
   text = [[
 --- Mage Tourep ---
@@ -1505,7 +1503,7 @@ and the way will open
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.mage_tourep_OK",
   text = [[
 --- mage Tourep ---
@@ -1522,7 +1520,7 @@ and the darkness of enemies.
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.sign1",
   text = [[
 N: Entrance to Kokoro village
@@ -1530,14 +1528,14 @@ O: plains of Statis
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.sign2",
   text = [[
 O: plains of Statis
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.soldier_with_shield",
   text = [[
 --- Soldier ---
@@ -1546,7 +1544,7 @@ You can pass, but watch out ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.soldier_without_shield",
   text = [[
 --- Soldier ---
@@ -1555,7 +1553,7 @@ You can't go there without a shield ...
 ]],
 }
 
-dialog {
+dialog{
   id = "kokoro.village_welcome_npc",
   text = [[
 Hello, visitor.
@@ -1565,7 +1563,7 @@ he has a message for you.
 ]],
 }
 
-dialog {
+dialog{
   id = "medallion_cave.welcome",
   text = [[
 --- Medallion cellar ---
@@ -1574,21 +1572,14 @@ Beginner player, beware ...
 ]],
 }
 
-dialog {
+dialog{
   id = "not_enough_money",
   text = [[
 Sorry, but you don't have enough rubies.
 ]],
 }
 
-dialog {
-  id = "outE.village_sign",
-  text = [[
-GrissGrass Village
-]],
-}
-
-dialog {
+dialog{
   id = "outside_icarius_outA.hill_sign",
   text = [[
 To go up the hill,
@@ -1597,7 +1588,7 @@ use the ladder
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outA.house_sign",
   text = [[
 North: House of Icarius
@@ -1607,14 +1598,14 @@ South: towards the enchanted forest
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outA.kokoro_village_sign",
   text = [[
 N: Kokoro Village
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outA.statia_princess",
   text = [[
 --- An apparition ---
@@ -1664,7 +1655,7 @@ Good luck: I'll watch over you!
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC.mage_delagarde_answer",
   text = [[
 (Optional puzzle)
@@ -1709,7 +1700,7 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC.mage_delagarde_go",
   text = [[
 --- Mage DelaGarde ---
@@ -1722,7 +1713,7 @@ Left, right, left, right ...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC.mage_delagarde_nogo",
   text = [[
 --- Mage DelaGarde ---
@@ -1735,7 +1726,7 @@ the exit is beyond Pi.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC.sign1",
   text = [[
 N: Entrance to the Desert Maze
@@ -1743,7 +1734,7 @@ O: For reckless players
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC.sign2",
   text = [[
 ---Danger---
@@ -1752,7 +1743,7 @@ to want to go further?
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC_extra.mage_dregor",
   text = [[
 --- Mage DregoR ---
@@ -1766,14 +1757,14 @@ $? no, I'm too scared
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC_intro.sign1",
   text = [[
 East: towards the labyrinth ...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outC_intro.sign2",
   text = [[
 North: towards the labyrinth ...
@@ -1781,7 +1772,7 @@ North: towards the labyrinth ...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.MamGrouxi_KO",
   text = [[
 --- Mam 'Grouxi ---
@@ -1795,7 +1786,7 @@ when you change your mind.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.MamGrouxi_OK",
   text = [[
 --- Mam 'Grouxi ---
@@ -1808,7 +1799,7 @@ $? Not yet
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.MamGrouxi_bravo",
   text = [[
 --- Mam 'Grouxi ---
@@ -1818,7 +1809,7 @@ She will help you dig your way ...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.MamGrouxi_start",
   text = [[
 --- Mam 'Grouxi ---
@@ -1856,7 +1847,7 @@ $? No, I'm in a hurry!
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.mage_zilap_ask",
   text = [[
 --- Mage Zilap ---
@@ -1866,7 +1857,7 @@ $? No, fed up with the grimoire
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.mage_zilap_bravo",
   text = [[
 --- Mage Zilap ---
@@ -1887,7 +1878,7 @@ of your adventure ...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.mage_zilap_colere",
   text = [[
 --- Mage Zilap ---
@@ -1900,7 +1891,7 @@ when you have read chapter 8.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.mage_zilap_start",
   text = [[
 --- Mage Zilap ---
@@ -1928,14 +1919,14 @@ and come see me again.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.sign1",
   text = [[
 --- Sandia Village ---
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outD.sign2",
   text = [[
 Attention, fragile wall ...
@@ -1944,7 +1935,7 @@ cause a landslide ...)
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outF.caserne",
   text = [[
 This cave leads to a perilous place.
@@ -1953,7 +1944,7 @@ Only for experienced players
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outF1.landslide",
   text = [[
 A landslide
@@ -1961,7 +1952,7 @@ has just blocked the passage.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outG.impossible_room",
   text = [[
 Passage to the impossible room
@@ -1969,7 +1960,7 @@ is closed ...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outG.switch_tips",
   text = [[
 So as not to sink into a whirlwind
@@ -1983,7 +1974,7 @@ equipment from your inventory)
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_1",
   text = [[
 --- FebeleR ---
@@ -2013,7 +2004,7 @@ $? can you guide me across the lake?
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_2",
   text = [[
 --- FebeleR ---
@@ -2027,7 +2018,7 @@ $? can you guide me across the lake?
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_KO",
   text = [[
 --- FebeleR ---
@@ -2040,7 +2031,7 @@ in the depths of the waters
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_OK",
   text = [[
 --- FebeleR ---
@@ -2066,7 +2057,7 @@ and learn to document your magic!
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_answer",
   text = [[
 Do you have the answer from chapter 12?
@@ -2075,7 +2066,7 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_congratulation",
   text = [[
 Well done, you have found the right answer.
@@ -2090,7 +2081,7 @@ And, without knowing why, always say: let's go!
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.chatty_bird_extra",
   text = [[
 --- FebeleR ---
@@ -2106,14 +2097,14 @@ A hidden island if you want to extend your adventure.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.frozen_exit",
   text = [[
 The passage to the ice temple is frozen
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.ice_island",
   text = [[
 --- The Ice Island ---
@@ -2121,7 +2112,7 @@ Don't forget your down jacket
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.lake_introduction",
   text = [[
 --- DataLake ---
@@ -2130,7 +2121,7 @@ in the depths of DataLake.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH.path_locked",
   text = [[
 The passage is closed:
@@ -2138,7 +2129,7 @@ it is not possible to go back.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outH_extra.warp_zone",
   text = [[
 --- Secret passage ---
@@ -2146,7 +2137,7 @@ Head for the Statis canyons
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outI.landslide",
   text = [[
 A landslide
@@ -2155,28 +2146,28 @@ towards the Temple of the Rock.
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outL.tomb_1",
   text = [[
 SPSS RIP
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outL.tomb_2",
   text = [[
 RIP STATA
 ]],
 }
 
-dialog {
+dialog{
   id = "outside_icarius_outL.tomb_3",
   text = [[
 RIP SAS
 ]],
 }
 
-dialog {
+dialog{
   id = "rune.1",
   text = [[
 You have found a rune!
@@ -2184,7 +2175,7 @@ Well done, continue the adventure!
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_1.boss",
   text = [[
 --- Statia's voice ---
@@ -2202,7 +2193,7 @@ and missing data bzzz
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_2.boss",
   text = [[
 --- Tartaros ---
@@ -2216,7 +2207,7 @@ to dig their gallery like earthworms ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_2.release",
   text = [[
 The spirits retained by Tartaros
@@ -2225,7 +2216,7 @@ They can find rest ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_3.welcome",
   text = [[
 
@@ -2233,7 +2224,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_4.boss",
   text = [[
 --- Monolith ---
@@ -2247,7 +2238,7 @@ like a monolithic procedure ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_4.welcome",
   text = [[
 
@@ -2255,7 +2246,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_5.boss",
   text = [[
 --- Zigure ---
@@ -2268,7 +2259,7 @@ in the abyss of oblivion!
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_5.teleport",
   text = [[
 (Voice of Statia)
@@ -2277,7 +2268,7 @@ there is a teleportation zone ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_5.welcome",
   text = [[
 
@@ -2285,7 +2276,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_6.boss",
   text = [[
 --- Confusius ---
@@ -2298,14 +2289,14 @@ I will immerse you forever !!!
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_6.teleport",
   text = [[
 Imminent teletransportation
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_6.welcome",
   text = [[
 
@@ -2313,7 +2304,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.boss_1",
   text = [[
 --- Sorcerer SaSSoS ---
@@ -2335,7 +2326,7 @@ May the Runes be with me!)
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.boss_2",
   text = [[
 Noooo !!!!
@@ -2349,7 +2340,7 @@ Arghhhhh ....
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.opening_boss_door",
   text = [[
 --- icaRius ---
@@ -2358,7 +2349,7 @@ I'm approaching the last test ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.opening_prison_door",
   text = [[
 This door is blocked by magic!
@@ -2368,7 +2359,7 @@ I will summon the power of the Runes ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.pre_boss",
   text = [[
 --- Cerbos ---
@@ -2386,7 +2377,7 @@ grRRRRR !!!!
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.statia_1",
   text = [[
 --- icaRius ---
@@ -2402,7 +2393,7 @@ that will allow you to unleash the strength of the Runes
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.statia_2",
   text = [[
 --- Princess Statia ---
@@ -2412,7 +2403,7 @@ Let us go to restore peace in the kingdom ...
 ]],
 }
 
-dialog {
+dialog{
   id = "rune_final.welcome",
   text = [[
                  Final level
@@ -2421,7 +2412,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "save_quit",
   text = [[
                  Already tired?
@@ -2431,7 +2422,7 @@ dialog {
 ]],
 }
 
-dialog {
+dialog{
   id = "small_key_required",
   text = [[
 This door is locked.
@@ -2439,7 +2430,7 @@ You need a small key to open it!
 ]],
 }
 
-dialog {
+dialog{
   id = "tiny_house.frog_1",
   text = [[
 --- aSa la gueRnouille ---
@@ -2465,7 +2456,7 @@ And choose with your pen what happens ...
 ]],
 }
 
-dialog {
+dialog{
   id = "tiny_house.frog_2",
   text = [[
 Do you have the answer from chapter 13?
@@ -2474,7 +2465,7 @@ $? not yet...
 ]],
 }
 
-dialog {
+dialog{
   id = "tiny_house.frog_3",
   text = [[
 --- aSa la gueRnouille ---
@@ -2487,14 +2478,14 @@ I'll open the next passage for you.
 ]],
 }
 
-dialog {
+dialog{
   id = "tiny_house.welcome",
   text = [[
 (this house is tiny !!!)
 ]],
 }
 
-dialog {
+dialog{
   id = "tree_house.redhat_guy_1",
   text = [[
 --- The TeoC PLC ---
@@ -2552,7 +2543,7 @@ Wait, TeoC robot ...
 ]],
 }
 
-dialog {
+dialog{
   id = "tree_house.redhat_guy_2",
   text = [[
 --- The TeoC PLC ---
@@ -2570,7 +2561,7 @@ which always returns to its beginning
 ]],
 }
 
-dialog {
+dialog{
   id = "tree_house.sensor_exit",
   text = [[
 Only the TeoC PLC
@@ -2578,7 +2569,7 @@ can get you out ...
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.chef_village_1",
   text = [[
 --- Chief Xeilhac ---
@@ -2615,7 +2606,7 @@ Go talk to them, and come see me again.
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.chef_village_2_a",
   text = [[
 --- Chief Xeilhac ---
@@ -2636,7 +2627,7 @@ $? uh, do you have some soup in the meantime?
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.chef_village_2_a_short",
   text = [[
 --- Chief Xeilhac ---
@@ -2649,7 +2640,7 @@ $? uh, still not ...
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.chef_village_2_b",
   text = [[
 --- Chief Xeilhac ---
@@ -2673,14 +2664,14 @@ to unravel its mystery ...
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.cimetiere",
   text = [[
 GrissGrass cemetery
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.cimetiere_sagesse",
   text = [[
 (I feel great wisdom in this place ...
@@ -2688,7 +2679,7 @@ Could it be the spirit of the souls that rest here?)
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.fermier_1",
   text = [[
 --- Farmer Tellus ---
@@ -2713,7 +2704,7 @@ in front of my talent!
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.fermier_2",
   text = [[
 --- Farmer Galia ---
@@ -2742,7 +2733,7 @@ on this magical plant ...
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.fermier_2_b",
   text = [[
 --- Farmer Galia ---
@@ -2759,7 +2750,7 @@ $? pfouu, not yet
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.fermier_2_b_short",
   text = [[
 --- Farmer Galia ---
@@ -2772,7 +2763,7 @@ $? pfouu, not yet
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.fermier_2_c",
   text = [[
 --- Farmer Galia ---
@@ -2782,7 +2773,7 @@ a vial of Mandrake elixir.
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.gardien_cimetiere_ko",
   text = [[
 --- Keeper of the cemetery ---
@@ -2794,7 +2785,7 @@ if you want to go further.
 ]],
 }
 
-dialog {
+dialog{
   id = "village_grissgrass.gardien_cimetiere_ok",
   text = [[
 --- Keeper of the cemetery ---
@@ -2811,7 +2802,14 @@ the spirits of GrissGrass will find their peace
 ]],
 }
 
-dialog {
+dialog{
+  id = "village_grissgrass.village_sign",
+  text = [[
+GrissGrass Village
+]],
+}
+
+dialog{
   id = "village_sandia.secret_passage.offer",
   text = [[
 Access an optional level for $ v rubies,
@@ -2821,7 +2819,7 @@ Are you interested ?
 ]],
 }
 
-dialog {
+dialog{
   id = "village_sandia.secret_passage.yes",
   text = [[
 Thank you: you will find at the back of the room
@@ -2830,5 +2828,4 @@ It will take you to an optional level,
 only for experienced players.
 ]],
 }
-
 

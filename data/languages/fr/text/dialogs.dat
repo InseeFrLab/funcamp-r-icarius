@@ -1,4 +1,4 @@
-dialog{
+﻿dialog{
   id = "_crystal",
   text = [[
 C'est un interrupteur de cristal !
@@ -1327,10 +1327,8 @@ dialog{
 dialog{
   id = "intro.fresco_1",
   text = [[
-D'aussi loin que mémoire d'homme
-puisse se souvenir, 
-le Royaume de Statis était en paix ;
-
+Since the dawn of time,
+the Kingdom of Statis was at peace
 ]],
 }
 
@@ -1355,9 +1353,9 @@ le nombre d'élevages et de denrées...
 dialog{
   id = "intro.fresco_3",
   text = [[
-Rien n'échappait à cet art de compter
-que le peuple de Statis avait porté
-dans les plus hauts raffinements...
+Nothing escaped this art of counting
+that the people of Statis had carried
+in the highest refinements ...
 
 ]],
 }
@@ -1383,7 +1381,7 @@ dialog{
   id = "intro.fresco_5",
   text = [[
 Le jeune icaRius dort sans se douter
-des conséquences de son imagination...
+des évènements qui se trament...
 Une voix lui parle dans son sommeil...
 ]],
 }
@@ -1578,13 +1576,6 @@ dialog{
   id = "not_enough_money",
   text = [[
 Désolé, mais tu n'as pas assez de rubis.
-]],
-}
-
-dialog{
-  id = "outE.village_sign",
-  text = [[
-Village GrissGrass
 ]],
 }
 
@@ -2808,6 +2799,13 @@ tout prêt d'ici...
 D'ailleurs, si tu peux nous en débarasser,
 les esprits de GrissGrass retrouveront leur paix
 - et t'offriront toute leur sagesse.
+]],
+}
+
+dialog{
+  id = "village_grissgrass.village_sign",
+  text = [[
+Village GrissGrass
 ]],
 }
 
