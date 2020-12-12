@@ -1445,7 +1445,6 @@ tile{
   layer = 1,
   x = 504,
   y = 328,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
@@ -1455,7 +1454,6 @@ tile{
   layer = 1,
   x = 552,
   y = 328,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "torch_big.top",
@@ -1591,6 +1589,15 @@ separator{
   y = 0,
   width = 16,
   height = 240,
+}
+
+teletransporter{
+  layer = 1,
+  x = 264,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "village_kokoro/farm",
 }
 
 tile{

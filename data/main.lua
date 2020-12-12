@@ -6,8 +6,8 @@ local initial_menus = {}
 local debug = require("scripts/debug")
 local quest_manager = require("scripts/quest_manager")
 
--- Unset - Force language to be French
--- sol.language.set_language("fr")
+-- MOD - Force language to be French
+sol.language.set_language("fr")
 
 
 -- This function is called when Solarus starts.

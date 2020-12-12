@@ -625,7 +625,7 @@ destination{
   name = "from_outside",
   layer = 1,
   x = 160,
-  y = 221,
+  y = 213,
   direction = 1,
 }
 
@@ -712,6 +712,7 @@ door{
   y = 64,
   direction = 0,
   sprite = "entities/door_small_key",
+  savegame_variable = "door_farmer_state",
 }
 
 tile{

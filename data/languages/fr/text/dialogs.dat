@@ -1,4 +1,4 @@
-﻿dialog{
+dialog{
   id = "_crystal",
   text = [[
 C'est un interrupteur de cristal !
@@ -1327,8 +1327,8 @@ dialog{
 dialog{
   id = "intro.fresco_1",
   text = [[
-Since the dawn of time,
-the Kingdom of Statis was at peace
+Depuis la nuit des temps,
+le royaume de Statis était en paix.
 ]],
 }
 
@@ -1353,9 +1353,9 @@ le nombre d'élevages et de denrées...
 dialog{
   id = "intro.fresco_3",
   text = [[
-Nothing escaped this art of counting
-that the people of Statis had carried
-in the highest refinements ...
+Rien n'échappait à cet art de compter
+que le peuple de Statis avait porté
+dans les plus hauts raffinements...
 
 ]],
 }

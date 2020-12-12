@@ -17,7 +17,7 @@ function solarus_logo_menu:on_started()
     font_size = 10,
     color = {240, 200, 56},
     horizontal_alignment = "center",
-    text = "Funcamp R - Preview 0.9.7.0",
+    text = "Funcamp R - 15 décembre 2020 (v 0.9.8)",
   })
 
   -- Start animation.
