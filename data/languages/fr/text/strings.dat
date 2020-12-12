@@ -88,3 +88,4 @@ text{ key = "stats_menu.rank.speed.2", value = "vitesse : Marathonien de Statis"
 text{ key = "stats_menu.rank.speed.3", value = "vitesse : Tortue" }
 text{ key = "stats_menu.rank.ultimate", value = "Frimeur" }
 text{ key = "stats_menu.title", value = "STATISTIQUES" }
+text{ key = "title_screen.start_button", value = "Appuyez sur la touche Espace" }

@@ -1,4 +1,4 @@
-map{ id = "caves/exit_challenge" }
+﻿map{ id = "caves/exit_challenge" }
 map{ id = "caves/fairy_lake", description = "Lake Fairy Cave" }
 map{ id = "caves/medallion_cave/1f", description = "Medallion cave 1F" }
 map{ id = "caves/medallion_cave/b1", description = "Medallion cave B1" }
@@ -522,6 +522,7 @@ entity{ id = "torch", description = "Torch" }
 entity{ id = "zelda", description = "Zelda" }
 
 language{ id = "fr", description = "Français" }
+language{ id = "en", description = "English (work in progress)" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "green_digits" }

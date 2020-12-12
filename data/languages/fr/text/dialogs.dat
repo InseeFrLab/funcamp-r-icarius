@@ -1,4 +1,4 @@
-dialog{
+﻿dialog{
   id = "_crystal",
   text = [[
 C'est un interrupteur de cristal !
@@ -26,33 +26,6 @@ dialog{
 Prix : $v rubis. Ok ?
     $? Oui
     $? Non
-]],
-}
-
-dialog{
-  id = "_treasure.arrow.1",
-  text = [[
-Tu as trouvé une flèche !
-Utilise l'arc et les flèches pour vaincre des
-ennemis à distance.
-]],
-}
-
-dialog{
-  id = "_treasure.arrow.2",
-  text = [[
-Tu as trouvé 5 flèches !
-Utilise l'arc et les flèches pour vaincre des
-ennemis à distance.
-]],
-}
-
-dialog{
-  id = "_treasure.arrow.3",
-  text = [[
-Tu as trouvé 10 flèches !
-Utilise l'arc et les flèches pour vaincre des
-ennemis à distance.
 ]],
 }
 
@@ -101,7 +74,7 @@ appuyez sur x pour poser une bombe dans le jeu.
 dialog{
   id = "_treasure.boomerang.1",
   text = [[
-Bravo, tu as récupéré le Boomerang !
+Bravo, vous avez récupéré le Boomerang !
 ]],
 }
 
@@ -109,140 +82,6 @@ dialog{
   id = "_treasure.boss_key.1",
   text = [[
 Vous avez trouvé la clé du boss !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.1",
-  text = [[
-Tu as trouvé un flacon vide !!!
-Tu vas pouvoir t'en servir pour stocker des
-potions !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.2",
-  text = [[
-Tu as obtenu une potion rouge !!!
-Bois-la pour restaurer ton énergie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.3",
-  text = [[
-Tu as obtenu une potion verte !!!
-Bois-la pour restaurer ta magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_1.4",
-  text = [[
-Tu as obtenu une potion bleue !!!
-Bois-la pour restaurer ton énergie et ta
-magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.1",
-  text = [[
-Tu as trouvé un flacon vide !!!
-Tu vas pouvoir t'en servir pour stocker des
-potions !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.2",
-  text = [[
-Tu as obtenu une potion rouge !!!
-Bois-la pour restaurer ton énergie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.3",
-  text = [[
-Tu as obtenu une potion verte !!!
-Bois-la pour restaurer ta magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_2.4",
-  text = [[
-Tu as obtenu une potion bleue !!!
-Bois-la pour restaurer ton énergie et ta
-magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.1",
-  text = [[
-Tu as trouvé un flacon vide !!!
-Tu vas pouvoir t'en servir pour stocker des
-potions !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.2",
-  text = [[
-Tu as obtenu une potion rouge !!!
-Bois-la pour restaurer ton énergie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.3",
-  text = [[
-Tu as obtenu une potion verte !!!
-Bois-la pour restaurer ta magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bottle_3.4",
-  text = [[
-Tu as obtenu une potion bleue !!!
-Bois-la pour restaurer ton énergie et ta
-magie !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bow.1",
-  text = [[
-Tu as obtenu l'arc !!!
-Utilise-le pour atteindre des cibles éloignées.
-]],
-}
-
-dialog{
-  id = "_treasure.bow.2",
-  text = [[
-Tu as obtenu l'arc !!!
-Utilise-le pour atteindre des cibles éloignées.
-]],
-}
-
-dialog{
-  id = "_treasure.bow_silver.1",
-  text = [[
-Ton arc tire désormais des flèches d'argent
-d'une puissance dévastatrice !!!
-]],
-}
-
-dialog{
-  id = "_treasure.bow_silver.2",
-  text = [[
-Ton arc tire désormais des flèches d'argent
-d'une puissance dévastatrice !!!
 ]],
 }
 
@@ -1488,10 +1327,8 @@ dialog{
 dialog{
   id = "intro.fresco_1",
   text = [[
-D'aussi loin que mémoire d'homme
-puisse se souvenir, 
-le Royaume de Statis était en paix ;
-
+Since the dawn of time,
+the Kingdom of Statis was at peace
 ]],
 }
 
@@ -1516,9 +1353,9 @@ le nombre d'élevages et de denrées...
 dialog{
   id = "intro.fresco_3",
   text = [[
-Rien n'échappait à cet art de compter
-que le peuple de Statis avait porté
-dans les plus hauts raffinements...
+Nothing escaped this art of counting
+that the people of Statis had carried
+in the highest refinements ...
 
 ]],
 }
@@ -1544,7 +1381,7 @@ dialog{
   id = "intro.fresco_5",
   text = [[
 Le jeune icaRius dort sans se douter
-des conséquences de son imagination...
+des évènements qui se trament...
 Une voix lui parle dans son sommeil...
 ]],
 }
@@ -1736,89 +1573,9 @@ Joueur débutant, prenez garde...
 }
 
 dialog{
-  id = "monster_house.found_all",
-  text = [[
-Je n'en crois pas mes yeux, tu as réussi à
-vaincre tous les types d'ennemis !!!
-Félicitations Link !!!
-]],
-}
-
-dialog{
-  id = "monster_house.no_more_reward",
-  text = [[
-Je suis désolé mais je n'ai plus rien à
-t'offrir...
-]],
-}
-
-dialog{
-  id = "monster_house.one_remaining",
-  text = [[
-Plus qu'un nouvel ennemi avant la prochaine
-récompense !
-]],
-}
-
-dialog{
-  id = "monster_house.remaining",
-  text = [[
-Encore $v ennemis différents avant la prochaine
-récompense.
-]],
-}
-
-dialog{
-  id = "monster_house.reward",
-  text = [[
-Accepte ce cadeau pour ta contribution à mon
-projet :
-]],
-}
-
-dialog{
-  id = "monster_house.welcome",
-  text = [[
-Bienvenue Link !
-Laisse-moi t'expliquer ce que je fais ici.
-
-
-Comme tu l'as certainement remarqué, des
-monstres sont apparus partout dans Hyrule.
-C'est la première fois que je vois des monstres
-depuis que tu as vaincu Ganon.
-Eh bien j'ai décidé de tous les répertorier.
-
-
-
-L'ennui c'est que je suis bien trop peureux
-pour aller à leur rencontre, alors j'ai besoin
-de ton aide.
-
-Il faut que tu battes chaque type de monstre et
-que tu viennes me faire ton rapport.
-
-
-Je te récompenserai tous les 7 nouveaux types
-d'ennemis vaincus.
-
-
-Si tu veux savoir quels ennemis tu as déjà
-vaincus, appuie sur M.
-]],
-}
-
-dialog{
   id = "not_enough_money",
   text = [[
 Désolé, mais tu n'as pas assez de rubis.
-]],
-}
-
-dialog{
-  id = "outE.village_sign",
-  text = [[
-Village GrissGrass
 ]],
 }
 
@@ -2411,14 +2168,6 @@ RIP SAS
 }
 
 dialog{
-  id = "potion_not_needed",
-  text = [[
-Tu n'as pas besoin de boire cette potion
-maintenant.
-]],
-}
-
-dialog{
   id = "rune.1",
   text = [[
 Vous avez trouvé une rune !
@@ -2670,55 +2419,6 @@ dialog{
                  $? Continuer
            $? Sauvegarder et quitter
           $? Quitter sans sauvegarder
-]],
-}
-
-dialog{
-  id = "shop.arrow.2",
-  text = [[
-5 flèches.
-]],
-}
-
-dialog{
-  id = "shop.bomb.1",
-  text = [[
-Une bombe.
-]],
-}
-
-dialog{
-  id = "shop.bow.2",
-  text = [[
-Un arc.
-]],
-}
-
-dialog{
-  id = "shop.choose",
-  text = [[
-Choisis ce que tu veux.
-]],
-}
-
-dialog{
-  id = "shop.heart.1",
-  text = [[
-Un coeur.
-]],
-}
-
-dialog{
-  id = "shop.magic_flask.1",
-  text = [[
-Un peu de magie.
-]],
-}
-
-dialog{
-  id = "shop.magic_flask.2",
-  text = [[
-Beaucoup de magie.
 ]],
 }
 
@@ -3103,59 +2803,9 @@ les esprits de GrissGrass retrouveront leur paix
 }
 
 dialog{
-  id = "village_sandia.blacksmith.hello",
+  id = "village_grissgrass.village_sign",
   text = [[
-Puis-je faire quelque chose pour toi ?
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.not_now",
-  text = [[
-Reviens plus tard, je suis débordé !
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.offer_bow",
-  text = [[
-Veux-tu que j'améliore ton arc ?
-
-            $? Oui
-            $? Non
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.offer_glove",
-  text = [[
-Veux-tu que j'améliore tes gants ?
-
-            $? Oui
-            $? Non
-]],
-}
-
-dialog{
-  id = "village_sandia.blacksmith.offer_sword",
-  text = [[
-Veux-tu que je reforge ton épée ?
-
-            $? Oui
-            $? Non
-]],
-}
-
-dialog{
-  id = "village_sandia.leader_house.go_blacksmith",
-  text = [[
-Bonjour Link, je suis le chef de ce village.
-Tu devrais aller voir le forgeron et lui
-présenter ce que tu veux qu'il reforge dans
-ton équipement.
-J'ai été informé de ta quête, alors je me suis
-arrangé avec lui.
-Tout sera gratuit pour toi.
+Village GrissGrass
 ]],
 }
 
@@ -3176,14 +2826,6 @@ Merci : tu trouveras au fond de la pièce
 un passage secret...
 Il te mènera vers un niveau optionnel,
 uniquement pour les joueurs avertis.
-]],
-}
-
-dialog{
-  id = "village_sandia.woman_house.woman",
-  text = [[
-Bonjour ! Si vous êtes venu voir le forgeron,
-il habite un peu plus loin.
 ]],
 }
 
