@@ -1,4 +1,4 @@
-﻿map{ id = "caves/exit_challenge" }
+map{ id = "caves/exit_challenge" }
 map{ id = "caves/fairy_lake", description = "Lake Fairy Cave" }
 map{ id = "caves/medallion_cave/1f", description = "Medallion cave 1F" }
 map{ id = "caves/medallion_cave/b1", description = "Medallion cave B1" }
@@ -6,7 +6,6 @@ map{ id = "caves/secret_passage/tunnel", description = "Tunnel" }
 map{ id = "ending/ending_1", description = "The end - Part1" }
 map{ id = "ending/ending_2", description = "The end - Part2" }
 map{ id = "ending/ending_3", description = "The end - Stats" }
-map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "extra_dungeons/extra_1/1f", description = "Extra Dungeon 1 1F" }
 map{ id = "extra_dungeons/extra_1/b1", description = "Extra Dungeon 1 B1" }
 map{ id = "extra_dungeons/extra_2/1f", description = "Extra Dungeon 2 1F" }
@@ -16,7 +15,6 @@ map{ id = "houses/icarius_house", description = "Icarius house" }
 map{ id = "houses/icarius_house_bis", description = "Icarius house bis" }
 map{ id = "houses/tiny_house", description = "Tiny House" }
 map{ id = "houses/tree_house", description = "Tree house" }
-map{ id = "inside_store", description = "Inside Store" }
 map{ id = "intro", description = "Intro" }
 map{ id = "outside/outA", description = "Out A (Forest)" }
 map{ id = "outside/outB", description = "Out B (Plains)" }
@@ -35,7 +33,6 @@ map{ id = "outside/outI", description = "Outside I (Ruins)" }
 map{ id = "outside/outJ", description = "Outisde J (Mist Forest)" }
 map{ id = "outside/outK", description = "Outside K (Fortune Teller)" }
 map{ id = "outside/outL", description = "Outside L (Grave)" }
-map{ id = "outside_store", description = "Outside Store" }
 map{ id = "rune_1/monster", description = "Rune 1 - Monster" }
 map{ id = "rune_2/monster", description = "R2 - Monster" }
 map{ id = "rune_3/1f", description = "R3 - Castle 1F" }
@@ -521,8 +518,8 @@ entity{ id = "ice_beam", description = "Ice beam" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "zelda", description = "Zelda" }
 
-language{ id = "fr", description = "Français" }
 language{ id = "en", description = "English (work in progress)" }
+language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "green_digits" }
@@ -687,8 +684,6 @@ file{ path = "maps/caves/medallion_cave/b1.dat", author = "Christopho, Vincent J
 file{ path = "maps/caves/medallion_cave/b1.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/ending/ending_1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "maps/ending/ending_1.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/enemy_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/enemy_store.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/extra_dungeons/extra_1/", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/extra_dungeons/extra_1/1f.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/extra_dungeons/extra_1/1f.lua", author = "Christopho", license = "GPL v3" }
@@ -707,8 +702,6 @@ file{ path = "maps/houses/icarius_house.dat", author = "Christopho, Vincent Joui
 file{ path = "maps/houses/icarius_house.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/houses/tree_house.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/houses/tree_house.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/inside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/inside_store.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/intro.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "maps/intro.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/lib", author = "Christopho", license = "GPL v3" }
@@ -734,8 +727,6 @@ file{ path = "maps/outside/outH.dat", author = "Christopho, Vincent Jouillat", l
 file{ path = "maps/outside/outH.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/outside/outI.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/outside/outI.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/outside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/outside_store.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/rune_3", author = "Christopho, Vincent Jouillat", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/rune_3/1f.dat", author = "Christopho, Vincent Jouillat", license = "CC BY-SA 4.0" }
 file{ path = "maps/rune_3/1f.lua", author = "Christopho", license = "GPL v3" }

@@ -463,7 +463,6 @@ tile{
   layer = 1,
   x = 560,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "grass.weed",
@@ -473,7 +472,6 @@ tile{
   layer = 1,
   x = 352,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "grass.weed",
@@ -888,7 +886,6 @@ tile{
   layer = 1,
   x = 96,
   y = 0,
-  enabled_at_start = false,
   width = 16,
   height = 144,
   pattern = "grass.cliff.3",
@@ -1312,7 +1309,6 @@ tile{
   layer = 1,
   x = 160,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "grass.weed",
@@ -1411,8 +1407,8 @@ tile{
 sensor{
   name = "sensor_landslide",
   layer = 1,
-  x = 672,
-  y = 205,
+  x = 664,
+  y = 213,
   width = 48,
   height = 32,
 }
@@ -1497,8 +1493,8 @@ custom_entity{
 destination{
   name = "from_cave",
   layer = 1,
-  x = 688,
-  y = 213,
+  x = 680,
+  y = 221,
   direction = 3,
 }
 
