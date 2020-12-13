@@ -969,7 +969,7 @@ contre le pouvoir de l'ombre !
 dialog{
   id = "extra_dungeons.extra_2.welcome",
   text = [[
-                Sanctuaire de l'ombre
+            Sanctuaire des profondeurs
 
                  (niveau optionnel)
 ]],
@@ -2265,6 +2265,9 @@ dialog{
 (Voix de Statia)
 Icarius : juste après le coffre,
 se trouve une zone de téléportation...
+
+Ouvre d'abord le coffre
+avant de rejoindre cette zone.
 ]],
 }
 

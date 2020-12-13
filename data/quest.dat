@@ -6,7 +6,7 @@ quest{
   long_description = [[
 Prototype Funcamp, adapté depuis le jeu The Return of the Hylian, avec le moteur Solarus.]],
   author = "AD",
-  quest_version = "0.9.7.0",
+  quest_version = "0.9.9",
   release_date = "",
   website = "",
   normal_quest_size = "320x240",

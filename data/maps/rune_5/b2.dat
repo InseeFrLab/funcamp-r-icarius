@@ -7813,7 +7813,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "rune_4/b1",
+  destination_map = "rune_5/b1",
   destination = "from_b2_n",
 }
 
@@ -7937,7 +7937,7 @@ enemy{
 
 chest{
   layer = 1,
-  x = 1768,
+  x = 1752,
   y = 125,
   treasure_name = "boss_key",
   treasure_savegame_variable = "dungeon_5_boss_key_chest",
