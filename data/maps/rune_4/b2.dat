@@ -814,16 +814,6 @@ wall{
   stops_blocks = true,
 }
 
-teletransporter{
-  layer = 1,
-  x = 1112,
-  y = 1896,
-  width = 16,
-  height = 16,
-  destination_map = "rune_4/b1",
-  destination = "from_b2",
-}
-
 destination{
   name = "from_b2",
   layer = 1,
