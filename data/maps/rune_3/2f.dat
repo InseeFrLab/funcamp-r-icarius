@@ -739,6 +739,7 @@ door{
   y = 8,
   direction = 1,
   sprite = "entities/door_normal",
+  savegame_variable = "final_door_boss_statis_castle",
 }
 
 wall{

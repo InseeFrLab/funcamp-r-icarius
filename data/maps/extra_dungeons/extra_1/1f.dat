@@ -3426,34 +3426,6 @@ wall{
   stops_blocks = true,
 }
 
-door{
-  name = "door_a_3",
-  layer = 1,
-  x = 1112,
-  y = 968,
-  direction = 1,
-  sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_11_1f_door_a",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_11_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "small_key_required",
-}
-
-door{
-  name = "door_a_4",
-  layer = 1,
-  x = 1112,
-  y = 936,
-  direction = 3,
-  sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_11_1f_door_a",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_11_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "small_key_required",
-}
-
 sensor{
   name = "dungeon_room_4_1",
   layer = 1,
@@ -3559,9 +3531,9 @@ door{
   y = 728,
   direction = 1,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_1_1f_door_a",
+  savegame_variable = "dungeon_11_1f_door_a",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "dungeon_11_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
@@ -3573,9 +3545,9 @@ door{
   y = 696,
   direction = 3,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_1_1f_door_a",
+  savegame_variable = "dungeon_11_1f_door_a",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_condition = "dungeon_11_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
 }
