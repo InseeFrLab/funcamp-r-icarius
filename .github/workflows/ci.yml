@@ -20,3 +20,4 @@ jobs:
         with:
           name: package
           path: icarius.solarus
+          if-no-files-found: error
