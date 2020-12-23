@@ -21,3 +21,4 @@ jobs:
           name: icarius.solarus
           path: icarius.solarus
           if-no-files-found: error
+          retention-days: 1
