@@ -3,7 +3,7 @@ name: funcamp R Icarius API CI
 on:
   push:
     branches:
-      - "**"
+      - gha2
     tags:
       - "*"
   pull_request:
