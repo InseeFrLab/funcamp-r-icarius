@@ -1,0 +1,24 @@
+name: funcamp R Icarius API CI
+
+on:
+  push:
+    branches:
+      - "**"
+    tags:
+      - "*"
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: build package
+        run: cd data && 7za a -tzip ../icarius.solarus .
+      - name: Upload package
+        uses: actions/upload-artifact@v2
+        with:
+          name: icarius.solarus
+          path: icarius.solarus
+          if-no-files-found: error
+          retention-days: 1
