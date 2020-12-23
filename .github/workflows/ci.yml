@@ -18,6 +18,6 @@ jobs:
       - name: Upload package
         uses: actions/upload-artifact@v2
         with:
-          name: package
+          name: icarius.solarus
           path: icarius.solarus
           if-no-files-found: error
