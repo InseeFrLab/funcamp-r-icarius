@@ -21,6 +21,6 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: icarius.solarus
           asset_name: icarius.solarus
-          tags: ${{ github.ref }}
+          tag: ${{ github.ref }}
           overwrite: true
           body: "This is my release text"
