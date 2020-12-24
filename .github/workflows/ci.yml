@@ -3,7 +3,7 @@ name: funcamp R Icarius API CI
 on:
   push:
     branches:
-      - gha2
+      - "*"
     tags:
       - "*"
   pull_request:
@@ -13,14 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: build package
-        run: cd data && 7za a -tzip ../icarius.solarus .
-      - name: Upload binaries to release
-        uses: svenstaro/upload-release-action@v2
+      - uses: meeDamian/github-release@2.0
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: icarius.solarus
-          asset_name: icarius.solarus
-          tag: ${{ github.ref }}
-          overwrite: true
-          body: "This is my release text"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: data/
+          body: "Release of icaRius game"
