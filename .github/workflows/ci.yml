@@ -3,7 +3,7 @@ name: funcamp R Icarius API CI
 on:
   push:
     branches:
-      - "**"
+      - gha2
     tags:
       - "*"
   pull_request:
@@ -15,10 +15,12 @@ jobs:
       - uses: actions/checkout@v2
       - name: build package
         run: cd data && 7za a -tzip ../icarius.solarus .
-      - name: Upload package
-        uses: actions/upload-artifact@v2
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
         with:
-          name: icarius.solarus
-          path: icarius.solarus
-          if-no-files-found: error
-          retention-days: 1
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: icarius.solarus
+          asset_name: icarius.solarus
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "This is my release text"
