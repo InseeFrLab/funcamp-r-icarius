@@ -18,6 +18,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: V1
           allow_override: true
-          gzip: false
+          gzip: folders
           files: data/
           body: "Release of icaRius game"
