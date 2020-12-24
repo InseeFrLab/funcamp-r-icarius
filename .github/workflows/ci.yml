@@ -16,5 +16,6 @@ jobs:
       - uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: V1
           files: data/
           body: "Release of icaRius game"
