@@ -17,5 +17,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: V1
+          gzip: false
           files: data/
           body: "Release of icaRius game"
