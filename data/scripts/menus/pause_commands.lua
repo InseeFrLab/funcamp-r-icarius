@@ -126,11 +126,6 @@ function commands_manager:new(game)
       customizable = true,
     },
     {
-      name = "monsters",
-      unlocked = game:has_item("monsters_encyclopedia"),
-      customizable = true,
-    },
-    {
       name = "commands",
       unlocked = true,
       customizable = true,

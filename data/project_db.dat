@@ -429,7 +429,6 @@ item{ id = "magic_crystal", description = "Magic Crystal" }
 item{ id = "magic_flask", description = "Magic flask (small / big)" }
 item{ id = "magic_medallion", description = "Magic Medallion" }
 item{ id = "map", description = "Dungeon map" }
-item{ id = "monsters_encyclopedia", description = "Monsters Encyclopedia" }
 item{ id = "mudora_book", description = "Mudora's book" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "random", description = "Random" }
@@ -639,7 +638,6 @@ file{ path = "items/magic_crystal.lua", author = "Christopho", license = "GPL v3
 file{ path = "items/magic_flask.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/magic_medallion.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/map.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/monsters_encyclopedia.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/mudora_book.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/piece_of_heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/random.lua", author = "Christopho", license = "GPL v3" }
@@ -828,7 +826,6 @@ file{ path = "scripts/menus/pause.lua", author = "Christopho", license = "GPL v3
 file{ path = "scripts/menus/pause_commands.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/pause_map.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "scripts/menus/pause_monsters.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/presentation_screen.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/records.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
