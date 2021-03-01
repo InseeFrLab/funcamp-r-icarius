@@ -7,7 +7,7 @@
 
 local initial_menus = {
   "scripts/menus/solarus_logo",
-  "scripts/menus/funcamp_logo",
+---  "scripts/menus/funcamp_logo",
   "scripts/menus/language",
   "scripts/menus/presentation_screen",
   "scripts/menus/title_screen",

@@ -41,6 +41,11 @@ text{ key = "pause.inventory.runes", value = "RUNES :" }
 text{ key = "pause.inventory.status", value = "STATUT :" }
 text{ key = "pause.inventory.time", value = "TEMPS" }
 text{ key = "pause.monsters.title", value = "MONSTRES" }
+text{ key = "pause.options", value = "Options" }
+text{ key = "pause.options.label", value = "Appuyez sur espace pour modifier" }
+text{ key = "pause.options.music_volume", value = "Volume de la musique" }
+text{ key = "pause.options.sound_volume", value = "Volume des bruitages" }
+text{ key = "pause.options.video_mode", value = "Mode vidéo" }
 text{ key = "records_menu.100_percent_rank", value = "RANG DES 100%" }
 text{ key = "records_menu.back", value = "RETOUR" }
 text{ key = "records_menu.best_time", value = "MEILLEUR TEMPS :" }
@@ -66,6 +71,11 @@ text{ key = "savegames_menu.title", value = "ECRAN DE SELECTION" }
 text{ key = "savegames_menu.yes", value = "OUI" }
 text{ key = "selection_menu.empty", value = "vide" }
 text{ key = "selection_menu.erase", value = "Effacer" }
+text{ key = "selection_menu.options", value = "Options" }
+text{ key = "selection_menu.options.language", value = "Language" }
+text{ key = "selection_menu.options.music_volume", value = "Music volume" }
+text{ key = "selection_menu.options.sound_volume", value = "Sound volume" }
+text{ key = "selection_menu.options.video_mode", value = "Video" }
 text{ key = "selection_menu.phase.choose_name", value = "Tapez la réponse" }
 text{ key = "selection_menu.phase.select_answer", value = "Renseignez la (les) réponse(s)" }
 text{ key = "selection_menu.title", value = "SCORES :" }

@@ -124,7 +124,7 @@ function inventory_manager:new(game)
 
   local item_widget = create_item_widget(game)
   local status_widget = create_status_widget(game)
-  local crystals_widget = create_runes_widget(game)
+  local runes_widget = create_runes_widget(game)
   local pieces_of_heart_widget = create_pieces_of_heart_widget(game)
 
   local item_cursor_fixed_sprite = sol.sprite.create("menus/item_cursor")
@@ -172,7 +172,7 @@ function inventory_manager:new(game)
     movement:set_speed(movement_speed)
     movement:set_max_distance(movement_distance)
     movement:set_angle(math.pi / 2 + angle_added)
-    crystals_widget:start_movement(movement)
+    runes_widget:start_movement(movement)
 
     local movement = sol.movement.create("straight")
     movement:set_speed(movement_speed)
@@ -240,7 +240,7 @@ function inventory_manager:new(game)
 
     item_widget:draw(dst_surface)
     status_widget:draw(dst_surface)
-    crystals_widget:draw(dst_surface)
+    runes_widget:draw(dst_surface)
     pieces_of_heart_widget:draw(dst_surface)
 
     -- Show the time played.
