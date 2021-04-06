@@ -72,6 +72,10 @@ end
 -- Starting the menu.
 function solarus_logo_menu:on_started()
 
+  --- Set music and sounds at a low level by default
+  sol.audio.set_music_volume(30)
+  sol.audio.set_sound_volume(30)        
+  
   -- Initialize or reinitialize the animation.
   animation_step = 0
   timer = nil
