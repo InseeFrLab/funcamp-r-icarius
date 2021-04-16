@@ -57,6 +57,7 @@ sol.timer.start(2000, function()
         hero:unfreeze()
         sol.audio.play_sound("secret")
         chest_elixir_mandragore:set_enabled(true)
+        sensor_warning_chest:set_enabled(true)
         game:set_value("grissgrass_elixir_mandragore", true)
         fermier_2:set_enabled(false)
       end)
@@ -75,3 +76,9 @@ if game:get_value("chapter4_answer") then
   fermier_2:set_enabled(false)
 end
 
+
+-- Make sure Chest if opened before leaving
+function sensor_warning_chest:on_activated()
+    game:start_dialog("village_grissgrass.warning_chest")
+    sensor_warning_chest:set_enabled(false)
+end

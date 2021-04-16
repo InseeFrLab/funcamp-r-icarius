@@ -7103,7 +7103,6 @@ enemy{
   y = 837,
   direction = 3,
   breed = "tentacle",
-  treasure_name = "random_heart",
 }
 
 custom_entity{

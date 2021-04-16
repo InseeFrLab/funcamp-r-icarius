@@ -1493,9 +1493,9 @@ custom_entity{
 destination{
   name = "from_cave",
   layer = 1,
-  x = 680,
-  y = 221,
-  direction = 3,
+  x = 664,
+  y = 229,
+  direction = 2,
 }
 
 teletransporter{

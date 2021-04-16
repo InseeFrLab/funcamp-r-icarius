@@ -4885,7 +4885,7 @@ npc{
   name = "welcome_npc",
   layer = 1,
   x = 472,
-  y = 685,
+  y = 725,
   direction = 3,
   subtype = 1,
   sprite = "npc/villager1",

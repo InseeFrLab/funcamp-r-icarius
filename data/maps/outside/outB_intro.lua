@@ -13,7 +13,15 @@ local game = map:get_game()
 file = assert(sol.main.load_file("scripts/menus/save_answers_menu.lua"))
 
 
-local movement_welcome = sol.movement.create("target")
+-- Unable Mage Tourep and Chest if quest already done
+if game:get_value("kokoro_shield_quest") then
+      shield_barrier:set_enabled(false)
+      mage_tourep:set_enabled(false)
+      kokoro_shield_chest:set_enabled(false)
+end
+
+
+local movement_welcome = sol.movement.create("random")
 movement_welcome:set_speed(12)
 
 function map:on_started()
@@ -115,6 +123,7 @@ function mage_tourep:on_interaction()
   if game:get_value("chapter2_answer") == nil then
     game:start_dialog("kokoro.mage_tourep")
   elseif game:get_value("chapter2_answer") == true then
+    game:set_value("kokoro_shield_quest", true)
     game:start_dialog("kokoro.mage_tourep_OK")
     sol.timer.start(1000, function()      
       sol.audio.play_sound("secret")

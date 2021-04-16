@@ -544,12 +544,22 @@ npc{
 chest{
   name = "chest_elixir_mandragore",
   layer = 1,
-  x = 200,
+  x = 184,
   y = 77,
   enabled_at_start = false,
   treasure_name = "elixir_mandragore",
   treasure_savegame_variable = "chest_elixir_mandragore",
   sprite = "entities/chest",
+}
+
+sensor{
+  name = "sensor_warning_chest",
+  layer = 1,
+  x = 136,
+  y = 213,
+  enabled_at_start = false,
+  width = 64,
+  height = 16,
 }
 
 tile{

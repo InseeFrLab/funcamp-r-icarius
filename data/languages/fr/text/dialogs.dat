@@ -96,14 +96,14 @@ Vous pouvez localiser le boss sur le plan.
 dialog{
   id = "_treasure.elixir_mandragore.1",
   text = [[
-Tu as trouvé de l'elixir de Mandragore !!
-De suite, tu le goûtes 
-(et grimaces avec son vague goût de soupe...)
+Vous avez trouvé de l'elixir de Mandragore !
+De suite, vous le goûtez 
+(et grimacez avec son vague goût de soupe...)
 Beurk...
-Mais... tu sens déjà les effets du filtre
-et une force grandit en toi :
+Mais... vous sentez déjà les effets du filtre
+et une force grandit en vous :
 comme de pressentir de nouvelles capacités
-que tu pourras prochainement acquérir.
+que vous pourrez prochainement acquérir.
 ]],
 }
 
@@ -158,8 +158,8 @@ Utilisez-le pour franchir des obstacles.
 dialog{
   id = "_treasure.igor_book.1",
   text = [[
-Tu as trouvé le grimoire d'IGoR.
-Tu comprends désormais le langage des Runes !!!
+Vous avez trouvé le grimoire d'IGoR.
+Vous comprenez désormais le langage des Runes !!!
 ]],
 }
 
@@ -1168,13 +1168,13 @@ dialog{
 A l'aide !
 A l'aide !
 IcaRius, j'ai besoin de toi...
-AIDE : appuie sur les flèches
+AIDE : appuyez sur les flèches
 (touches directionnelles du clavier)
-pour te déplacer.
+pour vous déplacer.
 
 Pour dialoguer avec un personnage
 ou interagir avec un objet,
-appuie sur la touche espace.
+appuyez sur la touche espace.
 ]],
 }
 
@@ -1363,7 +1363,7 @@ dans les plus hauts raffinements...
 dialog{
   id = "intro.fresco_4",
   text = [[
-Dans la contrée de RedHill, 
+Dans ce royaume numérique, 
 un jeune garçon toutefois 
 semblait bien différent des autres.
 
@@ -1486,8 +1486,8 @@ dialog{
   text = [[
 Epatant !
 Tu as retrouvé le nombre de pontes !
-Grand merci, jeune homme :
-ma femme va enfin retrouver son calme...
+Grand merci, jeune homme !
+
 Va voir le mage Tourep,
 il t'offrira une récompense...
 ]],
@@ -1523,15 +1523,15 @@ et de la noirceur des ennemis.
 dialog{
   id = "kokoro.sign1",
   text = [[
-N : Entrée du village Kokoro
-O : plaines de Statis
+Nord : Entrée du village Kokoro
+Ouest : plaines de Statis
 ]],
 }
 
 dialog{
   id = "kokoro.sign2",
   text = [[
-O : plaines de Statis
+Ouest : plaines de Statis
 ]],
 }
 
@@ -1583,7 +1583,7 @@ dialog{
   id = "outside_icarius_outA.hill_sign",
   text = [[
 Pour monter sur la colline,
-utilise l'échelle
+utilisez l'échelle
 (flèche directionnelle du haut)
 ]],
 }
@@ -1601,7 +1601,7 @@ Sud : vers la forêt enchantée
 dialog{
   id = "outside_icarius_outA.kokoro_village_sign",
   text = [[
-N : Village Kokoro
+Nord : Village Kokoro
 ]],
 }
 
@@ -2809,6 +2809,16 @@ dialog{
   id = "village_grissgrass.village_sign",
   text = [[
 Village GrissGrass
+]],
+}
+
+dialog{
+  id = "village_grissgrass.warning_chest",
+  text = [[
+Attention, il faut d'abord
+ouvrir le coffre 
+et récupérer l'elixir,
+avant de quitter la pièce.
 ]],
 }
 

@@ -86,16 +86,6 @@ local function initialize_enemy()
     self:remove_life(life_lost)
   end
 
-  -- When an enemy is killed, add it to the encyclopedia.
-  function enemy_meta:on_removed()
-
-    if self:get_life() <= 0 then
-      local breed = self:get_breed()
-      local game = self:get_game()
-      game:get_item("monsters_encyclopedia"):add_monster_type_killed(breed)
-    end
-  end
-
   -- Helper function to inflict an explicit reaction from a scripted weapon.
   -- TODO this should be in the Solarus API one day
   function enemy_meta:receive_attack_consequence(attack, reaction)
