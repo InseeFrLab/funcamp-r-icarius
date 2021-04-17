@@ -72,6 +72,16 @@ appuyez sur x pour poser une bombe dans le jeu.
 }
 
 dialog{
+  id = "_treasure.bombs_counter.1",
+  text = [[
+Vous pouvez désormais utiliser des bombes.
+Appuyez sur D pour accéder à l'inventaire.
+Sélectionnez l'icone des bombes, et dans le jeu,
+appuyez sur X pour vous servir de cet item.
+]],
+}
+
+dialog{
   id = "_treasure.boomerang.1",
   text = [[
 Bravo, vous avez récupéré le Boomerang !
@@ -417,6 +427,14 @@ et le sortir de ce piège...)
 }
 
 dialog{
+  id = "castle.chief_army_1_bis",
+  text = [[
+--- Le chef des armées Parlyus ---
+Ramène-moi le traître Essespéus !
+]],
+}
+
+dialog{
   id = "castle.chief_army_2",
   text = [[
 --- Le chef des armées Parlyus ---
@@ -615,9 +633,6 @@ dialog{
   id = "castle.sensor_throne_room_8",
   text = [[
 Attention, des esprits malins !
-C'est désormais certain :
-le château a été envahi par des forces obscures.
-Le chef des armées doit être de mèche !
 ]],
 }
 

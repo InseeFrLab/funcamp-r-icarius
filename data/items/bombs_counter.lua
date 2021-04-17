@@ -9,6 +9,10 @@ function item:on_created()
   item:set_amount_savegame_variable("amount_bomb_counter")
   item:set_assignable(true)
   item:set_max_amount(10)
+  sol.timer.start(3000,function()
+   item:add_amount(5)
+  end)
+
 end
 
 -- Called when the player uses the bombs of his inventory by pressing the corresponding item key.

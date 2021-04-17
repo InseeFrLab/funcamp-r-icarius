@@ -6816,17 +6816,6 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 152,
-  y = 781,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/hook_green",
-  model = "hookable",
-}
-
-custom_entity{
-  layer = 1,
   x = 648,
   y = 813,
   width = 32,
@@ -7126,7 +7115,8 @@ teletransporter{
   y = 832,
   width = 16,
   height = 48,
-  destination_map = "outside/outF",
+  destination_map = "outside/outF1",
+  destination = "from_castle",
 }
 
 tile{

@@ -1530,6 +1530,14 @@ door{
   savegame_variable = "outside_stone_to_grissgrass",
 }
 
+destination{
+  name = "from_castle",
+  layer = 1,
+  x = 24,
+  y = 221,
+  direction = 0,
+}
+
 tile{
   layer = 2,
   x = 656,

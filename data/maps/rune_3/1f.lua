@@ -79,13 +79,18 @@ function chief_army:on_interaction()
         end)
       end) 
     else
-     game:start_dialog("castle.chief_army_1", function()
-      sol.timer.start(1000, function()
-        map:open_doors("castle_door_a_1")
-        map:open_doors("castle_door_a_2")
-        sol.audio.play_sound("door_open")
-      end)
-     end) 
+      if game:get_value("essespeus_quest") then
+        game:start_dialog("castle.chief_army_1_bis")
+      else
+        game:start_dialog("castle.chief_army_1", function()
+          sol.timer.start(1000, function()
+            game:set_value("essespeus_quest", true)
+            map:open_doors("castle_door_a_1")
+            map:open_doors("castle_door_a_2")
+            sol.audio.play_sound("door_open")
+          end)
+        end) 
+      end
     end
 
 end
