@@ -6683,6 +6683,7 @@ wall{
   y = 744,
   width = 272,
   height = 40,
+  stops_hero = true,
   stops_enemies = true,
 }
 
@@ -6692,6 +6693,7 @@ wall{
   y = 896,
   width = 104,
   height = 40,
+  stops_hero = true,
   stops_enemies = true,
 }
 
@@ -6701,6 +6703,7 @@ wall{
   y = 896,
   width = 104,
   height = 40,
+  stops_hero = true,
   stops_enemies = true,
 }
 
@@ -6710,6 +6713,7 @@ wall{
   y = 784,
   width = 40,
   height = 112,
+  stops_hero = true,
   stops_enemies = true,
 }
 
@@ -6719,6 +6723,7 @@ wall{
   y = 784,
   width = 40,
   height = 112,
+  stops_hero = true,
   stops_enemies = true,
 }
 
