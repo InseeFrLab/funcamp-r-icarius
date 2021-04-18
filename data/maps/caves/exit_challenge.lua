@@ -8,6 +8,10 @@ night_overlay:fill_color({0, 0, 64, alpha})
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
+function sensor_entry:on_activated()
+     game:start_dialog("exit_challenge.entry")
+end
+
 function impossible_path_start_sensor:on_activated()
 
 -- Starting message

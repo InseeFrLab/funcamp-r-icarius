@@ -874,6 +874,13 @@ créateur de rêves pour petits et grands joueurs
 }
 
 dialog{
+  id = "exit_challenge.entry",
+  text = [[
+Il n'est pas possible de revenir en arrière...
+]],
+}
+
+dialog{
   id = "exit_challenge.exit",
   text = [[
 --- Voix de Statia ---
@@ -2236,6 +2243,13 @@ dialog{
   text = [[
 
                Château de Statis
+]],
+}
+
+dialog{
+  id = "rune_4.before_boss",
+  text = [[
+Il n'est pas possible de revenir en arrière...
 ]],
 }
 

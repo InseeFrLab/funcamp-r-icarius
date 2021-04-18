@@ -8,7 +8,7 @@ function weak_wall:on_opened()
 end
 
 function sensor_landslide:on_activated()
-  sol.timer.start(map, 500, function()
+  sol.timer.start(map, 300, function()
     sol.audio.play_sound("explosion")
     outside_stone_temple:set_enabled(true)
     game:start_dialog("outside_icarius_outI.landslide")

@@ -346,9 +346,6 @@ function game_manager:create(file)
     local map = game:get_map()
     local hero = game:get_hero()
     local death_count = game:get_value("death_count") or 0
-    if game:is_rabbit() then
-      game:stop_rabbit()
-    end
     game.lit_torches_by_map = nil  -- See entities/torch.lua
     game:set_value("death_count", death_count + 1)
     hero:set_visible(false)

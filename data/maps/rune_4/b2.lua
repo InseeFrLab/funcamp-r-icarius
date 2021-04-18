@@ -29,6 +29,9 @@ function map:on_started()
   medusa_4:set_shooting(false)
 end
 
+function sensor_before_boss:on_activated()
+  game:start_dialog("rune_4.before_boss")
+end
 
 function start_boss_sensor:on_activated()
 

@@ -6078,7 +6078,7 @@ sensor{
   name = "sensor_landslide",
   layer = 1,
   x = 448,
-  y = 101,
+  y = 109,
   width = 48,
   height = 32,
 }
@@ -6086,8 +6086,8 @@ sensor{
 destination{
   name = "from_dungeon",
   layer = 1,
-  x = 464,
-  y = 109,
+  x = 480,
+  y = 117,
   direction = 3,
 }
 

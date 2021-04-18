@@ -78,7 +78,7 @@ tile{
   layer = 1,
   x = 984,
   y = 1896,
-  width = 272,
+  width = 112,
   height = 24,
   pattern = "wall.2",
 }
@@ -204,6 +204,7 @@ tile{
   layer = 1,
   x = 1088,
   y = 1864,
+  enabled_at_start = false,
   width = 64,
   height = 24,
   pattern = "door_main.2.floor.2",
@@ -785,6 +786,15 @@ tile{
   pattern = "floor_border.2",
 }
 
+tile{
+  layer = 1,
+  x = 1160,
+  y = 1896,
+  width = 112,
+  height = 24,
+  pattern = "wall.2",
+}
+
 wall{
   layer = 1,
   x = 1112,
@@ -799,17 +809,18 @@ sensor{
   name = "dungeon_room_2_3",
   layer = 1,
   x = 1120,
-  y = 1901,
+  y = 1877,
   width = 16,
   height = 16,
 }
 
 wall{
   layer = 1,
-  x = 1112,
-  y = 1896,
-  width = 16,
+  x = 1104,
+  y = 1904,
+  width = 32,
   height = 16,
+  stops_hero = true,
   stops_enemies = true,
   stops_blocks = true,
 }
@@ -818,7 +829,7 @@ destination{
   name = "from_b2",
   layer = 1,
   x = 1120,
-  y = 1885,
+  y = 1877,
   direction = 1,
 }
 
@@ -1134,6 +1145,15 @@ enemy{
   direction = 3,
   breed = "medusa",
   treasure_name = "random_heart",
+}
+
+sensor{
+  name = "sensor_before_boss",
+  layer = 1,
+  x = 1120,
+  y = 1901,
+  width = 16,
+  height = 16,
 }
 
 tile{

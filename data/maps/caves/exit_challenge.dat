@@ -3874,9 +3874,10 @@ custom_entity{
 wall{
   layer = 1,
   x = 168,
-  y = 1688,
+  y = 1696,
   width = 16,
   height = 16,
+  stops_hero = true,
   stops_enemies = true,
   stops_blocks = true,
 }
@@ -3885,7 +3886,7 @@ destination{
   name = "from_outside",
   layer = 1,
   x = 176,
-  y = 1677,
+  y = 1669,
   direction = 1,
 }
 
@@ -4851,6 +4852,28 @@ destination{
   x = 496,
   y = 1357,
   direction = 1,
+}
+
+wall{
+  layer = 1,
+  x = 8,
+  y = 864,
+  width = 16,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+sensor{
+  name = "sensor_entry",
+  layer = 1,
+  x = 176,
+  y = 1693,
+  width = 16,
+  height = 16,
 }
 
 tile{
