@@ -10,6 +10,7 @@ function map:on_started()
 
 teleport_exit:set_enabled(false)
 sensor_exit:set_enabled(true)
+sensor_exit_ok:set_enabled(false)
 
 function sensor_exit:on_activated()
     game:start_dialog("tree_house.sensor_exit")
@@ -26,7 +27,7 @@ function redhat_guy:on_interaction()
           sol.audio.play_sound("secret")
           chest_boomerang:set_enabled(true)
           sensor_exit:set_enabled(false)
-          teleport_exit:set_enabled(true)
+          sensor_exit_ok:set_enabled(true)
           redhat_guy:set_enabled(false)
          end)
       end)
@@ -69,3 +70,9 @@ function map:on_draw(dst_surface)
   night_overlay:draw(dst_surface)
 end
 
+-- Allow exit when boomerang item has been released
+function sensor_exit_ok:on_activated()
+  if game:has_item("boomerang") then
+    teleport_exit:set_enabled(true)
+  end
+end

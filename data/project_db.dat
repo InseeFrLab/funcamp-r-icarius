@@ -127,6 +127,7 @@ sprite{ id = "enemies/tarosu_red", description = "Red Tarosu" }
 sprite{ id = "enemies/tarosu_red_weapon", description = "Red Tarosu's trident" }
 sprite{ id = "enemies/tektite_blue", description = "Blue Tektite" }
 sprite{ id = "enemies/tentacle", description = "Tentacle" }
+sprite{ id = "enemies/tryclyde", description = "Tryclyde" }
 sprite{ id = "enemies/vitreous", description = "Vitreous" }
 sprite{ id = "enemies/vulture", description = "Vulture" }
 sprite{ id = "enemies/wallmaster", description = "Wallmaster" }
@@ -497,6 +498,7 @@ enemy{ id = "sword_soldier_green", description = "Green Sword Soldier" }
 enemy{ id = "tarosu_red", description = "Red Tarosu" }
 enemy{ id = "tektite_blue", description = "Blue Tektite" }
 enemy{ id = "tentacle", description = "Tentacle" }
+enemy{ id = "tryclyde", description = "Tryclyde" }
 enemy{ id = "vitreous", description = "Vitreous" }
 enemy{ id = "vulture", description = "Vulture" }
 enemy{ id = "wallmaster", description = "Wallmaster" }

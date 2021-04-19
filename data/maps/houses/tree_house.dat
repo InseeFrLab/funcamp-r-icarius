@@ -382,6 +382,15 @@ sensor{
   height = 16,
 }
 
+sensor{
+  name = "sensor_exit_ok",
+  layer = 1,
+  x = 136,
+  y = 213,
+  width = 64,
+  height = 16,
+}
+
 tile{
   layer = 2,
   x = 112,
