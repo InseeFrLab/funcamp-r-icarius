@@ -4,8 +4,8 @@ local gui_designer = require("scripts/menus/lib/gui_designer")
 
 local item_names = {
   -- Names of up to 12 items to show in the inventory.
-  "hookshot",
   "bow",
+  "hookshot",
   "bombs_counter",
   "boomerang",
   "ice_rod",

@@ -6952,15 +6952,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1048,
-  y = 1000,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner.1",
-}
-
-tile{
-  layer = 1,
   x = 1000,
   y = 1040,
   width = 8,
@@ -6988,7 +6979,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1160,
+  x = 1176,
   y = 1144,
   width = 8,
   height = 8,
@@ -6997,7 +6988,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1072,
+  x = 1056,
   y = 1144,
   width = 8,
   height = 8,
@@ -7026,34 +7017,7 @@ tile{
   layer = 1,
   x = 1184,
   y = 1040,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.2",
-}
-
-tile{
-  layer = 1,
-  x = 1072,
-  y = 1112,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.4",
-}
-
-tile{
-  layer = 1,
-  x = 1160,
-  y = 1112,
-  width = 8,
-  height = 8,
-  pattern = "water_shallow.corner_reverse.3",
-}
-
-tile{
-  layer = 1,
-  x = 1192,
-  y = 1040,
-  width = 40,
+  width = 48,
   height = 8,
   pattern = "water_shallow.1",
 }
@@ -7062,7 +7026,7 @@ tile{
   layer = 1,
   x = 1008,
   y = 1040,
-  width = 40,
+  width = 48,
   height = 8,
   pattern = "water_shallow.1",
 }
@@ -7071,25 +7035,16 @@ tile{
   layer = 1,
   x = 1008,
   y = 1144,
-  width = 64,
+  width = 48,
   height = 8,
   pattern = "water_shallow.2",
 }
 
 tile{
   layer = 1,
-  x = 1080,
-  y = 1112,
-  width = 80,
-  height = 8,
-  pattern = "water_shallow.2",
-}
-
-tile{
-  layer = 1,
-  x = 1168,
+  x = 1184,
   y = 1144,
-  width = 64,
+  width = 48,
   height = 8,
   pattern = "water_shallow.2",
 }
@@ -7105,24 +7060,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1048,
-  y = 1008,
-  width = 8,
-  height = 32,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
-  x = 1160,
-  y = 1120,
-  width = 8,
-  height = 24,
-  pattern = "water_shallow.3",
-}
-
-tile{
-  layer = 1,
   x = 1232,
   y = 1048,
   width = 8,
@@ -7132,29 +7069,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 1184,
-  y = 1008,
-  width = 8,
-  height = 32,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
-  x = 1072,
-  y = 1120,
-  width = 8,
-  height = 24,
-  pattern = "water_shallow.4",
-}
-
-tile{
-  layer = 1,
   x = 1056,
-  y = 1000,
-  width = 128,
-  height = 112,
-  pattern = "water_shallow",
+  y = 1048,
+  width = 8,
+  height = 96,
+  pattern = "water_shallow.4",
 }
 
 tile{
@@ -7178,17 +7097,17 @@ tile{
 tile{
   layer = 1,
   x = 1008,
-  y = 1112,
-  width = 64,
-  height = 32,
+  y = 1048,
+  width = 48,
+  height = 96,
   pattern = "water_shallow",
 }
 
 tile{
   layer = 1,
-  x = 1168,
+  x = 1184,
   y = 1112,
-  width = 64,
+  width = 48,
   height = 32,
   pattern = "water_shallow",
 }
@@ -7772,16 +7691,7 @@ tile{
 tile{
   layer = 1,
   x = 1056,
-  y = 1000,
-  width = 128,
-  height = 8,
-  pattern = "water_shallow.1",
-}
-
-tile{
-  layer = 1,
-  x = 1184,
-  y = 1000,
+  y = 1040,
   width = 8,
   height = 8,
   pattern = "water_shallow.corner.2",
@@ -8271,6 +8181,24 @@ tile{
   width = 16,
   height = 16,
   pattern = "wall_hole.3",
+}
+
+tile{
+  layer = 1,
+  x = 1176,
+  y = 1048,
+  width = 8,
+  height = 96,
+  pattern = "water_shallow.3",
+}
+
+tile{
+  layer = 1,
+  x = 1176,
+  y = 1040,
+  width = 8,
+  height = 8,
+  pattern = "water_shallow.corner.1",
 }
 
 sensor{

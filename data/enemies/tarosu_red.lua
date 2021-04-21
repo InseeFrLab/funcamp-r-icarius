@@ -5,8 +5,8 @@ local behavior = require("enemies/lib/soldier")
 local properties = {
   main_sprite = "enemies/" .. enemy:get_breed(),
   sword_sprite = "enemies/" .. enemy:get_breed() .. "_weapon",
-  life = 2,
-  damage = 2,
+  life = 6,
+  damage = 4,
   normal_speed = 64,
   faster_speed = 64,
 }

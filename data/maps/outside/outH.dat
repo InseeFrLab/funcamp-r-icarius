@@ -5682,6 +5682,15 @@ tile{
   pattern = "grass.stump",
 }
 
+tile{
+  layer = 0,
+  x = 1496,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "water.rock",
+}
+
 wall{
   layer = 0,
   x = 2104,
