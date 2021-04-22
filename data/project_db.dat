@@ -11,6 +11,7 @@ map{ id = "extra_dungeons/extra_1/b1", description = "Extra Dungeon 1 B1" }
 map{ id = "extra_dungeons/extra_2/1f", description = "Extra Dungeon 2 1F" }
 map{ id = "extra_dungeons/extra_2/2f", description = "Extra Dungeon 2 2F" }
 map{ id = "extra_dungeons/extra_3/1f", description = "Extra Dungeon 3 1F" }
+map{ id = "extra_dungeons/extra_4/1f", description = "1rst Floor" }
 map{ id = "houses/icarius_house", description = "Icarius house" }
 map{ id = "houses/icarius_house_bis", description = "Icarius house bis" }
 map{ id = "houses/tiny_house", description = "Tiny House" }
@@ -33,6 +34,7 @@ map{ id = "outside/outI", description = "Outside I (Ruins)" }
 map{ id = "outside/outJ", description = "Outisde J (Mist Forest)" }
 map{ id = "outside/outK", description = "Outside K (Fortune Teller)" }
 map{ id = "outside/outL", description = "Outside L (Grave)" }
+map{ id = "outside/outLextra", description = "Outside L Extra (PythonGrave)" }
 map{ id = "rune_1/monster", description = "Rune 1 - Monster" }
 map{ id = "rune_2/monster", description = "R2 - Monster" }
 map{ id = "rune_3/1f", description = "R3 - Castle 1F" }

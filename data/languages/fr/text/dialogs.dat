@@ -1026,6 +1026,31 @@ dialog{
 }
 
 dialog{
+  id = "extra_dungeons.extra_4.warning",
+  text = [[
+Kssss
+Pour qui sont ces serpents...
+... qui sifflent sur vos têtes ?
+Kssss
+Kssss
+Subtilement, je s'immisce, en silence,
+dans les classifications statistiques
+Kssss
+Kssss
+Dans les Random Forest  je fais mon nid
+Pour y pondre mes Scikit...
+Kssss
+On m'appelle Python3 le scélérat
+et les Runes sont impuissantes contre moi !
+Kssss
+Kssss
+Sauras-tu me vaincre, icaRius,
+ou devras-tu t'incliner devant moi ?
+Kssss
+]],
+}
+
+dialog{
   id = "found_piece_of_heart.first",
   text = [[
 Encore 3 et vous gagnerez un coeur
@@ -2186,6 +2211,21 @@ dialog{
   id = "outside_icarius_outL.tomb_3",
   text = [[
 RIP SAS
+]],
+}
+
+dialog{
+  id = "outside_icarius_outLextra.little_tree",
+  text = [[
+Ouf... enfin libéré de l'emprise
+de ce satané Python3 !
+Merci, icaRius, de m'avoir sauvé..
+
+Je vais pouvoir rejoindre les miens,
+dans les embranchements aléatoires
+de la luxuriante végétation statistique
+
+(il disparaît dans un bruissement végétal)
 ]],
 }
 

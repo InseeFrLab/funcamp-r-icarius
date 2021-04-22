@@ -6,7 +6,7 @@ local children = {}
 
 function enemy:on_created()
 
-  enemy:set_life(1)
+  enemy:set_life(80)
   enemy:set_damage(0)
   enemy:set_pushed_back_when_hurt(false)
   enemy:set_size(16, 16)
@@ -14,7 +14,6 @@ function enemy:on_created()
   enemy:set_can_attack(false)
   enemy:set_optimization_distance(1000)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_invincible()
 
   enemy:set_shooting(true)
 end
