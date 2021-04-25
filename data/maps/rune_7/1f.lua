@@ -28,10 +28,10 @@ function talk_statia:on_activated()
 
     game:start_dialog("rune_final.statia_1")
     talk_statia:set_enabled(false)
-    sol.timer.start(map, 2000, function()
+    sol.timer.start(map, 100, function()
+      sensor_open_door:set_enabled(true)
       royal_emblem:set_visible(true)
       sol.audio.play_sound("secret")
-      sensor_open_door:set_enabled(true)
     end)
 end
 

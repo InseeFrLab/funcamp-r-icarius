@@ -2130,7 +2130,7 @@ custom_entity{
 enemy{
   name = "boss",
   layer = 1,
-  x = 1168,
+  x = 1176,
   y = 117,
   direction = 0,
   breed = "tryclyde",
@@ -2238,7 +2238,7 @@ separator{
 
 custom_entity{
   layer = 1,
-  x = 1120,
+  x = 1128,
   y = 141,
   width = 16,
   height = 16,
@@ -2271,7 +2271,7 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 1032,
+  x = 1024,
   y = 101,
   width = 16,
   height = 16,

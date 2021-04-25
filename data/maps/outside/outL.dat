@@ -2002,3 +2002,11 @@ dynamic_tile{
   pattern = "12372",
 }
 
+destination{
+  name = "from_sassos_temple",
+  layer = 2,
+  x = 216,
+  y = 77,
+  direction = 3,
+}
+
