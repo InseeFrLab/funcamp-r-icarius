@@ -98,6 +98,8 @@ function chief_army:on_interaction()
             curtain_uncuttable:set_enabled(false)
           else
           curtain:set_enabled(false)
+          warp_zone_entry:set_enabled(false)
+          sensor_warpzone_curiosity:set_enabled(false)
           end
         end)
       end) 
