@@ -3629,6 +3629,15 @@ tile{
   pattern = "floor_low.2",
 }
 
+tile{
+  layer = 1,
+  x = 32,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
 wall{
   layer = 1,
   x = 296,
@@ -3827,18 +3836,6 @@ destructible{
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
-}
-
-switch{
-  name = "auto_switch_auto_door_e",
-  layer = 1,
-  x = 32,
-  y = 912,
-  subtype = "walkable",
-  sprite = "entities/switch",
-  sound = "switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
 }
 
 destructible{
