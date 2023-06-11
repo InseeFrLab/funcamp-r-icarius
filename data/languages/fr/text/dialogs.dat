@@ -30,6 +30,16 @@ Prix : $v rubis. Ok ?
 }
 
 dialog{
+  id = "_treasure.blue_potion.1",
+  text = [[
+Tu viens de trouver
+le filtre de Brocéliande !
+Il purifie ton coeur
+et renforce ton courage.
+]],
+}
+
+dialog{
   id = "_treasure.bomb.1",
   text = [[
 Vous avez trouvé une bombe !
@@ -128,17 +138,20 @@ Tu peux nager en eau profonde !
 dialog{
   id = "_treasure.glove.1",
   text = [[
-Tu as trouvé les gants !!!
-Utilise-les pour soulever des objets en
-appuyant sur la touche Action.
+Tu as trouvé la main dorée !
+Elle te permettra de souveler 
+les pierres les plus lourdes -
+et les menhir deviennent poids plume...
 ]],
 }
 
 dialog{
   id = "_treasure.glove.2",
   text = [[
-La puissance de tes gants va te permettre de
-soulever de lourds rochers.
+Tu as trouvé la main dorée !
+Elle te permettra de souveler 
+les pierres les plus lourdes -
+et les menhir deviennent poids plume...
 ]],
 }
 
@@ -567,6 +580,28 @@ et continue ton aventure.
 }
 
 dialog{
+  id = "castle.sala_fairy",
+  text = [[
+--- La Fée Sala ---
+Sois le bienvenu, jeune héros.
+Je suis la Fée Sala,
+venue des mystèrieuses terres de Roazhon
+--- La Fée Sala ---
+Ta curiosité t'a amené
+dans des chemins de traverses
+jusqu'à cette partie cachée du château.
+--- La Fée Sala ---
+J'observe en secret ta bravoure,
+ton ingéniosité...
+... et ton sens du défi !
+--- La Fée Sala ---
+Voici, pour t'aider, la clef 
+qui t'ouvrira la voie d'un artefact 
+oh combien légendaire...
+]],
+}
+
+dialog{
   id = "castle.sensor_throne_room_1",
   text = [[
 (c'est étrange, tous ces soldats...)
@@ -646,9 +681,41 @@ au chef des armées !
 }
 
 dialog{
+  id = "castle.sensor_warpzone",
+  text = [[
+Icarius
+Tiens, derrière le rideau...
+j'ai trouvé une pièce dérobée.
+Explorons ce passage secret.
+]],
+}
+
+dialog{
+  id = "castle.sensor_warpzone_curiosity",
+  text = [[
+Icarius
+Je suis trop curieux...
+... plutôt que de suivre les ordres,
+regardons déjà derrière ce rideau...
+]],
+}
+
+dialog{
   id = "castle.sign",
   text = [[
 Ouest : Château de Statis
+]],
+}
+
+dialog{
+  id = "castle.teleport",
+  text = [[
+(Voix de la Fée Sala)
+Icarius : juste après le coffre,
+se trouve une zone de téléportation...
+
+Ouvre d'abord le coffre
+avant de rejoindre cette zone.
 ]],
 }
 
