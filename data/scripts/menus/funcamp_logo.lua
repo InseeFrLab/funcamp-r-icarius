@@ -17,7 +17,7 @@ function solarus_logo_menu:on_started()
     font_size = 10,
     color = {240, 200, 56},
     horizontal_alignment = "center",
-    text = "Funcamp R (v 1.0.9)",
+    text = "Funcamp R (v 1.1)",
   })
 
   -- Start animation.

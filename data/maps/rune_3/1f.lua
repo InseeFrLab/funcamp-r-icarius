@@ -68,6 +68,25 @@ function sensor_throne_room_9:on_activated()
 end
 
 
+function sensor_warpzone_curiosity:on_activated()
+        game:start_dialog("castle.sensor_warpzone_curiosity")
+end
+
+
+function sensor_warpzone:on_activated()
+        game:start_dialog("castle.sensor_warpzone")
+        game:set_value("fair_sala_quest", true)
+        sensor_warpzone:set_enabled(false)
+        warp_zone_entry:set_enabled(false)
+        sensor_warpzone_curiosity:set_enabled(false)
+        curtain_uncuttable:set_enabled(true)
+end
+
+function message_teleport:on_activated()
+        game:start_dialog("castle.teleport")
+end
+
+
 function chief_army:on_interaction()
 
     if game:get_value("fake_news_quest") then
@@ -75,7 +94,11 @@ function chief_army:on_interaction()
         sol.timer.start(1000, function()
           sol.audio.play_sound("secret")
           chief_army:set_enabled(false)
+          if game:get_value("fair_sala_quest") then
+            curtain_uncuttable:set_enabled(false)
+          else
           curtain:set_enabled(false)
+          end
         end)
       end) 
     else
@@ -94,6 +117,24 @@ function chief_army:on_interaction()
     end
 
 end
+
+
+
+function sala_fairy:on_interaction()
+
+      game:start_dialog("castle.sala_fairy", function()
+        sol.timer.start(1000, function()
+          sol.audio.play_sound("secret")
+          sala_fairy:set_enabled(false)
+          chest_fairy_sala:set_enabled(true)
+        end)
+      end)
+
+end
+
+
+
+
 
 function drunk_man:on_interaction()
 
