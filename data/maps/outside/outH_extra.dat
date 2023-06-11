@@ -1838,15 +1838,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
-  y = 368,
-  width = 32,
-  height = 8,
-  pattern = "cliff.top.1",
-}
-
-tile{
-  layer = 0,
   x = 440,
   y = 376,
   width = 16,
@@ -2954,7 +2945,6 @@ tile{
   layer = 1,
   x = 400,
   y = 272,
-  enabled_at_start = false,
   width = 8,
   height = 32,
   pattern = "dirt.stairs_down.border.3",
@@ -2964,7 +2954,6 @@ tile{
   layer = 1,
   x = 384,
   y = 272,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "dirt.stairs_down.border.1",
@@ -2974,7 +2963,6 @@ tile{
   layer = 1,
   x = 376,
   y = 272,
-  enabled_at_start = false,
   width = 8,
   height = 32,
   pattern = "dirt.stairs_down.border.2",
@@ -2984,10 +2972,18 @@ tile{
   layer = 1,
   x = 384,
   y = 280,
-  enabled_at_start = false,
   width = 16,
   height = 24,
   pattern = "dirt.stairs_down.1",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 368,
+  width = 32,
+  height = 8,
+  pattern = "cliff.top.1",
 }
 
 dynamic_tile{
