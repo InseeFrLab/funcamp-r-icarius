@@ -3745,13 +3745,13 @@ teletransporter{
 }
 
 door{
-  name = "door_b",
+  name = "door_c",
   layer = 1,
   x = 296,
   y = 592,
   direction = 0,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_3_1f_door_b",
+  savegame_variable = "dungeon_3_1f_door_c",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_3_small_keys",
   opening_condition_consumed = true,
@@ -3759,13 +3759,13 @@ door{
 }
 
 door{
-  name = "door_b_2",
+  name = "door_c_2",
   layer = 1,
   x = 328,
   y = 592,
   direction = 2,
   sprite = "entities/door_small_key",
-  savegame_variable = "dungeon_3_1f_door_b",
+  savegame_variable = "dungeon_3_1f_door_c",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_3_small_keys",
   opening_condition_consumed = true,
@@ -4502,7 +4502,7 @@ wall{
 }
 
 door{
-  name = "door_b_3",
+  name = "door_b",
   layer = 1,
   x = 296,
   y = 112,
@@ -4516,7 +4516,7 @@ door{
 }
 
 door{
-  name = "door_b_4",
+  name = "door_b_2",
   layer = 1,
   x = 328,
   y = 112,
@@ -4713,7 +4713,7 @@ chest{
   y = 309,
   enabled_at_start = false,
   treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_3_1f_key_chest",
+  treasure_savegame_variable = "dungeon_3_1f_key_chest_c",
   sprite = "entities/chest",
 }
 
