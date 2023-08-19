@@ -11701,36 +11701,6 @@ sensor{
 }
 
 dynamic_tile{
-  name = "invisible_tile_32",
-  layer = 1,
-  x = 256,
-  y = 160,
-  width = 8,
-  height = 24,
-  pattern = "pontoon.border.1",
-}
-
-dynamic_tile{
-  name = "invisible_tile_33",
-  layer = 1,
-  x = 264,
-  y = 160,
-  width = 16,
-  height = 24,
-  pattern = "pontoon",
-}
-
-dynamic_tile{
-  name = "invisible_tile_34",
-  layer = 1,
-  x = 280,
-  y = 160,
-  width = 8,
-  height = 24,
-  pattern = "pontoon.border.2",
-}
-
-dynamic_tile{
   name = "invisible_tile_35",
   layer = 1,
   x = 264,
@@ -11738,37 +11708,6 @@ dynamic_tile{
   width = 16,
   height = 24,
   pattern = "ladder",
-}
-
-wall{
-  layer = 1,
-  x = 264,
-  y = 136,
-  width = 16,
-  height = 40,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-dynamic_tile{
-  name = "invisible_tile_36",
-  layer = 1,
-  x = 256,
-  y = 136,
-  width = 8,
-  height = 24,
-  pattern = "ladder.border.1",
-}
-
-dynamic_tile{
-  name = "invisible_tile_37",
-  layer = 1,
-  x = 280,
-  y = 136,
-  width = 8,
-  height = 24,
-  pattern = "ladder.border.2",
 }
 
 sensor{
