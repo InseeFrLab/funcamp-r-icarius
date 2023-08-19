@@ -1598,7 +1598,7 @@ teletransporter{
   y = 192,
   width = 16,
   height = 16,
-  destination_map = "outside/outM",
+  destination_map = "outside/outM_before",
   destination = "test_from_start",
 }
 
