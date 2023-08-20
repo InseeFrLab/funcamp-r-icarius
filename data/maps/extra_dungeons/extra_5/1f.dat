@@ -67,15 +67,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 624,
-  y = 288,
-  width = 80,
-  height = 64,
-  pattern = "3",
-}
-
-tile{
-  layer = 0,
   x = 288,
   y = 608,
   width = 224,
@@ -517,87 +508,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 480,
-  y = 64,
-  width = 32,
-  height = 32,
-  pattern = "319",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "246",
-}
-
-tile{
-  layer = 0,
-  x = 504,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "245",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 64,
-  width = 8,
-  height = 8,
-  pattern = "243",
-}
-
-tile{
-  layer = 0,
-  x = 504,
-  y = 64,
-  width = 8,
-  height = 8,
-  pattern = "244",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 64,
-  width = 16,
-  height = 8,
-  pattern = "247",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 72,
-  width = 8,
-  height = 16,
-  pattern = "248",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 88,
-  width = 16,
-  height = 8,
-  pattern = "249",
-}
-
-tile{
-  layer = 0,
-  x = 504,
-  y = 72,
-  width = 8,
-  height = 16,
-  pattern = "250",
-}
-
-tile{
-  layer = 0,
   x = 376,
   y = 216,
   width = 24,
@@ -738,24 +648,6 @@ tile{
   width = 8,
   height = 96,
   pattern = "314",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 240,
-  width = 32,
-  height = 32,
-  pattern = "323",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 240,
-  width = 32,
-  height = 32,
-  pattern = "323",
 }
 
 tile{
@@ -2227,15 +2119,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 704,
-  y = 288,
-  width = 24,
-  height = 64,
-  pattern = "233",
-}
-
-tile{
-  layer = 0,
   x = 624,
   y = 264,
   width = 80,
@@ -2403,15 +2286,6 @@ tile{
   width = 176,
   height = 24,
   pattern = "234",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 144,
-  width = 24,
-  height = 304,
-  pattern = "235",
 }
 
 tile{
@@ -3217,15 +3091,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 880,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "101",
-}
-
-tile{
-  layer = 0,
   x = 624,
   y = 568,
   width = 8,
@@ -3451,51 +3316,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 896,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "69",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 224,
-  width = 8,
-  height = 16,
-  pattern = "72",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "190",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 224,
-  width = 8,
-  height = 16,
-  pattern = "73",
-}
-
-tile{
-  layer = 0,
-  x = 896,
-  y = 64,
-  width = 8,
-  height = 8,
-  pattern = "69",
-}
-
-tile{
-  layer = 0,
   x = 72,
   y = 72,
   width = 16,
@@ -3532,37 +3352,217 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
-  y = 336,
+  x = 880,
+  y = 448,
   width = 16,
-  height = 16,
-  pattern = "101",
+  height = 24,
+  pattern = "363",
 }
 
 tile{
   layer = 0,
-  x = 496,
-  y = 336,
+  x = 816,
+  y = 448,
   width = 16,
-  height = 16,
-  pattern = "101",
+  height = 24,
+  pattern = "363",
 }
 
 tile{
   layer = 0,
-  x = 1016,
-  y = 472,
+  x = 832,
+  y = 448,
+  width = 48,
+  height = 24,
+  pattern = "324",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 288,
+  width = 24,
+  height = 64,
+  pattern = "233",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 144,
+  width = 24,
+  height = 304,
+  pattern = "235",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 296,
   width = 64,
-  height = 32,
-  pattern = "101",
+  height = 48,
+  pattern = "3",
 }
 
 tile{
   layer = 0,
-  x = 440,
-  y = 64,
-  width = 32,
+  x = 704,
+  y = 312,
+  width = 16,
   height = 16,
+  pattern = "83",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 304,
+  width = 16,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 328,
+  width = 16,
+  height = 8,
+  pattern = "81",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "82",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 328,
+  width = 16,
+  height = 8,
+  pattern = "80",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 304,
+  width = 16,
+  height = 8,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 312,
+  width = 80,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 304,
+  width = 64,
+  height = 8,
+  pattern = "70",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 328,
+  width = 64,
+  height = 8,
+  pattern = "70",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "83",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "79",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "81",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "82",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "80",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 88,
+  width = 80,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 80,
+  width = 64,
+  height = 8,
+  pattern = "70",
+}
+
+tile{
+  layer = 0,
+  x = 536,
+  y = 104,
+  width = 64,
+  height = 8,
   pattern = "70",
 }
 
@@ -3650,74 +3650,11 @@ pickable{
   treasure_savegame_variable = "b71",
 }
 
-crystal_block{
-  layer = 0,
-  x = 1024,
-  y = 64,
-  width = 16,
-  height = 48,
-  subtype = 0,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1024,
-  y = 112,
-  width = 64,
-  height = 16,
-  subtype = 0,
-}
-
-crystal_block{
-  layer = 0,
-  x = 992,
-  y = 64,
-  width = 16,
-  height = 96,
-  subtype = 1,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1008,
-  y = 144,
-  width = 80,
-  height = 16,
-  subtype = 1,
-}
-
 crystal{
   name = "crystal_3",
   layer = 0,
   x = 1048,
   y = 333,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1072,
-  y = 160,
-  width = 16,
-  height = 32,
-  subtype = 1,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1040,
-  y = 192,
-  width = 16,
-  height = 16,
-  subtype = 1,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1040,
-  y = 176,
-  width = 16,
-  height = 16,
-  subtype = 1,
 }
 
 crystal_block{
@@ -3732,18 +3669,9 @@ crystal_block{
 crystal_block{
   layer = 0,
   x = 1056,
-  y = 176,
+  y = 288,
   width = 16,
-  height = 16,
-  subtype = 1,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1056,
-  y = 256,
-  width = 16,
-  height = 64,
+  height = 48,
   subtype = 1,
 }
 
@@ -3864,15 +3792,6 @@ crystal_block{
   subtype = 1,
 }
 
-crystal_block{
-  layer = 0,
-  x = 1040,
-  y = 288,
-  width = 16,
-  height = 32,
-  subtype = 1,
-}
-
 block{
   name = "block_7",
   layer = 0,
@@ -3882,62 +3801,6 @@ block{
   pushable = true,
   pullable = true,
   maximum_moves = 2,
-}
-
-crystal_block{
-  layer = 0,
-  x = 816,
-  y = 416,
-  width = 80,
-  height = 32,
-  subtype = 0,
-}
-
-crystal_block{
-  layer = 0,
-  x = 1056,
-  y = 320,
-  width = 16,
-  height = 16,
-  subtype = 0,
-}
-
-destructible{
-  layer = 0,
-  x = 888,
-  y = 317,
-  treasure_variant = 3,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-crystal{
-  name = "crystal_4",
-  layer = 0,
-  x = 888,
-  y = 413,
-}
-
-crystal{
-  name = "crystal_5",
-  layer = 0,
-  x = 824,
-  y = 461,
-}
-
-door{
-  name = "small_key_door_B",
-  layer = 0,
-  x = 512,
-  y = 472,
-  direction = 0,
-  sprite = "entities/door_small_key",
-  savegame_variable = "b79",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "_small_key_required",
 }
 
 chest{
@@ -3964,48 +3827,6 @@ door{
   cannot_open_dialog = "_small_key_required",
 }
 
-door{
-  name = "small_key_door_B_2",
-  layer = 0,
-  x = 608,
-  y = 472,
-  direction = 2,
-  sprite = "entities/door_small_key",
-  savegame_variable = "b79",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "_small_key_required",
-}
-
-door{
-  name = "small_key_door_C",
-  layer = 0,
-  x = 448,
-  y = 448,
-  direction = 1,
-  sprite = "entities/door_small_key",
-  savegame_variable = "b80",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "_small_key_required",
-}
-
-door{
-  name = "small_key_door_C_2",
-  layer = 0,
-  x = 448,
-  y = 352,
-  direction = 3,
-  sprite = "entities/door_small_key",
-  savegame_variable = "b80",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "_small_key_required",
-}
-
 destination{
   name = "from_B1_north",
   layer = 0,
@@ -4023,52 +3844,6 @@ teletransporter{
   height = 16,
   destination_map = "31",
   destination = "from_1F_north",
-}
-
-chest{
-  name = "chest_3",
-  layer = 0,
-  x = 456,
-  y = 77,
-  treasure_name = "pegasus_shoes",
-  treasure_savegame_variable = "b86",
-  sprite = "entities/big_chest",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_big_key",
-  cannot_open_dialog = "_big_key_required",
-}
-
-teletransporter{
-  name = "hole_to_B1_west",
-  layer = 0,
-  x = 480,
-  y = 64,
-  width = 32,
-  height = 32,
-  destination_map = "31",
-  destination = "_same",
-}
-
-switch{
-  name = "pegasus_run_switch",
-  layer = 0,
-  x = 832,
-  y = 352,
-  subtype = "walkable",
-  sprite = "entities/switch",
-  sound = "switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
-dynamic_tile{
-  name = "pegasus_run_barrier",
-  layer = 0,
-  x = 896,
-  y = 72,
-  width = 8,
-  height = 24,
-  pattern = "71",
 }
 
 stairs{
@@ -4125,104 +3900,6 @@ stairs{
   subtype = 4,
 }
 
-destination{
-  name = "from_B1_east",
-  layer = 0,
-  x = 456,
-  y = 237,
-  direction = 3,
-}
-
-teletransporter{
-  name = "to_B1_east",
-  layer = 0,
-  x = 448,
-  y = 224,
-  width = 16,
-  height = 16,
-  destination_map = "31",
-  destination = "from_1F_east",
-}
-
-stairs{
-  name = "stairs_11",
-  layer = 0,
-  x = 448,
-  y = 224,
-  direction = 1,
-  subtype = 1,
-}
-
-dynamic_tile{
-  name = "hidden_stairs_closed",
-  layer = 0,
-  x = 432,
-  y = 216,
-  width = 48,
-  height = 24,
-  pattern = "232",
-}
-
-dynamic_tile{
-  name = "hidden_door_closed",
-  layer = 0,
-  x = 512,
-  y = 296,
-  width = 24,
-  height = 48,
-  pattern = "233",
-}
-
-dynamic_tile{
-  name = "hidden_door_closed_2",
-  layer = 0,
-  x = 600,
-  y = 296,
-  width = 24,
-  height = 48,
-  pattern = "235",
-}
-
-switch{
-  name = "right_eye_switch",
-  layer = 0,
-  x = 480,
-  y = 256,
-  subtype = "arrow_target",
-  sound = "switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
-switch{
-  name = "left_eye_switch",
-  layer = 0,
-  x = 416,
-  y = 256,
-  subtype = "arrow_target",
-  sound = "switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
-door{
-  name = "miniboss_door",
-  layer = 0,
-  x = 288,
-  y = 88,
-  direction = 0,
-  sprite = "entities/door_normal",
-}
-
-door{
-  name = "miniboss_door_2",
-  layer = 0,
-  x = 384,
-  y = 88,
-  direction = 2,
-  sprite = "entities/door_normal",
-}
-
 door{
   name = "miniboss_door_3",
   layer = 0,
@@ -4235,8 +3912,8 @@ door{
 sensor{
   name = "start_miniboss_sensor",
   layer = 0,
-  x = 176,
-  y = 77,
+  x = 280,
+  y = 101,
   width = 16,
   height = 16,
 }
@@ -4250,59 +3927,6 @@ enemy{
   breed = "khotor",
   savegame_variable = "b92",
   treasure_name = "fairy",
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 85,
-  treasure_name = "arrow",
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 272,
-  y = 197,
-  treasure_name = "arrow",
-  treasure_variant = 2,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 80,
-  y = 197,
-  treasure_name = "heart",
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 272,
-  y = 85,
-  treasure_name = "heart",
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-switch{
-  name = "pegasus_run_switch_2",
-  layer = 0,
-  x = 928,
-  y = 112,
-  subtype = "walkable",
-  sprite = "entities/switch",
-  sound = "switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
 }
 
 enemy{
@@ -4330,26 +3954,6 @@ enemy{
   layer = 0,
   x = 680,
   y = 541,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random",
-}
-
-enemy{
-  name = "enemy_10",
-  layer = 0,
-  x = 632,
-  y = 549,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random",
-}
-
-enemy{
-  name = "enemy_11",
-  layer = 0,
-  x = 656,
-  y = 549,
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
@@ -4394,18 +3998,6 @@ wall{
   layer = 0,
   x = 448,
   y = 352,
-  width = 16,
-  height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  name = "custom_obstacle_22",
-  layer = 0,
-  x = 512,
-  y = 312,
   width = 16,
   height = 16,
   stops_npcs = true,
@@ -4469,36 +4061,6 @@ enemy{
   treasure_name = "random",
 }
 
-enemy{
-  name = "enemy_17",
-  layer = 0,
-  x = 464,
-  y = 493,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random",
-}
-
-enemy{
-  name = "enemy_18",
-  layer = 0,
-  x = 488,
-  y = 477,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random",
-}
-
-enemy{
-  name = "enemy_19",
-  layer = 0,
-  x = 504,
-  y = 493,
-  direction = 3,
-  breed = "tentacle",
-  treasure_name = "random",
-}
-
 block{
   name = "block_8",
   layer = 0,
@@ -4513,22 +4075,11 @@ block{
 chest{
   name = "chest_5",
   layer = 0,
-  x = 952,
+  x = 1080,
   y = 77,
-  treasure_name = "rupee",
-  treasure_variant = 3,
-  treasure_savegame_variable = "b951",
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "extra_dungeon_5_boss_key",
   sprite = "entities/chest",
-}
-
-destructible{
-  layer = 0,
-  x = 936,
-  y = 125,
-  treasure_variant = 3,
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
 }
 
 block{
@@ -4562,6 +4113,94 @@ block{
   pushable = true,
   pullable = false,
   maximum_moves = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1024,
+  y = 64,
+  width = 16,
+  height = 48,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1040,
+  y = 96,
+  width = 48,
+  height = 16,
+  subtype = 1,
+}
+
+door{
+  name = "miniboss_door",
+  layer = 0,
+  x = 288,
+  y = 88,
+  direction = 0,
+  sprite = "entities/door_normal",
+}
+
+door{
+  name = "miniboss_door_2",
+  layer = 0,
+  x = 384,
+  y = 88,
+  direction = 2,
+  sprite = "entities/door_normal",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 85,
+  treasure_name = "random",
+  sprite = "entities/bomb_flower",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  can_explode = true,
+  can_regenerate = true,
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 197,
+  treasure_name = "random",
+  sprite = "entities/bomb_flower",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  can_explode = true,
+  can_regenerate = true,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 85,
+  treasure_name = "random",
+  sprite = "entities/bomb_flower",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  can_explode = true,
+  can_regenerate = true,
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 197,
+  treasure_name = "random",
+  sprite = "entities/bomb_flower",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  can_explode = true,
+  can_regenerate = true,
 }
 
 tile{
@@ -6419,17 +6058,6 @@ dynamic_tile{
   pattern = "152",
 }
 
-dynamic_tile{
-  name = "hidden_stairs_open_2",
-  layer = 1,
-  x = 440,
-  y = 216,
-  enabled_at_start = false,
-  width = 32,
-  height = 8,
-  pattern = "152",
-}
-
 jumper{
   name = "jumper",
   layer = 1,
@@ -6653,20 +6281,9 @@ chest{
   layer = 1,
   x = 664,
   y = 229,
-  treasure_name = "big_key",
+  treasure_name = "small_key",
   treasure_savegame_variable = "b84",
   sprite = "entities/chest",
-}
-
-dynamic_tile{
-  name = "hidden_stairs_open",
-  layer = 1,
-  x = 448,
-  y = 216,
-  enabled_at_start = false,
-  width = 16,
-  height = 8,
-  pattern = "273",
 }
 
 dynamic_tile{
@@ -6690,20 +6307,42 @@ dynamic_tile{
   pattern = "273",
 }
 
-destination{
-  name = "from_outside",
-  layer = 1,
-  x = 856,
-  y = 741,
-  direction = 1,
-}
-
 chest{
   layer = 1,
   x = 840,
   y = 637,
   treasure_name = "sword",
   sprite = "entities/chest",
+}
+
+dynamic_tile{
+  name = "hidden_door_open_3",
+  layer = 1,
+  x = 720,
+  y = 304,
+  enabled_at_start = false,
+  width = 8,
+  height = 32,
+  pattern = "163",
+}
+
+dynamic_tile{
+  name = "hidden_door_open_5",
+  layer = 1,
+  x = 528,
+  y = 80,
+  enabled_at_start = false,
+  width = 8,
+  height = 32,
+  pattern = "163",
+}
+
+destination{
+  name = "from_outside",
+  layer = 1,
+  x = 648,
+  y = 117,
+  direction = 1,
 }
 
 tile{
@@ -6942,5 +6581,27 @@ dynamic_tile{
   width = 32,
   height = 8,
   pattern = "154",
+}
+
+dynamic_tile{
+  name = "hidden_door_open_4",
+  layer = 2,
+  x = 792,
+  y = 304,
+  enabled_at_start = false,
+  width = 8,
+  height = 32,
+  pattern = "162",
+}
+
+dynamic_tile{
+  name = "hidden_door_open_6",
+  layer = 2,
+  x = 600,
+  y = 80,
+  enabled_at_start = false,
+  width = 8,
+  height = 32,
+  pattern = "162",
 }
 
