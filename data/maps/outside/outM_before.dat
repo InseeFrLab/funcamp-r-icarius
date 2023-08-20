@@ -3495,15 +3495,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
-  y = 496,
-  width = 16,
-  height = 16,
-  pattern = "524",
-}
-
-tile{
-  layer = 0,
   x = 208,
   y = 672,
   width = 32,
@@ -3518,15 +3509,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "36",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 416,
-  width = 16,
-  height = 16,
-  pattern = "524",
 }
 
 tile{
@@ -6746,28 +6728,6 @@ destructible{
   layer = 0,
   x = 232,
   y = 701,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 264,
-  y = 509,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 280,
-  y = 429,
   treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
