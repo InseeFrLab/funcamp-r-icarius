@@ -11,7 +11,8 @@ map{ id = "extra_dungeons/extra_1/b1", description = "Extra Dungeon 1 B1" }
 map{ id = "extra_dungeons/extra_2/1f", description = "Extra Dungeon 2 1F" }
 map{ id = "extra_dungeons/extra_2/2f", description = "Extra Dungeon 2 2F" }
 map{ id = "extra_dungeons/extra_3/1f", description = "Extra Dungeon 3 1F" }
-map{ id = "extra_dungeons/extra_4/1f", description = "1rst Floor" }
+map{ id = "extra_dungeons/extra_4/1f", description = "Extra Dungeon 4 1F" }
+map{ id = "extra_dungeons/extra_5/1f", description = "Extra Dungeon 5 1F" }
 map{ id = "houses/icarius_house", description = "Icarius house" }
 map{ id = "houses/icarius_house_bis", description = "Icarius house bis" }
 map{ id = "houses/tiny_house", description = "Tiny House" }
@@ -98,6 +99,7 @@ sprite{ id = "enemies/hinox", description = "Hinox" }
 sprite{ id = "enemies/hover", description = "Hover" }
 sprite{ id = "enemies/keese", description = "Keese" }
 sprite{ id = "enemies/kholdstare", description = "Kholdstare" }
+sprite{ id = "enemies/khotor", description = "Khotor" }
 sprite{ id = "enemies/lynel", description = "Lynel" }
 sprite{ id = "enemies/lynel_flame", description = "Lynel's flame" }
 sprite{ id = "enemies/medusa", description = "Medusa" }
@@ -557,6 +559,7 @@ file{ path = "enemies/hinox.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/hover.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/keese.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/kholdstare.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/khotor.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/lib", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/lib/soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/lib/towards_hero.lua", author = "Christopho", license = "GPL v3" }
@@ -991,6 +994,8 @@ file{ path = "sprites/enemies/keese.dat", author = "Christopho", license = "CC B
 file{ path = "sprites/enemies/keese.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/kholdstare.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/kholdstare.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/khotor.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/khotor.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/lynel.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/lynel.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/lynel_flame.dat", author = "Christopho", license = "CC BY-SA 4.0" }
