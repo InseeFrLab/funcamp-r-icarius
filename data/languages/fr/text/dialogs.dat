@@ -1118,6 +1118,13 @@ Kssss
 }
 
 dialog{
+  id = "extra_dungeons.extra_5.warning",
+  text = [[
+Antre de CompactuS
+]],
+}
+
+dialog{
   id = "found_piece_of_heart.first",
   text = [[
 Encore 3 et vous gagnerez un coeur

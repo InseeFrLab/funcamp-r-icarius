@@ -1,60 +1,12 @@
 local map = ...
 local game = map:get_game()
--- Dungeon 2 1F
+-- extra_dungeon 5
 
 local fighting_miniboss = false
 local camera_back_start_timer = false
 
-local function open_hidden_stairs()
-  map:set_entities_enabled("hidden_stairs_closed", false)
-  map:set_entities_enabled("hidden_stairs_open", true)
-end
-
-local function open_hidden_door()
-  map:set_entities_enabled("hidden_door_closed", false)
-  map:set_entities_enabled("hidden_door_open", true)
-end
-
-local function check_eye_statues()
-
-  if left_eye_switch:is_activated() and right_eye_switch:is_activated() then
-
-    left_eye_switch:set_activated(false)
-    right_eye_switch:set_activated(false)
-
-    if not game:get_value("b90") then
-      map:move_camera(456, 232, 250, function()
-        sol.audio.play_sound("secret")
-        open_hidden_stairs()
-        game:set_value("b90", true)
-      end)
-    elseif not game:get_value("b91") then
-      map:move_camera(520, 320, 250, function()
-        sol.audio.play_sound("secret")
-        open_hidden_door()
-        game:set_value("b91", true)
-      end)
-    end
-  end
-end
 
 function map:on_started(destination)
-
-  -- west barrier
-  if game:get_value("b78") then
-    barrier:set_enabled(false)
-    barrier_switch:set_activated(true)
-  end
-
-  -- hidden stairs
-  if game:get_value("b90") then
-    open_hidden_stairs()
-  end
-
-  -- hidden door
-  if game:get_value("b91") then
-    open_hidden_door()
-  end
 
   -- miniboss
   map:set_doors_open("stairs_door", true)
@@ -68,7 +20,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    game:start_dialog("dungeon_2")
+    game:start_dialog("extra_dungeons.extra_5.warning")
   end
 end
 
@@ -95,57 +47,4 @@ if miniboss ~= nil then
   end
 end
 
-function barrier_switch:on_activated()
-
-  map:move_camera(120, 536, 250, function()
-    sol.audio.play_sound("secret")
-    barrier:set_enabled(false)
-    game:set_value("b78", true)
-  end)
-end
-
-function pegasus_run_switch:on_activated()
-
-  pegasus_run_switch_2:set_activated(true)
-  map:move_camera(904, 88, 250, function()
-    sol.audio.play_sound("secret")
-    pegasus_run_barrier:set_enabled(false)
-  end)
-  camera_back_start_timer = true
-end
-
-function pegasus_run_switch_2:on_activated()
-
-  sol.audio.play_sound("door_open")
-  pegasus_run_barrier:set_enabled(false)
-  pegasus_run_switch:set_activated(true)
-end
-
-function left_eye_switch:on_activated()
-  check_eye_statues()
-end
-
-function right_eye_switch:on_activated()
-  check_eye_statues()
-end
-
-function map:on_camera_back()
-
-  if camera_back_start_timer then
-    camera_back_start_timer = false
-    local timer = sol.timer.start(7000, function()
-      sol.audio.play_sound("door_closed")
-      sol.timer.start(10, function()
-        if pegasus_run_barrier:overlaps(hero) then
-          return true -- Repeat the timer.
-        else
-          pegasus_run_barrier:set_enabled(true)
-        end
-      end)
-      pegasus_run_switch:set_activated(false)
-      pegasus_run_switch_2:set_activated(false)
-    end)
-    timer:set_with_sound(true)
-  end
-end
 

@@ -6272,8 +6272,9 @@ teletransporter{
   y = 408,
   width = 16,
   height = 16,
-  destination_map = "outside/outM",
-  destination = "from_bottom",
+  transition = "scrolling",
+  destination_map = "outside/outM_after",
+  destination = "rooftop",
 }
 
 destructible{
@@ -6553,7 +6554,7 @@ wall{
 }
 
 destination{
-  name = "from_rooftop",
+  name = "bottom",
   layer = 0,
   x = 440,
   y = 437,
@@ -9630,7 +9631,7 @@ tile{
 }
 
 destination{
-  name = "from_bottom",
+  name = "rooftop",
   layer = 1,
   x = 440,
   y = 221,
@@ -9644,8 +9645,8 @@ teletransporter{
   y = 192,
   width = 16,
   height = 16,
-  destination_map = "outside/outM",
-  destination = "from_rooftop",
+  destination_map = "outside/outM_after",
+  destination = "bottom",
 }
 
 wall{

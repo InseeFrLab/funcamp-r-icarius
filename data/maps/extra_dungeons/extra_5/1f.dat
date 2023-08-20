@@ -274,15 +274,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "190",
-}
-
-tile{
-  layer = 0,
   x = 160,
   y = 48,
   width = 8,
@@ -3566,6 +3557,15 @@ tile{
   pattern = "70",
 }
 
+tile{
+  layer = 0,
+  x = 168,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "189",
+}
+
 crystal{
   name = "crystal",
   layer = 0,
@@ -3827,25 +3827,6 @@ door{
   cannot_open_dialog = "_small_key_required",
 }
 
-destination{
-  name = "from_B1_north",
-  layer = 0,
-  x = 176,
-  y = 61,
-  direction = 3,
-}
-
-teletransporter{
-  name = "to_B1_north",
-  layer = 0,
-  x = 168,
-  y = 48,
-  width = 16,
-  height = 16,
-  destination_map = "31",
-  destination = "from_1F_north",
-}
-
 stairs{
   name = "stairs_1",
   layer = 0,
@@ -3883,12 +3864,12 @@ stairs{
 }
 
 stairs{
-  name = "stairs_8",
+  name = "stairs",
   layer = 0,
   x = 168,
   y = 48,
   direction = 1,
-  subtype = 1,
+  subtype = 0,
 }
 
 stairs{
@@ -3898,15 +3879,6 @@ stairs{
   y = 592,
   direction = 1,
   subtype = 4,
-}
-
-door{
-  name = "miniboss_door_3",
-  layer = 0,
-  x = 168,
-  y = 48,
-  direction = 1,
-  sprite = "entities/door_normal",
 }
 
 sensor{
@@ -3921,12 +3893,12 @@ sensor{
 enemy{
   name = "miniboss",
   layer = 0,
-  x = 176,
-  y = 181,
+  x = 120,
+  y = 149,
   direction = 3,
   breed = "khotor",
   savegame_variable = "b92",
-  treasure_name = "fairy",
+  treasure_name = "arrow",
 }
 
 enemy{
@@ -4201,6 +4173,26 @@ destructible{
   can_be_cut = true,
   can_explode = true,
   can_regenerate = true,
+}
+
+teletransporter{
+  name = "to_rooftop",
+  layer = 0,
+  x = 168,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "outside/outM_after",
+  destination = "rooftop",
+}
+
+door{
+  name = "miniboss_door_3",
+  layer = 0,
+  x = 168,
+  y = 48,
+  direction = 1,
+  sprite = "entities/door_normal",
 }
 
 tile{
