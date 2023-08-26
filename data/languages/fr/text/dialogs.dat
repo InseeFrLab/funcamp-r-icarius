@@ -2331,9 +2331,37 @@ mais rien n'y fait, les bombes l'emportent
 et font de nous des SDF
 (Statisiens Démunis de Foyer...)
 --- La Cheffe du village
-Les sages du village cherchent
+Les trois sages du village cherchent
 et cherchent encore une solution :
-ils t'en diront plus...
+va à leur rencontre...
+]],
+}
+
+dialog{
+  id = "outside_icarius_outM_extra.chief_village_2",
+  text = [[
+--- La Cheffe du village
+Les trois sages du village cherchent
+et cherchent encore une solution :
+va à leur rencontre...
+]],
+}
+
+dialog{
+  id = "outside_icarius_outM_extra.chief_village_3",
+  text = [[
+--- La Cheffe du village
+Tu as rencontré les trois sages :
+voilà qui prouve ta détermination
+à nous aider.
+--- La Cheffe du village
+Voilà que nous avons découvert :
+les bombes sylvestres ont été semées
+par le terrible Kompactus
+--- La Cheffe du village
+Cet être maléfique vit dans une grotte :
+tu pourras l'affronter
+par delà la colline...
 ]],
 }
 
@@ -3061,6 +3089,32 @@ dialog{
 submergés, engloutis :
 nous sommes coulés !
 Définitivement sous l'eau...
+]],
+}
+
+dialog{
+  id = "village_phocea.pnj3_1",
+  text = [[
+--- Mage Rabé
+La maison brûle...
+Ces satanées bombes
+ont tout embrasé !
+--- Mage Rabé
+Et voilà que tout part en fumée...
+Mes fiches-adresses ! Mes liasses...
+Mes bulletins d'enquête !
+--- Mage Rabé
+Il ne reste que des cendres
+de nos taux de collecte...
+]],
+}
+
+dialog{
+  id = "village_phocea.pnj3_2",
+  text = [[
+--- Mage Rabé
+Il ne reste que des cendres
+de nos taux de collecte...
 ]],
 }
 
