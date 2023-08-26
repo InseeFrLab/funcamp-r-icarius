@@ -36,8 +36,8 @@ map{ id = "outside/outJ", description = "Outisde J (Mist Forest)" }
 map{ id = "outside/outK", description = "Outside K (Fortune Teller)" }
 map{ id = "outside/outL", description = "Outside L (Grave)" }
 map{ id = "outside/outLextra", description = "Outside L Extra (PythonGrave)" }
-map{ id = "outside/outM_after", description = "Outside M (Phocea village, after)" }
-map{ id = "outside/outM_before", description = "Outside M (Phocea village, before)" }
+map{ id = "outside/outM_extra_after", description = "Outside M (Phocea village, after)" }
+map{ id = "outside/outM_extra_before", description = "Outside M (Phocea village, before)" }
 map{ id = "rune_1/monster", description = "Rune 1 - Monster" }
 map{ id = "rune_2/monster", description = "R2 - Monster" }
 map{ id = "rune_3/1f", description = "R3 - Castle 1F" }
@@ -56,6 +56,10 @@ map{ id = "village_grissgrass/chef_village", description = "Chef du village" }
 map{ id = "village_grissgrass/ferme_1", description = "Ferme Tellus" }
 map{ id = "village_grissgrass/ferme_2", description = "Ferme Galia" }
 map{ id = "village_kokoro/farm", description = "Farm" }
+map{ id = "village_phocea/house_1", description = "village_phocea/house_1" }
+map{ id = "village_phocea/house_2", description = "village_phocea/house_2" }
+map{ id = "village_sandia/chest_game", description = "village_sandia/chest_game" }
+map{ id = "village_sandia/secret_passage", description = "village_sandia/secret_passage" }
 
 tileset{ id = "cave", description = "Cave" }
 tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }

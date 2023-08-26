@@ -4182,7 +4182,7 @@ teletransporter{
   y = 48,
   width = 16,
   height = 16,
-  destination_map = "outside/outM_after",
+  destination_map = "outside/outM_extra_after",
   destination = "rooftop",
 }
 

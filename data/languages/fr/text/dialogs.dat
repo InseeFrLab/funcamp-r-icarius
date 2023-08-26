@@ -2304,6 +2304,40 @@ de la luxuriante végétation statistique
 }
 
 dialog{
+  id = "outside_icarius_outM_extra.chief_village_1",
+  text = [[
+--- La Cheffe du village
+C'est terrible... 
+Tout espoir est perdu...
+Notre village est condamné...
+--- La Cheffe du village
+Je suis Lireva, cheffe-sylphe du village Phocea.
+Voilà plusieurs mois qu'une malédiction
+est venue tout ravager ici
+--- La Cheffe du village
+Vois-tu ces étranges plantes ?
+Il s'agit de bombes sylvestres...
+Elles explosent et détruisent nos maisons
+--- La Cheffe du village
+Nous avons beau les arracher,
+elles repoussent sans cesse...
+Le Village est en ruine...
+--- La Cheffe du village
+Nous avons essayé de construire
+une nouvelle tour, plus robuste, 
+sur la colline sacrée...
+--- La Cheffe du village
+mais rien n'y fait, les bombes l'emportent
+et font de nous des SDF
+(Statisiens Démunis de Foyer...)
+--- La Cheffe du village
+Les sages du village cherchent
+et cherchent encore une solution :
+ils t'en diront plus...
+]],
+}
+
+dialog{
   id = "rune.1",
   text = [[
 Vous avez trouvé une rune !
@@ -2962,6 +2996,71 @@ Attention, il faut d'abord
 ouvrir le coffre 
 et récupérer l'elixir,
 avant de quitter la pièce.
+]],
+}
+
+dialog{
+  id = "village_phocea.pnj1_1",
+  text = [[
+--- Sage Terlime
+Peut-être dans ce rapport...
+Ou alors dans celui-ci...
+Voyons, essayons encore...
+--- Sage Terlime
+Je cherche dans les études,
+les classifications, les typologies,
+les régressions multiples...
+--- Sage Terlime
+Je cherche dans nos cartes,
+nos histogrammes, nos boxplots,
+nos tables d'inférences...
+--- Sage Terlime
+Imaginez : j'ai même compulsé
+les grimoires illisibles
+des investissements PSAR...
+--- Sage Terlime
+Rien. Rien. RIEN !
+Rien qui puisse nous aider
+à détruire les bombes sylvestres...
+]],
+}
+
+dialog{
+  id = "village_phocea.pnj1_2",
+  text = [[
+--- Sage Terlime
+Rien. Rien. RIEN !
+Rien qui puisse nous aider
+à détruire les bombes sylvestres...
+]],
+}
+
+dialog{
+  id = "village_phocea.pnj2_1",
+  text = [[
+--- Sage Rouana
+Ces fuites partout...
+La toiture...
+Les canalisations...
+--- Sage Rouana
+Tout part à vau-l'eau,
+Les réserves sont noyées,
+c'est ca-tas-tro-phi-que !
+--- Sage Rouana
+Les indicateurs de performance :
+submergés, engloutis...
+coulés !
+
+]],
+}
+
+dialog{
+  id = "village_phocea.pnj2_2",
+  text = [[
+--- Sage Rouana
+submergés, engloutis :
+nous sommes coulés !
+Définitivement sous l'eau...
 ]],
 }
 
