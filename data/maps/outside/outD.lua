@@ -12,6 +12,15 @@ function weak_wall:on_opened()
   sol.audio.play_sound("secret")
 end
 
+function map:on_started(destination)
+
+  if game:get_value("extra_dungeon_5_miniboss") then
+    teleport_phocea_after:set_enabled(true)
+  end
+
+end
+
+
 
 function mage_zilap:on_interaction()
 

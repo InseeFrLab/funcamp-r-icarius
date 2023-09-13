@@ -6869,7 +6869,7 @@ destructible{
 }
 
 destination{
-  name = "test_from_start",
+  name = "from_desert",
   layer = 0,
   x = 32,
   y = 645,
@@ -6882,8 +6882,8 @@ teletransporter{
   y = 632,
   width = 16,
   height = 32,
-  destination_map = "outside/outI",
-  destination = "from_Phocea_Village",
+  destination_map = "outside/outD",
+  destination = "from_phocea",
 }
 
 dynamic_tile{
