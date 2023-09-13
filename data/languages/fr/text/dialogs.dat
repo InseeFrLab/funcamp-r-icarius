@@ -1118,9 +1118,45 @@ Kssss
 }
 
 dialog{
+  id = "extra_dungeons.extra_5.boss",
+  text = [[
+(un grommellement)
+mm mm mm m2 m2 m2
+mm mm mm m2 m2 m2
+
+--- KompactuS ---
+Donnez moi des murs à abattre
+Des bureaux à fusionner
+Des espaces à condenser
+--- KompactuS ---
+Ratio d'occupation... mm mm m2
+Coefficient de résidents... mm mm  m2
+Espaces de coworking... mm mm m2
+--- KompactuS ---
+Je détruis les batisses, brise les édifices,
+broie les bâtiments, bocarde les bureaux,
+brésille toute forme d'habitat !!!
+--- icaRius ---
+Ce monstre fait tournoyer sa masse
+et écrabouille tout autour de lui...
+Il me faut l'attaquer à distance.
+]],
+}
+
+dialog{
+  id = "extra_dungeons.extra_5.end",
+  text = [[
+KompactuS a été vaincu !
+La malédiction du village Phocéa est enfin levée.
+De nouveau les bâtisses vont être érigées
+Et déjà une tour nouvelle s'élève !
+]],
+}
+
+dialog{
   id = "extra_dungeons.extra_5.warning",
   text = [[
-Antre de CompactuS
+Antre de KompactuS
 ]],
 }
 
@@ -2057,6 +2093,16 @@ provoquer un éboulement...)
 }
 
 dialog{
+  id = "outside_icarius_outD.sign3",
+  text = [[
+Au Nord se trouve la suite de l'aventure
+cachée entre les failles des parois...
+A l'Est, un passage pour les plus valeureux
+(qui n'ont pas peur des cactus)
+]],
+}
+
+dialog{
   id = "outside_icarius_outF.caserne",
   text = [[
 Cette grotte mène vers un lieu périlleux.
@@ -2366,6 +2412,16 @@ par delà la colline...
 }
 
 dialog{
+  id = "outside_icarius_outM_extra.rooftop",
+  text = [[
+Quelle vue extraordinaire !
+Avec la défaite de KompactuS,
+les sages de Phocéa ont pu construire
+une tour fantastique...
+]],
+}
+
+dialog{
   id = "rune.1",
   text = [[
 Vous avez trouvé une rune !
@@ -2634,7 +2690,7 @@ dialog{
   id = "small_key_required",
   text = [[
 Cette porte est verrouillée.
-Il te faut une petite clé pour l'ouvrir !
+Il vous faut une petite clé pour l'ouvrir !
 ]],
 }
 

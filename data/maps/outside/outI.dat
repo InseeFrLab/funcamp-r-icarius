@@ -6106,7 +6106,7 @@ teletransporter{
   width = 16,
   height = 32,
   destination_map = "outside/outM_extra_before",
-  destination = "test_from_start",
+  destination = "from_desert",
 }
 
 destination{

@@ -26,13 +26,14 @@ end
 
 function start_miniboss_sensor:on_activated()
 
-  if not game:get_value("b92") and not fighting_miniboss then
+  if not game:get_value("extra_dungeon_5_miniboss") and not fighting_miniboss then
     -- the miniboss is alive
     map:close_doors("miniboss_door")
     hero:freeze()
     sol.timer.start(1000, function()
       sol.audio.play_music("boss")
       miniboss:set_enabled(true)
+      game:start_dialog("extra_dungeons.extra_5.boss")
       hero:unfreeze()
     end)
     fighting_miniboss = true
@@ -43,7 +44,9 @@ if miniboss ~= nil then
   function miniboss:on_dead()
 
     sol.audio.play_music("light_world_dungeon")
-    map:open_doors("miniboss_door")
+    game:start_dialog("extra_dungeons.extra_5.end")
+
+    map:open_doors("miniboss_door_3")
   end
 end
 

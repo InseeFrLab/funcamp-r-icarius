@@ -5574,17 +5574,6 @@ npc{
   behavior = "dialog#outside_icarius_outD.sign1",
 }
 
-teletransporter{
-  layer = 1,
-  x = 2240,
-  y = 0,
-  width = 16,
-  height = 720,
-  transition = "scrolling",
-  destination_map = "outside/outG",
-  destination = "_side",
-}
-
 destructible{
   layer = 1,
   x = 40,
@@ -7292,8 +7281,19 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 2144,
-  y = 597,
+  x = 2152,
+  y = 605,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/cactus",
+  model = "cactus",
+}
+
+custom_entity{
+  layer = 1,
+  x = 2184,
+  y = 621,
   width = 16,
   height = 16,
   direction = 0,
@@ -7304,7 +7304,7 @@ custom_entity{
 custom_entity{
   layer = 1,
   x = 2152,
-  y = 613,
+  y = 637,
   width = 16,
   height = 16,
   direction = 0,
@@ -7314,29 +7314,7 @@ custom_entity{
 
 custom_entity{
   layer = 1,
-  x = 2160,
-  y = 629,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "enemies/cactus",
-  model = "cactus",
-}
-
-custom_entity{
-  layer = 1,
-  x = 2152,
-  y = 645,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "enemies/cactus",
-  model = "cactus",
-}
-
-custom_entity{
-  layer = 1,
-  x = 2136,
+  x = 2120,
   y = 653,
   width = 16,
   height = 16,
@@ -7578,6 +7556,58 @@ custom_entity{
   direction = 0,
   sprite = "enemies/cactus",
   model = "cactus",
+}
+
+custom_entity{
+  layer = 1,
+  x = 2184,
+  y = 653,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/cactus",
+  model = "cactus",
+}
+
+npc{
+  layer = 1,
+  x = 2112,
+  y = 613,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#outside_icarius_outD.sign3",
+}
+
+teletransporter{
+  name = "teleport_phocea_before",
+  layer = 1,
+  x = 2224,
+  y = 592,
+  width = 16,
+  height = 64,
+  destination_map = "outside/outM_extra_before",
+  destination = "from_desert",
+}
+
+destination{
+  name = "from_phocea",
+  layer = 1,
+  x = 2200,
+  y = 637,
+  direction = 2,
+}
+
+teletransporter{
+  name = "teleport_phocea_after",
+  layer = 1,
+  x = 2208,
+  y = 592,
+  enabled_at_start = false,
+  width = 16,
+  height = 64,
+  destination_map = "outside/outM_extra_after",
+  destination = "from_desert",
 }
 
 tile{
@@ -8604,17 +8634,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "sand.cliff.top.diag.1b",
-}
-
-teletransporter{
-  layer = 2,
-  x = 2240,
-  y = 0,
-  width = 16,
-  height = 720,
-  transition = "scrolling",
-  destination_map = "outside/outG",
-  destination = "_side",
 }
 
 enemy{
