@@ -4119,14 +4119,6 @@ chest{
   sprite = "entities/chest",
 }
 
-chest{
-  layer = 0,
-  x = 848,
-  y = 349,
-  treasure_name = "sword",
-  sprite = "entities/chest",
-}
-
 tile{
   layer = 1,
   x = 408,
@@ -6049,11 +6041,11 @@ teletransporter{
   name = "teletransporter",
   layer = 1,
   x = 848,
-  y = 752,
+  y = 736,
   width = 16,
   height = 16,
-  destination_map = "3",
-  destination = "from_dungeon_2",
+  destination_map = "outside/outM_extra_before",
+  destination = "from_dungeon",
 }
 
 wall{
@@ -6257,16 +6249,16 @@ destination{
   name = "from_outside",
   layer = 1,
   x = 856,
-  y = 725,
+  y = 717,
   direction = 1,
 }
 
-destination{
-  name = "from_outside_2",
+chest{
   layer = 1,
-  x = 848,
-  y = 397,
-  direction = 1,
+  x = 856,
+  y = 637,
+  treasure_name = "sword",
+  sprite = "entities/chest",
 }
 
 tile{
