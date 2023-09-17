@@ -2401,13 +2401,53 @@ Tu as rencontré les trois sages :
 voilà qui prouve ta détermination
 à nous aider.
 --- La Cheffe du village
-Voilà que nous avons découvert :
+Mais avant d'aller plus loin
+il me faut vérifier
+ta maîtrise des Runes
+--- La Cheffe du village
+Es-tu prêt pour résoudre cette épreuve runique ?
+$? Oui, et comment !
+$? Non, pas encore...
+]],
+}
+
+dialog{
+  id = "outside_icarius_outM_extra.chief_village_4",
+  text = [[
+--- La cheffe du village ---
+Voilà, icaRius...
+L'énigme se trouve dans le chapitre bonus 
+du grimoire IGoR.
+As-tu trouvé la réponse ?
+$? Oui, la voici
+$? Non, pas encore
+]],
+}
+
+dialog{
+  id = "outside_icarius_outM_extra.chief_village_5",
+  text = [[
+--- La Cheffe du village
+Bravo, ta maîtrise des runes
+est remarquable !
+Tu es prêt pour la suite...
+--- La Cheffe du village
+Voilà ce que nous avons découvert :
 les bombes sylvestres ont été semées
 par le terrible Kompactus
 --- La Cheffe du village
 Cet être maléfique vit dans une grotte :
 tu pourras l'affronter
 par delà la colline...
+]],
+}
+
+dialog{
+  id = "outside_icarius_outM_extra.chief_village_KO",
+  text = [[
+--- La Cheffe du village
+Hum, le moment n'est donc pas encore venu
+Reviens me voir quand tu seras prêt.
 ]],
 }
 
@@ -3134,7 +3174,6 @@ c'est ca-tas-tro-phi-que !
 Les indicateurs de performance :
 submergés, engloutis...
 coulés !
-
 ]],
 }
 

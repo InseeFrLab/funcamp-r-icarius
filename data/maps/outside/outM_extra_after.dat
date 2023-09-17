@@ -6265,6 +6265,24 @@ tile{
   pattern = "722",
 }
 
+tile{
+  layer = 0,
+  x = 216,
+  y = 688,
+  width = 32,
+  height = 48,
+  pattern = "916",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 712,
+  width = 16,
+  height = 16,
+  pattern = "806",
+}
+
 teletransporter{
   name = "to_rooftop",
   layer = 0,
@@ -6347,28 +6365,6 @@ destructible{
   layer = 0,
   x = 216,
   y = 685,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 216,
-  y = 701,
-  treasure_name = "random",
-  sprite = "entities/bush",
-  destruction_sound = "bush",
-  weight = 1,
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
-  x = 232,
-  y = 701,
   treasure_name = "random",
   sprite = "entities/bush",
   destruction_sound = "bush",
