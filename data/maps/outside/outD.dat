@@ -7422,7 +7422,7 @@ destination{
   name = "from_cave",
   layer = 1,
   x = 2112,
-  y = 421,
+  y = 429,
   direction = 3,
 }
 
