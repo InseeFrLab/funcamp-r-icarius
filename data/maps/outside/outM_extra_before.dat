@@ -9481,24 +9481,6 @@ tile{
 tile{
   layer = 1,
   x = 512,
-  y = 568,
-  width = 8,
-  height = 8,
-  pattern = "sand.cave_entrance_blast.border.1",
-}
-
-tile{
-  layer = 1,
-  x = 512,
-  y = 560,
-  width = 8,
-  height = 8,
-  pattern = "cave_entrance_blast.border.1",
-}
-
-tile{
-  layer = 1,
-  x = 512,
   y = 552,
   width = 8,
   height = 24,
