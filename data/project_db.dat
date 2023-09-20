@@ -62,6 +62,8 @@ map{ id = "village_phocea/house_3", description = "village_phocea/house_3" }
 map{ id = "village_sandia/chest_game", description = "village_sandia/chest_game" }
 map{ id = "village_sandia/secret_passage", description = "village_sandia/secret_passage" }
 
+tileset{ id = "1", description = "1" }
+tileset{ id = "7", description = "7" }
 tileset{ id = "cave", description = "Cave" }
 tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
 tileset{ id = "dungeon_gray", description = "Special Dungeon (gray)" }
