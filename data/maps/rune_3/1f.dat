@@ -4547,14 +4547,6 @@ dynamic_tile{
   pattern = "wall.1",
 }
 
-destination{
-  name = "destination_2",
-  layer = 1,
-  x = 152,
-  y = 141,
-  direction = 1,
-}
-
 door{
   name = "weak_wall",
   layer = 1,
@@ -4650,14 +4642,6 @@ destructible{
   damage_on_enemies = 2,
 }
 
-destination{
-  name = "destination_turbanus",
-  layer = 1,
-  x = 1448,
-  y = 165,
-  direction = 1,
-}
-
 teletransporter{
   layer = 1,
   x = 792,
@@ -4750,9 +4734,9 @@ teletransporter{
 sensor{
   name = "sensor_warpzone",
   layer = 1,
-  x = 144,
+  x = 104,
   y = 917,
-  width = 48,
+  width = 128,
   height = 16,
 }
 
@@ -4760,7 +4744,7 @@ teletransporter{
   name = "warp_zone_entry",
   layer = 1,
   x = 776,
-  y = 248,
+  y = 256,
   width = 56,
   height = 16,
   destination_map = "rune_3/1f",
@@ -4782,9 +4766,9 @@ destructible{
 sensor{
   name = "sensor_warpzone_curiosity",
   layer = 1,
-  x = 792,
-  y = 269,
-  width = 32,
+  x = 784,
+  y = 277,
+  width = 48,
   height = 16,
 }
 
