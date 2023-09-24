@@ -1592,7 +1592,7 @@ separator{
 }
 
 teletransporter{
-  name = "test_to_phocea",
+  name = "test",
   layer = 1,
   x = 272,
   y = 192,

@@ -10,11 +10,48 @@ separator_manager:manage_map(map)
 file = assert(sol.main.load_file("scripts/menus/save_answers_menu.lua"))
 
 
+-- Unable Warzone if Fairy Sala Quest already done
+if game:get_value("fairy_sala_quest") then
+        sensor_warpzone_curiosity:set_enabled(false)
+        warp_zone_entry:set_enabled(false)
+        curtain:set_enabled(false)
+        curtain_uncuttable:set_enabled(true)
+        sensor_throne_room_1:set_enabled(false)
+        sensor_throne_room_2:set_enabled(false)
+        sensor_throne_room_3:set_enabled(false)
+
+end
+
+
+-- Unable Dialog box if Batred Quest / Chapter 5 done
+if game:get_value("chapter5_answer") then
+        drunk_man:set_enabled(false)
+        sensor_throne_room_4:set_enabled(false)
+        sensor_throne_room_5:set_enabled(false)
+        sensor_throne_room_6:set_enabled(false)
+        sensor_throne_room_7:set_enabled(false)
+        sensor_throne_room_8:set_enabled(false)
+end
+
+-- Unable Dialog box if Essespeus Quest / Chapter 6 done
+if game:get_value("chapter6_answer") then
+        drunk_man:set_enabled(false)
+        old_man:set_enabled(false)
+        sensor_throne_room_4:set_enabled(false)
+        sensor_throne_room_5:set_enabled(false)
+        sensor_throne_room_6:set_enabled(false)
+        sensor_throne_room_7:set_enabled(false)
+        sensor_throne_room_8:set_enabled(false)
+end
+
+
+
 function map:on_opening_transition_finished(destination)
 
   if destination == from_outside then
     game:start_dialog("rune_3.welcome")
   end
+
 end
 
 
@@ -67,7 +104,6 @@ function sensor_throne_room_9:on_activated()
     game:start_dialog("castle.sensor_throne_room_9")
 end
 
-
 function sensor_warpzone_curiosity:on_activated()
         game:start_dialog("castle.sensor_warpzone_curiosity")
 end
@@ -75,7 +111,7 @@ end
 
 function sensor_warpzone:on_activated()
         game:start_dialog("castle.sensor_warpzone")
-        game:set_value("fair_sala_quest", true)
+        game:set_value("fairy_sala_quest", true)
         sensor_warpzone:set_enabled(false)
         warp_zone_entry:set_enabled(false)
         sensor_warpzone_curiosity:set_enabled(false)
@@ -94,7 +130,7 @@ function chief_army:on_interaction()
         sol.timer.start(1000, function()
           sol.audio.play_sound("secret")
           chief_army:set_enabled(false)
-          if game:get_value("fair_sala_quest") then
+          if game:get_value("fairy_sala_quest") then
             curtain_uncuttable:set_enabled(false)
           else
           curtain:set_enabled(false)
@@ -173,22 +209,24 @@ end
  
 -- Unfreeze hero and save tutorial status
 sol.timer.start(2000, function()
-  if good_answer_counter == 1 then
-    sol.timer.start(2000,function()
-      game:start_dialog("castle.drunk_man_3")
-      sol.timer.start(1000,function()
-        hero:unfreeze()
-        sol.audio.play_sound("secret")
-        chest_drunk_man:set_enabled(true)
-        sol.audio.play_music("castle")
-        drunk_man:set_enabled(false)
+  if game:get_value("chapter5_answer") == nil then
+    if good_answer_counter == 1 then
+      sol.timer.start(2000,function()
+        game:start_dialog("castle.drunk_man_3")
+        sol.timer.start(1000,function()
+          hero:unfreeze()
+          sol.audio.play_sound("secret")
+          chest_drunk_man:set_enabled(true)
+          sol.audio.play_music("castle")
+          drunk_man:set_enabled(false)
+        end)
       end)
-    end)
-    -- reset counter to zero
-    game:set_value("chapter5_answer", true)
-    good_answer_counter = 0
-  else 
-  return true  -- Repeat the timer.
+      -- reset counter to zero
+      game:set_value("chapter5_answer", true)
+      good_answer_counter = 0
+    else 
+    return true  -- Repeat the timer.
+    end
   end
 end)
 
