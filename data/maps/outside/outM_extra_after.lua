@@ -14,5 +14,6 @@ end
 function sensor_rooftop:on_activated()
 
   game:start_dialog("outside_icarius_outM_extra.rooftop")
+  sensor_rooftop:set_enabled(false)
 
 end

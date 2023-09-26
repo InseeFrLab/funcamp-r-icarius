@@ -1591,17 +1591,6 @@ separator{
   height = 240,
 }
 
-teletransporter{
-  name = "test",
-  layer = 1,
-  x = 272,
-  y = 192,
-  width = 16,
-  height = 16,
-  destination_map = "outside/outD",
-  destination = "from_cave",
-}
-
 tile{
   layer = 2,
   x = 144,
