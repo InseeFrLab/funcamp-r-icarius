@@ -6568,9 +6568,9 @@ destination{
 teletransporter{
   layer = 0,
   x = 0,
-  y = 632,
+  y = 616,
   width = 16,
-  height = 32,
+  height = 64,
   destination_map = "outside/outD",
   destination = "from_phocea",
 }

@@ -2405,6 +2405,10 @@ Mais avant d'aller plus loin
 il me faut vérifier
 ta maîtrise des Runes
 --- La Cheffe du village
+Chaque sage t'a apporté un indice
+pour décrypter un vieux parchemin
+comportant un mot secret.
+--- La Cheffe du village
 Es-tu prêt pour résoudre cette épreuve runique ?
 $? Oui, et comment !
 $? Non, pas encore...
@@ -2437,8 +2441,8 @@ les bombes sylvestres ont été semées
 par le terrible Kompactus
 --- La Cheffe du village
 Cet être maléfique vit dans une grotte :
-tu pourras l'affronter
-par delà la colline...
+tu pourras l'affronter à l'Est,
+dans la porte creusée dans la colline...
 ]],
 }
 
@@ -3146,6 +3150,10 @@ des investissements PSAR...
 Rien. Rien. RIEN !
 Rien qui puisse nous aider
 à détruire les bombes sylvestres...
+--- Sage Terlime
+Rien, ou presque... 
+J'ai trouvé cette curieuse indication :
+"Ce qui est important est gardé"
 ]],
 }
 
@@ -3156,6 +3164,10 @@ dialog{
 Rien. Rien. RIEN !
 Rien qui puisse nous aider
 à détruire les bombes sylvestres...
+--- Sage Terlime
+Rien, ou presque... 
+J'ai trouvé cette curieuse indication :
+"Ce qui est important est gardé"
 ]],
 }
 
@@ -3174,6 +3186,10 @@ c'est ca-tas-tro-phi-que !
 Les indicateurs de performance :
 submergés, engloutis...
 coulés !
+--- Sage Rouana
+Tout est mis sens dessus dessous
+Alors que j'aimerais tant respecter cette devise :
+"Tout doit être correctement ordonné"
 ]],
 }
 
@@ -3181,9 +3197,13 @@ dialog{
   id = "village_phocea.pnj2_2",
   text = [[
 --- Sage Rouana
-submergés, engloutis :
-nous sommes coulés !
-Définitivement sous l'eau...
+Les indicateurs de performance :
+submergés, engloutis...
+coulés !
+--- Sage Rouana
+Tout est mis sens dessus dessous
+Alors que j'aimerais tant respecter cette devise :
+"Tout doit être correctement ordonné"
 ]],
 }
 
@@ -3199,8 +3219,13 @@ Et voilà que tout part en fumée...
 Mes fiches-adresses ! Mes liasses...
 Mes bulletins d'enquête !
 --- Mage Rabé
-Il ne reste que des cendres
-de nos taux de collecte...
+Il ne reste,
+de nos taux de collecte,
+que cendres et poussières...
+--- Mage Rabé
+Et sur ce questionnaire brûlé
+une curieuse indication à demi-lisible :
+- Seuls les "col" importent -
 ]],
 }
 
@@ -3208,8 +3233,13 @@ dialog{
   id = "village_phocea.pnj3_2",
   text = [[
 --- Mage Rabé
-Il ne reste que des cendres
-de nos taux de collecte...
+Il ne reste,
+de nos taux de collecte,
+que cendres et poussières...
+--- Mage Rabé
+Et sur ce questionnaire brûlé
+une curieuse indication à demi-lisible :
+- Seuls les "col" importent -
 ]],
 }
 
