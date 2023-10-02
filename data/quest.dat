@@ -6,7 +6,7 @@ quest{
   long_description = [[
 Jeu d'apprentissage FuncampR, adapté depuis le jeu The Return of the Hylian, avec le moteur Solarus.]],
   author = "AD",
-  quest_version = "1.2.5",
+  quest_version = "1.2.6",
   release_date = "06-04-2021",
   website = "https://funcamp.sspcloud.fr/",
   normal_quest_size = "320x240",
